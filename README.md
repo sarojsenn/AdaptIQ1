@@ -370,5 +370,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 [⭐ Star this repo](https://github.com/sarojsenn/AdaptIQ/stargazers) | [🐛 Report Bug](https://github.com/sarojsenn/AdaptIQ/issues) | [💡 Request Feature](https://github.com/sarojsenn/AdaptIQ/issues)
 
 </div>
-#   A d a p t I Q  
- 
