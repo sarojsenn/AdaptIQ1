@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaptIQ - Sign In</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#0a0a0f',
+                        'purple-primary': '#8b5cf6',
+                        'purple-secondary': '#a855f7',
+                        'purple-light': '#c084fc',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1e1b4b 50%, #312e81 100%);
+            min-height: 100vh;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .input-focus:focus {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #8b5cf6;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.4);
+        }
+
+        .spinner {
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #8b5cf6;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .alert {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+        }
+
+        .alert.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="text-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="../assets/images/img_.png" alt="AdaptIQ Logo" class="w-10 h-10 rounded-full object-cover" />
+                <span class="text-2xl font-bold gradient-text">AdaptIQ</span>
+            </div>
+            
+            <!-- Back to Home -->
+            <a href="LandingPage.html" class="glass-effect px-6 py-2 rounded-full text-white hover:bg-white hover:bg-opacity-10 transition-all duration-300">
+                ← Back to Home
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="min-h-screen flex items-center justify-center px-4 pt-20">
+        <div class="w-full max-w-md">
+            <!-- Sign In Form Card -->
+            <div id="signInForm" class="glass-effect rounded-3xl p-8 shadow-2xl">
+                <div class="text-center mb-8">
+                    <h1 class="text-3xl font-bold gradient-text mb-2">Welcome Back</h1>
+                    <p class="text-gray-300">Sign in to continue your learning journey</p>
+                </div>
+
+                <!-- Alert Message -->
+                <div id="alertMessage" class="alert mb-6 p-4 rounded-lg hidden">
+                    <div class="flex items-center">
+                        <div id="alertIcon" class="mr-3"></div>
+                        <p id="alertText" class="text-sm font-medium"></p>
+                    </div>
+                </div>
+
+                <form id="loginForm" class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email"
+                            required
+                            class="w-full px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300"
+                            placeholder="john@example.com"
+                        />
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Password</label>
+                        <div class="relative">
+                            <input 
+                                type="password" 
+                                id="password" 
+                                name="password"
+                                required
+                                class="w-full px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300 pr-12"
+                                placeholder="••••••••"
+                            />
+                            <button 
+                                type="button" 
+                                id="togglePassword"
+                                class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white transition-colors"
+                            >
+                                <svg id="eyeIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <label class="flex items-center">
+                            <input type="checkbox" id="rememberMe" class="rounded border-gray-600 text-purple-primary focus:ring-purple-primary focus:ring-opacity-50">
+                            <span class="ml-2 text-sm text-gray-300">Remember me</span>
+                        </label>
+                        <a href="#" id="forgotPasswordLink" class="text-sm text-purple-light hover:text-purple-primary transition-colors">
+                            Forgot password?
+                        </a>
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        id="submitBtn"
+                        class="w-full btn-primary py-3 rounded-xl font-semibold text-white flex items-center justify-center space-x-2"
+                    >
+                        <span id="btnText">Sign In</span>
+                        <div id="btnSpinner" class="spinner hidden"></div>
+                    </button>
+                </form>
+
+                <div class="text-center mt-6">
+                    <p class="text-gray-400">
+                        Don't have an account? 
+                        <a href="Registration.html" class="text-purple-light hover:text-purple-primary transition-colors">Sign up</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- OTP Verification Form (for unverified users) -->
+            <div id="otpForm" class="glass-effect rounded-3xl p-8 shadow-2xl hidden">
+                <div class="text-center mb-8">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-primary to-purple-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h1 class="text-3xl font-bold gradient-text mb-2">Verify Your Email</h1>
+                    <p class="text-gray-300 mb-4">We've sent a new verification code to</p>
+                    <p id="userEmail" class="text-purple-light font-medium"></p>
+                </div>
+
+                <!-- OTP Alert Message -->
+                <div id="otpAlertMessage" class="alert mb-6 p-4 rounded-lg hidden">
+                    <div class="flex items-center">
+                        <div id="otpAlertIcon" class="mr-3"></div>
+                        <p id="otpAlertText" class="text-sm font-medium"></p>
+                    </div>
+                </div>
+
+                <form id="verifyOtpForm" class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2 text-center">Enter 6-digit verification code</label>
+                        <div class="flex justify-center space-x-3">
+                            <input type="text" maxlength="1" class="otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                        </div>
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        id="verifyBtn"
+                        class="w-full btn-primary py-3 rounded-xl font-semibold text-white flex items-center justify-center space-x-2"
+                    >
+                        <span id="verifyBtnText">Verify & Sign In</span>
+                        <div id="verifyBtnSpinner" class="spinner hidden"></div>
+                    </button>
+                </form>
+
+                <div class="text-center mt-6">
+                    <p class="text-gray-400 mb-4">Didn't receive the code?</p>
+                    <button 
+                        id="resendBtn" 
+                        class="text-purple-light hover:text-purple-primary transition-colors font-medium"
+                    >
+                        Resend Code
+                    </button>
+                    <div id="resendTimer" class="text-sm text-gray-500 mt-2 hidden">
+                        Resend available in <span id="timerCount">60</span>s
+                    </div>
+                </div>
+
+                <div class="text-center mt-6">
+                    <button id="backToLogin" class="text-gray-400 hover:text-white transition-colors">
+                        ← Back to Sign In
+                    </button>
+                </div>
+            </div>
+
+            <!-- Forgot Password Form -->
+            <div id="forgotPasswordForm" class="glass-effect rounded-3xl p-8 shadow-2xl hidden">
+                <div class="text-center mb-8">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-primary to-purple-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path>
+                        </svg>
+                    </div>
+                    <h1 class="text-3xl font-bold gradient-text mb-2">Reset Password</h1>
+                    <p class="text-gray-300">Enter your email to receive a password reset code</p>
+                </div>
+
+                <!-- Forgot Password Alert Message -->
+                <div id="forgotPasswordAlertMessage" class="alert mb-6 p-4 rounded-lg hidden">
+                    <div class="flex items-center">
+                        <div id="forgotPasswordAlertIcon" class="mr-3"></div>
+                        <p id="forgotPasswordAlertText" class="text-sm font-medium"></p>
+                    </div>
+                </div>
+
+                <form id="forgotPasswordEmailForm" class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="forgotPasswordEmail" 
+                            name="email"
+                            required
+                            class="w-full px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300"
+                            placeholder="Enter your email address"
+                        />
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        id="forgotPasswordBtn"
+                        class="w-full btn-primary py-3 rounded-xl font-semibold text-white flex items-center justify-center space-x-2"
+                    >
+                        <span id="forgotPasswordBtnText">Send Reset Code</span>
+                        <div id="forgotPasswordBtnSpinner" class="spinner hidden"></div>
+                    </button>
+                </form>
+
+                <div class="text-center mt-6">
+                    <button id="backToLoginFromForgot" class="text-gray-400 hover:text-white transition-colors">
+                        ← Back to Sign In
+                    </button>
+                </div>
+            </div>
+
+            <!-- Reset Password Form -->
+            <div id="resetPasswordForm" class="glass-effect rounded-3xl p-8 shadow-2xl hidden">
+                <div class="text-center mb-8">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-primary to-purple-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                        </svg>
+                    </div>
+                    <h1 class="text-3xl font-bold gradient-text mb-2">Set New Password</h1>
+                    <p class="text-gray-300 mb-4">Enter the code and your new password</p>
+                    <p id="resetPasswordEmail" class="text-purple-light font-medium"></p>
+                </div>
+
+                <!-- Reset Password Alert Message -->
+                <div id="resetPasswordAlertMessage" class="alert mb-6 p-4 rounded-lg hidden">
+                    <div class="flex items-center">
+                        <div id="resetPasswordAlertIcon" class="mr-3"></div>
+                        <p id="resetPasswordAlertText" class="text-sm font-medium"></p>
+                    </div>
+                </div>
+
+                <form id="resetPasswordSubmitForm" class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2 text-center">Enter 6-digit reset code</label>
+                        <div class="flex justify-center space-x-3 mb-4">
+                            <input type="text" maxlength="1" class="reset-otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="reset-otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="reset-otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="reset-otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="reset-otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="reset-otp-input w-12 h-12 text-center glass-effect rounded-xl text-white text-lg font-semibold input-focus" />
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">New Password</label>
+                        <input 
+                            type="password" 
+                            id="newPassword" 
+                            name="newPassword"
+                            required
+                            minlength="6"
+                            class="w-full px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300"
+                            placeholder="Enter new password"
+                        />
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Confirm New Password</label>
+                        <input 
+                            type="password" 
+                            id="confirmNewPassword" 
+                            name="confirmNewPassword"
+                            required
+                            class="w-full px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300"
+                            placeholder="Confirm new password"
+                        />
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        id="resetPasswordBtn"
+                        class="w-full btn-primary py-3 rounded-xl font-semibold text-white flex items-center justify-center space-x-2"
+                    >
+                        <span id="resetPasswordBtnText">Reset Password</span>
+                        <div id="resetPasswordBtnSpinner" class="spinner hidden"></div>
+                    </button>
+                </form>
+
+                <div class="text-center mt-6">
+                    <p class="text-gray-400 mb-4">Didn't receive the code?</p>
+                    <button 
+                        id="resendResetBtn" 
+                        class="text-purple-light hover:text-purple-primary transition-colors font-medium"
+                    >
+                        Resend Code
+                    </button>
+                    <div id="resendResetTimer" class="text-sm text-gray-500 mt-2 hidden">
+                        Resend available in <span id="resetTimerCount">60</span>s
+                    </div>
+                </div>
+
+                <div class="text-center mt-6">
+                    <button id="backToForgotPassword" class="text-gray-400 hover:text-white transition-colors">
+                        ← Back to Email Entry
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentUserId = null;
+        let resendTimer = null;
+
+        // Form elements
+        const signInForm = document.getElementById('signInForm');
+        const otpForm = document.getElementById('otpForm');
+        const loginForm = document.getElementById('loginForm');
+        const verifyOtpForm = document.getElementById('verifyOtpForm');
+        const otpInputs = document.querySelectorAll('.otp-input');
+
+        // Password toggle functionality
+        document.getElementById('togglePassword').addEventListener('click', function() {
+            const passwordInput = document.getElementById('password');
+            const eyeIcon = document.getElementById('eyeIcon');
+            
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                eyeIcon.innerHTML = `
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.878 9.878L6.17 6.17m7.95 7.95l3.708 3.708m-7.95-7.95l-3.708-3.708"></path>
+                `;
+            } else {
+                passwordInput.type = 'password';
+                eyeIcon.innerHTML = `
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                `;
+            }
+        });
+
+        // Alert functions
+        function showAlert(message, type, alertId = 'alertMessage') {
+            const alertElement = document.getElementById(alertId);
+            const alertText = document.getElementById(alertId.replace('Message', 'Text'));
+            const alertIcon = document.getElementById(alertId.replace('Message', 'Icon'));
+            
+            alertElement.className = `alert mb-6 p-4 rounded-lg ${type === 'error' ? 'bg-red-500 bg-opacity-20 border border-red-500' : 'bg-green-500 bg-opacity-20 border border-green-500'}`;
+            alertText.textContent = message;
+            alertIcon.innerHTML = type === 'error' 
+                ? '<svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>'
+                : '<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>';
+            
+            alertElement.classList.remove('hidden');
+            setTimeout(() => alertElement.classList.add('show'), 100);
+        }
+
+        function hideAlert(alertId = 'alertMessage') {
+            const alertElement = document.getElementById(alertId);
+            alertElement.classList.remove('show');
+            setTimeout(() => alertElement.classList.add('hidden'), 300);
+        }
+
+        // OTP Input handling
+        otpInputs.forEach((input, index) => {
+            input.addEventListener('input', (e) => {
+                if (e.target.value.length === 1 && index < otpInputs.length - 1) {
+                    otpInputs[index + 1].focus();
+                }
+            });
+
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'Backspace' && e.target.value === '' && index > 0) {
+                    otpInputs[index - 1].focus();
+                }
+            });
+
+            input.addEventListener('paste', (e) => {
+                e.preventDefault();
+                const pasteData = e.clipboardData.getData('text');
+                if (pasteData.length === 6 && /^\d+$/.test(pasteData)) {
+                    pasteData.split('').forEach((char, i) => {
+                        if (i < otpInputs.length) {
+                            otpInputs[i].value = char;
+                        }
+                    });
+                }
+            });
+        });
+
+        // Login form submission
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = document.getElementById('btnText');
+            const btnSpinner = document.getElementById('btnSpinner');
+            
+            const formData = new FormData(loginForm);
+
+            // Show loading state
+            submitBtn.disabled = true;
+            btnText.textContent = 'Signing In...';
+            btnSpinner.classList.remove('hidden');
+            hideAlert();
+
+            try {
+                const response = await fetch('http://localhost:3000/api/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        email: formData.get('email'),
+                        password: formData.get('password')
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    if (data.token) {
+                        // User is verified, store token and redirect
+                        // First, clear any stale per-student keys from a previous login
+                        try {
+                            localStorage.removeItem('profileId');
+                            localStorage.removeItem('studentName');
+                            localStorage.removeItem('studentGrade');
+                            localStorage.removeItem('streakData');
+                            localStorage.removeItem('profileImage');
+                        } catch (_) {}
+
+                        localStorage.setItem('authToken', data.token);
+                        localStorage.setItem('user', JSON.stringify(data.user));
+                        // Tie adaptive assessment profile to this authenticated user
+                        try {
+                            const fullName = `${data.user.firstName || ''} ${data.user.lastName || ''}`.trim() || 'Student';
+                            localStorage.setItem('profileId', data.user.id);
+                            localStorage.setItem('studentName', fullName);
+                            // Reset grade for new login; can be set later from profile/settings
+                            localStorage.setItem('studentGrade', '');
+                        } catch (_) {}
+                        
+                        showAlert('Sign in successful! Redirecting...', 'success');
+                        
+                        setTimeout(() => {
+                            window.location.href = 'StudentDashboard.html';
+                        }, 2000);
+                    } else if (data.requiresVerification) {
+                        // User needs OTP verification
+                        currentUserId = data.userId;
+                        document.getElementById('userEmail').textContent = formData.get('email');
+                        
+                        showAlert('Please verify your email to continue', 'success');
+                        
+                        setTimeout(() => {
+                            signInForm.classList.add('hidden');
+                            otpForm.classList.remove('hidden');
+                            otpInputs[0].focus();
+                        }, 2000);
+                    }
+                } else {
+                    showAlert(data.message, 'error');
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error');
+            } finally {
+                submitBtn.disabled = false;
+                btnText.textContent = 'Sign In';
+                btnSpinner.classList.add('hidden');
+            }
+        });
+
+        // OTP verification form submission
+        verifyOtpForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const verifyBtn = document.getElementById('verifyBtn');
+            const verifyBtnText = document.getElementById('verifyBtnText');
+            const verifyBtnSpinner = document.getElementById('verifyBtnSpinner');
+            
+            const otp = Array.from(otpInputs).map(input => input.value).join('');
+            
+            if (otp.length !== 6) {
+                showAlert('Please enter the complete 6-digit code', 'error', 'otpAlertMessage');
+                return;
+            }
+
+            // Show loading state
+            verifyBtn.disabled = true;
+            verifyBtnText.textContent = 'Verifying...';
+            verifyBtnSpinner.classList.remove('hidden');
+            hideAlert('otpAlertMessage');
+
+            try {
+                const response = await fetch('http://localhost:3000/api/verify-otp', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        userId: currentUserId,
+                        otp: otp
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    // Store token in localStorage
+                    // Clear stale per-student data before setting new user's data
+                    try {
+                        localStorage.removeItem('profileId');
+                        localStorage.removeItem('studentName');
+                        localStorage.removeItem('studentGrade');
+                        localStorage.removeItem('streakData');
+                        localStorage.removeItem('profileImage');
+                    } catch (_) {}
+                    localStorage.setItem('authToken', data.token);
+                    localStorage.setItem('user', JSON.stringify(data.user));
+                    // Tie adaptive assessment profile to this authenticated user
+                    try {
+                        const fullName = `${data.user.firstName || ''} ${data.user.lastName || ''}`.trim() || 'Student';
+                        localStorage.setItem('profileId', data.user.id);
+                        localStorage.setItem('studentName', fullName);
+                        localStorage.setItem('studentGrade', '');
+                    } catch (_) {}
+                    
+                    showAlert('Email verified successfully! Redirecting...', 'success', 'otpAlertMessage');
+                    
+                    setTimeout(() => {
+                        window.location.href = 'StudentDashboard.html';
+                    }, 2000);
+                } else {
+                    showAlert(data.message, 'error', 'otpAlertMessage');
+                    // Clear OTP inputs on error
+                    otpInputs.forEach(input => input.value = '');
+                    otpInputs[0].focus();
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error', 'otpAlertMessage');
+            } finally {
+                verifyBtn.disabled = false;
+                verifyBtnText.textContent = 'Verify & Sign In';
+                verifyBtnSpinner.classList.add('hidden');
+            }
+        });
+
+        // Resend OTP functionality
+        document.getElementById('resendBtn').addEventListener('click', async () => {
+            const resendBtn = document.getElementById('resendBtn');
+            const resendTimer = document.getElementById('resendTimer');
+            const timerCount = document.getElementById('timerCount');
+            
+            if (!currentUserId) {
+                showAlert('Session expired. Please sign in again.', 'error', 'otpAlertMessage');
+                return;
+            }
+
+            try {
+                const response = await fetch('http://localhost:3000/api/resend-otp', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        userId: currentUserId
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showAlert('New verification code sent!', 'success', 'otpAlertMessage');
+                    
+                    // Start countdown timer
+                    resendBtn.style.display = 'none';
+                    resendTimer.classList.remove('hidden');
+                    
+                    let timeLeft = 60;
+                    const countdown = setInterval(() => {
+                        timeLeft--;
+                        timerCount.textContent = timeLeft;
+                        
+                        if (timeLeft <= 0) {
+                            clearInterval(countdown);
+                            resendBtn.style.display = 'inline';
+                            resendTimer.classList.add('hidden');
+                        }
+                    }, 1000);
+                } else {
+                    showAlert(data.message, 'error', 'otpAlertMessage');
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error', 'otpAlertMessage');
+            }
+        });
+
+        // Back to login
+        document.getElementById('backToLogin').addEventListener('click', () => {
+            otpForm.classList.add('hidden');
+            signInForm.classList.remove('hidden');
+            // Clear OTP inputs
+            otpInputs.forEach(input => input.value = '');
+            hideAlert('otpAlertMessage');
+        });
+
+        // Check if user is already logged in
+        if (localStorage.getItem('authToken')) {
+            window.location.href = 'StudentDashboard.html';
+        }
+
+        // Form elements for forgot password
+        const forgotPasswordForm = document.getElementById('forgotPasswordForm');
+        const resetPasswordForm = document.getElementById('resetPasswordForm');
+        const forgotPasswordEmailForm = document.getElementById('forgotPasswordEmailForm');
+        const resetPasswordSubmitForm = document.getElementById('resetPasswordSubmitForm');
+        const resetOtpInputs = document.querySelectorAll('.reset-otp-input');
+        let resetUserId = null;
+        let resetEmail = null;
+
+        // Handle forgot password link click
+        document.getElementById('forgotPasswordLink').addEventListener('click', (e) => {
+            e.preventDefault();
+            signInForm.classList.add('hidden');
+            forgotPasswordForm.classList.remove('hidden');
+            document.getElementById('forgotPasswordEmail').focus();
+        });
+
+        // Back to login from forgot password
+        document.getElementById('backToLoginFromForgot').addEventListener('click', () => {
+            forgotPasswordForm.classList.add('hidden');
+            signInForm.classList.remove('hidden');
+            hideAlert('forgotPasswordAlertMessage');
+        });
+
+        // Back to forgot password from reset form
+        document.getElementById('backToForgotPassword').addEventListener('click', () => {
+            resetPasswordForm.classList.add('hidden');
+            forgotPasswordForm.classList.remove('hidden');
+            hideAlert('resetPasswordAlertMessage');
+        });
+
+        // Reset OTP Input handling
+        resetOtpInputs.forEach((input, index) => {
+            input.addEventListener('input', (e) => {
+                if (e.target.value.length === 1 && index < resetOtpInputs.length - 1) {
+                    resetOtpInputs[index + 1].focus();
+                }
+            });
+
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'Backspace' && e.target.value === '' && index > 0) {
+                    resetOtpInputs[index - 1].focus();
+                }
+            });
+
+            input.addEventListener('paste', (e) => {
+                e.preventDefault();
+                const pasteData = e.clipboardData.getData('text');
+                if (pasteData.length === 6 && /^\d+$/.test(pasteData)) {
+                    pasteData.split('').forEach((char, i) => {
+                        if (i < resetOtpInputs.length) {
+                            resetOtpInputs[i].value = char;
+                        }
+                    });
+                }
+            });
+        });
+
+        // Forgot password email form submission
+        forgotPasswordEmailForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const forgotPasswordBtn = document.getElementById('forgotPasswordBtn');
+            const forgotPasswordBtnText = document.getElementById('forgotPasswordBtnText');
+            const forgotPasswordBtnSpinner = document.getElementById('forgotPasswordBtnSpinner');
+            
+            const email = document.getElementById('forgotPasswordEmail').value;
+
+            // Show loading state
+            forgotPasswordBtn.disabled = true;
+            forgotPasswordBtnText.textContent = 'Sending...';
+            forgotPasswordBtnSpinner.classList.remove('hidden');
+            hideAlert('forgotPasswordAlertMessage');
+
+            try {
+                const response = await fetch('http://localhost:3000/api/forgot-password', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    resetUserId = data.userId;
+                    resetEmail = email;
+                    document.getElementById('resetPasswordEmail').textContent = email;
+                    
+                    showAlert('Reset code sent to your email!', 'success', 'forgotPasswordAlertMessage');
+                    
+                    setTimeout(() => {
+                        forgotPasswordForm.classList.add('hidden');
+                        resetPasswordForm.classList.remove('hidden');
+                        resetOtpInputs[0].focus();
+                    }, 2000);
+                } else {
+                    showAlert(data.message, 'error', 'forgotPasswordAlertMessage');
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error', 'forgotPasswordAlertMessage');
+            } finally {
+                forgotPasswordBtn.disabled = false;
+                forgotPasswordBtnText.textContent = 'Send Reset Code';
+                forgotPasswordBtnSpinner.classList.add('hidden');
+            }
+        });
+
+        // Reset password form submission
+        resetPasswordSubmitForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const resetPasswordBtn = document.getElementById('resetPasswordBtn');
+            const resetPasswordBtnText = document.getElementById('resetPasswordBtnText');
+            const resetPasswordBtnSpinner = document.getElementById('resetPasswordBtnSpinner');
+            
+            const otp = Array.from(resetOtpInputs).map(input => input.value).join('');
+            const newPassword = document.getElementById('newPassword').value;
+            const confirmNewPassword = document.getElementById('confirmNewPassword').value;
+
+            if (otp.length !== 6) {
+                showAlert('Please enter the complete 6-digit code', 'error', 'resetPasswordAlertMessage');
+                return;
+            }
+
+            if (newPassword !== confirmNewPassword) {
+                showAlert('Passwords do not match', 'error', 'resetPasswordAlertMessage');
+                return;
+            }
+
+            if (newPassword.length < 6) {
+                showAlert('Password must be at least 6 characters long', 'error', 'resetPasswordAlertMessage');
+                return;
+            }
+
+            // Show loading state
+            resetPasswordBtn.disabled = true;
+            resetPasswordBtnText.textContent = 'Resetting...';
+            resetPasswordBtnSpinner.classList.remove('hidden');
+            hideAlert('resetPasswordAlertMessage');
+
+            try {
+                const response = await fetch('http://localhost:3000/api/reset-password', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        userId: resetUserId,
+                        otp,
+                        newPassword
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showAlert('Password reset successfully! You can now sign in.', 'success', 'resetPasswordAlertMessage');
+                    
+                    setTimeout(() => {
+                        resetPasswordForm.classList.add('hidden');
+                        signInForm.classList.remove('hidden');
+                        // Clear form data
+                        document.getElementById('forgotPasswordEmail').value = '';
+                        document.getElementById('newPassword').value = '';
+                        document.getElementById('confirmNewPassword').value = '';
+                        resetOtpInputs.forEach(input => input.value = '');
+                    }, 3000);
+                } else {
+                    showAlert(data.message, 'error', 'resetPasswordAlertMessage');
+                    // Clear OTP inputs on error
+                    resetOtpInputs.forEach(input => input.value = '');
+                    resetOtpInputs[0].focus();
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error', 'resetPasswordAlertMessage');
+            } finally {
+                resetPasswordBtn.disabled = false;
+                resetPasswordBtnText.textContent = 'Reset Password';
+                resetPasswordBtnSpinner.classList.add('hidden');
+            }
+        });
+
+        // Resend reset code functionality
+        document.getElementById('resendResetBtn').addEventListener('click', async () => {
+            const resendResetBtn = document.getElementById('resendResetBtn');
+            const resendResetTimer = document.getElementById('resendResetTimer');
+            const resetTimerCount = document.getElementById('resetTimerCount');
+            
+            if (!resetUserId || !resetEmail) {
+                showAlert('Session expired. Please start over.', 'error', 'resetPasswordAlertMessage');
+                return;
+            }
+
+            try {
+                const response = await fetch('http://localhost:3000/api/forgot-password', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email: resetEmail })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showAlert('New reset code sent!', 'success', 'resetPasswordAlertMessage');
+                    
+                    // Start countdown timer
+                    resendResetBtn.style.display = 'none';
+                    resendResetTimer.classList.remove('hidden');
+                    
+                    let timeLeft = 60;
+                    const countdown = setInterval(() => {
+                        timeLeft--;
+                        resetTimerCount.textContent = timeLeft;
+                        
+                        if (timeLeft <= 0) {
+                            clearInterval(countdown);
+                            resendResetBtn.style.display = 'inline';
+                            resendResetTimer.classList.add('hidden');
+                        }
+                    }, 1000);
+                } else {
+                    showAlert(data.message, 'error', 'resetPasswordAlertMessage');
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error', 'resetPasswordAlertMessage');
+            }
+        });
+    </script>
+</body>
+</html>

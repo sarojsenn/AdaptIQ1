@@ -1,0 +1,5535 @@
+[
+  {
+    "id": "Q001",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Find the domain of y = √x",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x"
+      },
+      {
+        "option": "B",
+        "text": "0 ≤ x"
+      },
+      {
+        "option": "C",
+        "text": "-∞ < x < ∞"
+      },
+      {
+        "option": "D",
+        "text": "x < ∞"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q002",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Find the domain of y = 1/√x",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "-∞ < x < ∞"
+      },
+      {
+        "option": "B",
+        "text": "x ≤ 0"
+      },
+      {
+        "option": "C",
+        "text": "x > 0"
+      },
+      {
+        "option": "D",
+        "text": "x ≥ 0"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q003",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Find the domain of y = √x",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x ≥ 0"
+      },
+      {
+        "option": "B",
+        "text": "-∞ < x < ∞"
+      },
+      {
+        "option": "C",
+        "text": "x > 0"
+      },
+      {
+        "option": "D",
+        "text": "x < ∞"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q004",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Find the domain of y = √(x-2) + √(8-x)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "All real values except 2 ≤ x ≤ 8"
+      },
+      {
+        "option": "B",
+        "text": "2 ≤ x"
+      },
+      {
+        "option": "C",
+        "text": "2 ≤ x ≤ 8"
+      },
+      {
+        "option": "D",
+        "text": "x ≤ 8"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q005",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Find the domain of y = √(9-x²)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "-3 ≤ x ≤ 3"
+      },
+      {
+        "option": "B",
+        "text": "(-∞,-3] ∪ [3, ∞)"
+      },
+      {
+        "option": "C",
+        "text": "-3 ≤ x"
+      },
+      {
+        "option": "D",
+        "text": "x ≤ 3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q006",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Find the domain of y = 1/(x²-4x+3)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1 ≤ x ≤ 3"
+      },
+      {
+        "option": "B",
+        "text": "(-∞,-3) ∪ (3, ∞)"
+      },
+      {
+        "option": "C",
+        "text": "x = 1,3"
+      },
+      {
+        "option": "D",
+        "text": "-∞ < x < ∞, excluding 1,3"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q007",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "Values of x for which f(x)=x and g(x)=x are identical",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "-∞ < x < ∞"
+      },
+      {
+        "option": "B",
+        "text": "x ≥ 0"
+      },
+      {
+        "option": "C",
+        "text": "x > 0"
+      },
+      {
+        "option": "D",
+        "text": "x ≤ 0"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q008",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "Values of x for which f(x)=x and g(x)=x²/x are identical",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Set of real numbers excluding 0"
+      },
+      {
+        "option": "B",
+        "text": "Set of real numbers"
+      },
+      {
+        "option": "C",
+        "text": "x ≥ 0"
+      },
+      {
+        "option": "D",
+        "text": "x > 0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q009",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Evaluation",
+    "question_text": "If f(x) = x³, then f(3x) = ?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "27x"
+      },
+      {
+        "option": "B",
+        "text": "27x^3"
+      },
+      {
+        "option": "C",
+        "text": "9x^3"
+      },
+      {
+        "option": "D",
+        "text": "3x^3"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q010",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Evaluation",
+    "question_text": "If f(x) = e^x, then 7·f(x) = ?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "e^(7x)"
+      },
+      {
+        "option": "B",
+        "text": "7e^x"
+      },
+      {
+        "option": "C",
+        "text": "7e^(7x)"
+      },
+      {
+        "option": "D",
+        "text": "e^x"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q011",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "If f(x)=log(x²) and g(x)=2·log(x), f(x) and g(x) are identical for",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "-∞ < x < ∞"
+      },
+      {
+        "option": "B",
+        "text": "x ≠ 0"
+      },
+      {
+        "option": "C",
+        "text": "-∞ ≤ x ≤ 0"
+      },
+      {
+        "option": "D",
+        "text": "0 < x < ∞"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q012",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "If f(x) is even, the graph y=f(x) is symmetrical about",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x-axis"
+      },
+      {
+        "option": "B",
+        "text": "y-axis"
+      },
+      {
+        "option": "C",
+        "text": "Both axes"
+      },
+      {
+        "option": "D",
+        "text": "None"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q013",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "If f(x) is odd, the graph y=f(x) is symmetrical about",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x-axis"
+      },
+      {
+        "option": "B",
+        "text": "y-axis"
+      },
+      {
+        "option": "C",
+        "text": "Both axes"
+      },
+      {
+        "option": "D",
+        "text": "origin"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q014",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "Which of the following is an even function?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x⁻³"
+      },
+      {
+        "option": "B",
+        "text": "x³"
+      },
+      {
+        "option": "C",
+        "text": "x⁻⁴"
+      },
+      {
+        "option": "D",
+        "text": "x⁷"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q015",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "Which of the following is not an odd function?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "(x+1)⁷"
+      },
+      {
+        "option": "B",
+        "text": "x²³"
+      },
+      {
+        "option": "C",
+        "text": "x³³"
+      },
+      {
+        "option": "D",
+        "text": "x⁷"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q016",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Optimization",
+    "question_text": "For f(x)=x²+10x+11, the value of x that gives the minimum is",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "10"
+      },
+      {
+        "option": "C",
+        "text": "-5"
+      },
+      {
+        "option": "D",
+        "text": "-10"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q017",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Optimization",
+    "question_text": "Minimum value of x²+10x+11 is",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "-14"
+      },
+      {
+        "option": "B",
+        "text": "-25+11 = -14"
+      },
+      {
+        "option": "C",
+        "text": "36"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q018",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Optimization",
+    "question_text": "Maximum value of 1/(x²-3x+2) over its domain is",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Does not exist (unbounded)"
+      },
+      {
+        "option": "B",
+        "text": "1/4"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q019",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Optimization",
+    "question_text": "Minimum value of log₃(x²-2x+5) is",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "log₃(4)"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "-2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q020",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Inverse Functions",
+    "question_text": "Find the inverse of f(x)=1/(x+1)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/x - 1"
+      },
+      {
+        "option": "B",
+        "text": "x-1"
+      },
+      {
+        "option": "C",
+        "text": "1/(x-1)"
+      },
+      {
+        "option": "D",
+        "text": "1/(x+1)"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q049",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Comparison",
+    "question_text": "If 0 < a < 1, 0 < b < 1, a > b, which expression is highest?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "(a M b)"
+      },
+      {
+        "option": "B",
+        "text": "(a D b)"
+      },
+      {
+        "option": "C",
+        "text": "(a P b)"
+      },
+      {
+        "option": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q050",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Comparison",
+    "question_text": "If 0 < a <1, 0 < b < 1, a < b, which expression is highest?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "(a M b)"
+      },
+      {
+        "option": "B",
+        "text": "(a D b)"
+      },
+      {
+        "option": "C",
+        "text": "(a P b)"
+      },
+      {
+        "option": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q051",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Evaluation",
+    "question_text": "F(n-1) = 1/(2 – F(n)), F(1)=3. Find [F(1)] + ... + [F(1000)]",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1001"
+      },
+      {
+        "option": "B",
+        "text": "1002"
+      },
+      {
+        "option": "C",
+        "text": "3003"
+      },
+      {
+        "option": "D",
+        "text": "None"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q052",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Evaluation",
+    "question_text": "Value of F(1) × F(2) × ... × F(1000)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2001"
+      },
+      {
+        "option": "B",
+        "text": "1999"
+      },
+      {
+        "option": "C",
+        "text": "2004"
+      },
+      {
+        "option": "D",
+        "text": "1997"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q053",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Analysis",
+    "question_text": "f(x)=ax²+bx+c, f(3)=f(-3)=18, f(0)=15, find f(12)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "63"
+      },
+      {
+        "option": "B",
+        "text": "159"
+      },
+      {
+        "option": "C",
+        "text": "102"
+      },
+      {
+        "option": "D",
+        "text": "None"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q054",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Analysis",
+    "question_text": "M(x q y)=(x+y)², f(x x y)=(x-y)², M(x²q y²)=361, M(x² y²)=49, M((x²y²)+3)=?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "±81"
+      },
+      {
+        "option": "B",
+        "text": "±9"
+      },
+      {
+        "option": "C",
+        "text": "±7"
+      },
+      {
+        "option": "D",
+        "text": "±11"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q055",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Analysis",
+    "question_text": "Y(m+n) = M(x+5)+3, Y(3y+7)=x+4, find x² y²",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "None"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q056",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Analysis",
+    "question_text": "f(x)=f(x)f(y), f(128)=4, find M=f(0.5)f(1)...f(256)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "128"
+      },
+      {
+        "option": "B",
+        "text": "256"
+      },
+      {
+        "option": "C",
+        "text": "512"
+      },
+      {
+        "option": "D",
+        "text": "1024"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q057",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Analysis",
+    "question_text": "Let f(x)=20, x² ≤ M/y³, find min M",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "22/3"
+      },
+      {
+        "option": "B",
+        "text": "21/3"
+      },
+      {
+        "option": "C",
+        "text": "28/3"
+      },
+      {
+        "option": "D",
+        "text": "42/3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q058",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Analysis",
+    "question_text": "Y(x)=x+3², q(x)=3x+2, find q(Y(-7))",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "14"
+      },
+      {
+        "option": "C",
+        "text": "50"
+      },
+      {
+        "option": "D",
+        "text": "42"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q059",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Analysis",
+    "question_text": "F(a+b)=F(a)F(b)/2, F(a)≠0, F(b)≠0, find F(12b)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "(F(b))^12"
+      },
+      {
+        "option": "B",
+        "text": "(F(b))^9/2"
+      },
+      {
+        "option": "C",
+        "text": "(F(b))^12/2^11"
+      },
+      {
+        "option": "D",
+        "text": "(F(b))^12/2^11"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q060",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Domain of y = 1/√(4-x²)",
+    "data_paragraph": "Moderate Level Questions",
+    "options": [
+      {
+        "option": "A",
+        "text": "(-2, 2)"
+      },
+      {
+        "option": "B",
+        "text": "[-2, 2]"
+      },
+      {
+        "option": "C",
+        "text": "(-∞, -2) ∪ (2, ∞) excluding -2 and 2"
+      },
+      {
+        "option": "D",
+        "text": "(2, ∞)"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q061",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Domain of y = 1/(10 log(x-x)) + √(x+2)",
+    "data_paragraph": "Moderate Level Questions",
+    "options": [
+      {
+        "option": "A",
+        "text": "(-3, -2)"
+      },
+      {
+        "option": "B",
+        "text": "[0,1)"
+      },
+      {
+        "option": "C",
+        "text": "[-2,1]"
+      },
+      {
+        "option": "D",
+        "text": "[-2,1) excluding 0"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q062",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Domain of y = √[log₁₀(5/4 x² - x)]",
+    "data_paragraph": "Moderate Level Questions",
+    "options": [
+      {
+        "option": "A",
+        "text": "[1,4]"
+      },
+      {
+        "option": "B",
+        "text": "[-4,-1]"
+      },
+      {
+        "option": "C",
+        "text": "[0,5]"
+      },
+      {
+        "option": "D",
+        "text": "[-1,5]"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q063",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "Which is an odd function?",
+    "data_paragraph": "Moderate Level Questions",
+    "options": [
+      {
+        "option": "A",
+        "text": "2-x·x"
+      },
+      {
+        "option": "B",
+        "text": "2x-x⁴"
+      },
+      {
+        "option": "C",
+        "text": "Both (a) & (b)"
+      },
+      {
+        "option": "D",
+        "text": "Neither (a) nor (b)"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q064",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Domain of y = √(1-x)",
+    "data_paragraph": "Moderate Level Questions",
+    "options": [
+      {
+        "option": "A",
+        "text": "x"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "[-1,0]"
+      },
+      {
+        "option": "D",
+        "text": "[0,1]"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q065",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Domain",
+    "question_text": "Domain of y = 3/(4-x²) - 4log₁₀(x²-x)",
+    "data_paragraph": "Moderate Level Questions",
+    "options": [
+      {
+        "option": "A",
+        "text": "(-1,0) ∪ (1, ∞)"
+      },
+      {
+        "option": "B",
+        "text": "Not 2 or - 2"
+      },
+      {
+        "option": "C",
+        "text": "(a) and (b) together"
+      },
+      {
+        "option": "D",
+        "text": "None"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q066",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Quadratic Inequality",
+    "question_text": "3x² - 7x + 4 ≤ 0",
+    "data_paragraph": "LEVEL VERY EASY (1-40) AND EASY(41-85)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x > 0"
+      },
+      {
+        "option": "B",
+        "text": "x < 0"
+      },
+      {
+        "option": "C",
+        "text": "All x"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q067",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Quadratic Inequality",
+    "question_text": "3x² - 7x - 6 < 0",
+    "data_paragraph": "LEVEL VERY EASY (1-40) AND EASY(41-85)",
+    "options": [
+      {
+        "option": "A",
+        "text": "-0.66 < x < 3"
+      },
+      {
+        "option": "B",
+        "text": "x < -0.66 or x > 3"
+      },
+      {
+        "option": "C",
+        "text": "3 < x < 7"
+      },
+      {
+        "option": "D",
+        "text": "-2 < x < 2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q068",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Quadratic Inequality",
+    "question_text": "3x² - 7x + 6 < 0",
+    "data_paragraph": "LEVEL VERY EASY (1-40) AND EASY(41-85)",
+    "options": [
+      {
+        "option": "A",
+        "text": "0.66 < x < 3"
+      },
+      {
+        "option": "B",
+        "text": "-0.66 < x < 3"
+      },
+      {
+        "option": "C",
+        "text": "-1 < x < 3"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q069",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Quadratic Inequality",
+    "question_text": "x² - 3x + 5 > 0",
+    "data_paragraph": "LEVEL VERY EASY (1-40) AND EASY(41-85)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x > 0"
+      },
+      {
+        "option": "B",
+        "text": "x < 0"
+      },
+      {
+        "option": "C",
+        "text": "Both (A) and (B)"
+      },
+      {
+        "option": "D",
+        "text": "-∞ < x < ∞"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q070",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Quadratic Inequality",
+    "question_text": "x² - 14x - 15 > 0",
+    "data_paragraph": "LEVEL VERY EASY (1-40) AND EASY(41-85)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x < -1"
+      },
+      {
+        "option": "B",
+        "text": "15 < x"
+      },
+      {
+        "option": "C",
+        "text": "Both (A) and (B)"
+      },
+      {
+        "option": "D",
+        "text": "-1 < x < 15"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q080",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Special Functions",
+    "question_text": "For how many negative integral values of x, is the above inequality true?",
+    "data_paragraph": "Directions for Question numbers 80 and 81: (x²-7|x|+10)/(x-6x+16) ≤ 0",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q081",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Special Functions",
+    "question_text": "Find the sum of all integer values for which the above inequality is true.",
+    "data_paragraph": "Directions for Question numbers 80 and 81: (x²-7|x|+10)/(x-6x+16) ≤ 0",
+    "options": [
+      {
+        "option": "A",
+        "text": "-4"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q082",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "For how many positive integer values of x is f(x) ≤ 0",
+    "data_paragraph": "Direction for Question number 82 and 83: f(x) = (x²-4x+5)/(x²+7x+12)",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q083",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "For how many negative integer values of x is f(x) ≤ 0",
+    "data_paragraph": "Direction for Question number 82 and 83: f(x) = (x²-4x+5)/(x²+7x+12)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q084",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Absolute Value",
+    "question_text": "If f(x) = x² + 2|x| + 1, then for how many real values of x is: f(x) ≤ 0.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "∞"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q085",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "If 1/|x| > 1/3 then the least positive integer value of x, for which this inequality is true?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q086",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Exponential Inequalities",
+    "question_text": "The solution of inequality: 2ˣ > 8",
+    "data_paragraph": "MODERATE LEVEL QUESTIONS (86-112)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x > 3"
+      },
+      {
+        "option": "B",
+        "text": "x ≥ 3"
+      },
+      {
+        "option": "C",
+        "text": "x < 3"
+      },
+      {
+        "option": "D",
+        "text": "x = 3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q087",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Exponential Inequalities",
+    "question_text": "2⁽ˣ⁺¹⁾ ≤ 2ˣ⁻¹",
+    "data_paragraph": "MODERATE LEVEL QUESTIONS (86-112)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x ≥ -1"
+      },
+      {
+        "option": "B",
+        "text": "x ≤ -1"
+      },
+      {
+        "option": "C",
+        "text": "x > 1"
+      },
+      {
+        "option": "D",
+        "text": "x < -1"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q088",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Logarithmic Inequalities",
+    "question_text": "log₂(x) > log₂(1/2)",
+    "data_paragraph": "MODERATE LEVEL QUESTIONS (86-112)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x > 1/2"
+      },
+      {
+        "option": "B",
+        "text": "x ≥ 1/2"
+      },
+      {
+        "option": "C",
+        "text": "x > 0"
+      },
+      {
+        "option": "D",
+        "text": "x < 1/2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q089",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Logarithmic Inequalities",
+    "question_text": "log₁/₂(x) > log₁/₂(2)",
+    "data_paragraph": "MODERATE LEVEL QUESTIONS (86-112)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x > 2"
+      },
+      {
+        "option": "B",
+        "text": "x < 2"
+      },
+      {
+        "option": "C",
+        "text": "x = 2"
+      },
+      {
+        "option": "D",
+        "text": "0 < x < 2"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q090",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "x/(x+1) ≥ 1/2",
+    "data_paragraph": "MODERATE LEVEL QUESTIONS (86-112)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x ≥ -1"
+      },
+      {
+        "option": "B",
+        "text": "x ≤ 1"
+      },
+      {
+        "option": "C",
+        "text": "x ≥ 1, x ≠ -1"
+      },
+      {
+        "option": "D",
+        "text": "x ∈ (-∞, -1) ∪ [1, ∞)"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q091",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Quadratic Inequalities",
+    "question_text": "|x² - 3x + 2| < x",
+    "data_paragraph": "MODERATE LEVEL QUESTIONS (86-112)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x ∈ (1, 2)"
+      },
+      {
+        "option": "B",
+        "text": "x ∈ (0, 1) ∪ (2, 4)"
+      },
+      {
+        "option": "C",
+        "text": "x ∈ (1, 4)"
+      },
+      {
+        "option": "D",
+        "text": "x ∈ (0, 4)"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q092",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Complex Inequalities",
+    "question_text": "√(x² - 6x + 9) > x - 3",
+    "data_paragraph": "DIFFICULT LEVEL QUESTIONS (113-142)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x < 3"
+      },
+      {
+        "option": "B",
+        "text": "x > 3"
+      },
+      {
+        "option": "C",
+        "text": "x ≠ 3"
+      },
+      {
+        "option": "D",
+        "text": "All real x"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q093",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Composite Functions",
+    "question_text": "If f(x) = x² and g(x) = 2x + 1, then f(g(x)) equals:",
+    "data_paragraph": "DIFFICULT LEVEL QUESTIONS (113-142)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4x² + 4x + 1"
+      },
+      {
+        "option": "B",
+        "text": "2x² + 1"
+      },
+      {
+        "option": "C",
+        "text": "x² + 2x + 1"
+      },
+      {
+        "option": "D",
+        "text": "2x² + 2x + 1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q094",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Function Properties",
+    "question_text": "The range of f(x) = 2ˣ/(2ˣ + 1) is:",
+    "data_paragraph": "DIFFICULT LEVEL QUESTIONS (113-142)",
+    "options": [
+      {
+        "option": "A",
+        "text": "(0, 1)"
+      },
+      {
+        "option": "B",
+        "text": "[0, 1]"
+      },
+      {
+        "option": "C",
+        "text": "(0, 1]"
+      },
+      {
+        "option": "D",
+        "text": "[0, 1)"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q095",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "System of Inequalities",
+    "question_text": "The solution set of the system: x + y ≤ 4, x - y ≥ 2, x ≥ 0, y ≥ 0 is:",
+    "data_paragraph": "DIFFICULT LEVEL QUESTIONS (113-142)",
+    "options": [
+      {
+        "option": "A",
+        "text": "A triangle with vertices at (0,0), (2,0), (4,0)"
+      },
+      {
+        "option": "B",
+        "text": "A triangle with vertices at (2,0), (4,0), (3,1)"
+      },
+      {
+        "option": "C",
+        "text": "A quadrilateral"
+      },
+      {
+        "option": "D",
+        "text": "No solution"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q096",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Polynomial Inequalities",
+    "question_text": "x² - 5|x| + 6 < 0, find the inequalities:",
+    "data_paragraph": "LEVEL - MODERATE (1-6) AND DIFFICULT (7-11)",
+    "options": [
+      {
+        "option": "A",
+        "text": "-3 < x < -2"
+      },
+      {
+        "option": "B",
+        "text": "2 < x < 3"
+      },
+      {
+        "option": "C",
+        "text": "Both (A) and (B)"
+      },
+      {
+        "option": "D",
+        "text": "-3 < x < 3"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q097",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Polynomial Inequalities",
+    "question_text": "x² - 5|x| + 6 < 0, find the inequalities:",
+    "data_paragraph": "LEVEL - MODERATE (1-6) AND DIFFICULT (7-11)",
+    "options": [
+      {
+        "option": "A",
+        "text": "-2 < x < -2"
+      },
+      {
+        "option": "B",
+        "text": "x ≤ -2 or x ≥ 2"
+      },
+      {
+        "option": "C",
+        "text": "x < -2 or x > 1"
+      },
+      {
+        "option": "D",
+        "text": "-2 < x < 1"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q098",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Polynomial Inequalities",
+    "question_text": "(x - 1)(3 - x)(x - 2)² > 0",
+    "data_paragraph": "Directions (3-10): Solve the following polynomial inequalities:",
+    "options": [
+      {
+        "option": "A",
+        "text": "1 < x < 2"
+      },
+      {
+        "option": "B",
+        "text": "-1 < x < 3"
+      },
+      {
+        "option": "C",
+        "text": "-3 < x < -1"
+      },
+      {
+        "option": "D",
+        "text": "1 < x < 3, x ≠ 2"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q099",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "0.5/(x²-x-1) < 0",
+    "data_paragraph": "Directions (3-10): Solve the following polynomial inequalities:",
+    "options": [
+      {
+        "option": "A",
+        "text": "x > 0"
+      },
+      {
+        "option": "B",
+        "text": "x ≤ 0"
+      },
+      {
+        "option": "C",
+        "text": "x ≥ 0"
+      },
+      {
+        "option": "D",
+        "text": "For all real x"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q100",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "(x²-5x+6)/(x²+x+1) ≤ 0",
+    "data_paragraph": "Directions (3-10): Solve the following polynomial inequalities:",
+    "options": [
+      {
+        "option": "A",
+        "text": "x < 2"
+      },
+      {
+        "option": "B",
+        "text": "x > 3"
+      },
+      {
+        "option": "C",
+        "text": "2 < x < 3"
+      },
+      {
+        "option": "D",
+        "text": "x < 2 or x > 3"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q101",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "(x²-5x-5)/(x²+1) < 0",
+    "data_paragraph": "Directions (3-10): Solve the following polynomial inequalities:",
+    "options": [
+      {
+        "option": "A",
+        "text": "x <- 3"
+      },
+      {
+        "option": "B",
+        "text": "-7 < x <-3"
+      },
+      {
+        "option": "C",
+        "text": "-3 < x < 1"
+      },
+      {
+        "option": "D",
+        "text": "-7 < x < 1"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q102",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Complex Inequalities",
+    "question_text": "((x+1)(x+2)²)/(x-x) ≤ 0",
+    "data_paragraph": "Directions (3-10): Solve the following polynomial inequalities:",
+    "options": [
+      {
+        "option": "A",
+        "text": "x <-1"
+      },
+      {
+        "option": "B",
+        "text": "x <-1 or x > 1"
+      },
+      {
+        "option": "C",
+        "text": "x <-1 and x ≠ 2"
+      },
+      {
+        "option": "D",
+        "text": "x <-1 or x > 1 and x ≠ -2"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q103",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "(x²+x+1)/(2x²-x-1) > 0",
+    "data_paragraph": "Directions (3-10): Solve the following polynomial inequalities:",
+    "options": [
+      {
+        "option": "A",
+        "text": "x <-2"
+      },
+      {
+        "option": "B",
+        "text": "x > 1"
+      },
+      {
+        "option": "C",
+        "text": "x ≠ 2"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q104",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Polynomial Inequalities",
+    "question_text": "x⁴ - 5x² + 4 < 0",
+    "data_paragraph": "Directions (3-10): Solve the following polynomial inequalities:",
+    "options": [
+      {
+        "option": "A",
+        "text": "-2 < x < 1"
+      },
+      {
+        "option": "B",
+        "text": "-2 < x < 2"
+      },
+      {
+        "option": "C",
+        "text": "-2 < x <-1 or 1 < x < 2"
+      },
+      {
+        "option": "D",
+        "text": "1 < x < 2"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q105",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Polynomial Inequalities",
+    "question_text": "x⁴-2x² - 63 ≤ 0",
+    "data_paragraph": "Directions (3-10): Solve the following polynomial inequalities:",
+    "options": [
+      {
+        "option": "A",
+        "text": "x ≤ -3 or x ≥ 3"
+      },
+      {
+        "option": "B",
+        "text": "-3 ≤ x ≤ 0"
+      },
+      {
+        "option": "C",
+        "text": "0 ≤ x ≤ 3"
+      },
+      {
+        "option": "D",
+        "text": "-3 ≤ x ≤ 3"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q106",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "(x-2)/(x²+3) < 1",
+    "data_paragraph": "Directions (11 to 67): Solve the following polynomial and quadratic inequalities",
+    "options": [
+      {
+        "option": "A",
+        "text": "x < 4"
+      },
+      {
+        "option": "B",
+        "text": "1 < x < 4"
+      },
+      {
+        "option": "C",
+        "text": "x < 1 or x > 4"
+      },
+      {
+        "option": "D",
+        "text": "1 < x < 3"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q107",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Rational Inequalities",
+    "question_text": "(x-2)/(x²+1) <- 1/2",
+    "data_paragraph": "Directions (11 to 67): Solve the following polynomial and quadratic inequalities",
+    "options": [
+      {
+        "option": "A",
+        "text": "-3 < x < 3"
+      },
+      {
+        "option": "B",
+        "text": "x <-3"
+      },
+      {
+        "option": "C",
+        "text": "-3 < x < 6"
+      },
+      {
+        "option": "D",
+        "text": "-3 < x < 1"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q108",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Basic Logarithms",
+    "question_text": "log 32700 = ?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "log 3.27 + 4"
+      },
+      {
+        "option": "B",
+        "text": "log 3.27 + 2"
+      },
+      {
+        "option": "C",
+        "text": "2 log 327"
+      },
+      {
+        "option": "D",
+        "text": "100 × log 327"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q109",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Basic Logarithms",
+    "question_text": "log 0.0867 = ?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "log 8.67 + 2"
+      },
+      {
+        "option": "B",
+        "text": "log 8.67 - 2(C) log867/1000"
+      },
+      {
+        "option": "C",
+        "text": "log867/1000"
+      },
+      {
+        "option": "D",
+        "text": "-2 log 8.67"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q110",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Basic Logarithms",
+    "question_text": "If log₁₀2 = 0.301 find log₁₀125.",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "2.097"
+      },
+      {
+        "option": "B",
+        "text": "2.301"
+      },
+      {
+        "option": "C",
+        "text": "2.10"
+      },
+      {
+        "option": "D",
+        "text": "2.087"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q111",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Basic Logarithms",
+    "question_text": "log₅8 = ?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "2/5"
+      },
+      {
+        "option": "B",
+        "text": "1 3/5"
+      },
+      {
+        "option": "C",
+        "text": "3/5"
+      },
+      {
+        "option": "D",
+        "text": "4/5"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q112",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log₀.₅x = 25",
+    "data_paragraph": "Directions: Find the value of x in equations 5-6.",
+    "options": [
+      {
+        "option": "A",
+        "text": "2⁻²⁵"
+      },
+      {
+        "option": "B",
+        "text": "2²⁵"
+      },
+      {
+        "option": "C",
+        "text": "2⁻²⁴"
+      },
+      {
+        "option": "D",
+        "text": "2²⁴"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q113",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log₄x = 1/2",
+    "data_paragraph": "Directions: Find the value of x in equations 5-6.",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "√3"
+      },
+      {
+        "option": "C",
+        "text": "3/2"
+      },
+      {
+        "option": "D",
+        "text": "2/3"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q114",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Properties",
+    "question_text": "log₁₅3375 × log₄1024 = ?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "18"
+      },
+      {
+        "option": "B",
+        "text": "11.8"
+      },
+      {
+        "option": "C",
+        "text": "12"
+      },
+      {
+        "option": "D",
+        "text": "15"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q115",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Properties",
+    "question_text": "log₄4 + log₄16 + log₄64 + log₄256 = 10. Then a = ?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q116",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Properties",
+    "question_text": "log₆₂₅√5 = ?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "1/8"
+      },
+      {
+        "option": "D",
+        "text": "1/4"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q117",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "If logₓ + log (x + 3) = 1, then the value(s) of x will be, the solution of the equation",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "x + 3x = 1 ⟹ x² + 3x = 10"
+      },
+      {
+        "option": "B",
+        "text": "(D) x (x + 3) = 1"
+      },
+      {
+        "option": "C",
+        "text": "x + 3x = 1"
+      },
+      {
+        "option": "D",
+        "text": "x (x + 3) = 1"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q118",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Properties",
+    "question_text": "If log₁₀a = b, find the value of 10³ᵇ in terms of a.",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "a³"
+      },
+      {
+        "option": "B",
+        "text": "3a"
+      },
+      {
+        "option": "C",
+        "text": "a × 1000"
+      },
+      {
+        "option": "D",
+        "text": "a × 100"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q119",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Basic Logarithms",
+    "question_text": "3 log 5 + 2 log 4 - log 2 = ?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-14) and EASY(15-25)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "200"
+      },
+      {
+        "option": "D",
+        "text": "1000"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q120",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log (3x - 2) = 1",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q121",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log (2x - 3) = 2",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "103"
+      },
+      {
+        "option": "B",
+        "text": "51.5"
+      },
+      {
+        "option": "C",
+        "text": "25.75"
+      },
+      {
+        "option": "D",
+        "text": "26"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q122",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log (12 - x) = -1",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "11.6"
+      },
+      {
+        "option": "B",
+        "text": "12.1"
+      },
+      {
+        "option": "C",
+        "text": "11"
+      },
+      {
+        "option": "D",
+        "text": "11.9"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q123",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log (x² - 6x + 6) = 0",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "Both (A) and (B)"
+      },
+      {
+        "option": "D",
+        "text": "3 and 2"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q124",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log 2ˣ = 3",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "9.87"
+      },
+      {
+        "option": "B",
+        "text": "3 log 2"
+      },
+      {
+        "option": "C",
+        "text": "3/log2"
+      },
+      {
+        "option": "D",
+        "text": "9.31"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q125",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "3ˣ = 7",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/log₇3"
+      },
+      {
+        "option": "B",
+        "text": "log₇3"
+      },
+      {
+        "option": "C",
+        "text": "1/log₃7"
+      },
+      {
+        "option": "D",
+        "text": "log₃7"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q126",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "5ˣ = 10",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "log5"
+      },
+      {
+        "option": "B",
+        "text": "log10/log2"
+      },
+      {
+        "option": "C",
+        "text": "log2"
+      },
+      {
+        "option": "D",
+        "text": "1/log5"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q127",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Properties",
+    "question_text": "Find x, if 0.1ˣ = 2",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "log2/log2"
+      },
+      {
+        "option": "B",
+        "text": "2/log2"
+      },
+      {
+        "option": "C",
+        "text": "-2/log2"
+      },
+      {
+        "option": "D",
+        "text": "-log2/2"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q128",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "Find x if log x = log 7.2 - log 2.4",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q129",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "Find x if log x = log 1.5 + log 12",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "18"
+      },
+      {
+        "option": "D",
+        "text": "15"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q130",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "Find x if log x = 2 log 5 + 3 log 2",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "50"
+      },
+      {
+        "option": "B",
+        "text": "100"
+      },
+      {
+        "option": "C",
+        "text": "150"
+      },
+      {
+        "option": "D",
+        "text": "200"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q131",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log (x - 13) + 3 log 2 = log (3x + 1)",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "21"
+      },
+      {
+        "option": "C",
+        "text": "22"
+      },
+      {
+        "option": "D",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q132",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "log (2x - 2) - log (11.66 - x) = 1 + log 3",
+    "data_paragraph": "Solve equations 13-25 for the value of x.",
+    "options": [
+      {
+        "option": "A",
+        "text": "525/32"
+      },
+      {
+        "option": "B",
+        "text": "350/32"
+      },
+      {
+        "option": "C",
+        "text": "11"
+      },
+      {
+        "option": "D",
+        "text": "11.33"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q133",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Advanced Logarithms",
+    "question_text": "Express log₍ᵦ³√c₎ or c^(2/3) in terms of log a, log b and log c.",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "2/3 log a + 5 log b - 2 log c"
+      },
+      {
+        "option": "B",
+        "text": "2/3 log a - 5 log b - 1/3 log c"
+      },
+      {
+        "option": "C",
+        "text": "2/3 log a - 5 log b + 1/3 log c"
+      },
+      {
+        "option": "D",
+        "text": "1/3 log a + 5 log b - 1/3 log c"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q134",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Advanced Logarithms",
+    "question_text": "If log 3 = 0.4771, find log₍. (81)² × log (27/64)² + log 9.",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "2.689"
+      },
+      {
+        "option": "B",
+        "text": "-0.0552"
+      },
+      {
+        "option": "C",
+        "text": "2.2402"
+      },
+      {
+        "option": "D",
+        "text": "2.702"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q135",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Advanced Logarithms",
+    "question_text": "If log 2 = 0.301, log 3 = 0.477, find the number of digits in (108)¹⁰.",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "21"
+      },
+      {
+        "option": "B",
+        "text": "27"
+      },
+      {
+        "option": "C",
+        "text": "20"
+      },
+      {
+        "option": "D",
+        "text": "18"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q136",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Advanced Logarithms",
+    "question_text": "If log 2 = 0.301, find the number of digits in (125)²⁵.",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "53"
+      },
+      {
+        "option": "B",
+        "text": "50"
+      },
+      {
+        "option": "C",
+        "text": "25"
+      },
+      {
+        "option": "D",
+        "text": "63"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q137",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Advanced Logarithms",
+    "question_text": "Which of the following options represents the value of log√128 to the base 0.625?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "log128/log5-1"
+      },
+      {
+        "option": "B",
+        "text": "log128/2log0.625"
+      },
+      {
+        "option": "C",
+        "text": "log128/2(log5-1)"
+      },
+      {
+        "option": "D",
+        "text": "Both (B) and (C)"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q138",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "Solve for x: log 75/25 + 2 log 2/7 - log 105/169 - log 13/25 = 0.",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "90"
+      },
+      {
+        "option": "B",
+        "text": "65"
+      },
+      {
+        "option": "C",
+        "text": "13"
+      },
+      {
+        "option": "D",
+        "text": "45"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q139",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "Solve for x: 2 log x/5 - log x/10 + log 63/160 = 0",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "7"
+      },
+      {
+        "option": "B",
+        "text": "14"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q140",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Logarithmic Equations",
+    "question_text": "Solve for x: log 12/13 - log 7/25 + log 91/3 = x",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q141",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Complex Logarithms",
+    "question_text": "Questions 9 to 11: Which one of the following is true (A) log₁₃275 = log₁₃375",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "log₁₃275 = log₁₃375"
+      },
+      {
+        "option": "B",
+        "text": "log₁₃275 < log₁₃375"
+      },
+      {
+        "option": "C",
+        "text": "log₁₃275 > log₁₃375"
+      },
+      {
+        "option": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q142",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Complex Logarithms",
+    "question_text": "(A) log₁₁1650 > log₁₃1950",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODARATE(1-20) AND DIFFICULT(21-34)",
+    "options": [
+      {
+        "option": "A",
+        "text": "log₁₁1650 > log₁₃1950"
+      },
+      {
+        "option": "B",
+        "text": "log₁₁1650 < log₁₃1950"
+      },
+      {
+        "option": "C",
+        "text": "log₁₁1650 = log₁₃1950"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q143",
+    "block": "Algebra",
+    "chapter_subtopic": "Linear Equations",
+    "question_type": "System of Equations",
+    "question_text": "Solve the system: 2x + 3y = 7, 4x - y = 5",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x = 2, y = 1"
+      },
+      {
+        "option": "B",
+        "text": "x = 1, y = 2"
+      },
+      {
+        "option": "C",
+        "text": "x = 2, y = -3"
+      },
+      {
+        "option": "D",
+        "text": "x = 3, y = 1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q144",
+    "block": "Algebra",
+    "chapter_subtopic": "Quadratic Equations",
+    "question_type": "Discriminant",
+    "question_text": "For what value of k does the equation x² + kx + 4 = 0 have equal roots?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "k = ±4"
+      },
+      {
+        "option": "B",
+        "text": "k = ±2"
+      },
+      {
+        "option": "C",
+        "text": "k = ±8"
+      },
+      {
+        "option": "D",
+        "text": "k = ±16"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q145",
+    "block": "Algebra",
+    "chapter_subtopic": "Polynomials",
+    "question_type": "Remainder Theorem",
+    "question_text": "When x³ + 2x² - 5x + 1 is divided by (x - 2), the remainder is:",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q146",
+    "block": "Algebra",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Linear Inequalities",
+    "question_text": "Solve: 3x - 2 ≤ 2x + 5",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x ≤ 7"
+      },
+      {
+        "option": "B",
+        "text": "x ≥ 7"
+      },
+      {
+        "option": "C",
+        "text": "x ≤ 3"
+      },
+      {
+        "option": "D",
+        "text": "x ≥ 3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q147",
+    "block": "Algebra",
+    "chapter_subtopic": "Exponential Functions",
+    "question_type": "Exponential Equations",
+    "question_text": "Solve: 2^(x+1) = 32",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x = 4"
+      },
+      {
+        "option": "B",
+        "text": "x = 5"
+      },
+      {
+        "option": "C",
+        "text": "x = 6"
+      },
+      {
+        "option": "D",
+        "text": "x = 3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q148",
+    "block": "Algebra",
+    "chapter_subtopic": "Matrices",
+    "question_type": "Matrix Operations",
+    "question_text": "If A = [1 2; 3 4] and B = [2 1; 1 3], find A + B",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "[3 3; 4 7]"
+      },
+      {
+        "option": "B",
+        "text": "[3 1; 4 7]"
+      },
+      {
+        "option": "C",
+        "text": "[1 3; 4 7]"
+      },
+      {
+        "option": "D",
+        "text": "[3 3; 2 7]"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q149",
+    "block": "Algebra",
+    "chapter_subtopic": "Sequences",
+    "question_type": "Arithmetic Progression",
+    "question_text": "Find the 10th term of the AP: 2, 5, 8, 11, ...",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "29"
+      },
+      {
+        "option": "B",
+        "text": "32"
+      },
+      {
+        "option": "C",
+        "text": "35"
+      },
+      {
+        "option": "D",
+        "text": "26"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q150",
+    "block": "Algebra",
+    "chapter_subtopic": "Sequences",
+    "question_type": "Geometric Progression",
+    "question_text": "Find the 6th term of the GP: 3, 6, 12, 24, ...",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "96"
+      },
+      {
+        "option": "B",
+        "text": "192"
+      },
+      {
+        "option": "C",
+        "text": "48"
+      },
+      {
+        "option": "D",
+        "text": "384"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q151",
+    "block": "Algebra",
+    "chapter_subtopic": "Functions",
+    "question_type": "Composite Functions",
+    "question_text": "If f(x) = 2x + 1 and g(x) = x² - 1, find (f ∘ g)(2)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "7"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q152",
+    "block": "Algebra",
+    "chapter_subtopic": "Radical Expressions",
+    "question_type": "Simplification",
+    "question_text": "Simplify: √(50) + √(32) - √(18)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5√2"
+      },
+      {
+        "option": "B",
+        "text": "4√2"
+      },
+      {
+        "option": "C",
+        "text": "6√2"
+      },
+      {
+        "option": "D",
+        "text": "3√2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q153",
+    "block": "Algebra",
+    "chapter_subtopic": "Complex Numbers",
+    "question_type": "Operations",
+    "question_text": "Find (3 + 4i) + (2 - 3i)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5 + i"
+      },
+      {
+        "option": "B",
+        "text": "5 - i"
+      },
+      {
+        "option": "C",
+        "text": "1 + 7i"
+      },
+      {
+        "option": "D",
+        "text": "1 + i"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q154",
+    "block": "Algebra",
+    "chapter_subtopic": "Logarithms",
+    "question_type": "Properties",
+    "question_text": "If log₂ x = 3, find x",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "8"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q155",
+    "block": "Algebra",
+    "chapter_subtopic": "Factoring",
+    "question_type": "Quadratic Factoring",
+    "question_text": "Factor: x² - 5x + 6",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "(x - 2)(x - 3)"
+      },
+      {
+        "option": "B",
+        "text": "(x - 1)(x - 6)"
+      },
+      {
+        "option": "C",
+        "text": "(x + 2)(x + 3)"
+      },
+      {
+        "option": "D",
+        "text": "(x - 6)(x + 1)"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q156",
+    "block": "Algebra",
+    "chapter_subtopic": "Rational Expressions",
+    "question_type": "Simplification",
+    "question_text": "Simplify: (x² - 4)/(x + 2)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x - 2"
+      },
+      {
+        "option": "B",
+        "text": "x + 2"
+      },
+      {
+        "option": "C",
+        "text": "x² - 2"
+      },
+      {
+        "option": "D",
+        "text": "2x"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q157",
+    "block": "Algebra",
+    "chapter_subtopic": "Absolute Value",
+    "question_type": "Equations",
+    "question_text": "Solve: |x - 3| = 5",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x = 8 or x = -2"
+      },
+      {
+        "option": "B",
+        "text": "x = 8 or x = 2"
+      },
+      {
+        "option": "C",
+        "text": "x = 5 or x = -5"
+      },
+      {
+        "option": "D",
+        "text": "x = 3 or x = 8"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q158",
+    "block": "Algebra",
+    "chapter_subtopic": "Parametric Equations",
+    "question_type": "Elimination",
+    "question_text": "Eliminate the parameter from x = 2t, y = t + 1",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "y = x/2 + 1"
+      },
+      {
+        "option": "B",
+        "text": "y = 2x + 1"
+      },
+      {
+        "option": "C",
+        "text": "y = x + 2"
+      },
+      {
+        "option": "D",
+        "text": "x = 2y - 2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q159",
+    "block": "Algebra",
+    "chapter_subtopic": "Polynomial Division",
+    "question_type": "Synthetic Division",
+    "question_text": "Divide x³ - 2x² + x - 2 by (x - 2) using synthetic division",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x² + 1"
+      },
+      {
+        "option": "B",
+        "text": "x² - 1"
+      },
+      {
+        "option": "C",
+        "text": "x² + x + 1"
+      },
+      {
+        "option": "D",
+        "text": "x² - x + 1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q160",
+    "block": "Algebra",
+    "chapter_subtopic": "Binomial Theorem",
+    "question_type": "Expansion",
+    "question_text": "Find the coefficient of x² in the expansion of (x + 2)⁴",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "24"
+      },
+      {
+        "option": "B",
+        "text": "16"
+      },
+      {
+        "option": "C",
+        "text": "32"
+      },
+      {
+        "option": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q161",
+    "block": "Algebra",
+    "chapter_subtopic": "Variation",
+    "question_type": "Direct Variation",
+    "question_text": "If y varies directly as x and y = 12 when x = 4, find y when x = 7",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "21"
+      },
+      {
+        "option": "B",
+        "text": "18"
+      },
+      {
+        "option": "C",
+        "text": "24"
+      },
+      {
+        "option": "D",
+        "text": "15"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q162",
+    "block": "Algebra",
+    "chapter_subtopic": "Systems of Inequalities",
+    "question_type": "Graphing",
+    "question_text": "Which point lies in the solution region of x + y ≤ 5 and x - y ≥ 1?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "(3, 1)"
+      },
+      {
+        "option": "B",
+        "text": "(1, 5)"
+      },
+      {
+        "option": "C",
+        "text": "(0, 6)"
+      },
+      {
+        "option": "D",
+        "text": "(2, 4)"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q163",
+    "block": "Algebra",
+    "chapter_subtopic": "Conic Sections",
+    "question_type": "Circle Equation",
+    "question_text": "Find the center of the circle x² + y² - 4x + 6y - 3 = 0",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "(2, -3)"
+      },
+      {
+        "option": "B",
+        "text": "(-2, 3)"
+      },
+      {
+        "option": "C",
+        "text": "(4, -6)"
+      },
+      {
+        "option": "D",
+        "text": "(-4, 6)"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q164A",
+    "block": "Algebra",
+    "chapter_subtopic": "Determinants",
+    "question_type": "3x3 Determinant",
+    "question_text": "Find the determinant of the matrix [[1,2,3],[4,5,6],[7,8,9]]",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "-1"
+      },
+      {
+        "option": "D",
+        "text": "45"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q165",
+    "block": "Algebra",
+    "chapter_subtopic": "Permutations",
+    "question_type": "Arrangements",
+    "question_text": "In how many ways can 5 people be arranged in a row?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "120"
+      },
+      {
+        "option": "B",
+        "text": "60"
+      },
+      {
+        "option": "C",
+        "text": "24"
+      },
+      {
+        "option": "D",
+        "text": "240"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q166",
+    "block": "Algebra",
+    "chapter_subtopic": "Combinations",
+    "question_type": "Selection",
+    "question_text": "From 8 people, how many ways can we select a committee of 3?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "56"
+      },
+      {
+        "option": "B",
+        "text": "336"
+      },
+      {
+        "option": "C",
+        "text": "24"
+      },
+      {
+        "option": "D",
+        "text": "168"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q167",
+    "block": "Algebra",
+    "chapter_subtopic": "Modular Arithmetic",
+    "question_type": "Congruence",
+    "question_text": "Find 23 mod 7",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q168",
+    "block": "Algebra",
+    "chapter_subtopic": "Mathematical Induction",
+    "question_type": "Proof Technique",
+    "question_text": "Prove by induction: 1 + 2 + 3 + ... + n = n(n+1)/2. What is the base case?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "n = 1: 1 = 1(2)/2 = 1"
+      },
+      {
+        "option": "B",
+        "text": "n = 0: 0 = 0(1)/2 = 0"
+      },
+      {
+        "option": "C",
+        "text": "n = 2: 3 = 2(3)/2 = 3"
+      },
+      {
+        "option": "D",
+        "text": "n = -1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q169",
+    "block": "Algebra",
+    "chapter_subtopic": "Vector Algebra",
+    "question_type": "Dot Product",
+    "question_text": "Find the dot product of vectors u = (3, 4) and v = (2, -1)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "-2"
+      },
+      {
+        "option": "D",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q170",
+    "block": "Algebra",
+    "chapter_subtopic": "Matrix Multiplication",
+    "question_type": "Product",
+    "question_text": "If A = [1 2; 3 4] and B = [2; 1], find AB",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "[4; 10]"
+      },
+      {
+        "option": "B",
+        "text": "[2; 7]"
+      },
+      {
+        "option": "C",
+        "text": "[3; 11]"
+      },
+      {
+        "option": "D",
+        "text": "[5; 9]"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q171",
+    "block": "Algebra",
+    "chapter_subtopic": "Eigenvalues",
+    "question_type": "Characteristic Equation",
+    "question_text": "Find the eigenvalues of the matrix [[2, 1], [1, 2]]",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "λ = 3, λ = 1"
+      },
+      {
+        "option": "B",
+        "text": "λ = 2, λ = 2"
+      },
+      {
+        "option": "C",
+        "text": "λ = 4, λ = 0"
+      },
+      {
+        "option": "D",
+        "text": "λ = 1, λ = -1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q172",
+    "block": "Algebra",
+    "chapter_subtopic": "Partial Fractions",
+    "question_type": "Decomposition",
+    "question_text": "Decompose (3x + 1)/[(x-1)(x+2)] into partial fractions",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4/(x-1) - 1/(x+2)"
+      },
+      {
+        "option": "B",
+        "text": "2/(x-1) + 1/(x+2)"
+      },
+      {
+        "option": "C",
+        "text": "1/(x-1) + 2/(x+2)"
+      },
+      {
+        "option": "D",
+        "text": "3/(x-1) + 0/(x+2)"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q173",
+    "block": "Algebra",
+    "chapter_subtopic": "Recurrence Relations",
+    "question_type": "Fibonacci",
+    "question_text": "If F₁ = 1, F₂ = 1, and Fₙ = Fₙ₋₁ + Fₙ₋₂ for n ≥ 3, find F₆",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "8"
+      },
+      {
+        "option": "B",
+        "text": "13"
+      },
+      {
+        "option": "C",
+        "text": "5"
+      },
+      {
+        "option": "D",
+        "text": "21"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q174",
+    "block": "Algebra",
+    "chapter_subtopic": "Group Theory",
+    "question_type": "Operations",
+    "question_text": "In modular arithmetic mod 5, what is (3 × 4) mod 5?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "12"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q175",
+    "block": "Algebra",
+    "chapter_subtopic": "Linear Programming",
+    "question_type": "Optimization",
+    "question_text": "Maximize z = 3x + 2y subject to x + y ≤ 4, x ≥ 0, y ≥ 0. What is the maximum value?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "10"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q176",
+    "block": "Algebra",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Operations",
+    "question_text": "If A = {1, 2, 3} and B = {2, 3, 4}, find A ∩ B",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "{2, 3}"
+      },
+      {
+        "option": "B",
+        "text": "{1, 2, 3, 4}"
+      },
+      {
+        "option": "C",
+        "text": "{1, 4}"
+      },
+      {
+        "option": "D",
+        "text": "∅"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q177",
+    "block": "Algebra",
+    "chapter_subtopic": "Logic",
+    "question_type": "Truth Tables",
+    "question_text": "What is the truth value of (p ∧ q) → r when p = T, q = F, r = T?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "True"
+      },
+      {
+        "option": "B",
+        "text": "False"
+      },
+      {
+        "option": "C",
+        "text": "Undefined"
+      },
+      {
+        "option": "D",
+        "text": "Both true and false"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q178",
+    "block": "Algebra",
+    "chapter_subtopic": "Number Theory",
+    "question_type": "Prime Numbers",
+    "question_text": "How many prime numbers are there between 20 and 30?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q179",
+    "block": "Algebra",
+    "chapter_subtopic": "Graph Theory",
+    "question_type": "Vertices and Edges",
+    "question_text": "A complete graph K₄ has how many edges?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q180",
+    "block": "Algebra",
+    "chapter_subtopic": "Cryptography",
+    "question_type": "Caesar Cipher",
+    "question_text": "Using Caesar cipher with shift 3, what is the encryption of 'HELLO'?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "KHOOR"
+      },
+      {
+        "option": "B",
+        "text": "IFMMP"
+      },
+      {
+        "option": "C",
+        "text": "GDKKN"
+      },
+      {
+        "option": "D",
+        "text": "JGNNQ"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q181",
+    "block": "Algebra",
+    "chapter_subtopic": "Differential Equations",
+    "question_type": "First Order",
+    "question_text": "Solve the differential equation dy/dx = 2x",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "y = x² + C"
+      },
+      {
+        "option": "B",
+        "text": "y = 2x² + C"
+      },
+      {
+        "option": "C",
+        "text": "y = x + C"
+      },
+      {
+        "option": "D",
+        "text": "y = 2x + C"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q182",
+    "block": "Algebra",
+    "chapter_subtopic": "Limits",
+    "question_type": "Basic Limits",
+    "question_text": "Find lim(x→2) (x² - 4)/(x - 2)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "∞"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q183",
+    "block": "Algebra",
+    "chapter_subtopic": "Series",
+    "question_type": "Infinite Series",
+    "question_text": "Find the sum of the infinite geometric series 1 + 1/2 + 1/4 + 1/8 + ...",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "∞"
+      },
+      {
+        "option": "D",
+        "text": "3/2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q184",
+    "block": "Algebra",
+    "chapter_subtopic": "Coordinate Geometry",
+    "question_type": "Distance Formula",
+    "question_text": "Find the distance between points (1, 2) and (4, 6)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "√7"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q185",
+    "block": "Algebra",
+    "chapter_subtopic": "Trigonometric Identities",
+    "question_type": "Basic Identities",
+    "question_text": "If sin θ = 3/5 and θ is in the first quadrant, find cos θ",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4/5"
+      },
+      {
+        "option": "B",
+        "text": "3/4"
+      },
+      {
+        "option": "C",
+        "text": "5/4"
+      },
+      {
+        "option": "D",
+        "text": "5/3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q186",
+    "block": "Algebra",
+    "chapter_subtopic": "Probability",
+    "question_type": "Basic Probability",
+    "question_text": "A die is rolled. What is the probability of getting an even number?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/2"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "1/6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q187",
+    "block": "Algebra",
+    "chapter_subtopic": "Statistics",
+    "question_type": "Mean",
+    "question_text": "Find the arithmetic mean of 2, 4, 6, 8, 10",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q188",
+    "block": "Algebra",
+    "chapter_subtopic": "Calculus",
+    "question_type": "Derivatives",
+    "question_text": "Find the derivative of f(x) = x³ + 2x² - 5x + 3",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3x² + 4x - 5"
+      },
+      {
+        "option": "B",
+        "text": "x² + 4x - 5"
+      },
+      {
+        "option": "C",
+        "text": "3x² + 2x - 5"
+      },
+      {
+        "option": "D",
+        "text": "3x + 4x - 5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q189",
+    "block": "Algebra",
+    "chapter_subtopic": "Integration",
+    "question_type": "Indefinite Integrals",
+    "question_text": "Find ∫(2x + 3)dx",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "x² + 3x + C"
+      },
+      {
+        "option": "B",
+        "text": "2x² + 3x + C"
+      },
+      {
+        "option": "C",
+        "text": "x² + 6x + C"
+      },
+      {
+        "option": "D",
+        "text": "2x + 3x + C"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q190",
+    "block": "Algebra",
+    "chapter_subtopic": "Boolean Algebra",
+    "question_type": "Simplification",
+    "question_text": "Simplify: A ∧ (A ∨ B)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "A"
+      },
+      {
+        "option": "B",
+        "text": "B"
+      },
+      {
+        "option": "C",
+        "text": "A ∨ B"
+      },
+      {
+        "option": "D",
+        "text": "A ∧ B"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q191",
+    "block": "Algebra",
+    "chapter_subtopic": "Linear Algebra",
+    "question_type": "Matrix Inverse",
+    "question_text": "Find the inverse of matrix [[2, 1], [3, 2]]",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "[[2, -1], [-3, 2]]"
+      },
+      {
+        "option": "B",
+        "text": "[[1, -1], [-3, 2]]"
+      },
+      {
+        "option": "C",
+        "text": "[[2, -1], [-1, 2]]"
+      },
+      {
+        "option": "D",
+        "text": "[[-2, 1], [3, -2]]"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q192",
+    "block": "Algebra",
+    "chapter_subtopic": "Abstract Algebra",
+    "question_type": "Ring Theory",
+    "question_text": "In Z₆ (integers modulo 6), what is the additive inverse of 4?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q193",
+    "block": "Algebra",
+    "chapter_subtopic": "Field Theory",
+    "question_type": "Galois Theory",
+    "question_text": "What is the degree of the field extension Q(√2) over Q?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "∞"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q194",
+    "block": "Algebra",
+    "chapter_subtopic": "Topology",
+    "question_type": "Open Sets",
+    "question_text": "In the real line with standard topology, is the interval (0, 1) open?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Yes"
+      },
+      {
+        "option": "B",
+        "text": "No"
+      },
+      {
+        "option": "C",
+        "text": "Sometimes"
+      },
+      {
+        "option": "D",
+        "text": "Undefined"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q195",
+    "block": "Algebra",
+    "chapter_subtopic": "Measure Theory",
+    "question_type": "Lebesgue Measure",
+    "question_text": "What is the Lebesgue measure of the interval [0, 1]?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "∞"
+      },
+      {
+        "option": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q196",
+    "block": "Algebra",
+    "chapter_subtopic": "Functional Analysis",
+    "question_type": "Banach Spaces",
+    "question_text": "Is the space l² (square-summable sequences) complete?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Yes"
+      },
+      {
+        "option": "B",
+        "text": "No"
+      },
+      {
+        "option": "C",
+        "text": "Sometimes"
+      },
+      {
+        "option": "D",
+        "text": "Unknown"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q197",
+    "block": "Algebra",
+    "chapter_subtopic": "Optimization",
+    "question_type": "Lagrange Multipliers",
+    "question_text": "To optimize f(x,y) = x + y subject to x² + y² = 1, what method is most appropriate?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Lagrange Multipliers"
+      },
+      {
+        "option": "B",
+        "text": "Substitution"
+      },
+      {
+        "option": "C",
+        "text": "Linear Programming"
+      },
+      {
+        "option": "D",
+        "text": "Calculus of Variations"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q198",
+    "block": "Algebra",
+    "chapter_subtopic": "Game Theory",
+    "question_type": "Nash Equilibrium",
+    "question_text": "In a 2x2 game, what is a Nash equilibrium?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "A strategy profile where no player can improve unilaterally"
+      },
+      {
+        "option": "B",
+        "text": "The best strategy for player 1"
+      },
+      {
+        "option": "C",
+        "text": "The worst strategy for player 2"
+      },
+      {
+        "option": "D",
+        "text": "A random strategy"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q199",
+    "block": "Algebra",
+    "chapter_subtopic": "Information Theory",
+    "question_type": "Entropy",
+    "question_text": "What is the entropy of a fair coin flip?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1 bit"
+      },
+      {
+        "option": "B",
+        "text": "0 bits"
+      },
+      {
+        "option": "C",
+        "text": "2 bits"
+      },
+      {
+        "option": "D",
+        "text": "0.5 bits"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q200",
+    "block": "Algebra",
+    "chapter_subtopic": "Computational Algebra",
+    "question_type": "Algorithm Complexity",
+    "question_text": "What is the time complexity of matrix multiplication for n×n matrices using the standard algorithm?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "O(n³)"
+      },
+      {
+        "option": "B",
+        "text": "O(n²)"
+      },
+      {
+        "option": "C",
+        "text": "O(n)"
+      },
+      {
+        "option": "D",
+        "text": "O(n⁴)"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "GEN_1595",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If x + 18 = 48, find x.",
+    "options": {
+      "A": "30",
+      "B": "31",
+      "C": "29",
+      "D": "32"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1596",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If x + 4 = 50, find x.",
+    "options": {
+      "A": "46",
+      "B": "47",
+      "C": "45",
+      "D": "48"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1597",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If x + 16 = 50, find x.",
+    "options": {
+      "A": "34",
+      "B": "35",
+      "C": "33",
+      "D": "36"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1598",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 8x = 16, find x.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "4"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1599",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If x + 7 = 18, find x.",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "10",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1600",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If x + 1 = 28, find x.",
+    "options": {
+      "A": "27",
+      "B": "28",
+      "C": "26",
+      "D": "29"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1601",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 6x = 29, find x.",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1602",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If x + 15 = 10, find x.",
+    "options": {
+      "A": "-5",
+      "B": "-4",
+      "C": "-6",
+      "D": "-3"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1603",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If x + 13 = 23, find x.",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "9",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1604",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 3x = 51, find x.",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1716",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 9x + 15 = 33, find x.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1717",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 9x + 6 = 34, find x.",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "2",
+      "D": "8"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1718",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 3x + 15 = 48, find x.",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "10",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1719",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 3x + 15 = 47, find x.",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "9",
+      "D": "15"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1720",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 6x + 17 = 65, find x.",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1721",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 6x + 5 = 76, find x.",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "10",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1722",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 2x + 10 = 49, find x.",
+    "options": {
+      "A": "19",
+      "B": "20",
+      "C": "18",
+      "D": "24"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1723",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 4x + 18 = 62, find x.",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "10",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1724",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 7x + 8 = 97, find x.",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "11",
+      "D": "17"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1725",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 2x + 13 = 65, find x.",
+    "options": {
+      "A": "26",
+      "B": "27",
+      "C": "25",
+      "D": "31"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1726",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 5x + 14 = 100, find x.",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1727",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 6x + 7 = 23, find x.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1728",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 4x + 11 = 30, find x.",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "9"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1729",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 3x + 8 = 75, find x.",
+    "options": {
+      "A": "22",
+      "B": "23",
+      "C": "21",
+      "D": "27"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1730",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 2x + 10 = 58, find x.",
+    "options": {
+      "A": "24",
+      "B": "25",
+      "C": "23",
+      "D": "29"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1731",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If 8x + 10 = 42, find x.",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "9"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1860",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 3x² + -1x + -2 = 0. Find the sum of roots.",
+    "options": {
+      "A": "0.3333333333333333",
+      "B": "2",
+      "C": "-1",
+      "D": "10"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1861",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 4x² + -4x + -4 = 0. Find the sum of roots.",
+    "options": {
+      "A": "1.0",
+      "B": "3",
+      "C": "-1",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1862",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 1x² + -2x + -8 = 0. Find the sum of roots.",
+    "options": {
+      "A": "2.0",
+      "B": "4",
+      "C": "0",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1863",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 3x² + 9x + 2 = 0. Find the sum of roots.",
+    "options": {
+      "A": "-3.0",
+      "B": "-1",
+      "C": "-5",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1864",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 4x² + 8x + 0 = 0. Find the sum of roots.",
+    "options": {
+      "A": "-2.0",
+      "B": "0",
+      "C": "-4",
+      "D": "8"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1865",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 3x² + -8x + 4 = 0. Find the sum of roots.",
+    "options": {
+      "A": "2.6666666666666665",
+      "B": "4",
+      "C": "0",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1866",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 1x² + 4x + 2 = 0. Find the sum of roots.",
+    "options": {
+      "A": "-4.0",
+      "B": "-2",
+      "C": "-6",
+      "D": "6"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1867",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 2x² + -4x + -8 = 0. Find the sum of roots.",
+    "options": {
+      "A": "2.0",
+      "B": "4",
+      "C": "0",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1868",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 5x² + -8x + 2 = 0. Find the sum of roots.",
+    "options": {
+      "A": "1.6",
+      "B": "3",
+      "C": "0",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1869",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 4x² + 7x + 6 = 0. Find the sum of roots.",
+    "options": {
+      "A": "-1.75",
+      "B": "0",
+      "C": "-3",
+      "D": "8"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1870",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 1x² + -1x + 8 = 0. Find the sum of roots.",
+    "options": {
+      "A": "1.0",
+      "B": "3",
+      "C": "-1",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1871",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 5x² + 9x + 4 = 0. Find the sum of roots.",
+    "options": {
+      "A": "-1.8",
+      "B": "0",
+      "C": "-3",
+      "D": "8"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1872",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 4x² + 9x + 10 = 0. Find the sum of roots.",
+    "options": {
+      "A": "-2.25",
+      "B": "0",
+      "C": "-4",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1873",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 3x² + -3x + 3 = 0. Find the sum of roots.",
+    "options": {
+      "A": "1.0",
+      "B": "3",
+      "C": "-1",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1874",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 3x² + -5x + 10 = 0. Find the sum of roots.",
+    "options": {
+      "A": "1.6666666666666667",
+      "B": "3",
+      "C": "0",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1875",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "Solve: 4x² + 3x + 9 = 0. Find the sum of roots.",
+    "options": {
+      "A": "-0.75",
+      "B": "1",
+      "C": "-2",
+      "D": "9"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1968",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 1x² + 7x + 4 = 0 are in ratio 1:3, find the value of 1²b² - 3²ac.",
+    "options": {
+      "A": "13",
+      "B": "18",
+      "C": "8",
+      "D": "23"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1969",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 1x² + 3x + 5 = 0 are in ratio 3:4, find the value of 3²b² - 4²ac.",
+    "options": {
+      "A": "1",
+      "B": "6",
+      "C": "-4",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1970",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 3x² + 3x + 4 = 0 are in ratio 1:2, find the value of 1²b² - 2²ac.",
+    "options": {
+      "A": "-39",
+      "B": "-34",
+      "C": "-44",
+      "D": "-29"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1971",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 1x² + 4x + 5 = 0 are in ratio 2:3, find the value of 2²b² - 3²ac.",
+    "options": {
+      "A": "19",
+      "B": "24",
+      "C": "14",
+      "D": "29"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1972",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 3x² + 8x + 1 = 0 are in ratio 1:3, find the value of 1²b² - 3²ac.",
+    "options": {
+      "A": "37",
+      "B": "42",
+      "C": "32",
+      "D": "47"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1973",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 2x² + 8x + 6 = 0 are in ratio 3:2, find the value of 3²b² - 2²ac.",
+    "options": {
+      "A": "528",
+      "B": "533",
+      "C": "523",
+      "D": "538"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1974",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 3x² + 4x + 4 = 0 are in ratio 2:2, find the value of 2²b² - 2²ac.",
+    "options": {
+      "A": "16",
+      "B": "21",
+      "C": "11",
+      "D": "26"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1975",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 3x² + 3x + 6 = 0 are in ratio 1:2, find the value of 1²b² - 2²ac.",
+    "options": {
+      "A": "-63",
+      "B": "-58",
+      "C": "-68",
+      "D": "-53"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1976",
+    "block": "Algebra",
+    "subtopic": "algebra",
+    "text": "If the roots of 2x² + 6x + 5 = 0 are in ratio 1:4, find the value of 1²b² - 4²ac.",
+    "options": {
+      "A": "-124",
+      "B": "-119",
+      "C": "-129",
+      "D": "-114"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Algebra question.",
+    "source": "generated",
+    "generated": true
+  }
+]

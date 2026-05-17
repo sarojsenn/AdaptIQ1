@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Python cache and virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Compiled model files
+*.pkl
+
+# Build
+/dist/
+/build/
+
+# Misc
+*.zip
+*.tar.gz
+*.bak
+*.swp

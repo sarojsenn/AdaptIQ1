@@ -1,0 +1,4340 @@
+[
+  {
+    "id": "Q001",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following Fibonacci series? 2, 3, 5, 8, 13, 21, 34, ?",
+    "data_paragraph": "Directions (1 – 3): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "51"
+      },
+      {
+        "option": "B",
+        "text": "52"
+      },
+      {
+        "option": "C",
+        "text": "53"
+      },
+      {
+        "option": "D",
+        "text": "55"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q002",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 12, 15, 29, ?, 90, 137",
+    "data_paragraph": "Directions (1 – 3): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "51"
+      },
+      {
+        "option": "B",
+        "text": "52"
+      },
+      {
+        "option": "C",
+        "text": "53"
+      },
+      {
+        "option": "D",
+        "text": "54"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q003",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 8, 33, 28, 57, 56, ?",
+    "data_paragraph": "Directions (1 – 3): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "80"
+      },
+      {
+        "option": "B",
+        "text": "83"
+      },
+      {
+        "option": "C",
+        "text": "85"
+      },
+      {
+        "option": "D",
+        "text": "89"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q004",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 3, 6, 21, 57, 119, 218",
+    "data_paragraph": "Directions (4 – 6): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "21"
+      },
+      {
+        "option": "C",
+        "text": "57"
+      },
+      {
+        "option": "D",
+        "text": "119"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q005",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 12, 24, 48, 120, 360, 1260",
+    "data_paragraph": "Directions (4 – 6): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "24"
+      },
+      {
+        "option": "C",
+        "text": "120"
+      },
+      {
+        "option": "D",
+        "text": "360"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q006",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 2, 8, 24, 120, 720, 5040",
+    "data_paragraph": "Directions (4 – 6): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "8"
+      },
+      {
+        "option": "B",
+        "text": "24"
+      },
+      {
+        "option": "C",
+        "text": "120"
+      },
+      {
+        "option": "D",
+        "text": "720"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q007",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "Complete the following series: L, N, R, Z, ?",
+    "data_paragraph": "Directions (7 – 9): Complete the following series:",
+    "options": [
+      {
+        "option": "A",
+        "text": "E"
+      },
+      {
+        "option": "B",
+        "text": "J"
+      },
+      {
+        "option": "C",
+        "text": "P"
+      },
+      {
+        "option": "D",
+        "text": "O"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q008",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "Complete the following series: P, N, L, J, ?, F, D",
+    "data_paragraph": "Directions (7 – 9): Complete the following series:",
+    "options": [
+      {
+        "option": "A",
+        "text": "K"
+      },
+      {
+        "option": "B",
+        "text": "H"
+      },
+      {
+        "option": "C",
+        "text": "L"
+      },
+      {
+        "option": "D",
+        "text": "C"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q009",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "Complete the following series: X, V, T, R, P, ?",
+    "data_paragraph": "Directions (7 – 9): Complete the following series:",
+    "options": [
+      {
+        "option": "A",
+        "text": "N"
+      },
+      {
+        "option": "B",
+        "text": "O"
+      },
+      {
+        "option": "C",
+        "text": "M"
+      },
+      {
+        "option": "D",
+        "text": "L"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q010",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 3, 4, 12, 39, ?, 228",
+    "data_paragraph": "Directions (10 – 12): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "99"
+      },
+      {
+        "option": "B",
+        "text": "101"
+      },
+      {
+        "option": "C",
+        "text": "103"
+      },
+      {
+        "option": "D",
+        "text": "105"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q011",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 124, 215, 342, 511, 728, ?",
+    "data_paragraph": "Directions (10 – 12): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "999"
+      },
+      {
+        "option": "B",
+        "text": "1000"
+      },
+      {
+        "option": "C",
+        "text": "1001"
+      },
+      {
+        "option": "D",
+        "text": "1003"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q012",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 4, 9, 25, ?, 121, 169",
+    "data_paragraph": "Directions (10 – 12): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "45"
+      },
+      {
+        "option": "B",
+        "text": "46"
+      },
+      {
+        "option": "C",
+        "text": "47"
+      },
+      {
+        "option": "D",
+        "text": "49"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q013",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 61, 128, 213, 346, 509, 731",
+    "data_paragraph": "Directions (13 – 15): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "128"
+      },
+      {
+        "option": "B",
+        "text": "213"
+      },
+      {
+        "option": "C",
+        "text": "346"
+      },
+      {
+        "option": "D",
+        "text": "731"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q014",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 6, 15, 35, 77, 141, 221",
+    "data_paragraph": "Directions (13 – 15): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "15"
+      },
+      {
+        "option": "B",
+        "text": "35"
+      },
+      {
+        "option": "C",
+        "text": "77"
+      },
+      {
+        "option": "D",
+        "text": "141"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q015",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 972, 324, 108, 36, 12, 3",
+    "data_paragraph": "Directions (13 – 15): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "324"
+      },
+      {
+        "option": "B",
+        "text": "108"
+      },
+      {
+        "option": "C",
+        "text": "36"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q016",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "Complete the following series: A, C, E, G, I, ?",
+    "data_paragraph": "Directions (16 – 18): Complete the following series:",
+    "options": [
+      {
+        "option": "A",
+        "text": "K"
+      },
+      {
+        "option": "B",
+        "text": "J"
+      },
+      {
+        "option": "C",
+        "text": "M"
+      },
+      {
+        "option": "D",
+        "text": "L"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q017",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "Complete the following series: J, M, P, ?, V, Y",
+    "data_paragraph": "Directions (16 – 18): Complete the following series:",
+    "options": [
+      {
+        "option": "A",
+        "text": "R"
+      },
+      {
+        "option": "B",
+        "text": "T"
+      },
+      {
+        "option": "C",
+        "text": "O"
+      },
+      {
+        "option": "D",
+        "text": "S"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q018",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "Complete the following series: B, D, F, I, L, P, ?",
+    "data_paragraph": "Directions (16 – 18): Complete the following series:",
+    "options": [
+      {
+        "option": "A",
+        "text": "U"
+      },
+      {
+        "option": "B",
+        "text": "R"
+      },
+      {
+        "option": "C",
+        "text": "S"
+      },
+      {
+        "option": "D",
+        "text": "T"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q019",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 13, 31, 57, 91, 133, ?",
+    "data_paragraph": "Directions (19 – 21): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "180"
+      },
+      {
+        "option": "B",
+        "text": "183"
+      },
+      {
+        "option": "C",
+        "text": "185"
+      },
+      {
+        "option": "D",
+        "text": "187"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q020",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 200, 160, 160, 192, 268.80, ?",
+    "data_paragraph": "Directions (19 – 21): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "421.50"
+      },
+      {
+        "option": "B",
+        "text": "425.06"
+      },
+      {
+        "option": "C",
+        "text": "427.05"
+      },
+      {
+        "option": "D",
+        "text": "430.08"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q021",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 6, 87, 157, 214, ?, 275, 273, 242",
+    "data_paragraph": "Directions (19 – 21): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "250"
+      },
+      {
+        "option": "B",
+        "text": "251"
+      },
+      {
+        "option": "C",
+        "text": "252"
+      },
+      {
+        "option": "D",
+        "text": "254"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q022",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 4, 18, 48, 108, 180, 294",
+    "data_paragraph": "Directions (22 – 24): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "48"
+      },
+      {
+        "option": "B",
+        "text": "108"
+      },
+      {
+        "option": "C",
+        "text": "180"
+      },
+      {
+        "option": "D",
+        "text": "294"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q023",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 206, 170, 137, 111, 94, 96, 115",
+    "data_paragraph": "Directions (22 – 24): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "137"
+      },
+      {
+        "option": "B",
+        "text": "111"
+      },
+      {
+        "option": "C",
+        "text": "94"
+      },
+      {
+        "option": "D",
+        "text": "96"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q024",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 6, 13, 24, 51, 98, 201",
+    "data_paragraph": "Directions (22 – 24): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "13"
+      },
+      {
+        "option": "B",
+        "text": "51"
+      },
+      {
+        "option": "C",
+        "text": "98"
+      },
+      {
+        "option": "D",
+        "text": "All are correct"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q025",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "A series is given with one term missing. Select the correct alternative from the given ones that will complete the series: DKM, FJP, HIS, JHV, ?",
+    "data_paragraph": "Directions (25 – 27): A series is given with one term missing. Select the correct alternative from the given ones that will complete the series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "LGY"
+      },
+      {
+        "option": "B",
+        "text": "HGY"
+      },
+      {
+        "option": "C",
+        "text": "IGZ"
+      },
+      {
+        "option": "D",
+        "text": "IGY"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q026",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "A series is given with one term missing. Select the correct alternative from the given ones that will complete the series: FUGT, HSIR, JQKP, ?",
+    "data_paragraph": "Directions (25 – 27): A series is given with one term missing. Select the correct alternative from the given ones that will complete the series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "KNLO"
+      },
+      {
+        "option": "B",
+        "text": "LNNM"
+      },
+      {
+        "option": "C",
+        "text": "LOMM"
+      },
+      {
+        "option": "D",
+        "text": "LOMN"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q027",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "A series is given with one term missing. Select the correct alternative from the given ones that will complete the series: XYZ, ABC, UVW, DEF, RST, GHI, ?",
+    "data_paragraph": "Directions (25 – 27): A series is given with one term missing. Select the correct alternative from the given ones that will complete the series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "U"
+      },
+      {
+        "option": "B",
+        "text": "JKL"
+      },
+      {
+        "option": "C",
+        "text": "OPQ"
+      },
+      {
+        "option": "D",
+        "text": "NOP"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q028",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 17, 105, 313, 1291, ?, 4853",
+    "data_paragraph": "Directions (28 – 29): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "2147"
+      },
+      {
+        "option": "B",
+        "text": "2148"
+      },
+      {
+        "option": "C",
+        "text": "2149"
+      },
+      {
+        "option": "D",
+        "text": "2150"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q029",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Series Completion",
+    "question_text": "What will come in place of question mark (?) in the following series? 960, 480, 1440, 360, ?, 300",
+    "data_paragraph": "Directions (28 – 29): What will come in place of question mark (?) in the following series?",
+    "options": [
+      {
+        "option": "A",
+        "text": "1640"
+      },
+      {
+        "option": "B",
+        "text": "1800"
+      },
+      {
+        "option": "C",
+        "text": "1720"
+      },
+      {
+        "option": "D",
+        "text": "2000"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q030",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: 4, 6, 8, 8, 10, –32, –128",
+    "data_paragraph": "Directions (30 – 31): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "10"
+      },
+      {
+        "option": "D",
+        "text": "–32"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q031",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Number Series",
+    "question_type": "Wrong Term",
+    "question_text": "Find the wrong term in the given series: –1, 0, 5, 22, 65, 155, 315",
+    "data_paragraph": "Directions (30 – 31): Find the wrong term in the given series.",
+    "options": [
+      {
+        "option": "A",
+        "text": "22"
+      },
+      {
+        "option": "B",
+        "text": "65"
+      },
+      {
+        "option": "C",
+        "text": "155"
+      },
+      {
+        "option": "D",
+        "text": "315"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q032",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "A series given. Choose the next missing term from the given alternatives: A B C D E F Z Y X W V U A B C D E Z Y X W V U A B C D E Z Y X W V",
+    "data_paragraph": "Directions (32 – 33): A series given. Choose the next missing term from the given alternatives",
+    "options": [
+      {
+        "option": "A",
+        "text": "U"
+      },
+      {
+        "option": "B",
+        "text": "A"
+      },
+      {
+        "option": "C",
+        "text": "B"
+      },
+      {
+        "option": "D",
+        "text": "Z"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q033",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Letter Series",
+    "question_type": "Series Completion",
+    "question_text": "A series given. Choose the next missing term from the given alternatives: BDFHJLN/ACEGIKM/BDFHJL/ACEGIK/BDFHJ",
+    "data_paragraph": "Directions (32 – 33): A series given. Choose the next missing term from the given alternatives",
+    "options": [
+      {
+        "option": "A",
+        "text": "B"
+      },
+      {
+        "option": "B",
+        "text": "L"
+      },
+      {
+        "option": "C",
+        "text": "M"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q034",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "If in a clock, the hour hand rotates 18° then how much angle, the minute hand will rotate in the same clock?",
+    "data_paragraph": "Clocks and Calendars - Very Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "168°"
+      },
+      {
+        "option": "B",
+        "text": "276°"
+      },
+      {
+        "option": "C",
+        "text": "196°"
+      },
+      {
+        "option": "D",
+        "text": "216°"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q035",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "How much angular distance will be covered by the minute hand of a correct clock in a period of 2h20min?",
+    "data_paragraph": "Clocks and Calendars - Very Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "140°"
+      },
+      {
+        "option": "B",
+        "text": "840°"
+      },
+      {
+        "option": "C",
+        "text": "320°"
+      },
+      {
+        "option": "D",
+        "text": "520°"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q036",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "Find the angle traced by hour hand of a correct clock between 8 O'clock and 2 O'clock.",
+    "data_paragraph": "Clocks and Calendars - Very Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "180°"
+      },
+      {
+        "option": "B",
+        "text": "168°"
+      },
+      {
+        "option": "C",
+        "text": "150°"
+      },
+      {
+        "option": "D",
+        "text": "144°"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q037",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "What is the angle between the hour hand and the minute hand at half past two?",
+    "data_paragraph": "Clocks and Calendars - Very Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "105°"
+      },
+      {
+        "option": "B",
+        "text": "120°"
+      },
+      {
+        "option": "C",
+        "text": "75°"
+      },
+      {
+        "option": "D",
+        "text": "90°"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q038",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "What was the day of the week on 15th Aug, 1947?",
+    "data_paragraph": "Clocks and Calendars - Very Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "Friday"
+      },
+      {
+        "option": "B",
+        "text": "Sunday"
+      },
+      {
+        "option": "C",
+        "text": "Thursday"
+      },
+      {
+        "option": "D",
+        "text": "Tuesday"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q039",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "How many odd days in 256 days?",
+    "data_paragraph": "Clocks and Calendars - Very Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q040",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "How many odd days in 15 years?",
+    "data_paragraph": "Clocks and Calendars - Very Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q041",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "How many odd days in 189 days?",
+    "data_paragraph": "Clocks and Calendars - Very Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q042",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "What degree of angle is made by the hands of clock at 10 : 35?",
+    "data_paragraph": "Clocks and Calendars - Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "72 ½ degree"
+      },
+      {
+        "option": "B",
+        "text": "97 ½ degree"
+      },
+      {
+        "option": "C",
+        "text": "107 ½ degree"
+      },
+      {
+        "option": "D",
+        "text": "117 ½ degree"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q043",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "What will be the angle between the hands of clock at 7 : 10?",
+    "data_paragraph": "Clocks and Calendars - Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "185 degree"
+      },
+      {
+        "option": "B",
+        "text": "155 degree"
+      },
+      {
+        "option": "C",
+        "text": "170 degree"
+      },
+      {
+        "option": "D",
+        "text": "165 degree"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q044",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "What will be the angle between the hands of clock at 9 : 30?",
+    "data_paragraph": "Clocks and Calendars - Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "75 degree"
+      },
+      {
+        "option": "B",
+        "text": "90 degree"
+      },
+      {
+        "option": "C",
+        "text": "105 degree"
+      },
+      {
+        "option": "D",
+        "text": "120 degree"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q045",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "Find the angle between the two hands of clock at 4:10.",
+    "data_paragraph": "Clocks and Calendars - Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "61 degree"
+      },
+      {
+        "option": "B",
+        "text": "68 degree"
+      },
+      {
+        "option": "C",
+        "text": "55 degree"
+      },
+      {
+        "option": "D",
+        "text": "65 degree"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q046",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "If 1st January, 2008 was Friday, then what day of the week lies on 1st Jan, 2010?",
+    "data_paragraph": "Clocks and Calendars - Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "Sunday"
+      },
+      {
+        "option": "B",
+        "text": "Monday"
+      },
+      {
+        "option": "C",
+        "text": "Thursday"
+      },
+      {
+        "option": "D",
+        "text": "Saturday"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q047",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "On 6th March. 2005 Monday falls. What was the day of the week on 6th March, 2004?",
+    "data_paragraph": "Clocks and Calendars - Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "Sunday"
+      },
+      {
+        "option": "B",
+        "text": "Saturday"
+      },
+      {
+        "option": "C",
+        "text": "Monday"
+      },
+      {
+        "option": "D",
+        "text": "Tuesday"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q048",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "On 5th Feb, 2006 Friday falls. What was the day of the week on 5th Feb, 2004?",
+    "data_paragraph": "Clocks and Calendars - Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "Thursday"
+      },
+      {
+        "option": "B",
+        "text": "Sunday"
+      },
+      {
+        "option": "C",
+        "text": "Tuesday"
+      },
+      {
+        "option": "D",
+        "text": "Friday"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q049",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "Which of the following is a leap year?",
+    "data_paragraph": "Clocks and Calendars - Easy",
+    "options": [
+      {
+        "option": "A",
+        "text": "1000"
+      },
+      {
+        "option": "B",
+        "text": "1200"
+      },
+      {
+        "option": "C",
+        "text": "1400"
+      },
+      {
+        "option": "D",
+        "text": "1800"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q050",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "In a clock at 7:30, what will be the angle between minute hand and hour hand?",
+    "data_paragraph": "Clocks and Calendars - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "120 degree"
+      },
+      {
+        "option": "B",
+        "text": "95 degree"
+      },
+      {
+        "option": "C",
+        "text": "75 degree"
+      },
+      {
+        "option": "D",
+        "text": "45 degree"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q051",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "What angle will be formed between the hands of clock at 3:30?",
+    "data_paragraph": "Clocks and Calendars - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "95 degree"
+      },
+      {
+        "option": "B",
+        "text": "65 degree"
+      },
+      {
+        "option": "C",
+        "text": "85 degree"
+      },
+      {
+        "option": "D",
+        "text": "75 degree"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q052",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "What will be angle between the hands of clock at 8:30?",
+    "data_paragraph": "Clocks and Calendars - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "15 degree"
+      },
+      {
+        "option": "B",
+        "text": "30 degree"
+      },
+      {
+        "option": "C",
+        "text": "45 degree"
+      },
+      {
+        "option": "D",
+        "text": "75 degree"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q053",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "Find the angle between the hands of clock at 8:20?",
+    "data_paragraph": "Clocks and Calendars - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "130 degree"
+      },
+      {
+        "option": "B",
+        "text": "115 degree"
+      },
+      {
+        "option": "C",
+        "text": "125 degree"
+      },
+      {
+        "option": "D",
+        "text": "140 degree"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q054",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "On what dates of June 2012 did Monday fall?",
+    "data_paragraph": "Clocks and Calendars - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "4th,11th,18th,25th"
+      },
+      {
+        "option": "B",
+        "text": "6th,13th,20th,27th"
+      },
+      {
+        "option": "C",
+        "text": "3rd,10th,17th,24th"
+      },
+      {
+        "option": "D",
+        "text": "7th,14th,21st,28th"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q055",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "The last day of a century cannot be _______________",
+    "data_paragraph": "Clocks and Calendars - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "Monday"
+      },
+      {
+        "option": "B",
+        "text": "Wednesday"
+      },
+      {
+        "option": "C",
+        "text": "Tuesday"
+      },
+      {
+        "option": "D",
+        "text": "Friday"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q056",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "What was the day of the week on 14th March 1969?",
+    "data_paragraph": "Clocks and Calendars - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "Saturday"
+      },
+      {
+        "option": "B",
+        "text": "Friday"
+      },
+      {
+        "option": "C",
+        "text": "Wednesday"
+      },
+      {
+        "option": "D",
+        "text": "Monday"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q057",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "The Calendar for the year 2014 will be the same for the year?",
+    "data_paragraph": "Clocks and Calendars - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "2020"
+      },
+      {
+        "option": "B",
+        "text": "2021"
+      },
+      {
+        "option": "C",
+        "text": "2024"
+      },
+      {
+        "option": "D",
+        "text": "2025"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q058",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "From 1 O' clock afternoon upto 10 O' clock in the night, the hands of a clock will be at right angle…..times.",
+    "data_paragraph": "Clocks and Calendars - Difficult",
+    "options": [
+      {
+        "option": "A",
+        "text": "9"
+      },
+      {
+        "option": "B",
+        "text": "10"
+      },
+      {
+        "option": "C",
+        "text": "16"
+      },
+      {
+        "option": "D",
+        "text": "20"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q059",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "At what time between 4 O'clock and 5 O'clock will hands of a clock be together?",
+    "data_paragraph": "Clocks and Calendars - Difficult",
+    "options": [
+      {
+        "option": "A",
+        "text": "24 min past 4"
+      },
+      {
+        "option": "B",
+        "text": "23 min past 4"
+      },
+      {
+        "option": "C",
+        "text": "21 min past 4"
+      },
+      {
+        "option": "D",
+        "text": "21 min past 4"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q060",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "At what time between 4 O' clock and 5 O' clock will the hands of a watch point in opposite directions?",
+    "data_paragraph": "Clocks and Calendars - Difficult",
+    "options": [
+      {
+        "option": "A",
+        "text": "45 min past 4"
+      },
+      {
+        "option": "B",
+        "text": "40 min past 4"
+      },
+      {
+        "option": "C",
+        "text": "50 min past 4"
+      },
+      {
+        "option": "D",
+        "text": "54 min past 4"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q061",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Clock Angles",
+    "question_text": "At what time between 6 O'clock and 7 O' clock will the hands of a clock be at right angle?",
+    "data_paragraph": "Clocks and Calendars - Difficult",
+    "options": [
+      {
+        "option": "A",
+        "text": "49 min past 6 and 16 min past 6"
+      },
+      {
+        "option": "B",
+        "text": "50 min past 6 and 16 min past 6"
+      },
+      {
+        "option": "C",
+        "text": "47 min past 6 and 42 min past 6"
+      },
+      {
+        "option": "D",
+        "text": "47 min past 6 and 16 min past 6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q062",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "On which dates of Jan 2015 did Friday falls?",
+    "data_paragraph": "Clocks and Calendars - Difficult",
+    "options": [
+      {
+        "option": "A",
+        "text": "2nd,9th,16th,23rd,30th"
+      },
+      {
+        "option": "B",
+        "text": "2nd,9th,16th,23rd"
+      },
+      {
+        "option": "C",
+        "text": "4th,11th,18th, 25th"
+      },
+      {
+        "option": "D",
+        "text": "3rd,10th,17th,24th"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q063",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "What was the day of the week on 29th Oct, 1986?",
+    "data_paragraph": "Clocks and Calendars - Difficult",
+    "options": [
+      {
+        "option": "A",
+        "text": "Tuesday"
+      },
+      {
+        "option": "B",
+        "text": "Wednesday"
+      },
+      {
+        "option": "C",
+        "text": "Monday"
+      },
+      {
+        "option": "D",
+        "text": "Sunday"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q064",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "On 8th March, 2005 it was Tuesday, what was the day of the week on 8th Feb, 2004?",
+    "data_paragraph": "Clocks and Calendars - Difficult",
+    "options": [
+      {
+        "option": "A",
+        "text": "Sunday"
+      },
+      {
+        "option": "B",
+        "text": "Monday"
+      },
+      {
+        "option": "C",
+        "text": "Saturday"
+      },
+      {
+        "option": "D",
+        "text": "Friday"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q065",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Clocks and Calendars",
+    "question_type": "Calendar",
+    "question_text": "If 10th May, 2012 is a Friday, what will be the day as 26th August, 2016?",
+    "data_paragraph": "Clocks and Calendars - Difficult",
+    "options": [
+      {
+        "option": "A",
+        "text": "Monday"
+      },
+      {
+        "option": "B",
+        "text": "Sunday"
+      },
+      {
+        "option": "C",
+        "text": "Saturday"
+      },
+      {
+        "option": "D",
+        "text": "Wednesday"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q066",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Coded Relations",
+    "question_text": "Which of the following relation is true according to the given expression \"U + V $ W ^ X + Y\"?",
+    "data_paragraph": "Directions (66-69): Read the following information carefully and answer the questions given beside. If in coded language, A # B means 'A is the daughter of B', A ^ B means 'A is the father of B', A + B means 'A is the sister of B', A $ B means 'A is the wife of B'",
+    "options": [
+      {
+        "option": "A",
+        "text": "Y is the daughter of U"
+      },
+      {
+        "option": "B",
+        "text": "X is the son of V"
+      },
+      {
+        "option": "C",
+        "text": "U is the brother-in-law of W"
+      },
+      {
+        "option": "D",
+        "text": "None of the above"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q067",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Coded Relations",
+    "question_text": "How M is related to R in the given expression \"D $ M ^ J $ R\"?",
+    "data_paragraph": "Directions (66-69): Read the following information carefully and answer the questions given beside. If in coded language, A # B means 'A is the daughter of B', A ^ B means 'A is the father of B', A + B means 'A is the sister of B', A $ B means 'A is the wife of B'",
+    "options": [
+      {
+        "option": "A",
+        "text": "Father"
+      },
+      {
+        "option": "B",
+        "text": "Mother"
+      },
+      {
+        "option": "C",
+        "text": "Father-in-law"
+      },
+      {
+        "option": "D",
+        "text": "Wife"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q068",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Coded Relations",
+    "question_text": "Which of the following will come in place of question mark, if C is the mother of G in the given expression: \"C $ E ^ T (?) G $ H\"?",
+    "data_paragraph": "Directions (66-69): Read the following information carefully and answer the questions given beside. If in coded language, A # B means 'A is the daughter of B', A ^ B means 'A is the father of B', A + B means 'A is the sister of B', A $ B means 'A is the wife of B'",
+    "options": [
+      {
+        "option": "A",
+        "text": "^"
+      },
+      {
+        "option": "B",
+        "text": "$"
+      },
+      {
+        "option": "C",
+        "text": "+"
+      },
+      {
+        "option": "D",
+        "text": "#"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q069",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "If C is the daughter of E, who is the only child of N. O is the mother of E. N is the grandfather of K. How is E related to K?",
+    "data_paragraph": "Directions (66-69): Read the following information carefully and answer the questions given beside.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Mother"
+      },
+      {
+        "option": "B",
+        "text": "Father"
+      },
+      {
+        "option": "C",
+        "text": "Grandfather"
+      },
+      {
+        "option": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q070",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How H is related to M?",
+    "data_paragraph": "Directions (70-71): Read the following information carefully and answer the questions given beside. There are seven members G, H, E, J, K, M and O in a family. E has two children. H is the son of G, who is not the father of H. O is the daughter-in-law of K. G and E are a married couple. K is the sister of H. J is the grandson of G. M is the son-in-law of E.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Brother"
+      },
+      {
+        "option": "B",
+        "text": "Sister"
+      },
+      {
+        "option": "C",
+        "text": "Sister-in-law"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q071",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How G is related to K?",
+    "data_paragraph": "Directions (70-71): Read the following information carefully and answer the questions given beside. There are seven members G, H, E, J, K, M and O in a family. E has two children. H is the son of G, who is not the father of H. O is the daughter-in-law of K. G and E are a married couple. K is the sister of H. J is the grandson of G. M is the son-in-law of E.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Father"
+      },
+      {
+        "option": "B",
+        "text": "Mother"
+      },
+      {
+        "option": "C",
+        "text": "Father-in-law"
+      },
+      {
+        "option": "D",
+        "text": "Mother-in-law"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q072",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How E is related to L?",
+    "data_paragraph": "Directions (72-74): Read the following information carefully and answer the questions given beside. The information is given about a family of three generations - C is the father of E, who is married to U. F is the sister-in-law of U. I is the brother of D, who is the spouse of C. F is the niece of I, who is the son of L.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Grandson"
+      },
+      {
+        "option": "B",
+        "text": "Granddaughter"
+      },
+      {
+        "option": "C",
+        "text": "Son"
+      },
+      {
+        "option": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q073",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How is D related to U?",
+    "data_paragraph": "Directions (72-74): Read the following information carefully and answer the questions given beside. The information is given about a family of three generations - C is the father of E, who is married to U. F is the sister-in-law of U. I is the brother of D, who is the spouse of C. F is the niece of I, who is the son of L.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Father-in-law"
+      },
+      {
+        "option": "B",
+        "text": "Mother"
+      },
+      {
+        "option": "C",
+        "text": "Mother-in-law"
+      },
+      {
+        "option": "D",
+        "text": "Father"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q074",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "If E is male then how is E related to I?",
+    "data_paragraph": "Directions (72-74): Read the following information carefully and answer the questions given beside. The information is given about a family of three generations - C is the father of E, who is married to U. F is the sister-in-law of U. I is the brother of D, who is the spouse of C. F is the niece of I, who is the son of L.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Son"
+      },
+      {
+        "option": "B",
+        "text": "Brother"
+      },
+      {
+        "option": "C",
+        "text": "Nephew"
+      },
+      {
+        "option": "D",
+        "text": "Grandson"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q075",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "Who among the following is one of the siblings?",
+    "data_paragraph": "Directions (75-77): Read the following information carefully and answer the questions given beside. There are eight members in a family consisting of three generations and three married couples. C is the husband of B and father of F. G is the sister-in-law of B and wife of H. B doesn't have any siblings. D is the paternal grandfather of A and father-in-law of B. F is the only grandson of E, who has only one son.",
+    "options": [
+      {
+        "option": "A",
+        "text": "A C"
+      },
+      {
+        "option": "B",
+        "text": "D G"
+      },
+      {
+        "option": "C",
+        "text": "H B"
+      },
+      {
+        "option": "D",
+        "text": "G C"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q076",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "Which of the following relation is true?",
+    "data_paragraph": "Directions (75-77): Read the following information carefully and answer the questions given beside. There are eight members in a family consisting of three generations and three married couples. C is the husband of B and father of F. G is the sister-in-law of B and wife of H. B doesn't have any siblings. D is the paternal grandfather of A and father-in-law of B. F is the only grandson of E, who has only one son.",
+    "options": [
+      {
+        "option": "A",
+        "text": "B is the sister of H"
+      },
+      {
+        "option": "B",
+        "text": "D is the mother-in-law of B"
+      },
+      {
+        "option": "C",
+        "text": "F is the niece of G"
+      },
+      {
+        "option": "D",
+        "text": "H is the brother-in-law of C"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q077",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "What is the difference between the number of male and female members in this family?",
+    "data_paragraph": "Directions (75-77): Read the following information carefully and answer the questions given beside. There are eight members in a family consisting of three generations and three married couples. C is the husband of B and father of F. G is the sister-in-law of B and wife of H. B doesn't have any siblings. D is the paternal grandfather of A and father-in-law of B. F is the only grandson of E, who has only one son.",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q078",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Coded Relations",
+    "question_text": "If the expression A @ B % C % D @ E is definitely true, which of the following statement is true?",
+    "data_paragraph": "Directions (78-81): Read the following information carefully and answer the questions given beside. If in coded language, 'P $ Q' means 'Q is the father of P', 'P % Q' means 'P is the daughter of Q', 'P * Q' means 'P is the son of Q', 'P @ Q' means 'Q is the sister of P'",
+    "options": [
+      {
+        "option": "A",
+        "text": "B is the son of C"
+      },
+      {
+        "option": "B",
+        "text": "A is the sister of B"
+      },
+      {
+        "option": "C",
+        "text": "D is the grandmother of B"
+      },
+      {
+        "option": "D",
+        "text": "C is the niece of E"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q079",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Coded Relations",
+    "question_text": "If the expression L @ M % N $ O @ K is definitely true, which of the following statement is not true?",
+    "data_paragraph": "Directions (78-81): Read the following information carefully and answer the questions given beside. If in coded language, 'P $ Q' means 'Q is the father of P', 'P % Q' means 'P is the daughter of Q', 'P * Q' means 'P is the son of Q', 'P @ Q' means 'Q is the sister of P'",
+    "options": [
+      {
+        "option": "A",
+        "text": "K is the aunt of N"
+      },
+      {
+        "option": "B",
+        "text": "O is the grandfather of M"
+      },
+      {
+        "option": "C",
+        "text": "M is the daughter of N"
+      },
+      {
+        "option": "D",
+        "text": "N is the son of O"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q080",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "Kirti is the sister of Rohit. Aneeta is the daughter of Jay, who is the husband of Rani. Naina, who is the mother of Rohit, is also the daughter of Rani, who is the mother-in-law of Dev. Dev has only one son. How Rani is related to Rohit?",
+    "data_paragraph": "Directions (78-81): Read the following information carefully and answer the questions given beside.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Mother"
+      },
+      {
+        "option": "B",
+        "text": "Grandfather"
+      },
+      {
+        "option": "C",
+        "text": "Daughter"
+      },
+      {
+        "option": "D",
+        "text": "Maternal grandmother"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q081",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "Prem is the brother of Tarun. Anjali is the daughter of Tarun. Reena is the mother-in-law of Anjali. Reena is married to Suraj. Sanjay is the only son of Suraj. How Anjali is related to Prem?",
+    "data_paragraph": "Directions (78-81): Read the following information carefully and answer the questions given beside.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Sister"
+      },
+      {
+        "option": "B",
+        "text": "Sister-in-law"
+      },
+      {
+        "option": "C",
+        "text": "Aunt"
+      },
+      {
+        "option": "D",
+        "text": "Niece"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q082",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "Who is the sister of D?",
+    "data_paragraph": "Directions (82-83): Read the following information carefully and answer the questions given beside. There are eight members in the family A, D, E, G, I, M, O and N. D is the brother-in-law of A. M is the wife of E. I is unmarried. Only N is the son-in-law of E. O is married and is the sister-in-law of I. A is the only sister of O. I is the son of M.",
+    "options": [
+      {
+        "option": "A",
+        "text": "N"
+      },
+      {
+        "option": "B",
+        "text": "O"
+      },
+      {
+        "option": "C",
+        "text": "A"
+      },
+      {
+        "option": "D",
+        "text": "G"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q083",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How many brother-in-laws does N have?",
+    "data_paragraph": "Directions (82-83): Read the following information carefully and answer the questions given beside. There are eight members in the family A, D, E, G, I, M, O and N. D is the brother-in-law of A. M is the wife of E. I is unmarried. Only N is the son-in-law of E. O is married and is the sister-in-law of I. A is the only sister of O. I is the son of M.",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q084",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How Tarak is related to Manu?",
+    "data_paragraph": "Directions (84-85): Read the following information carefully and answer the questions given beside. There are 8 members in a family. Geeta is mother of Chandan who is married to Manu. Vikas is the father of Tarak. Harsh is the father of Manu. Vikas and Manu are siblings. Chandan is the son of Gaurav. Tarak is the only child of Maya.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Niece"
+      },
+      {
+        "option": "B",
+        "text": "Nephew"
+      },
+      {
+        "option": "C",
+        "text": "Son"
+      },
+      {
+        "option": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q085",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How Chandan is related to Vikas?",
+    "data_paragraph": "Directions (84-85): Read the following information carefully and answer the questions given beside. There are 8 members in a family. Geeta is mother of Chandan who is married to Manu. Vikas is the father of Tarak. Harsh is the father of Manu. Vikas and Manu are siblings. Chandan is the son of Gaurav. Tarak is the only child of Maya.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Brother"
+      },
+      {
+        "option": "B",
+        "text": "Father"
+      },
+      {
+        "option": "C",
+        "text": "Brother-in-law"
+      },
+      {
+        "option": "D",
+        "text": "Grandson"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q086",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "What is the relation of R with respect to Q?",
+    "data_paragraph": "Directions (86-88): Read the following information carefully and answer the questions given beside. There are ten members M, N, O, P, Q, R, S, T, U, V in a family consisting of three generations and three married couples. V is the aunt of O who is the sibling of U. T is married to N and has two sons, neither of whom are married. S and P are males and neither of them are the brother-in-law of V. T is the maternal grandmother of U who is female. Q has no sisters but exactly one nephew. R is female member of the family.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Brother"
+      },
+      {
+        "option": "B",
+        "text": "Sister"
+      },
+      {
+        "option": "C",
+        "text": "Uncle"
+      },
+      {
+        "option": "D",
+        "text": "Sister-in-law"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q087",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "Who among the following is married to the sibling of S's brother-in-law?",
+    "data_paragraph": "Directions (86-88): Read the following information carefully and answer the questions given beside. There are ten members M, N, O, P, Q, R, S, T, U, V in a family consisting of three generations and three married couples. V is the aunt of O who is the sibling of U. T is married to N and has two sons, neither of whom are married. S and P are males and neither of them are the brother-in-law of V. T is the maternal grandmother of U who is female. Q has no sisters but exactly one nephew. R is female member of the family.",
+    "options": [
+      {
+        "option": "A",
+        "text": "M"
+      },
+      {
+        "option": "B",
+        "text": "V"
+      },
+      {
+        "option": "C",
+        "text": "U"
+      },
+      {
+        "option": "D",
+        "text": "N"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q088",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "Which among the following statement is true?",
+    "data_paragraph": "Directions (86-88): Read the following information carefully and answer the questions given beside. There are ten members M, N, O, P, Q, R, S, T, U, V in a family consisting of three generations and three married couples. V is the aunt of O who is the sibling of U. T is married to N and has two sons, neither of whom are married. S and P are males and neither of them are the brother-in-law of V. T is the maternal grandmother of U who is female. Q has no sisters but exactly one nephew. R is female member of the family.",
+    "options": [
+      {
+        "option": "A",
+        "text": "N is the grandmother of O"
+      },
+      {
+        "option": "B",
+        "text": "V is the brother-in-law of M"
+      },
+      {
+        "option": "C",
+        "text": "N is the mother-in-law of S"
+      },
+      {
+        "option": "D",
+        "text": "M is the father of U"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q089",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How C is related to F?",
+    "data_paragraph": "Directions (89-92): Read the following information carefully and answer the questions given beside. There are nine members in a family consisting of three generations and having three married couples. N is the father of C and the brother-in-law of T. Neither H nor N has sibling. E is the daughter of the one who is sister-in-law of N. T is the unmarried person in the family. R is the father-in-law of H and the spouse of G who is the maternal grandmother of E. C and E are of opposite gender. F is the sister of T who is the aunt of C who is not child of F. H is the son-in-law of G who is the mother-in-law of the one who is spouse of O.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Niece"
+      },
+      {
+        "option": "B",
+        "text": "Sister"
+      },
+      {
+        "option": "C",
+        "text": "Cousin"
+      },
+      {
+        "option": "D",
+        "text": "Nephew"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q090",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How many female members are there in the family?",
+    "data_paragraph": "Directions (89-92): Read the following information carefully and answer the questions given beside. There are nine members in a family consisting of three generations and having three married couples. N is the father of C and the brother-in-law of T. Neither H nor N has sibling. E is the daughter of the one who is sister-in-law of N. T is the unmarried person in the family. R is the father-in-law of H and the spouse of G who is the maternal grandmother of E. C and E are of opposite gender. F is the sister of T who is the aunt of C who is not child of F. H is the son-in-law of G who is the mother-in-law of the one who is spouse of O.",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "5"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q091",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Coded Relations",
+    "question_text": "How is G related to F?",
+    "data_paragraph": "Directions (93-95): Relations of a family are given in a coded language using symbols. Study the following information carefully and answer the questions given below. A # B means 'A is the husband of B', A $ B means 'A is the mother of B', A % B means 'A is the brother of B', A ^ B means 'A is the child of B', A @ B means 'A is the parent of B', A © B means 'A is the daughter of B', A * B means 'A is the daughter-in-law of B', A € B means 'A is the uncle of B'. A # I @ K % G $ J % D © L ^ C $ B $ F © H € J, E @ B",
+    "options": [
+      {
+        "option": "A",
+        "text": "Mother"
+      },
+      {
+        "option": "B",
+        "text": "Mother-in-law"
+      },
+      {
+        "option": "C",
+        "text": "Aunt"
+      },
+      {
+        "option": "D",
+        "text": "Grandmother"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q092",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Blood Relations",
+    "question_type": "Family Relations",
+    "question_text": "How is B related to C?",
+    "data_paragraph": "A, B, C, D, E, F and G are seven relatives. E is the daughter-in-law of G. C is the niece of F. D is the son-in-law of B. A is the father of F. D has one daughter. E has no siblings. There are more males than females among them.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Father"
+      },
+      {
+        "option": "B",
+        "text": "Grandmother"
+      },
+      {
+        "option": "C",
+        "text": "Paternal grandfather"
+      },
+      {
+        "option": "D",
+        "text": "Maternal grandfather"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q102",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "What is the shortest distance between the points H and F?",
+    "data_paragraph": "Directions (102-104): Study the following information and answer the given questions carefully. John started walking from point A. Point B is 20 cm north of point A. Point A is 6 cm east of point H. Point B is 6cm west of point G. Point C is 6 cm west of point E. Point D is 20 cm south of point G. Point C is the midpoint of points D and G. Point E is 10 cm north of point F.",
+    "options": [
+      {
+        "option": "A",
+        "text": "6 cm"
+      },
+      {
+        "option": "B",
+        "text": "12 cm"
+      },
+      {
+        "option": "C",
+        "text": "18 cm"
+      },
+      {
+        "option": "D",
+        "text": "24 cm"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q103",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "In which direction is point H with respect to point G?",
+    "data_paragraph": "Directions (102-104): Study the following information and answer the given questions carefully. John started walking from point A. Point B is 20 cm north of point A. Point A is 6 cm east of point H. Point B is 6cm west of point G. Point C is 6 cm west of point E. Point D is 20 cm south of point G. Point C is the midpoint of points D and G. Point E is 10 cm north of point F.",
+    "options": [
+      {
+        "option": "A",
+        "text": "South west"
+      },
+      {
+        "option": "B",
+        "text": "North west"
+      },
+      {
+        "option": "C",
+        "text": "North east"
+      },
+      {
+        "option": "D",
+        "text": "South"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q104",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "How far and in which direction is point E with respect to point G?",
+    "data_paragraph": "Directions (102-104): Study the following information and answer the given questions carefully. John started walking from point A. Point B is 20 cm north of point A. Point A is 6 cm east of point H. Point B is 6cm west of point G. Point C is 6 cm west of point E. Point D is 20 cm south of point G. Point C is the midpoint of points D and G. Point E is 10 cm north of point F.",
+    "options": [
+      {
+        "option": "A",
+        "text": "2 cm, south west"
+      },
+      {
+        "option": "B",
+        "text": "2 cm, south east"
+      },
+      {
+        "option": "C",
+        "text": "4 cm, west"
+      },
+      {
+        "option": "D",
+        "text": "4 cm, east"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q105",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "In which direction is point S with respect to point P?",
+    "data_paragraph": "Directions (105-106): Study the following information and answer the given questions carefully. Point P is 6 m to the east of point Q, which is 8m to the north east of point R, which is 4 m to the north of point S.",
+    "options": [
+      {
+        "option": "A",
+        "text": "South west"
+      },
+      {
+        "option": "B",
+        "text": "North"
+      },
+      {
+        "option": "C",
+        "text": "North west"
+      },
+      {
+        "option": "D",
+        "text": "South"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q106",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "If the point T is 5 m towards the east point of R, then in which direction is point P with respect to the point T?",
+    "data_paragraph": "Directions (105-106): Study the following information and answer the given questions carefully. Point P is 6 m to the east of point Q, which is 8m to the north east of point R, which is 4 m to the north of point S.",
+    "options": [
+      {
+        "option": "A",
+        "text": "North west"
+      },
+      {
+        "option": "B",
+        "text": "North east"
+      },
+      {
+        "option": "C",
+        "text": "South west"
+      },
+      {
+        "option": "D",
+        "text": "South"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q107",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "Q is to the _____ of D.",
+    "data_paragraph": "Directions (107-108): Study the following information and answer the given questions carefully. Q is to the south of P. A is to the west of B, which is to the west of C. D is to the south of B. P is to the west of A.",
+    "options": [
+      {
+        "option": "A",
+        "text": "North"
+      },
+      {
+        "option": "B",
+        "text": "South"
+      },
+      {
+        "option": "C",
+        "text": "North west"
+      },
+      {
+        "option": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q108",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "A is to the _____ of D.",
+    "data_paragraph": "Directions (107-108): Study the following information and answer the given questions carefully. Q is to the south of P. A is to the west of B, which is to the west of C. D is to the south of B. P is to the west of A.",
+    "options": [
+      {
+        "option": "A",
+        "text": "North west"
+      },
+      {
+        "option": "B",
+        "text": "South east"
+      },
+      {
+        "option": "C",
+        "text": "South west"
+      },
+      {
+        "option": "D",
+        "text": "West"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q109",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "How far and in which direction is point V with respect to point Y?",
+    "data_paragraph": "Directions (109-113): Study the following information and answer the given questions carefully. Nine points (S, T, U, V, W, X, Y, Z and A) are at different distances and directions from each other. W is 30m to the south of Y, which is 16m to the west of T. The distance between V and X is equal to the distance between T and U. Z is 28m to the east of X. The distance between X and Z is double the distance between Y and Z, which is to the south of Y. V is 14m to the south of T. S is 12m to the west of U, which is to the west of Y. V is 16m north of A.",
+    "options": [
+      {
+        "option": "A",
+        "text": "21 m, south west"
+      },
+      {
+        "option": "B",
+        "text": "2 m, south west"
+      },
+      {
+        "option": "C",
+        "text": "25 m, north west"
+      },
+      {
+        "option": "D",
+        "text": "2 m, south east"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q110",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Distance and Direction",
+    "question_text": "In which direction is point S with respect to point A?",
+    "data_paragraph": "Directions (109-113): Study the following information and answer the given questions carefully. Nine points (S, T, U, V, W, X, Y, Z and A) are at different distances and directions from each other. W is 30m to the south of Y, which is 16m to the west of T. The distance between V and X is equal to the distance between T and U. Z is 28m to the east of X. The distance between X and Z is double the distance between Y and Z, which is to the south of Y. V is 14m to the south of T. S is 12m to the west of U, which is to the west of Y. V is 16m north of A.",
+    "options": [
+      {
+        "option": "A",
+        "text": "South"
+      },
+      {
+        "option": "B",
+        "text": "North east"
+      },
+      {
+        "option": "C",
+        "text": "North"
+      },
+      {
+        "option": "D",
+        "text": "North west"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q134",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Coding and Decoding",
+    "question_type": "Word Coding",
+    "question_text": "What is the code for \"Next\"?",
+    "data_paragraph": "Directions (134-138): Read the following information carefully and answer the questions given beside. In a certain code language, \"Work daily love next\" is coded as \"kk bt jk sp\", \"Daily not branches kites\" is coded as \"cl ag sp on\", \"Kites branches young\" is coded as \"ag ip cl\", \"Not next kites\" is coded as \"bt on ag\"",
+    "options": [
+      {
+        "option": "A",
+        "text": "cl"
+      },
+      {
+        "option": "B",
+        "text": "kk"
+      },
+      {
+        "option": "C",
+        "text": "bt"
+      },
+      {
+        "option": "D",
+        "text": "sp"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q135",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Coding and Decoding",
+    "question_type": "Word Coding",
+    "question_text": "What is the code for \"young\"?",
+    "data_paragraph": "Directions (134-138): Read the following information carefully and answer the questions given beside. In a certain code language, \"Work daily love next\" is coded as \"kk bt jk sp\", \"Daily not branches kites\" is coded as \"cl ag sp on\", \"Kites branches young\" is coded as \"ag ip cl\", \"Not next kites\" is coded as \"bt on ag\"",
+    "options": [
+      {
+        "option": "A",
+        "text": "cl"
+      },
+      {
+        "option": "B",
+        "text": "ag"
+      },
+      {
+        "option": "C",
+        "text": "on"
+      },
+      {
+        "option": "D",
+        "text": "ip"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q136",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Coding and Decoding",
+    "question_type": "Word Coding",
+    "question_text": "Code \"ag dw\" possibly stands for which of the following?",
+    "data_paragraph": "Directions (134-138): Read the following information carefully and answer the questions given beside. In a certain code language, \"Work daily love next\" is coded as \"kk bt jk sp\", \"Daily not branches kites\" is coded as \"cl ag sp on\", \"Kites branches young\" is coded as \"ag ip cl\", \"Not next kites\" is coded as \"bt on ag\"",
+    "options": [
+      {
+        "option": "A",
+        "text": "Kites enjoy"
+      },
+      {
+        "option": "B",
+        "text": "Kites young"
+      },
+      {
+        "option": "C",
+        "text": "Branches young"
+      },
+      {
+        "option": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q137",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Coding and Decoding",
+    "question_type": "Word Coding",
+    "question_text": "Which of the following is the code for \"Daily not\"?",
+    "data_paragraph": "Directions (134-138): Read the following information carefully and answer the questions given beside. In a certain code language, \"Work daily love next\" is coded as \"kk bt jk sp\", \"Daily not branches kites\" is coded as \"cl ag sp on\", \"Kites branches young\" is coded as \"ag ip cl\", \"Not next kites\" is coded as \"bt on ag\"",
+    "options": [
+      {
+        "option": "A",
+        "text": "kk jk"
+      },
+      {
+        "option": "B",
+        "text": "cl ag"
+      },
+      {
+        "option": "C",
+        "text": "sp on"
+      },
+      {
+        "option": "D",
+        "text": "jk bt"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q138",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Coding and Decoding",
+    "question_type": "Word Coding",
+    "question_text": "What is the code for \"love\"?",
+    "data_paragraph": "Directions (134-138): Read the following information carefully and answer the questions given beside. In a certain code language, \"Work daily love next\" is coded as \"kk bt jk sp\", \"Daily not branches kites\" is coded as \"cl ag sp on\", \"Kites branches young\" is coded as \"ag ip cl\", \"Not next kites\" is coded as \"bt on ag\"",
+    "options": [
+      {
+        "option": "A",
+        "text": "kk"
+      },
+      {
+        "option": "B",
+        "text": "ag"
+      },
+      {
+        "option": "C",
+        "text": "jk"
+      },
+      {
+        "option": "D",
+        "text": "Either kk or jk"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q154",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Statement Analysis",
+    "question_text": "Statement: A = C > B ≥ F < G ≤ H ≤ K Conclusions: I. A < G II. B ≥ H",
+    "data_paragraph": "Directions (154-156): In the following question, assume the given information to be true and mark the appropriate options.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Conclusion I follows"
+      },
+      {
+        "option": "B",
+        "text": "Conclusion II follows"
+      },
+      {
+        "option": "C",
+        "text": "Either conclusion I or II follows"
+      },
+      {
+        "option": "D",
+        "text": "Neither conclusion I nor II follows"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q155",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Statement Analysis",
+    "question_text": "Statements: E > L > V > M = N < T < H Conclusions: I. E > M II. M < H",
+    "data_paragraph": "Directions (154-156): In the following question, assume the given information to be true and mark the appropriate options.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Conclusion I follows"
+      },
+      {
+        "option": "B",
+        "text": "Conclusion II follows"
+      },
+      {
+        "option": "C",
+        "text": "Either conclusion I or II follows"
+      },
+      {
+        "option": "D",
+        "text": "Both conclusions I and II follow"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q156",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Inequalities",
+    "question_type": "Statement Analysis",
+    "question_text": "Statements: N < T ≤ K = Y = Z < L < S Conclusions: I. N > Z II. N < Z",
+    "data_paragraph": "Directions (154-156): In the following question, assume the given information to be true and mark the appropriate options.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Conclusion I follows"
+      },
+      {
+        "option": "B",
+        "text": "Conclusion II follows"
+      },
+      {
+        "option": "C",
+        "text": "Either conclusion I or II follows"
+      },
+      {
+        "option": "D",
+        "text": "Neither conclusion I nor II follows"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q177",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Order and Ranking",
+    "question_type": "Positional Arrangement",
+    "question_text": "The positions of how many digits in the number 2451479638 will remain same when the first half and the second half of the digits are arranged in ascending order separately?",
+    "data_paragraph": "Directions (177-182): Read the following questions carefully and choose the right answer.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only one"
+      },
+      {
+        "option": "B",
+        "text": "Two"
+      },
+      {
+        "option": "C",
+        "text": "None"
+      },
+      {
+        "option": "D",
+        "text": "Three"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q178",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Order and Ranking",
+    "question_type": "Linear Arrangement",
+    "question_text": "In a row where all are facing north, Priya is 15th from the left end and Garima is 19th from the right end. They interchange their positions, and Ram who sits 24th from the left end sits at the 5th place to the left of Priya's new position. How many persons were there in the row?",
+    "data_paragraph": "Directions (177-182): Read the following questions carefully and choose the right answer.",
+    "options": [
+      {
+        "option": "A",
+        "text": "36"
+      },
+      {
+        "option": "B",
+        "text": "42"
+      },
+      {
+        "option": "C",
+        "text": "47"
+      },
+      {
+        "option": "D",
+        "text": "56"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q179",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Order and Ranking",
+    "question_type": "Linear Arrangement",
+    "question_text": "During a prize distribution ceremony, Vikram was ninth from the left while Janhvi was eighth from the right in the front row. If Hariom was thirteenth from the left and was exactly in the middle of Vikram and Janhvi in the same row then what was the total number of people in the front row?",
+    "data_paragraph": "Directions (177-182): Read the following questions carefully and choose the right answer.",
+    "options": [
+      {
+        "option": "A",
+        "text": "18"
+      },
+      {
+        "option": "B",
+        "text": "19"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q202",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Syllogism",
+    "question_type": "Statement Analysis",
+    "question_text": "Statements: Some A are B, All B are C, Some C are D. Conclusions: I. Some A are C II. Some D are A III. Some C are B",
+    "data_paragraph": "Directions (202-206): In each question some statements are followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then decide which of the given conclusions logically follows from the given statements.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only II follows"
+      },
+      {
+        "option": "C",
+        "text": "Both I and III follow"
+      },
+      {
+        "option": "D",
+        "text": "Both I and II follow"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q203",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Syllogism",
+    "question_type": "Statement Analysis",
+    "question_text": "Statements: All apples are bananas, Some bananas are grapes, All grapes are oranges. Conclusions: I. Some apples are oranges II. Some oranges are bananas",
+    "data_paragraph": "Directions (202-206): In each question some statements are followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then decide which of the given conclusions logically follows from the given statements.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only II follows"
+      },
+      {
+        "option": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "option": "D",
+        "text": "Either I or II follows"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q204",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Syllogism",
+    "question_type": "Statement Analysis",
+    "question_text": "Statements: Some Copies are Books, All books are pencils, No pencil is a rubber. Conclusions: I. No rubber is a copy II. All pencils are copies",
+    "data_paragraph": "Directions (202-206): In each question some statements are followed by some conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then decide which of the given conclusions logically follows from the given statements.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only II follows"
+      },
+      {
+        "option": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "option": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q222",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Cubes",
+    "question_type": "Painted Cubes",
+    "question_text": "How many cubes having red, green and black colours on at least one side of the cube will be formed?",
+    "data_paragraph": "Directions (222-226): The following questions are based on the information given below: 1. A cuboid shaped wooden block has 6 cm length, 4 cm breadth and 1 cm height. 2. Two faces measuring 4 cm x 1 cm are coloured in black. 3. Two faces measuring 6 cm x 1 cm are coloured in red. 4. Two faces measuring 6 cm x 4 cm are coloured in green. 5. The block is divided into equal cubes of side 1 cm.",
+    "options": [
+      {
+        "option": "A",
+        "text": "16"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "10"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q223",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Cubes",
+    "question_type": "Painted Cubes",
+    "question_text": "How many small cubes will be formed?",
+    "data_paragraph": "Directions (222-226): The following questions are based on the information given below: 1. A cuboid shaped wooden block has 6 cm length, 4 cm breadth and 1 cm height. 2. Two faces measuring 4 cm x 1 cm are coloured in black. 3. Two faces measuring 6 cm x 1 cm are coloured in red. 4. Two faces measuring 6 cm x 4 cm are coloured in green. 5. The block is divided into equal cubes of side 1 cm.",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "16"
+      },
+      {
+        "option": "D",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q247",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Analogy and Oddman out",
+    "question_type": "Number Analogy",
+    "question_text": "21: 3 : : 574 : ?",
+    "data_paragraph": "Directions (Questions 247 to 252): In each of the following questions, there is a certain relationship between two given numbers on one side of :: and one number is given on another side of :: while another number is to be found from the given alternatives, having the same relationship with this number as the numbers of the given pair bear. Choose the best alternative.",
+    "options": [
+      {
+        "option": "A",
+        "text": "23"
+      },
+      {
+        "option": "B",
+        "text": "82"
+      },
+      {
+        "option": "C",
+        "text": "97"
+      },
+      {
+        "option": "D",
+        "text": "113"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q248",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Analogy and Oddman out",
+    "question_type": "Number Analogy",
+    "question_text": "18 : 30 : : 36 : ?",
+    "data_paragraph": "Directions (Questions 247 to 252): In each of the following questions, there is a certain relationship between two given numbers on one side of :: and one number is given on another side of :: while another number is to be found from the given alternatives, having the same relationship with this number as the numbers of the given pair bear. Choose the best alternative.",
+    "options": [
+      {
+        "option": "A",
+        "text": "54"
+      },
+      {
+        "option": "B",
+        "text": "62"
+      },
+      {
+        "option": "C",
+        "text": "64"
+      },
+      {
+        "option": "D",
+        "text": "66"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q249",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Analogy and Oddman out",
+    "question_type": "Number Analogy",
+    "question_text": "17 : 52 : : 1 : ?",
+    "data_paragraph": "Directions (Questions 247 to 252): In each of the following questions, there is a certain relationship between two given numbers on one side of :: and one number is given on another side of :: while another number is to be found from the given alternatives, having the same relationship with this number as the numbers of the given pair bear. Choose the best alternative.",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "5"
+      },
+      {
+        "option": "D",
+        "text": "51"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "GEN_LR_054",
+    "block": "Logical Reasoning",
+    "chapter_subtopic": "Directions",
+    "question_type": "Direction Sense",
+    "question_text": "If you face South and turn right 90 degrees, which direction are you facing now?",
+    "data_paragraph": "Directions - Moderate",
+    "options": [
+      {
+        "option": "A",
+        "text": "North"
+      },
+      {
+        "option": "B",
+        "text": "East"
+      },
+      {
+        "option": "C",
+        "text": "West"
+      },
+      {
+        "option": "D",
+        "text": "South"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "GEN_1605",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 3, 10, 20, ?, what comes next?",
+    "options": {
+      "A": "27",
+      "B": "28",
+      "C": "26",
+      "D": "29"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1606",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 7, 5, 18, ?, what comes next?",
+    "options": {
+      "A": "16",
+      "B": "17",
+      "C": "15",
+      "D": "18"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1607",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 6, 7, 11, ?, what comes next?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "11",
+      "D": "14"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1608",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 4, 5, 9, ?, what comes next?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "9",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1609",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 9, 11, 17, ?, what comes next?",
+    "options": {
+      "A": "19",
+      "B": "20",
+      "C": "18",
+      "D": "21"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1610",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 8, 9, 8, ?, what comes next?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "8",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1611",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 3, 11, 18, ?, what comes next?",
+    "options": {
+      "A": "26",
+      "B": "27",
+      "C": "25",
+      "D": "28"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1612",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 9, 13, 16, ?, what comes next?",
+    "options": {
+      "A": "20",
+      "B": "21",
+      "C": "19",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1613",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 10, 13, 8, ?, what comes next?",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "10",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1614",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a sequence 6, 7, 20, ?, what comes next?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "20",
+      "D": "23"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1732",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1733",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1734",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1735",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1736",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1737",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1738",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1739",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1740",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1741",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1742",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1743",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1744",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1745",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1746",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1747",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "If all roses are flowers and some flowers are red, then:",
+    "options": {
+      "A": "Some roses may be red",
+      "B": "Cannot be determined",
+      "C": "None of these",
+      "D": "Insufficient data"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1876",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 922, DOG = 882, then BIRD = ?",
+    "options": {
+      "A": "1804",
+      "B": "1806",
+      "C": "1802",
+      "D": "1814"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1877",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 906, DOG = 942, then BIRD = ?",
+    "options": {
+      "A": "1848",
+      "B": "1850",
+      "C": "1846",
+      "D": "1858"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1878",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 916, DOG = 820, then BIRD = ?",
+    "options": {
+      "A": "1736",
+      "B": "1738",
+      "C": "1734",
+      "D": "1746"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1879",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 587, DOG = 779, then BIRD = ?",
+    "options": {
+      "A": "1366",
+      "B": "1368",
+      "C": "1364",
+      "D": "1376"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1880",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 834, DOG = 686, then BIRD = ?",
+    "options": {
+      "A": "1520",
+      "B": "1522",
+      "C": "1518",
+      "D": "1530"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1881",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 258, DOG = 803, then BIRD = ?",
+    "options": {
+      "A": "1061",
+      "B": "1063",
+      "C": "1059",
+      "D": "1071"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1882",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 989, DOG = 707, then BIRD = ?",
+    "options": {
+      "A": "1696",
+      "B": "1698",
+      "C": "1694",
+      "D": "1706"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1883",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 487, DOG = 486, then BIRD = ?",
+    "options": {
+      "A": "973",
+      "B": "975",
+      "C": "971",
+      "D": "983"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1884",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 691, DOG = 829, then BIRD = ?",
+    "options": {
+      "A": "1520",
+      "B": "1522",
+      "C": "1518",
+      "D": "1530"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1885",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 127, DOG = 707, then BIRD = ?",
+    "options": {
+      "A": "834",
+      "B": "836",
+      "C": "832",
+      "D": "844"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1886",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 689, DOG = 594, then BIRD = ?",
+    "options": {
+      "A": "1283",
+      "B": "1285",
+      "C": "1281",
+      "D": "1293"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1887",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 805, DOG = 752, then BIRD = ?",
+    "options": {
+      "A": "1557",
+      "B": "1559",
+      "C": "1555",
+      "D": "1567"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1888",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 230, DOG = 603, then BIRD = ?",
+    "options": {
+      "A": "833",
+      "B": "835",
+      "C": "831",
+      "D": "843"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1889",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 773, DOG = 957, then BIRD = ?",
+    "options": {
+      "A": "1730",
+      "B": "1732",
+      "C": "1728",
+      "D": "1740"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1890",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 776, DOG = 767, then BIRD = ?",
+    "options": {
+      "A": "1543",
+      "B": "1545",
+      "C": "1541",
+      "D": "1553"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1891",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "In a code, if CAT = 757, DOG = 858, then BIRD = ?",
+    "options": {
+      "A": "1615",
+      "B": "1617",
+      "C": "1613",
+      "D": "1625"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1977",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "Five people A, B, C, D, E are sitting in a row. A is not at either end. B is to the right of A. C is not next to B. How many arrangements are possible?",
+    "options": {
+      "A": "12",
+      "B": "17",
+      "C": "7",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1978",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "Five people A, B, C, D, E are sitting in a row. A is not at either end. B is to the right of A. C is not next to B. How many arrangements are possible?",
+    "options": {
+      "A": "12",
+      "B": "17",
+      "C": "7",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1979",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "Five people A, B, C, D, E are sitting in a row. A is not at either end. B is to the right of A. C is not next to B. How many arrangements are possible?",
+    "options": {
+      "A": "12",
+      "B": "17",
+      "C": "7",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1980",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "Five people A, B, C, D, E are sitting in a row. A is not at either end. B is to the right of A. C is not next to B. How many arrangements are possible?",
+    "options": {
+      "A": "12",
+      "B": "17",
+      "C": "7",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1981",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "Five people A, B, C, D, E are sitting in a row. A is not at either end. B is to the right of A. C is not next to B. How many arrangements are possible?",
+    "options": {
+      "A": "12",
+      "B": "17",
+      "C": "7",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1982",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "Five people A, B, C, D, E are sitting in a row. A is not at either end. B is to the right of A. C is not next to B. How many arrangements are possible?",
+    "options": {
+      "A": "12",
+      "B": "17",
+      "C": "7",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1983",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "Five people A, B, C, D, E are sitting in a row. A is not at either end. B is to the right of A. C is not next to B. How many arrangements are possible?",
+    "options": {
+      "A": "12",
+      "B": "17",
+      "C": "7",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1984",
+    "block": "Logical Reasoning",
+    "subtopic": "logical reasoning",
+    "text": "Five people A, B, C, D, E are sitting in a row. A is not at either end. B is to the right of A. C is not next to B. How many arrangements are possible?",
+    "options": {
+      "A": "12",
+      "B": "17",
+      "C": "7",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Logical Reasoning question.",
+    "source": "generated",
+    "generated": true
+  }
+]

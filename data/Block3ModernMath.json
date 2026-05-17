@@ -1,0 +1,5414 @@
+[
+  {
+    "id": "Q1",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Basic Permutations",
+    "question_text": "How many numbers of 3-digits can be formed with the digits 1, 2, 3, 4, 5 (repetition of digits not allowed)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "125"
+      },
+      {
+        "option": "B",
+        "text": "120"
+      },
+      {
+        "option": "C",
+        "text": "60"
+      },
+      {
+        "option": "D",
+        "text": "150"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q2",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Basic Permutations",
+    "question_text": "How many numbers between 2000 and 3000 can be formed with the digits 0, 1, 2, 3, 4, 5, 6, 7 (repetition of digits not allowed)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "42"
+      },
+      {
+        "option": "B",
+        "text": "210"
+      },
+      {
+        "option": "C",
+        "text": "336"
+      },
+      {
+        "option": "D",
+        "text": "440"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q3",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Distribution Problems",
+    "question_text": "In how many ways can a person send invitation cards to 4 of his 6 friends if the cards are identical and each selected friend receives one card?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "64"
+      },
+      {
+        "option": "B",
+        "text": "46"
+      },
+      {
+        "option": "C",
+        "text": "15"
+      },
+      {
+        "option": "D",
+        "text": "120"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q4",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Distribution Problems",
+    "question_text": "In how many ways can 5 identical prizes be distributed among 8 students if each student can receive any number of prizes (including zero)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "792"
+      },
+      {
+        "option": "B",
+        "text": "336"
+      },
+      {
+        "option": "C",
+        "text": "495"
+      },
+      {
+        "option": "D",
+        "text": "120"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q5",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Arrangements",
+    "question_text": "In how many ways can 7 Indians, 5 Pakistanis and 6 Dutch be seated in a row if persons of the same nationality sit together?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "31"
+      },
+      {
+        "option": "B",
+        "text": "7!5!6!"
+      },
+      {
+        "option": "C",
+        "text": "3!.7!.5!.6!"
+      },
+      {
+        "option": "D",
+        "text": "182"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q6",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Basic Counting",
+    "question_text": "There are 5 routes to go from Allahabad to Patna & 4 ways to go from Patna to Kolkata, then how many ways are possible for going from Allahabad to Kolkata via Patna?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "54"
+      },
+      {
+        "option": "C",
+        "text": "45"
+      },
+      {
+        "option": "D",
+        "text": "54 + 45"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q7",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Complex Counting",
+    "question_text": "There are 4 qualifying examinations to enter into Oxford University: RAT, BAT, SAT, and PAT. An Engineer cannot go to Oxford University through BAT or SAT. A CA on the other hand can go to the Oxford University through the RAT, BAT & PAT but not through SAT. Further there are 3 ways to become a CA (viz., Foundation, Inter & Final). Find the ratio of number of ways in which an Engineer can make it to Oxford University to the number of ways a CA can make it to Oxford University.",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "3:2"
+      },
+      {
+        "option": "B",
+        "text": "2:3"
+      },
+      {
+        "option": "C",
+        "text": "2:9"
+      },
+      {
+        "option": "D",
+        "text": "9:2"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q8",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Basic Combinations",
+    "question_text": "How many straight lines can be formed from 8 non-collinear points on the X-Y plane?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "28"
+      },
+      {
+        "option": "B",
+        "text": "56"
+      },
+      {
+        "option": "C",
+        "text": "18"
+      },
+      {
+        "option": "D",
+        "text": "19860"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q9",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Combination Properties",
+    "question_text": "If nC3 = nC6, find n.",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "9"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "14"
+      },
+      {
+        "option": "D",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q10",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Word Arrangements",
+    "question_text": "In how many ways can the letters of the word DELHI be arranged?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "119"
+      },
+      {
+        "option": "B",
+        "text": "120"
+      },
+      {
+        "option": "C",
+        "text": "60"
+      },
+      {
+        "option": "D",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q11",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Word Arrangements with Repetition",
+    "question_text": "In how many ways can the letters of the word PATNA be rearranged?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "60"
+      },
+      {
+        "option": "B",
+        "text": "120"
+      },
+      {
+        "option": "C",
+        "text": "119"
+      },
+      {
+        "option": "D",
+        "text": "59"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q12",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Word Arrangements",
+    "question_text": "For the arrangements of the letters of the word PATNA, how many words would start with the letter P?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "24"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "60"
+      },
+      {
+        "option": "D",
+        "text": "120"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q13",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Word Arrangements",
+    "question_text": "For the word PATNA, how many words will start with P and end with T?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "11"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q14",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Combination Properties",
+    "question_text": "If nC4 = 70, find n.",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "7"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q15",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Permutation Properties",
+    "question_text": "If 10Pr = 720, find r.",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q16",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Number Formation",
+    "question_text": "How many numbers of four digits can be formed with the digits 0, 1, 2, 3 (repetition of digits not allowed)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "18"
+      },
+      {
+        "option": "B",
+        "text": "24"
+      },
+      {
+        "option": "C",
+        "text": "64"
+      },
+      {
+        "option": "D",
+        "text": "192"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q17",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Number Formation with Repetition",
+    "question_text": "How many numbers of four digits can be formed with the digits 0, 1, 2, 3 (repetition of digits being allowed)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "108"
+      },
+      {
+        "option": "C",
+        "text": "256"
+      },
+      {
+        "option": "D",
+        "text": "192"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q18",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Number Formation",
+    "question_text": "How many numbers between 200 and 1200 can be formed with the digits 0, 1, 2, 3 (repetition of digits not allowed)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "14"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q19",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Number Formation",
+    "question_text": "How many numbers between 200 and 1200 can be formed with the digits 0, 1, 2, 3 if repetition of digits is allowed?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "48"
+      },
+      {
+        "option": "B",
+        "text": "64"
+      },
+      {
+        "option": "C",
+        "text": "32"
+      },
+      {
+        "option": "D",
+        "text": "14"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q20",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Permutation Equations",
+    "question_text": "If (2n + 1)P(n - 1) : (2n - 1)Pn = 7 : 10, find n.",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "7"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q21",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Complex Combination Equations",
+    "question_text": "If 15Cr = 15C(r+1), find the value of r.",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "11"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q22",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Optimization Problems",
+    "question_text": "Arjit wants to hold the maximum number of parties among his 20 friends, with each party having the same number of invitees and no repeated sets. How many friends should he invite to each party?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "11"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "10"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q23",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Distribution with Constraints",
+    "question_text": "In how many ways can 10 identical presents be distributed among 6 children so that each child gets at least one present?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "15C5"
+      },
+      {
+        "option": "B",
+        "text": "16C6"
+      },
+      {
+        "option": "C",
+        "text": "9C5"
+      },
+      {
+        "option": "D",
+        "text": "60"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q24",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Number Formation",
+    "question_text": "How many four-digit numbers are possible, if all four digits are unique?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4536"
+      },
+      {
+        "option": "B",
+        "text": "360"
+      },
+      {
+        "option": "C",
+        "text": "45"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q25",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Selection Problems",
+    "question_text": "A captain and a vice-captain are to be chosen out of a team having eleven players. How many ways are there to achieve this?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "10×9"
+      },
+      {
+        "option": "B",
+        "text": "11C2"
+      },
+      {
+        "option": "C",
+        "text": "110"
+      },
+      {
+        "option": "D",
+        "text": "10×9!"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q26",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Basic Counting",
+    "question_text": "There are five types of envelopes and four types of stamps in a post office. How many ways are there to buy an envelope and a stamp?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "45"
+      },
+      {
+        "option": "C",
+        "text": "54"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q27",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Word-based Selection",
+    "question_text": "In how many ways can Ram choose a vowel and a consonant from the letters of the word ALLAHABAD?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q28",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Room Allocation",
+    "question_text": "There are three rooms in a motel: one single, one double and one for four persons. How many ways are there to house seven persons in these rooms?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "7!/1!2!4!"
+      },
+      {
+        "option": "B",
+        "text": "7!"
+      },
+      {
+        "option": "C",
+        "text": "7!/3"
+      },
+      {
+        "option": "D",
+        "text": "7!/3!"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q29",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Card Selection",
+    "question_text": "How many ways are there to choose four cards of different suits and different values from a deck of 52 cards?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "13×12×11×10"
+      },
+      {
+        "option": "B",
+        "text": "52C4"
+      },
+      {
+        "option": "C",
+        "text": "13×4"
+      },
+      {
+        "option": "D",
+        "text": "52×36×22×10"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q30",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Word Generation",
+    "question_text": "How many new words are possible from the letters of the word PERMUTATION?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "11!/2!"
+      },
+      {
+        "option": "B",
+        "text": "11!/2! - 1"
+      },
+      {
+        "option": "C",
+        "text": "11! - 1"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q31",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Subset Selection",
+    "question_text": "A set of 15 different words are given. In how many ways is it possible to choose a subset of not more than 5 words?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4944"
+      },
+      {
+        "option": "B",
+        "text": "4^15"
+      },
+      {
+        "option": "C",
+        "text": "154"
+      },
+      {
+        "option": "D",
+        "text": "4943"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q32",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Arrangements",
+    "question_text": "In how many ways can 12 papers be arranged if the best and the worst paper never come together?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "12!/2!"
+      },
+      {
+        "option": "B",
+        "text": "12! - 11!"
+      },
+      {
+        "option": "C",
+        "text": "12! - 11!×2"
+      },
+      {
+        "option": "D",
+        "text": "11!×2 - 2×11!"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q33",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Vowel Arrangements",
+    "question_text": "In how many ways can the letters of the word 'EQUATION' be arranged so that all the vowels come together?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "9C4×9C5"
+      },
+      {
+        "option": "B",
+        "text": "4!×5!"
+      },
+      {
+        "option": "C",
+        "text": "9!/5!"
+      },
+      {
+        "option": "D",
+        "text": "9!"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q34",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Dressing Combinations",
+    "question_text": "A man has 3 shirts, 4 trousers and 6 ties. What are the number of ways in which he can dress himself with a combination of all the three?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "13"
+      },
+      {
+        "option": "B",
+        "text": "72"
+      },
+      {
+        "option": "C",
+        "text": "13!/3!4!6!"
+      },
+      {
+        "option": "D",
+        "text": "3!4!6!"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q35",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Vehicle Registration",
+    "question_text": "How many motor vehicle registration numbers of 4 digits can be formed with the digits 0, 1, 2, 3, 4, 5 (no digit being repeated)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1080"
+      },
+      {
+        "option": "B",
+        "text": "120"
+      },
+      {
+        "option": "C",
+        "text": "300"
+      },
+      {
+        "option": "D",
+        "text": "360"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q36",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Variable Length Numbers",
+    "question_text": "How many motor vehicle registration number plates can be formed with the digits 1, 2, 3, 4, 5 (no digits being repeated) if it is given that registration number can have 1 to 5 digits?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "100"
+      },
+      {
+        "option": "B",
+        "text": "120"
+      },
+      {
+        "option": "C",
+        "text": "325"
+      },
+      {
+        "option": "D",
+        "text": "205"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q37",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Geometric Combinations",
+    "question_text": "How many straight lines can be formed? (There are 25 points on a plane of which 7 are collinear)",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "7"
+      },
+      {
+        "option": "B",
+        "text": "300"
+      },
+      {
+        "option": "C",
+        "text": "280"
+      },
+      {
+        "option": "D",
+        "text": "none of these"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q38",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Geometric Combinations",
+    "question_text": "How many triangles can be formed from 25 points on a plane of which 7 are collinear?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "453"
+      },
+      {
+        "option": "B",
+        "text": "2265"
+      },
+      {
+        "option": "C",
+        "text": "755"
+      },
+      {
+        "option": "D",
+        "text": "none of these"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q39",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Geometric Combinations",
+    "question_text": "How many quadrilaterals can be formed from 25 points on a plane of which 7 are collinear?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "5206"
+      },
+      {
+        "option": "B",
+        "text": "2603"
+      },
+      {
+        "option": "C",
+        "text": "13015"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q40",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Timetable Arrangements",
+    "question_text": "There are ten subjects in the school day at St. Vincent's High School but the sixth standard students have only 5 periods in a day. In how many ways can we form a time table for the day for the sixth standard students if no subject is repeated?",
+    "data_paragraph": "LEVEL OF DIFFICULTY VERY EASY (1-40)",
+    "options": [
+      {
+        "option": "A",
+        "text": "510"
+      },
+      {
+        "option": "B",
+        "text": "105"
+      },
+      {
+        "option": "C",
+        "text": "252"
+      },
+      {
+        "option": "D",
+        "text": "30240"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q41",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Word Formation",
+    "question_text": "There are 8 consonants and 5 vowels in a word jumble. In how many ways can we form 5-letter words having three consonants and 2 vowels?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "67200"
+      },
+      {
+        "option": "B",
+        "text": "8540"
+      },
+      {
+        "option": "C",
+        "text": "720"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q42",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Cricket Team Selection",
+    "question_text": "How many batting orders are possible for the Indian cricket team if there is a squad of 15 to choose from such that Sachin Tendulkar is always chosen?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1001×11!"
+      },
+      {
+        "option": "B",
+        "text": "364×11!"
+      },
+      {
+        "option": "C",
+        "text": "11!"
+      },
+      {
+        "option": "D",
+        "text": "15×11!"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q43",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Sock Selection",
+    "question_text": "There are 5 blue socks, 4 red socks and 3 green socks, all different in Debu's wardrobe. He has to select 4 socks from this set. In how many ways can he do so?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "245"
+      },
+      {
+        "option": "B",
+        "text": "120"
+      },
+      {
+        "option": "C",
+        "text": "495"
+      },
+      {
+        "option": "D",
+        "text": "60"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q44",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Group Formation",
+    "question_text": "A class prefect goes to meet the principal every week. His class has 30 people apart from him. If he has to take groups of three every time he goes to the principal, in how many weeks will he be able to go to the principal without repeating the group of same three which accompanies him?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "30P3"
+      },
+      {
+        "option": "B",
+        "text": "30C3"
+      },
+      {
+        "option": "C",
+        "text": "30!/3"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q45",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Group Formation",
+    "question_text": "A class prefect has 30 classmates and takes groups of three to meet the principal. If on the first visit the principal appoints one of the boys as head boy and requires the head boy to accompany the prefect every time, for a maximum of how many weeks can the class prefect ensure that the principal sees a fresh group of three?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "30C2"
+      },
+      {
+        "option": "B",
+        "text": "29C2"
+      },
+      {
+        "option": "C",
+        "text": "29C3"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q46",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Word Formation with Constraints",
+    "question_text": "How many distinct words can be formed out of the word PROWLING which start with R & end with W?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "8!/2!"
+      },
+      {
+        "option": "B",
+        "text": "6!2!"
+      },
+      {
+        "option": "C",
+        "text": "6!"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q47",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Digit Arrangements",
+    "question_text": "How many 7-digit numbers are there having the digit 3 three times & the digit 5 four times?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "7!/(3!)(5!)"
+      },
+      {
+        "option": "B",
+        "text": "35×55"
+      },
+      {
+        "option": "C",
+        "text": "77"
+      },
+      {
+        "option": "D",
+        "text": "35"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q48",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Digit Arrangements with Zero",
+    "question_text": "How many 7-digit numbers are there having the digit 3 three times & the digit 0 four times?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "15"
+      },
+      {
+        "option": "B",
+        "text": "33×44"
+      },
+      {
+        "option": "C",
+        "text": "18"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q49",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Word Formation with Constraints",
+    "question_text": "From a set of three capital consonants, five small consonants and 4 small vowels how many words can be made each starting with a capital consonant and containing 3 small consonants and two small vowels?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "3600"
+      },
+      {
+        "option": "B",
+        "text": "7200"
+      },
+      {
+        "option": "C",
+        "text": "21600"
+      },
+      {
+        "option": "D",
+        "text": "28800"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q50",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Game Theory",
+    "question_text": "Several teams take part in a competition, each of which must play one game with all the other teams. How many teams took part if they played 45 games in all?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "10"
+      },
+      {
+        "option": "C",
+        "text": "15"
+      },
+      {
+        "option": "D",
+        "text": "20"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q51",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Fruit Selection",
+    "question_text": "In how many ways a selection can be made of at least one fruit out of 5 bananas, 4 mangoes and 4 almonds?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "129"
+      },
+      {
+        "option": "B",
+        "text": "149"
+      },
+      {
+        "option": "C",
+        "text": "139"
+      },
+      {
+        "option": "D",
+        "text": "109"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q52",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Book Distribution",
+    "question_text": "There are 5 different Jeffrey Archer books, 3 different Sidney Sheldon books and 6 different John Grisham books. The number of ways in which at least one book can be given away is",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "210-1"
+      },
+      {
+        "option": "B",
+        "text": "211-1"
+      },
+      {
+        "option": "C",
+        "text": "212-1"
+      },
+      {
+        "option": "D",
+        "text": "214-1"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q53",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Book Distribution",
+    "question_text": "There are 5 different Jeffrey Archer books, 3 different Sidney Sheldon books and 6 different John Grisham books. Find the number of ways in which at least one book of each author can be given.",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "(2^5-1)(2^3-1)(2^6-1)"
+      },
+      {
+        "option": "B",
+        "text": "(2^5-1)(2^3-1)(2^3-1)"
+      },
+      {
+        "option": "C",
+        "text": "(2^5-1)(2^3-1)(2^3-1)"
+      },
+      {
+        "option": "D",
+        "text": "(2^5-1)(2^3-1)(2^6-1)"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q54",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Question Paper Attempts",
+    "question_text": "There is a question paper consisting of 15 questions. Each question has an internal choice of 2 options. In how many ways can a student attempt one or more questions of the given fifteen questions in the paper?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "37"
+      },
+      {
+        "option": "B",
+        "text": "38"
+      },
+      {
+        "option": "C",
+        "text": "315"
+      },
+      {
+        "option": "D",
+        "text": "315-1"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q55",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Constrained Number Formation",
+    "question_text": "How many numbers can be formed with the digits 1, 6, 7, 8, 7, 6, 1 so that the odd digits always occupy the odd places?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "15"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "18"
+      },
+      {
+        "option": "D",
+        "text": "20"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q56",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Circular Arrangements",
+    "question_text": "Five boys of McGraw-Hill Mindworkzz and three girls of IIM Lucknow sit around a round table so that no two girls are together. In how many ways can they sit?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1220"
+      },
+      {
+        "option": "B",
+        "text": "1400"
+      },
+      {
+        "option": "C",
+        "text": "1420"
+      },
+      {
+        "option": "D",
+        "text": "1440"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q57",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Book Selection",
+    "question_text": "Amita has three library cards and seven books of her interest in the library. Of these books she would not like to borrow the D.I. book unless the Quants book is also borrowed. In how many ways can she take three books?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "15"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "25"
+      },
+      {
+        "option": "D",
+        "text": "30"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q58",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Conditional Selection",
+    "question_text": "From a group of 12 dancers, five have to be taken for a stage show. Among them Radha and Mohan decide either both of them would join or none of them would join. In how many ways can the 5 dancers be chosen?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "190"
+      },
+      {
+        "option": "B",
+        "text": "210"
+      },
+      {
+        "option": "C",
+        "text": "278"
+      },
+      {
+        "option": "D",
+        "text": "372"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q59",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Divisibility Problems",
+    "question_text": "Find the number of 6-digit numbers that can be formed using digits 1-6 once such that the number is divisible by its unit digit (unit digit ≠ 1).",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "620"
+      },
+      {
+        "option": "B",
+        "text": "456"
+      },
+      {
+        "option": "C",
+        "text": "520"
+      },
+      {
+        "option": "D",
+        "text": "528"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q60",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Probability with Constraints",
+    "question_text": "An urn contains 5 boxes each with 5 differently coloured balls. Rangeela wants to pick 5 balls of different colours, one from each box. If from the first box he picks red and second black, what is the maximum number of trials needed (without replacement)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "11"
+      },
+      {
+        "option": "C",
+        "text": "20"
+      },
+      {
+        "option": "D",
+        "text": "60"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q61",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Tournament Structure",
+    "question_text": "How many rounds of matches does a knock-out tennis tournament have if it starts with 64 players and every player needs to win one match to move to the next round?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "64"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q62",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Circular Table Problem",
+    "question_text": "There are N men sitting around a circular table at distinct points. Every possible pair except adjacent ones sings a 2-minute song. Total time = 88 minutes. Find N.",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "8"
+      },
+      {
+        "option": "B",
+        "text": "9"
+      },
+      {
+        "option": "C",
+        "text": "10"
+      },
+      {
+        "option": "D",
+        "text": "11"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q63",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Chess Competition",
+    "question_text": "In a chess competition with boys and girls, every student plays one game with every other. 36 matches are boy-boy and 66 are girl-girl. How many matches are boy-girl?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "108"
+      },
+      {
+        "option": "B",
+        "text": "189"
+      },
+      {
+        "option": "C",
+        "text": "210"
+      },
+      {
+        "option": "D",
+        "text": "54"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q64",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Chocolate Distribution",
+    "question_text": "Zada distributes 15 chocolates among 5 children (Sana, Ada, Jiya, Amir, Farhan). Sana gets at least 3 and at most 6 chocolates. How many ways if each gets at least one?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "495"
+      },
+      {
+        "option": "B",
+        "text": "77"
+      },
+      {
+        "option": "C",
+        "text": "417"
+      },
+      {
+        "option": "D",
+        "text": "425"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q65",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Money Distribution",
+    "question_text": "Mr. Shah divides ₹30 crores among 3 sons (Ajay, Vijay, Arun) ensuring each gets at least ₹5 crores in multiples of ₹1 crore. In how many ways can this be done?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "136"
+      },
+      {
+        "option": "B",
+        "text": "152"
+      },
+      {
+        "option": "C",
+        "text": "176"
+      },
+      {
+        "option": "D",
+        "text": "98"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q66",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Integer Solutions",
+    "question_text": "Three non-negative integers x, y, z sum to 30. No two variables equal, and exactly one ≤ 3. Find number of possible solutions.",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "98"
+      },
+      {
+        "option": "B",
+        "text": "285"
+      },
+      {
+        "option": "C",
+        "text": "68"
+      },
+      {
+        "option": "D",
+        "text": "252"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q67",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Dictionary Arrangements",
+    "question_text": "The letters of ALLAHABAD are rearranged alphabetically in a dictionary. What is the page number of LABADALAH?",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "6269"
+      },
+      {
+        "option": "B",
+        "text": "6268"
+      },
+      {
+        "option": "C",
+        "text": "6087"
+      },
+      {
+        "option": "D",
+        "text": "6086"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q68",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Equation Solutions",
+    "question_text": "If x, y, z ∈ {1, 2, 3, 4, 5, 6, 7}, find number of solutions of x + y + z = 12.",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "36"
+      },
+      {
+        "option": "B",
+        "text": "37"
+      },
+      {
+        "option": "C",
+        "text": "38"
+      },
+      {
+        "option": "D",
+        "text": "31"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q69",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Triangle Formation",
+    "question_text": "There are nine non-collinear points on a plane. Find number of triangles formed.",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "81"
+      },
+      {
+        "option": "B",
+        "text": "90"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "84"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q70",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Triangle Formation with Constraints",
+    "question_text": "There are nine points on a plane such that exactly three are collinear. Find number of triangles formed.",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "81"
+      },
+      {
+        "option": "B",
+        "text": "90"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "83"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q71",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Number Equations",
+    "question_text": "If xy is a 2-digit number and u, v, x, y are digits, find number of solutions of (xy)² = uv + v.",
+    "data_paragraph": "LEVEL OF DIFFICULTY EASY (41-71)",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q72",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Complex Arrangements",
+    "question_text": "Find the number of arrangements of letters of ALLAHABAD such that exactly 4 A's come together.",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "26460"
+      },
+      {
+        "option": "B",
+        "text": "30240"
+      },
+      {
+        "option": "C",
+        "text": "20160"
+      },
+      {
+        "option": "D",
+        "text": "18900"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q73",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Distribution Problem",
+    "question_text": "18 people (including parents) from a family go to cinema in 3 cars taking 7, 6, 5 people in the first, second and third car. Parents never sit in same car. How many ways?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4972800"
+      },
+      {
+        "option": "B",
+        "text": "1491840"
+      },
+      {
+        "option": "C",
+        "text": "2478000"
+      },
+      {
+        "option": "D",
+        "text": "7459200"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q74",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Constrained Seating",
+    "question_text": "Five people sit in a row. Two of them don't want to sit together. Find total arrangements excluding these unwanted cases.",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "76"
+      },
+      {
+        "option": "B",
+        "text": "72"
+      },
+      {
+        "option": "C",
+        "text": "84"
+      },
+      {
+        "option": "D",
+        "text": "91"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q75",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Ranking with Constraints",
+    "question_text": "100 candidates apply for a job. 90 are indistinguishable, 10 are distinct. Director ranks top 10. How many rankings have all 10 distinct at top?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "100!/(90! × 10!)"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "10!"
+      },
+      {
+        "option": "D",
+        "text": "90!"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q76",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Geometric Combinations",
+    "question_text": "For how many integers n (1 ≤ n ≤ 88) is n(n+1)/2 a perfect square?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q77",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Digit Division",
+    "question_text": "How many 6-digit numbers are divisible by 11 and use each digit 0-9 at most once?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "16000"
+      },
+      {
+        "option": "B",
+        "text": "18700"
+      },
+      {
+        "option": "C",
+        "text": "15840"
+      },
+      {
+        "option": "D",
+        "text": "10080"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q78",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Social Media Network",
+    "question_text": "Social network has 80 million members. Each person has 20 friends. Find total friendships if no two people share more than one friend.",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "800 million"
+      },
+      {
+        "option": "B",
+        "text": "8 million"
+      },
+      {
+        "option": "C",
+        "text": "8 × 10⁸"
+      },
+      {
+        "option": "D",
+        "text": "1.6 × 10⁹"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q79",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Graph Theory",
+    "question_text": "Social network with 1000 people. If total friendships = 2002. Max friends one person can have?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "997"
+      },
+      {
+        "option": "D",
+        "text": "999"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q80",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Meal Combinations",
+    "question_text": "Restaurant has 15 entrees, 12 main courses, 10 desserts. Customer orders: 2 entrees, 1 main, 2 desserts. How many ways?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "56700"
+      },
+      {
+        "option": "B",
+        "text": "66700"
+      },
+      {
+        "option": "C",
+        "text": "34650"
+      },
+      {
+        "option": "D",
+        "text": "94500"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q81",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Committee Selection",
+    "question_text": "From 5 men, 4 women select committee of 3 with at least 1 woman but women never outnumber men. How many ways?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "54"
+      },
+      {
+        "option": "B",
+        "text": "60"
+      },
+      {
+        "option": "C",
+        "text": "50"
+      },
+      {
+        "option": "D",
+        "text": "30"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q82",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Flower Selection",
+    "question_text": "5 daisies, 4 roses, 3 tulips in shop. Customer wants bouquet of 5 with exactly 2 daisies and at least one of each other flower. Ways?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "240"
+      },
+      {
+        "option": "B",
+        "text": "180"
+      },
+      {
+        "option": "C",
+        "text": "210"
+      },
+      {
+        "option": "D",
+        "text": "300"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q83",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Assignment Problem",
+    "question_text": "Distribute 25 balls into 5 boxes. Each box gets at least 2 balls. First two boxes have equal balls. How many ways?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "900"
+      },
+      {
+        "option": "B",
+        "text": "990"
+      },
+      {
+        "option": "C",
+        "text": "1000"
+      },
+      {
+        "option": "D",
+        "text": "816"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q84",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Lexicographic Ordering",
+    "question_text": "All anagrams of FACTOR are arranged alphabetically. What position is FACTOR?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "309"
+      },
+      {
+        "option": "B",
+        "text": "313"
+      },
+      {
+        "option": "C",
+        "text": "349"
+      },
+      {
+        "option": "D",
+        "text": "355"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q85",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Letter Replacement",
+    "question_text": "ORRRRR → Replace 4 R's with 4 distinct letters from B,C,D,E,F. How many results are palindromes?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "10"
+      },
+      {
+        "option": "C",
+        "text": "20"
+      },
+      {
+        "option": "D",
+        "text": "25"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q86",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Card Game Probability",
+    "question_text": "Draw cards from deck without replacement until 4 aces obtained. What is probability last card is ace of spades?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/52"
+      },
+      {
+        "option": "B",
+        "text": "1/4"
+      },
+      {
+        "option": "C",
+        "text": "1/13"
+      },
+      {
+        "option": "D",
+        "text": "4/13"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q87",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Path Counting",
+    "question_text": "On 8×8 chessboard, how many shortest paths from bottom-left to top-right that pass through center?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1372"
+      },
+      {
+        "option": "B",
+        "text": "1716"
+      },
+      {
+        "option": "C",
+        "text": "2401"
+      },
+      {
+        "option": "D",
+        "text": "3432"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q88",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Color Arrangements",
+    "question_text": "8 beads on necklace: 3 red, 3 blue, 2 green. Arrangements where no two green beads are adjacent?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "18"
+      },
+      {
+        "option": "B",
+        "text": "24"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "36"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q89",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Book Arrangement",
+    "question_text": "12 distinct books on shelf. How many arrangements where books 1&2 are not adjacent and books 3&4 are not adjacent?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "12! - 2×10! × 2!"
+      },
+      {
+        "option": "B",
+        "text": "12! - 2×11×10! + 8! × 2! × 2!"
+      },
+      {
+        "option": "C",
+        "text": "12!/4"
+      },
+      {
+        "option": "D",
+        "text": "10!"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q90",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Divisibility and Arrangements",
+    "question_text": "How many 7-digit numbers formed from 1,2,3,4,5,6,7 (no repetition) are divisible by 9?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "7!"
+      },
+      {
+        "option": "B",
+        "text": "6!"
+      },
+      {
+        "option": "C",
+        "text": "5!"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q91",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Complex Selection",
+    "question_text": "From 20 points on circle, select 4 points such that no 3 are vertices of inscribed equilateral triangle. Max selections?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4845"
+      },
+      {
+        "option": "B",
+        "text": "4680"
+      },
+      {
+        "option": "C",
+        "text": "4560"
+      },
+      {
+        "option": "D",
+        "text": "4620"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q92",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Grid Movement",
+    "question_text": "Person moves on 4×4 grid from (0,0) to (3,3). Only right/up moves allowed. How many paths don't pass through (2,2)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "14"
+      },
+      {
+        "option": "B",
+        "text": "16"
+      },
+      {
+        "option": "C",
+        "text": "10"
+      },
+      {
+        "option": "D",
+        "text": "20"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q93",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Parking Problem",
+    "question_text": "10 cars (5 red, 5 blue) in parking lot. How many arrangements where no 3 consecutive cars are same color?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "8"
+      },
+      {
+        "option": "B",
+        "text": "80"
+      },
+      {
+        "option": "C",
+        "text": "16"
+      },
+      {
+        "option": "D",
+        "text": "32"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q94",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Team Sport Selection",
+    "question_text": "Cricket team: 15 players total (6 batsmen, 4 bowlers, 5 all-rounders). Select 11 with ≥4 batsmen, ≥3 bowlers, ≥2 all-rounders. Ways?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1050"
+      },
+      {
+        "option": "B",
+        "text": "1200"
+      },
+      {
+        "option": "C",
+        "text": "900"
+      },
+      {
+        "option": "D",
+        "text": "750"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q95",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Number Formation Constraints",
+    "question_text": "How many 6-digit numbers can be formed using digits 1,2,3,4,5,6 exactly once such that number is >345000?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "456"
+      },
+      {
+        "option": "B",
+        "text": "600"
+      },
+      {
+        "option": "C",
+        "text": "576"
+      },
+      {
+        "option": "D",
+        "text": "480"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q96",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Complex Distribution",
+    "question_text": "20 identical books distributed among 4 students. Each gets ≥3 books. First student gets even number. How many ways?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "15"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "18"
+      },
+      {
+        "option": "D",
+        "text": "25"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q97",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Geometric Selection",
+    "question_text": "Regular pentagon. How many ways to select 3 vertices such that they don't form right triangle?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "5"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q98",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Password Formation",
+    "question_text": "Password: 8 characters from 26 letters + 10 digits. Must have ≥1 letter and ≥1 digit. No repetition allowed. How many?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "36P8 - 26P8 - 10P8"
+      },
+      {
+        "option": "B",
+        "text": "36P8"
+      },
+      {
+        "option": "C",
+        "text": "26P8 × 10P8"
+      },
+      {
+        "option": "D",
+        "text": "36P8 + 26P8 + 10P8"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q99",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Modular Arithmetic",
+    "question_text": "How many integers from 1-1000 have digit sum divisible by 4?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "250"
+      },
+      {
+        "option": "B",
+        "text": "249"
+      },
+      {
+        "option": "C",
+        "text": "251"
+      },
+      {
+        "option": "D",
+        "text": "252"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q100",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Seating with Constraints",
+    "question_text": "Round table with 8 seats. 4 couples. Each couple sits together. How many seating arrangements?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "384"
+      },
+      {
+        "option": "B",
+        "text": "768"
+      },
+      {
+        "option": "C",
+        "text": "192"
+      },
+      {
+        "option": "D",
+        "text": "576"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q101",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Committee Formation",
+    "question_text": "Select committee of 7 from 20 people (12 men, 8 women). At least 3 women, and number of women must be odd. Ways?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "44352"
+      },
+      {
+        "option": "B",
+        "text": "50388"
+      },
+      {
+        "option": "C",
+        "text": "41580"
+      },
+      {
+        "option": "D",
+        "text": "36288"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q102",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Domino Placement",
+    "question_text": "2×n rectangular board. How many ways to tile with 1×2 dominoes when n=6?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "13"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "34"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q103",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Letter Frequency",
+    "question_text": "How many anagrams of MATHEMATICS have exactly 2 M's together but not all 3 M's together?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "907200"
+      },
+      {
+        "option": "B",
+        "text": "1814400"
+      },
+      {
+        "option": "C",
+        "text": "604800"
+      },
+      {
+        "option": "D",
+        "text": "1209600"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q104",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Binary String Constraints",
+    "question_text": "How many 10-digit binary strings have no three consecutive 1's?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "149"
+      },
+      {
+        "option": "B",
+        "text": "504"
+      },
+      {
+        "option": "C",
+        "text": "273"
+      },
+      {
+        "option": "D",
+        "text": "504"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q105",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Polynomial Coefficients",
+    "question_text": "In expansion of (1+x+x²+x³)¹⁰, what is coefficient of x²⁰?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "54"
+      },
+      {
+        "option": "B",
+        "text": "45"
+      },
+      {
+        "option": "C",
+        "text": "84"
+      },
+      {
+        "option": "D",
+        "text": "120"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q106",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Card Distribution",
+    "question_text": "Distribute 52 cards equally among 4 players. Probability that each player gets one ace?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "24/C(52,13)"
+      },
+      {
+        "option": "B",
+        "text": "C(13,1)⁴×C(48,12)/C(52,13)"
+      },
+      {
+        "option": "C",
+        "text": "4!×(13!)⁴/(52!/4)"
+      },
+      {
+        "option": "D",
+        "text": "2197/20825"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q107",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Tournament Bracket",
+    "question_text": "Single elimination tournament with 16 players. How many different bracket arrangements?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "16!"
+      },
+      {
+        "option": "B",
+        "text": "2¹⁵"
+      },
+      {
+        "option": "C",
+        "text": "16!/2⁸"
+      },
+      {
+        "option": "D",
+        "text": "8!"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q108",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Inclusion-Exclusion",
+    "question_text": "Set S = {1,2,3,...,100}. How many subsets have no two consecutive integers?",
+    "data_paragraph": "LEVEL OF DIFFICULTY MODERATE (72-108)",
+    "options": [
+      {
+        "option": "A",
+        "text": "F₁₀₂"
+      },
+      {
+        "option": "B",
+        "text": "F₁₀₁"
+      },
+      {
+        "option": "C",
+        "text": "F₁₀₃"
+      },
+      {
+        "option": "D",
+        "text": "F₁₀₀"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q109",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Advanced Arrangements",
+    "question_text": "How many arrangements of ABCDEFGHIJ have no letter in its alphabetical position?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1334961"
+      },
+      {
+        "option": "B",
+        "text": "1334960"
+      },
+      {
+        "option": "C",
+        "text": "1334962"
+      },
+      {
+        "option": "D",
+        "text": "1334959"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q110",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Complex Geometric Problem",
+    "question_text": "A cube is divided into 1000 unit cubes. How many unit cubes have exactly one face painted if original cube faces are painted?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "294"
+      },
+      {
+        "option": "B",
+        "text": "384"
+      },
+      {
+        "option": "C",
+        "text": "486"
+      },
+      {
+        "option": "D",
+        "text": "512"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q111",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Advanced Number Theory",
+    "question_text": "How many positive integers ≤10000 have digit sum = 9?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "715"
+      },
+      {
+        "option": "B",
+        "text": "220"
+      },
+      {
+        "option": "C",
+        "text": "165"
+      },
+      {
+        "option": "D",
+        "text": "286"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q112",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Recursive Counting",
+    "question_text": "In how many ways can you place 8 non-attacking rooks on a chessboard such that no rook is on main diagonal?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "14833"
+      },
+      {
+        "option": "B",
+        "text": "14832"
+      },
+      {
+        "option": "C",
+        "text": "14834"
+      },
+      {
+        "option": "D",
+        "text": "14831"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q113",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Matrix Determinants",
+    "question_text": "How many 3×3 matrices with entries from {0,1} have determinant = 1?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "56"
+      },
+      {
+        "option": "B",
+        "text": "60"
+      },
+      {
+        "option": "C",
+        "text": "48"
+      },
+      {
+        "option": "D",
+        "text": "72"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q114",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Advanced Graph Theory",
+    "question_text": "Complete graph K₁₀. How many spanning trees are there?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "10⁸"
+      },
+      {
+        "option": "B",
+        "text": "10⁹"
+      },
+      {
+        "option": "C",
+        "text": "10⁷"
+      },
+      {
+        "option": "D",
+        "text": "10¹⁰"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q115",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Generating Functions",
+    "question_text": "Coefficient of x¹⁵ in (1+x+x²+...)²⁰?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "C(34,15)"
+      },
+      {
+        "option": "B",
+        "text": "C(35,15)"
+      },
+      {
+        "option": "C",
+        "text": "C(34,19)"
+      },
+      {
+        "option": "D",
+        "text": "C(33,15)"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q116",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Bell Numbers",
+    "question_text": "In how many ways can 7 distinct objects be partitioned into non-empty subsets?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "877"
+      },
+      {
+        "option": "B",
+        "text": "876"
+      },
+      {
+        "option": "C",
+        "text": "875"
+      },
+      {
+        "option": "D",
+        "text": "878"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q117",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Catalan Numbers",
+    "question_text": "How many ways to parenthesize a product of 6 matrices?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "42"
+      },
+      {
+        "option": "B",
+        "text": "132"
+      },
+      {
+        "option": "C",
+        "text": "429"
+      },
+      {
+        "option": "D",
+        "text": "1430"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q118",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Advanced Probability",
+    "question_text": "52 cards dealt to 4 players (13 each). Probability all 4 aces in same hand?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "44/833"
+      },
+      {
+        "option": "B",
+        "text": "1/833"
+      },
+      {
+        "option": "C",
+        "text": "11/833"
+      },
+      {
+        "option": "D",
+        "text": "88/4165"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q119",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Advanced Stirling Numbers",
+    "question_text": "How many surjective functions from set of 8 elements to set of 5 elements?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "126000"
+      },
+      {
+        "option": "B",
+        "text": "67200"
+      },
+      {
+        "option": "C",
+        "text": "109200"
+      },
+      {
+        "option": "D",
+        "text": "151200"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q120",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Lattice Paths",
+    "question_text": "Lattice paths from (0,0) to (10,10) that don't go above line y=x. How many?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "16796"
+      },
+      {
+        "option": "B",
+        "text": "184756"
+      },
+      {
+        "option": "C",
+        "text": "167960"
+      },
+      {
+        "option": "D",
+        "text": "16796"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q121",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Polya Theory",
+    "question_text": "How many distinct necklaces with 8 beads using 3 colors?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "834"
+      },
+      {
+        "option": "B",
+        "text": "843"
+      },
+      {
+        "option": "C",
+        "text": "438"
+      },
+      {
+        "option": "D",
+        "text": "348"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q122",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Advanced Inclusion-Exclusion",
+    "question_text": "How many permutations of 1,2,3,4,5,6,7,8,9 have exactly 3 fixed points?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "2464"
+      },
+      {
+        "option": "B",
+        "text": "1854"
+      },
+      {
+        "option": "C",
+        "text": "3948"
+      },
+      {
+        "option": "D",
+        "text": "1358"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q123",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Exponential Generating Functions",
+    "question_text": "Number of ways to arrange n distinct objects in a circle where clockwise and counterclockwise are different (n=7)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "720"
+      },
+      {
+        "option": "B",
+        "text": "360"
+      },
+      {
+        "option": "C",
+        "text": "5040"
+      },
+      {
+        "option": "D",
+        "text": "2520"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q124",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Group Theory Applications",
+    "question_text": "How many ways to color vertices of regular hexagon with 4 colors such that adjacent vertices have different colors?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "420"
+      },
+      {
+        "option": "B",
+        "text": "246"
+      },
+      {
+        "option": "C",
+        "text": "570"
+      },
+      {
+        "option": "D",
+        "text": "732"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q125",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Advanced Partitions",
+    "question_text": "Number of partitions of 20 into distinct odd parts?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "7"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q126",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Mobius Function",
+    "question_text": "How many binary strings of length 12 are periodic with period dividing 4?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "24"
+      },
+      {
+        "option": "C",
+        "text": "16"
+      },
+      {
+        "option": "D",
+        "text": "28"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q127",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Complex Recurrence Relations",
+    "question_text": "a₀=1, a₁=2, aₙ=3aₙ₋₁-2aₙ₋₂ for n≥2. Find a₁₀.",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1023"
+      },
+      {
+        "option": "B",
+        "text": "1024"
+      },
+      {
+        "option": "C",
+        "text": "1025"
+      },
+      {
+        "option": "D",
+        "text": "1022"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q128",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Advanced Multinomial",
+    "question_text": "Coefficient of x₁²x₂³x₃⁴x₄⁵ in expansion of (x₁+x₂+x₃+x₄)¹⁴?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "2522520"
+      },
+      {
+        "option": "B",
+        "text": "2162160"
+      },
+      {
+        "option": "C",
+        "text": "2702700"
+      },
+      {
+        "option": "D",
+        "text": "2432430"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q129",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Young Tableaux",
+    "question_text": "How many standard Young tableaux of shape (4,3,2)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "768"
+      },
+      {
+        "option": "B",
+        "text": "840"
+      },
+      {
+        "option": "C",
+        "text": "420"
+      },
+      {
+        "option": "D",
+        "text": "1260"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q130",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Burnside's Lemma",
+    "question_text": "How many distinct ways to arrange 4 identical red and 4 identical blue beads on a square bracelet?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "7"
+      },
+      {
+        "option": "B",
+        "text": "14"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "28"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q131",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Ramsey Theory",
+    "question_text": "Minimum number of people needed to guarantee either 4 mutual friends or 4 mutual strangers?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "17"
+      },
+      {
+        "option": "B",
+        "text": "18"
+      },
+      {
+        "option": "C",
+        "text": "16"
+      },
+      {
+        "option": "D",
+        "text": "19"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q132",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Lucas Numbers",
+    "question_text": "L₀=2, L₁=1, Lₙ=Lₙ₋₁+Lₙ₋₂. What is L₁₀?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "123"
+      },
+      {
+        "option": "B",
+        "text": "199"
+      },
+      {
+        "option": "C",
+        "text": "322"
+      },
+      {
+        "option": "D",
+        "text": "521"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q133",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Euler's Function",
+    "question_text": "How many positive integers ≤1000 are relatively prime to 1000?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "400"
+      },
+      {
+        "option": "B",
+        "text": "300"
+      },
+      {
+        "option": "C",
+        "text": "500"
+      },
+      {
+        "option": "D",
+        "text": "600"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q134",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Pentagonal Numbers",
+    "question_text": "How many partitions of 15 into distinct parts?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "27"
+      },
+      {
+        "option": "B",
+        "text": "26"
+      },
+      {
+        "option": "C",
+        "text": "28"
+      },
+      {
+        "option": "D",
+        "text": "29"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q135",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Chromatic Polynomials",
+    "question_text": "Chromatic polynomial of cycle graph C₆ evaluated at k=3?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "246"
+      },
+      {
+        "option": "B",
+        "text": "48"
+      },
+      {
+        "option": "C",
+        "text": "240"
+      },
+      {
+        "option": "D",
+        "text": "54"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q136",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Matching Theory",
+    "question_text": "Complete bipartite graph K₅,₅. How many perfect matchings?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "120"
+      },
+      {
+        "option": "B",
+        "text": "5!"
+      },
+      {
+        "option": "C",
+        "text": "25"
+      },
+      {
+        "option": "D",
+        "text": "3125"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q137",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Permanents",
+    "question_text": "Permanent of 3×3 matrix with all entries = 1?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "9"
+      },
+      {
+        "option": "C",
+        "text": "27"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q138",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Hypergeometric Series",
+    "question_text": "Coefficient of x¹⁰ in (1-x)⁻⁵?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "C(14,10)"
+      },
+      {
+        "option": "B",
+        "text": "C(15,10)"
+      },
+      {
+        "option": "C",
+        "text": "C(14,4)"
+      },
+      {
+        "option": "D",
+        "text": "C(10,5)"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q139",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Symmetric Functions",
+    "question_text": "Elementary symmetric polynomial e₃(x₁,x₂,x₃,x₄) has how many terms?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "12"
+      },
+      {
+        "option": "D",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q140",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Continued Fractions",
+    "question_text": "Number of convergents of [2;1,2,1,2,1,2] (finite continued fraction)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "7"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q141",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Error-Correcting Codes",
+    "question_text": "Hamming(7,4) code can detect how many bit errors?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q142",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "q-Analogues",
+    "question_text": "q-binomial coefficient [5;2]q at q=2 equals?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "31"
+      },
+      {
+        "option": "B",
+        "text": "26"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "36"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q143",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Orthogonal Latin Squares",
+    "question_text": "How many 3×3 Latin squares are there (up to isomorphism)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q144",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Galois Field Theory",
+    "question_text": "How many irreducible polynomials of degree 3 over GF(2)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q145",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Algebraic Combinatorics",
+    "question_text": "Dimension of symmetric algebra S³(C²)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q146",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Partially Ordered Sets",
+    "question_text": "How many linear extensions does the Boolean lattice B₃ have?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "48"
+      },
+      {
+        "option": "B",
+        "text": "96"
+      },
+      {
+        "option": "C",
+        "text": "24"
+      },
+      {
+        "option": "D",
+        "text": "72"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q147",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Matroids",
+    "question_text": "Rank of uniform matroid U₃,₅?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q148",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Species Theory",
+    "question_text": "Exponential generating function for labeled rooted trees on n vertices?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "∑ nⁿ⁻¹ xⁿ/n!"
+      },
+      {
+        "option": "B",
+        "text": "∑ nⁿ xⁿ/n!"
+      },
+      {
+        "option": "C",
+        "text": "∑ (n+1)ⁿ⁻¹ xⁿ/n!"
+      },
+      {
+        "option": "D",
+        "text": "∑ 2ⁿ xⁿ/n!"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q149",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Analytic Combinatorics",
+    "question_text": "Coefficient of zⁿ in (1-4z)⁻¹/² grows asymptotically as?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "4ⁿ/√(πn)"
+      },
+      {
+        "option": "B",
+        "text": "4ⁿ/n"
+      },
+      {
+        "option": "C",
+        "text": "2·4ⁿ/√(πn)"
+      },
+      {
+        "option": "D",
+        "text": "4ⁿ"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q150",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Hopf Algebras",
+    "question_text": "Dimension of graded component Sym₃ in symmetric functions?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q151",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Cluster Algebras",
+    "question_text": "Number of cluster variables in type A₃?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "9"
+      },
+      {
+        "option": "B",
+        "text": "14"
+      },
+      {
+        "option": "C",
+        "text": "5"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q152",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Root Systems",
+    "question_text": "Number of positive roots in root system A₄?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "15"
+      },
+      {
+        "option": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q153",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Quantum Groups",
+    "question_text": "q-dimension of vector representation of Uq(sl₂) at q=i?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "-1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q154",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Tropical Geometry",
+    "question_text": "Number of vertices of tropical polytope Δ₂ in R³?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "7"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q155",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Geometric Group Theory",
+    "question_text": "Growth rate of free group F₂?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "e"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q156",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Algebraic Topology",
+    "question_text": "Euler characteristic of Klein bottle?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "-1"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q157",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Knot Theory",
+    "question_text": "Alexander polynomial of trefoil knot at t=1?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "-1"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q158",
+    "block": "Modern Math",
+    "chapter_subtopic": "Permutations & Combinations",
+    "question_type": "Category Theory",
+    "question_text": "Number of morphisms in free category on graph with 2 vertices and 3 edges (loops allowed)?",
+    "data_paragraph": "LEVEL OF DIFFICULTY DIFFICULT (109-158)",
+    "options": [
+      {
+        "option": "A",
+        "text": "Infinite"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "13"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "GEN_1551",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the HCF of 46 and 53?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1552",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the LCM of 9 and 10?",
+    "options": {
+      "A": "90",
+      "B": "91",
+      "C": "89",
+      "D": "92"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1553",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the LCM of 11 and 20?",
+    "options": {
+      "A": "220",
+      "B": "221",
+      "C": "219",
+      "D": "222"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1554",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the HCF of 24 and 25?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1555",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the HCF of 19 and 41?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1556",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the HCF of 40 and 33?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1557",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the HCF of 15 and 20?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "4",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1558",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the LCM of 9 and 17?",
+    "options": {
+      "A": "153",
+      "B": "154",
+      "C": "152",
+      "D": "155"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1559",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the HCF of 13 and 33?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1560",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the LCM of 7 and 9?",
+    "options": {
+      "A": "63",
+      "B": "64",
+      "C": "62",
+      "D": "65"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1561",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "What is the LCM of 14 and 11?",
+    "options": {
+      "A": "154",
+      "B": "155",
+      "C": "153",
+      "D": "156"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1652",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 52 have?",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "5",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1653",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 54 have?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1654",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 53 have?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1655",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 95 have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "9"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1656",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 89 have?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1657",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 64 have?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "6",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1658",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 85 have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "9"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1659",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 76 have?",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "5",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1660",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 84 have?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "11",
+      "D": "17"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1661",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 66 have?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1662",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 40 have?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1663",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 45 have?",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "5",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1664",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 53 have?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1665",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 29 have?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1666",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 47 have?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "7"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1667",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "How many factors does 46 have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "9"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1796",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 574 is divided by 7.",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "-2",
+      "D": "10"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1797",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 341 is divided by 9.",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "6",
+      "D": "18"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1798",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 568 is divided by 13.",
+    "options": {
+      "A": "9",
+      "B": "11",
+      "C": "7",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1799",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 627 is divided by 13.",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "1",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1800",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 708 is divided by 9.",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "4",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1801",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 741 is divided by 11.",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "2",
+      "D": "14"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1802",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 539 is divided by 10.",
+    "options": {
+      "A": "9",
+      "B": "11",
+      "C": "7",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1803",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 302 is divided by 10.",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "0",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1804",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 443 is divided by 11.",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "1",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1805",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 335 is divided by 10.",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "3",
+      "D": "15"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1806",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 810 is divided by 8.",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "0",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1807",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 130 is divided by 8.",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "0",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1808",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 191 is divided by 7.",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "0",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1809",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 385 is divided by 13.",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "6",
+      "D": "18"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1810",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 306 is divided by 7.",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "3",
+      "D": "15"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1811",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "Find the remainder when 592 is divided by 7.",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "2",
+      "D": "14"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1932",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 9^30 is:",
+    "options": {
+      "A": "1",
+      "B": "6",
+      "C": "-4",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1933",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 8^34 is:",
+    "options": {
+      "A": "4",
+      "B": "9",
+      "C": "-1",
+      "D": "14"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1934",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 9^33 is:",
+    "options": {
+      "A": "9",
+      "B": "14",
+      "C": "4",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1935",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 7^48 is:",
+    "options": {
+      "A": "1",
+      "B": "6",
+      "C": "-4",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1936",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 9^22 is:",
+    "options": {
+      "A": "1",
+      "B": "6",
+      "C": "-4",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1937",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 5^41 is:",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "0",
+      "D": "15"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1938",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 7^31 is:",
+    "options": {
+      "A": "3",
+      "B": "8",
+      "C": "-2",
+      "D": "13"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1939",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 5^25 is:",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "0",
+      "D": "15"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1940",
+    "block": "Modern Math",
+    "subtopic": "modern math",
+    "text": "The last digit of 6^41 is:",
+    "options": {
+      "A": "6",
+      "B": "11",
+      "C": "1",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Modern Math question.",
+    "source": "generated",
+    "generated": true
+  }
+]

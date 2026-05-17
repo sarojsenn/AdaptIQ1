@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaptIQ - Sign Up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#0a0a0f',
+                        'purple-primary': '#8b5cf6',
+                        'purple-secondary': '#a855f7',
+                        'purple-light': '#c084fc',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1e1b4b 50%, #312e81 100%);
+            min-height: 100vh;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .input-focus:focus {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #8b5cf6;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.4);
+        }
+
+        .spinner {
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #8b5cf6;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .alert {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+        }
+
+        .alert.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Grade Select Styling */
+        select {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23a855f7' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+            background-position: right 12px center;
+            background-repeat: no-repeat;
+            background-size: 1.2em 1.2em;
+            padding-right: 2.5rem;
+        }
+
+        select option {
+            background-color: #1e1b4b;
+            color: white;
+            padding: 12px;
+        }
+
+        select option:hover,
+        select option:checked,
+        select option:focus {
+            background-color: #8b5cf6 !important;
+            color: white !important;
+        }
+
+        /* Mobile-specific improvements */
+        @media (max-width: 640px) {
+            .glass-effect {
+                background: rgba(255, 255, 255, 0.08);
+                backdrop-filter: blur(8px);
+            }
+            
+            .input-focus:focus {
+                transform: scale(1.02);
+            }
+            
+            .otp-input {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            
+            /* Prevent zoom on input focus for iOS */
+            input[type="text"], 
+            input[type="email"], 
+            input[type="password"],
+            select {
+                font-size: 16px;
+            }
+        }
+
+        /* Improved touch targets for mobile */
+        @media (max-width: 768px) {
+            button, input, a {
+                min-height: 44px;
+            }
+        }
+    </style>
+</head>
+<body class="text-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 px-4 sm:px-6 py-3 sm:py-4">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2 sm:space-x-3">
+                <img src="../assets/images/img_.png" alt="AdaptIQ Logo" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover" />
+                <span class="text-xl sm:text-2xl font-bold gradient-text">AdaptIQ</span>
+            </div>
+            
+            <!-- Back to Home -->
+            <a href="LandingPage.html" class="glass-effect px-3 py-2 sm:px-6 text-sm sm:text-base rounded-full text-white hover:bg-white hover:bg-opacity-10 transition-all duration-300">
+                <span class="hidden sm:inline">← Back to Home</span>
+                <span class="sm:hidden">← Home</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="min-h-screen flex items-center justify-center px-4 sm:px-6 pt-16 sm:pt-20 pb-8">
+        <div class="w-full max-w-sm sm:max-w-md">
+            <!-- Registration Form Card -->
+            <div id="registrationForm" class="glass-effect rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-2xl">
+                <div class="text-center mb-6 sm:mb-8">
+                    <h1 class="text-2xl sm:text-3xl font-bold gradient-text mb-2">Create Account</h1>
+                    <p class="text-sm sm:text-base text-gray-300">Join AdaptIQ and start your learning journey</p>
+                </div>
+
+                <!-- Alert Message -->
+                <div id="alertMessage" class="alert mb-6 p-4 rounded-lg hidden">
+                    <div class="flex items-center">
+                        <div id="alertIcon" class="mr-3"></div>
+                        <p id="alertText" class="text-sm font-medium"></p>
+                    </div>
+                </div>
+
+                <form id="signupForm" class="space-y-4 sm:space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">First Name</label>
+                            <input 
+                                type="text" 
+                                id="firstName" 
+                                name="firstName"
+                                required
+                                class="w-full px-3 sm:px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300 text-sm sm:text-base"
+                                placeholder="John"
+                            />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">Last Name</label>
+                            <input 
+                                type="text" 
+                                id="lastName" 
+                                name="lastName"
+                                required
+                                class="w-full px-3 sm:px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300 text-sm sm:text-base"
+                                placeholder="Doe"
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email"
+                            required
+                            class="w-full px-3 sm:px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300 text-sm sm:text-base"
+                            placeholder="john@example.com"
+                        />
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Password</label>
+                        <input 
+                            type="password" 
+                            id="password" 
+                            name="password"
+                            required
+                            minlength="6"
+                            class="w-full px-3 sm:px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300 text-sm sm:text-base"
+                            placeholder="••••••••"
+                        />
+                        <p class="text-xs text-gray-400 mt-1">Password must be at least 6 characters long</p>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Confirm Password</label>
+                        <input 
+                            type="password" 
+                            id="confirmPassword" 
+                            name="confirmPassword"
+                            required
+                            class="w-full px-3 sm:px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300 text-sm sm:text-base"
+                            placeholder="••••••••"
+                        />
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Grade Level</label>
+                        <div class="relative">
+                            <select 
+                                id="grade" 
+                                name="grade"
+                                required
+                                class="w-full px-3 sm:px-4 py-3 glass-effect rounded-xl text-white placeholder-gray-400 input-focus transition-all duration-300 text-sm sm:text-base appearance-none bg-transparent"
+                            >
+                                <option value="" disabled selected class="bg-purple-900 text-white">Select your grade level</option>
+                                <option value="6" class="bg-purple-900 text-white">Grade 6</option>
+                                <option value="7" class="bg-purple-900 text-white">Grade 7</option>
+                                <option value="8" class="bg-purple-900 text-white">Grade 8</option>
+                                <option value="9" class="bg-purple-900 text-white">Grade 9</option>
+                                <option value="10" class="bg-purple-900 text-white">Grade 10</option>
+                                <option value="11" class="bg-purple-900 text-white">Grade 11</option>
+                                <option value="12" class="bg-purple-900 text-white">Grade 12</option>
+                            </select>
+                            <div class="absolute right-3 sm:right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
+                                <svg class="w-4 h-4 sm:w-5 sm:h-5 text-purple-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="text-xs text-gray-400 mt-1">Select your current academic grade level</p>
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        id="submitBtn"
+                        class="w-full btn-primary py-3 sm:py-4 rounded-xl font-semibold text-white flex items-center justify-center space-x-2 text-sm sm:text-base"
+                    >
+                        <span id="btnText">Create Account</span>
+                        <div id="btnSpinner" class="spinner hidden"></div>
+                    </button>
+                </form>
+
+                <div class="text-center mt-4 sm:mt-6">
+                    <p class="text-gray-400 text-sm sm:text-base">
+                        Already have an account? 
+                        <a href="SignIn.html" class="text-purple-light hover:text-purple-primary transition-colors">Sign in</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- OTP Verification Form -->
+            <div id="otpForm" class="glass-effect rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-2xl hidden">
+                <div class="text-center mb-6 sm:mb-8">
+                    <div class="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-purple-primary to-purple-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 sm:w-10 sm:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h1 class="text-2xl sm:text-3xl font-bold gradient-text mb-2">Verify Your Email</h1>
+                    <p class="text-sm sm:text-base text-gray-300 mb-2 sm:mb-4">We've sent a verification code to</p>
+                    <p id="userEmail" class="text-purple-light font-medium text-sm sm:text-base break-all"></p>
+                </div>
+
+                <!-- OTP Alert Message -->
+                <div id="otpAlertMessage" class="alert mb-6 p-4 rounded-lg hidden">
+                    <div class="flex items-center">
+                        <div id="otpAlertIcon" class="mr-3"></div>
+                        <p id="otpAlertText" class="text-sm font-medium"></p>
+                    </div>
+                </div>
+
+                <form id="verifyOtpForm" class="space-y-4 sm:space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-3 text-center">Enter 6-digit verification code</label>
+                        <div class="flex justify-center space-x-2 sm:space-x-3">
+                            <input type="text" maxlength="1" class="otp-input w-10 h-10 sm:w-12 sm:h-12 text-center glass-effect rounded-lg sm:rounded-xl text-white text-base sm:text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-10 h-10 sm:w-12 sm:h-12 text-center glass-effect rounded-lg sm:rounded-xl text-white text-base sm:text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-10 h-10 sm:w-12 sm:h-12 text-center glass-effect rounded-lg sm:rounded-xl text-white text-base sm:text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-10 h-10 sm:w-12 sm:h-12 text-center glass-effect rounded-lg sm:rounded-xl text-white text-base sm:text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-10 h-10 sm:w-12 sm:h-12 text-center glass-effect rounded-lg sm:rounded-xl text-white text-base sm:text-lg font-semibold input-focus" />
+                            <input type="text" maxlength="1" class="otp-input w-10 h-10 sm:w-12 sm:h-12 text-center glass-effect rounded-lg sm:rounded-xl text-white text-base sm:text-lg font-semibold input-focus" />
+                        </div>
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        id="verifyBtn"
+                        class="w-full btn-primary py-3 sm:py-4 rounded-xl font-semibold text-white flex items-center justify-center space-x-2 text-sm sm:text-base"
+                    >
+                        <span id="verifyBtnText">Verify Email</span>
+                        <div id="verifyBtnSpinner" class="spinner hidden"></div>
+                    </button>
+                </form>
+
+                <div class="text-center mt-4 sm:mt-6">
+                    <p class="text-gray-400 mb-3 sm:mb-4 text-sm sm:text-base">Didn't receive the code?</p>
+                    <button 
+                        id="resendBtn" 
+                        class="text-purple-light hover:text-purple-primary transition-colors font-medium text-sm sm:text-base"
+                    >
+                        Resend Code
+                    </button>
+                    <div id="resendTimer" class="text-sm text-gray-500 mt-2 hidden">
+                        Resend available in <span id="timerCount">60</span>s
+                    </div>
+                </div>
+
+                <div class="text-center mt-4 sm:mt-6">
+                    <button id="backToRegister" class="text-gray-400 hover:text-white transition-colors text-sm sm:text-base">
+                        ← Back to Registration
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentUserId = null;
+        let resendTimer = null;
+
+        // Form elements
+        const registrationForm = document.getElementById('registrationForm');
+        const otpForm = document.getElementById('otpForm');
+        const signupForm = document.getElementById('signupForm');
+        const verifyOtpForm = document.getElementById('verifyOtpForm');
+        const otpInputs = document.querySelectorAll('.otp-input');
+
+        // Alert functions
+        function showAlert(message, type, alertId = 'alertMessage') {
+            const alertElement = document.getElementById(alertId);
+            const alertText = document.getElementById(alertId.replace('Message', 'Text'));
+            const alertIcon = document.getElementById(alertId.replace('Message', 'Icon'));
+            
+            alertElement.className = `alert mb-6 p-4 rounded-lg ${type === 'error' ? 'bg-red-500 bg-opacity-20 border border-red-500' : 'bg-green-500 bg-opacity-20 border border-green-500'}`;
+            alertText.textContent = message;
+            alertIcon.innerHTML = type === 'error' 
+                ? '<svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>'
+                : '<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>';
+            
+            alertElement.classList.remove('hidden');
+            setTimeout(() => alertElement.classList.add('show'), 100);
+        }
+
+        function hideAlert(alertId = 'alertMessage') {
+            const alertElement = document.getElementById(alertId);
+            alertElement.classList.remove('show');
+            setTimeout(() => alertElement.classList.add('hidden'), 300);
+        }
+
+        // OTP Input handling
+        otpInputs.forEach((input, index) => {
+            input.addEventListener('input', (e) => {
+                if (e.target.value.length === 1 && index < otpInputs.length - 1) {
+                    otpInputs[index + 1].focus();
+                }
+            });
+
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'Backspace' && e.target.value === '' && index > 0) {
+                    otpInputs[index - 1].focus();
+                }
+            });
+
+            input.addEventListener('paste', (e) => {
+                e.preventDefault();
+                const pasteData = e.clipboardData.getData('text');
+                if (pasteData.length === 6 && /^\d+$/.test(pasteData)) {
+                    pasteData.split('').forEach((char, i) => {
+                        if (i < otpInputs.length) {
+                            otpInputs[i].value = char;
+                        }
+                    });
+                }
+            });
+        });
+
+        // Registration form submission
+        signupForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = document.getElementById('btnText');
+            const btnSpinner = document.getElementById('btnSpinner');
+            
+            const formData = new FormData(signupForm);
+            const password = formData.get('password');
+            const confirmPassword = formData.get('confirmPassword');
+            
+            // Validate password match
+            if (password !== confirmPassword) {
+                showAlert('Passwords do not match', 'error');
+                return;
+            }
+
+            // Show loading state
+            submitBtn.disabled = true;
+            btnText.textContent = 'Creating Account...';
+            btnSpinner.classList.remove('hidden');
+            hideAlert();
+
+            try {
+                const response = await fetch('http://localhost:3000/api/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        firstName: formData.get('firstName'),
+                        lastName: formData.get('lastName'),
+                        email: formData.get('email'),
+                        password: formData.get('password'),
+                        grade: formData.get('grade')
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    currentUserId = data.userId;
+                    document.getElementById('userEmail').textContent = formData.get('email');
+                    
+                    // Show success message and transition to OTP form
+                    showAlert('Account created! Check your email for verification code.', 'success');
+                    
+                    setTimeout(() => {
+                        registrationForm.classList.add('hidden');
+                        otpForm.classList.remove('hidden');
+                        otpInputs[0].focus();
+                    }, 2000);
+                } else {
+                    showAlert(data.message, 'error');
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error');
+            } finally {
+                submitBtn.disabled = false;
+                btnText.textContent = 'Create Account';
+                btnSpinner.classList.add('hidden');
+            }
+        });
+
+        // OTP verification form submission
+        verifyOtpForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const verifyBtn = document.getElementById('verifyBtn');
+            const verifyBtnText = document.getElementById('verifyBtnText');
+            const verifyBtnSpinner = document.getElementById('verifyBtnSpinner');
+            
+            const otp = Array.from(otpInputs).map(input => input.value).join('');
+            
+            if (otp.length !== 6) {
+                showAlert('Please enter the complete 6-digit code', 'error', 'otpAlertMessage');
+                return;
+            }
+
+            // Show loading state
+            verifyBtn.disabled = true;
+            verifyBtnText.textContent = 'Verifying...';
+            verifyBtnSpinner.classList.remove('hidden');
+            hideAlert('otpAlertMessage');
+
+            try {
+                const response = await fetch('http://localhost:3000/api/verify-otp', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        userId: currentUserId,
+                        otp: otp
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    // Store token in localStorage
+                    localStorage.setItem('authToken', data.token);
+                    localStorage.setItem('user', JSON.stringify(data.user));
+                    
+                    // Store student profile information
+                    const formData = new FormData(signupForm);
+                    const fullName = `${formData.get('firstName')} ${formData.get('lastName')}`.trim();
+                    const grade = formData.get('grade');
+                    
+                    if (fullName) {
+                        localStorage.setItem('studentName', fullName);
+                    }
+                    if (grade) {
+                        localStorage.setItem('studentGrade', grade);
+                    }
+                    
+                    // Store complete user data for profile page
+                    const userData = {
+                        firstName: formData.get('firstName'),
+                        lastName: formData.get('lastName'),
+                        email: formData.get('email'),
+                        grade: grade,
+                        memberSince: new Date().toLocaleDateString()
+                    };
+                    localStorage.setItem('userData', JSON.stringify(userData));
+                    localStorage.setItem('memberSince', userData.memberSince);
+                    
+                    showAlert('Email verified successfully! Redirecting...', 'success', 'otpAlertMessage');
+                    
+                    setTimeout(() => {
+                        window.location.href = 'StudentDashboard.html';
+                    }, 2000);
+                } else {
+                    showAlert(data.message, 'error', 'otpAlertMessage');
+                    // Clear OTP inputs on error
+                    otpInputs.forEach(input => input.value = '');
+                    otpInputs[0].focus();
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error', 'otpAlertMessage');
+            } finally {
+                verifyBtn.disabled = false;
+                verifyBtnText.textContent = 'Verify Email';
+                verifyBtnSpinner.classList.add('hidden');
+            }
+        });
+
+        // Resend OTP functionality
+        document.getElementById('resendBtn').addEventListener('click', async () => {
+            const resendBtn = document.getElementById('resendBtn');
+            const resendTimer = document.getElementById('resendTimer');
+            const timerCount = document.getElementById('timerCount');
+            
+            if (!currentUserId) {
+                showAlert('Session expired. Please register again.', 'error', 'otpAlertMessage');
+                return;
+            }
+
+            try {
+                const response = await fetch('http://localhost:3000/api/resend-otp', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        userId: currentUserId
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showAlert('New verification code sent!', 'success', 'otpAlertMessage');
+                    
+                    // Start countdown timer
+                    resendBtn.style.display = 'none';
+                    resendTimer.classList.remove('hidden');
+                    
+                    let timeLeft = 60;
+                    const countdown = setInterval(() => {
+                        timeLeft--;
+                        timerCount.textContent = timeLeft;
+                        
+                        if (timeLeft <= 0) {
+                            clearInterval(countdown);
+                            resendBtn.style.display = 'inline';
+                            resendTimer.classList.add('hidden');
+                        }
+                    }, 1000);
+                } else {
+                    showAlert(data.message, 'error', 'otpAlertMessage');
+                }
+            } catch (error) {
+                showAlert('Network error. Please try again.', 'error', 'otpAlertMessage');
+            }
+        });
+
+        // Back to registration
+        document.getElementById('backToRegister').addEventListener('click', () => {
+            otpForm.classList.add('hidden');
+            registrationForm.classList.remove('hidden');
+            // Clear OTP inputs
+            otpInputs.forEach(input => input.value = '');
+            hideAlert('otpAlertMessage');
+        });
+
+        // Check if user is already logged in
+        if (localStorage.getItem('authToken')) {
+            window.location.href = 'StudentDashboard.html';
+        }
+    </script>
+</body>
+</html>

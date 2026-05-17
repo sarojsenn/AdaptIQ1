@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - AdaptIQ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../css/main.css" rel="stylesheet">
+    <style>
+        :root {
+            --purple-primary: #8b5cf6;
+            --purple-secondary: #a855f7;
+            --purple-light: #c084fc;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .toggle-switch {
+            width: 48px;
+            height: 24px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-switch.active {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%);
+        }
+
+        .toggle-switch::after {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-switch.active::after {
+            transform: translateX(24px);
+        }
+
+        .setting-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .purple-primary {
+            background-color: var(--purple-primary);
+        }
+
+        .purple-secondary {
+            background-color: var(--purple-secondary);
+        }
+
+        .border-purple-light {
+            border-color: var(--purple-light);
+        }
+
+        /* Fix dropdown styling */
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+            background-position: right 0.5rem center;
+            background-repeat: no-repeat;
+            background-size: 1.5em 1.5em;
+            padding-right: 2.5rem;
+        }
+
+        select option {
+            background-color: #1e1b4b;
+            color: white;
+            padding: 8px 12px;
+        }
+
+        select:focus option {
+            background-color: #312e81;
+        }
+
+        select option:hover,
+        select option:checked,
+        select option:focus {
+            background-color: #4c1d95 !important;
+            color: white !important;
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(135deg, #0f0f23 0%, #1e1b4b 50%, #312e81 100%); min-height: 100vh;" class="text-white">
+    
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 py-4" style="background:rgba(30,27,75,0.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,0.1);">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <!-- Logo and Title -->
+            <div class="flex items-center space-x-2 sm:space-x-4">
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                    <img src="../assets/images/img_.png" alt="AdaptIQ Logo" class="w-8 h-8 sm:w-10 sm:h-10 object-contain">
+                    <h1 class="text-lg sm:text-2xl font-bold text-white tracking-wide">
+                        <span style="color: #8b5cf6;">Adapt</span><span class="text-white">IQ</span>
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Back to Dashboard -->
+            <button onclick="goBackToDashboard()" class="glass-effect px-3 sm:px-4 py-2 rounded-lg text-white hover:bg-white hover:bg-opacity-10 transition-all duration-300 flex items-center space-x-1 sm:space-x-2 text-sm sm:text-base">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                <span class="hidden sm:inline">Back to Dashboard</span>
+                <span class="sm:hidden">Back</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-20 sm:pt-24 px-4 sm:px-6 pb-8">
+        <div class="max-w-4xl mx-auto">
+            
+            <!-- Settings Header -->
+            <div class="mb-6 sm:mb-8">
+                <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 gradient-text">Settings</h1>
+                <p class="text-gray-300">Customize your AdaptIQ learning experience</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+                
+                <!-- Display Settings -->
+                <div class="glass-effect p-4 sm:p-6 rounded-xl sm:rounded-2xl">
+                    <h2 class="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 flex items-center">
+                        <svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        </svg>
+                        Display Settings
+                    </h2>
+                    
+                    <div class="space-y-4 sm:space-y-6">
+                        
+                        <!-- Font Size -->
+                        <div class="setting-card p-3 sm:p-4 rounded-lg">
+                            <div>
+                                <h3 class="font-medium mb-2 sm:mb-3 text-sm sm:text-base">Font Size</h3>
+                                <select id="fontSize" class="w-full px-3 sm:px-4 py-2 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-20 text-white focus:outline-none text-sm sm:text-base" style="border-color: rgba(139, 92, 246, 0.5); transition: border-color 0.3s ease;" onfocus="this.style.borderColor='rgba(139, 92, 246, 0.8)'" onblur="this.style.borderColor='rgba(255, 255, 255, 0.2)'">
+                                    <option value="small">Small</option>
+                                    <option value="medium" selected>Medium</option>
+                                    <option value="large">Large</option>
+                                    <option value="extra-large">Extra Large</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Avatar Color -->
+                        <div class="setting-card p-3 sm:p-4 rounded-lg">
+                            <div>
+                                <h3 class="font-medium mb-2 sm:mb-3 text-sm sm:text-base">Avatar Color</h3>
+                                <div class="flex space-x-2 sm:space-x-3">
+                                    <div class="avatar-color-option w-8 h-8 sm:w-10 sm:h-10 rounded-full cursor-pointer border-2 border-transparent hover:border-white transition-all" style="background: linear-gradient(135deg, #8b5cf6, #a855f7);" onclick="changeAvatarColor('purple')" title="Purple"></div>
+                                    <div class="avatar-color-option w-8 h-8 sm:w-10 sm:h-10 rounded-full cursor-pointer border-2 border-transparent hover:border-white transition-all" style="background: linear-gradient(135deg, #06b6d4, #0891b2);" onclick="changeAvatarColor('cyan')" title="Cyan"></div>
+                                    <div class="avatar-color-option w-8 h-8 sm:w-10 sm:h-10 rounded-full cursor-pointer border-2 border-transparent hover:border-white transition-all" style="background: linear-gradient(135deg, #10b981, #059669);" onclick="changeAvatarColor('green')" title="Green"></div>
+                                    <div class="avatar-color-option w-8 h-8 sm:w-10 sm:h-10 rounded-full cursor-pointer border-2 border-transparent hover:border-white transition-all" style="background: linear-gradient(135deg, #f59e0b, #d97706);" onclick="changeAvatarColor('orange')" title="Orange"></div>
+                                    <div class="avatar-color-option w-8 h-8 sm:w-10 sm:h-10 rounded-full cursor-pointer border-2 border-transparent hover:border-white transition-all" style="background: linear-gradient(135deg, #ef4444, #dc2626);" onclick="changeAvatarColor('red')" title="Red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Account & Data -->
+                <div class="glass-effect p-4 sm:p-6 rounded-xl sm:rounded-2xl">
+                    <h2 class="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 flex items-center">
+                        <svg class="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                        Account & Data
+                    </h2>
+                    
+                    <div class="space-y-4 sm:space-y-6">
+                        
+                        <!-- Profile Summary -->
+                        <div class="setting-card p-3 sm:p-4 rounded-lg">
+                            <h3 class="font-medium mb-2 text-sm sm:text-base">Profile Information</h3>
+                            <p class="text-xs sm:text-sm text-gray-300" id="profileSummary">Loading...</p>
+                        </div>
+
+                        <!-- Export Data -->
+                        <div class="setting-card p-3 sm:p-4 rounded-lg">
+                            <div class="flex flex-col space-y-2 sm:space-y-3">
+                                <h3 class="font-medium text-sm sm:text-base">Export Your Data</h3>
+                                <p class="text-xs sm:text-sm text-gray-300">Download all your AdaptIQ learning data</p>
+                                <button onclick="exportData()" class="self-start px-3 sm:px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200">
+                                    Export Data
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Reset Data -->
+                        <div class="setting-card p-3 sm:p-4 rounded-lg border-red-500 border-opacity-30">
+                            <div class="flex flex-col space-y-2 sm:space-y-3">
+                                <h3 class="font-medium text-red-400 text-sm sm:text-base">Reset All Data</h3>
+                                <p class="text-xs sm:text-sm text-gray-300">Permanently delete all your learning progress</p>
+                                <button onclick="confirmDataReset()" class="self-start px-3 sm:px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200">
+                                    Reset Data
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Save Settings Button -->
+            <div class="mt-6 sm:mt-8 text-center">
+                <button onclick="saveSettings()" style="background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%); transition: all 0.3s ease;" class="px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold text-white transform hover:scale-105 text-sm sm:text-base" onmouseover="this.style.background='linear-gradient(135deg, #7c3aed 0%, #9333ea 100%)'" onmouseout="this.style.background='linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%)'">
+                    Save All Settings
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Settings management functionality
+        
+        function goBackToDashboard() {
+            window.location.href = 'StudentDashboard.html';
+        }
+
+        // Toggle switch functionality
+        document.querySelectorAll('.toggle-switch').forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                this.classList.toggle('active');
+                const setting = this.getAttribute('data-setting');
+                const isActive = this.classList.contains('active');
+                
+                // Save setting to localStorage
+                localStorage.setItem(`setting_${setting}`, isActive);
+                
+                // Apply immediate changes for some settings
+                applySettingChange(setting, isActive);
+                
+                showNotification(`${setting.replace(/([A-Z])/g, ' $1').toLowerCase()} ${isActive ? 'enabled' : 'disabled'}`, 'info');
+            });
+        });
+
+        // Apply setting changes immediately
+        function applySettingChange(setting, isActive) {
+            switch (setting) {
+                case 'darkMode':
+                    // Dark mode is already applied, but could toggle here
+                    break;
+                case 'animations':
+                    document.body.style.transition = isActive ? 'all 0.3s ease' : 'none';
+                    break;
+                case 'fontSize':
+                    const size = document.getElementById('fontSize').value;
+                    applyFontSize(size);
+                    break;
+            }
+        }
+
+        // Font size application
+        function applyFontSize(size) {
+            const root = document.documentElement;
+            switch (size) {
+                case 'small':
+                    root.style.fontSize = '14px';
+                    break;
+                case 'medium':
+                    root.style.fontSize = '16px';
+                    break;
+                case 'large':
+                    root.style.fontSize = '18px';
+                    break;
+                case 'xlarge':
+                    root.style.fontSize = '20px';
+                    break;
+            }
+        }
+
+        // Load settings from localStorage
+        function loadSettings() {
+            // Load toggle settings
+            document.querySelectorAll('.toggle-switch').forEach(toggle => {
+                const setting = toggle.getAttribute('data-setting');
+                const savedValue = localStorage.getItem(`setting_${setting}`);
+                
+                if (savedValue !== null) {
+                    const isActive = savedValue === 'true';
+                    toggle.classList.toggle('active', isActive);
+                    applySettingChange(setting, isActive);
+                }
+            });
+
+            // Load dropdown settings
+            const savedAssessmentLength = localStorage.getItem('setting_assessmentLength');
+            if (savedAssessmentLength) {
+                document.getElementById('assessmentLength').value = savedAssessmentLength;
+            }
+
+            const savedFontSize = localStorage.getItem('setting_fontSize');
+            if (savedFontSize) {
+                document.getElementById('fontSize').value = savedFontSize;
+                applyFontSize(savedFontSize);
+            }
+        }
+
+        // Save all settings
+        function saveSettings() {
+            // Save dropdown settings
+            localStorage.setItem('setting_assessmentLength', document.getElementById('assessmentLength').value);
+            localStorage.setItem('setting_fontSize', document.getElementById('fontSize').value);
+            
+            // Apply font size
+            applyFontSize(document.getElementById('fontSize').value);
+            
+            showNotification('All settings saved successfully!', 'success');
+        }
+
+        // Export data functionality
+        function exportData() {
+            const userData = {
+                profile: JSON.parse(localStorage.getItem('userData') || '{}'),
+                studentName: localStorage.getItem('studentName'),
+                studentGrade: localStorage.getItem('studentGrade'),
+                settings: {}
+            };
+
+            // Collect all settings
+            document.querySelectorAll('.toggle-switch').forEach(toggle => {
+                const setting = toggle.getAttribute('data-setting');
+                userData.settings[setting] = toggle.classList.contains('active');
+            });
+
+            userData.settings.assessmentLength = document.getElementById('assessmentLength').value;
+            userData.settings.fontSize = document.getElementById('fontSize').value;
+
+            // Create and download file
+            const dataStr = JSON.stringify(userData, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(dataBlob);
+            link.download = 'adaptiq_data_export.json';
+            link.click();
+            
+            showNotification('Data exported successfully!', 'success');
+        }
+
+        // Reset data functionality
+        function confirmDataReset() {
+            if (confirm('Are you sure you want to reset all your data? This action cannot be undone.')) {
+                if (confirm('This will permanently delete your profile, settings, and assessment history. Continue?')) {
+                    resetAllData();
+                }
+            }
+        }
+
+        function resetAllData() {
+            // Clear all AdaptIQ related localStorage items
+            const keysToRemove = [];
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key.startsWith('setting_') || key === 'studentName' || key === 'studentGrade' || 
+                    key === 'userData' || key === 'memberSince' || key === 'avatarColor') {
+                    keysToRemove.push(key);
+                }
+            }
+            
+            keysToRemove.forEach(key => localStorage.removeItem(key));
+            
+            showNotification('All data has been reset successfully!', 'success');
+            
+            // Reload settings to show defaults
+            setTimeout(() => {
+                location.reload();
+            }, 2000);
+        }
+
+        // Notification system
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.className = `fixed top-4 right-4 z-50 px-6 py-4 rounded-lg text-white font-medium transform translate-x-full transition-transform duration-300`;
+            
+            switch (type) {
+                case 'success':
+                    notification.classList.add('bg-green-500');
+                    break;
+                case 'error':
+                    notification.classList.add('bg-red-500');
+                    break;
+                default:
+                    notification.classList.add('bg-blue-500');
+            }
+            
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            // Animate in
+            setTimeout(() => {
+                notification.classList.remove('translate-x-full');
+            }, 100);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                notification.classList.add('translate-x-full');
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            }, 3000);
+        }
+
+        // Avatar color functionality
+        function changeAvatarColor(color) {
+            localStorage.setItem('avatarColor', color);
+            
+            // Update the visual indicator
+            document.querySelectorAll('.avatar-color-option').forEach(option => {
+                option.style.borderColor = 'transparent';
+            });
+            
+            event.target.style.borderColor = '#8b5cf6';
+            event.target.style.borderWidth = '3px';
+            
+            showNotification('Avatar color updated!', 'success');
+        }
+
+        function loadProfileSummary() {
+            const studentName = localStorage.getItem('studentName') || 'Not Set';
+            const studentGrade = localStorage.getItem('studentGrade') || 'Not Set';
+            const memberSince = localStorage.getItem('memberSince') || 'Recently';
+            const assessmentCount = localStorage.getItem('assessmentCount') || '0';
+            
+            const summaryElement = document.getElementById('profileSummary');
+            summaryElement.innerHTML = `
+                <strong>Name:</strong> ${studentName}<br>
+                <strong>Grade:</strong> ${studentGrade}<br>
+                <strong>Member Since:</strong> ${memberSince}<br>
+                <strong>Assessments Taken:</strong> ${assessmentCount}
+            `;
+        }
+
+        function loadSettings() {
+            // Load font size
+            const savedFontSize = localStorage.getItem('setting_fontSize');
+            if (savedFontSize) {
+                document.getElementById('fontSize').value = savedFontSize;
+                applyFontSize(savedFontSize);
+            }
+
+            // Load avatar color and show selection
+            const savedAvatarColor = localStorage.getItem('avatarColor');
+            if (savedAvatarColor) {
+                const colorMap = {
+                    'purple': 0,
+                    'cyan': 1,
+                    'green': 2,
+                    'orange': 3,
+                    'red': 4
+                };
+                const colorOptions = document.querySelectorAll('.avatar-color-option');
+                if (colorOptions[colorMap[savedAvatarColor]]) {
+                    colorOptions[colorMap[savedAvatarColor]].style.borderColor = '#8b5cf6';
+                    colorOptions[colorMap[savedAvatarColor]].style.borderWidth = '3px';
+                }
+            }
+
+            // Load profile summary
+            loadProfileSummary();
+        }
+
+        function saveSettings() {
+            // Save font size
+            localStorage.setItem('setting_fontSize', document.getElementById('fontSize').value);
+            
+            // Apply font size immediately
+            applyFontSize(document.getElementById('fontSize').value);
+            
+            showNotification('Settings saved successfully!', 'success');
+        }
+
+        // Initialize settings on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSettings();
+
+            // Add event listener for font size dropdown
+            document.getElementById('fontSize').addEventListener('change', function() {
+                localStorage.setItem('setting_fontSize', this.value);
+                applyFontSize(this.value);
+                showNotification('Font size updated', 'info');
+            });
+        });
+    </script>
+</body>
+</html>

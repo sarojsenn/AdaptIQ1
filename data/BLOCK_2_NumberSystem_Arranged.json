@@ -1,0 +1,6198 @@
+[
+  {
+    "id": "Q001",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the last digit of the product $81 \times 82 \times 83 \times \\dots \\times 89$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "9"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q002",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A two-digit number has a sum of digits equal to 10. When the digits are reversed, the new number is 54 less than the original number. What is the original number?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "82"
+      },
+      {
+        "option": "B",
+        "text": "19"
+      },
+      {
+        "option": "C",
+        "text": "37"
+      },
+      {
+        "option": "D",
+        "text": "46"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q003",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A two-digit number multiplied by the sum of its digits equals 405. The number with digits reversed multiplied by the sum of its digits equals 486. Find the number.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "81"
+      },
+      {
+        "option": "B",
+        "text": "45"
+      },
+      {
+        "option": "C",
+        "text": "36"
+      },
+      {
+        "option": "D",
+        "text": "54"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q004",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The sum of two numbers is 15. Their geometric mean is 20% lower than their arithmetic mean. Find the numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "11, 4"
+      },
+      {
+        "option": "B",
+        "text": "12, 3"
+      },
+      {
+        "option": "C",
+        "text": "13, 2"
+      },
+      {
+        "option": "D",
+        "text": "10, 5"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q005",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The difference between two numbers is 48. The difference between their Arithmetic Mean (AM) and Geometric Mean (GM) is $2 + \\frac{1}{2} \\times \\frac{1}{3} \\times 96$. Find the numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "49, 1"
+      },
+      {
+        "option": "B",
+        "text": "12, 60"
+      },
+      {
+        "option": "C",
+        "text": "50, 2"
+      },
+      {
+        "option": "D",
+        "text": "36, 84"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q006",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the smallest digit A such that the number A381 is divisible by 11.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q007",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the smallest digit A such that the number 381A is divisible by 9.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q008",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when $(9^6 + 1)$ is divided by 8?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q009",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the ratio of the LCM to the HCF of 5, 15, and 20?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "8:1"
+      },
+      {
+        "option": "B",
+        "text": "14:3"
+      },
+      {
+        "option": "C",
+        "text": "12:2"
+      },
+      {
+        "option": "D",
+        "text": "12:1"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q010",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the LCM of $5/2$, $8/9$, and $11/14$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "280"
+      },
+      {
+        "option": "B",
+        "text": "360"
+      },
+      {
+        "option": "C",
+        "text": "420"
+      },
+      {
+        "option": "D",
+        "text": "440"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q011",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the unit digit of $3^{99}$?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q012",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of positive divisors of 15.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q013",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "If $15B$ is a three-digit number divisible by 6, what is true about the digit B?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "B must be even"
+      },
+      {
+        "option": "B",
+        "text": "B must be a multiple of 3"
+      },
+      {
+        "option": "C",
+        "text": "B must be 0 or 6"
+      },
+      {
+        "option": "D",
+        "text": "Both A and B"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q014",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Let $P = 2^3 \\cdot 3^2 \\cdot 5$ and $Q = 2^5 \\cdot 3 \\cdot 5^4$. Find $\\text{GCD}(P, Q)$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$2 \\cdot 3 \\cdot 5$"
+      },
+      {
+        "option": "B",
+        "text": "$2^2 \\cdot 3^2$"
+      },
+      {
+        "option": "C",
+        "text": "$2^3 \\cdot 3 \\cdot 5$"
+      },
+      {
+        "option": "D",
+        "text": "$2^3 \\cdot 3^2 \\cdot 5^4$"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q015",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the unit digit of $256^{21} + 36^{32} + 73^{43}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "9"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q016",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the unit digit of $55^{51} + 73^{31} + 22^{22}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q017",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the unit digit of the sum $\\sum_{n=1}^{10} n^n$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "9"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q018",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the unit digit of the product $\\prod_{n=1}^{10} n^n$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q019",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of zeros at the end of 1090!",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "270"
+      },
+      {
+        "option": "B",
+        "text": "268"
+      },
+      {
+        "option": "C",
+        "text": "269"
+      },
+      {
+        "option": "D",
+        "text": "271"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q020",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the maximum value of $n$ such that $146!$ is divisible by $5^n$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "34"
+      },
+      {
+        "option": "B",
+        "text": "35"
+      },
+      {
+        "option": "C",
+        "text": "36"
+      },
+      {
+        "option": "D",
+        "text": "37"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q021",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of positive divisors of 1420.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "14"
+      },
+      {
+        "option": "B",
+        "text": "15"
+      },
+      {
+        "option": "C",
+        "text": "13"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q022",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the HCF and LCM of $(x^2–5x+6)$ and $(x^2–7x+10)$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "HCF: $(x-2)$, LCM: $(x-2)(x-3)(x-5)$"
+      },
+      {
+        "option": "B",
+        "text": "HCF: $(x-3)$, LCM: $(x-2)(x-3)(x-5)$"
+      },
+      {
+        "option": "C",
+        "text": "HCF: $(x-5)$, LCM: $(x-2)(x-3)(x-5)$"
+      },
+      {
+        "option": "D",
+        "text": "HCF: $(x-2)$, LCM: $(x-3)(x-5)$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q023",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Which of the following numbers is divisible by 24?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "43,215,604"
+      },
+      {
+        "option": "B",
+        "text": "25,612,840"
+      },
+      {
+        "option": "C",
+        "text": "13,624,800"
+      },
+      {
+        "option": "D",
+        "text": "25,612,848"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q024",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A number is divisible by 88 if it is divisible by which of the following pair of co-prime numbers?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "22 and 4"
+      },
+      {
+        "option": "B",
+        "text": "11 and 8"
+      },
+      {
+        "option": "C",
+        "text": "44 and 2"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q025",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of positive divisors of 10800.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "57"
+      },
+      {
+        "option": "B",
+        "text": "60"
+      },
+      {
+        "option": "C",
+        "text": "72"
+      },
+      {
+        "option": "D",
+        "text": "64"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q026",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The product of three consecutive natural numbers, where the first number is even, is always divisible by which of the following?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "24"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "All of the above"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q027",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the $n^{th}$ term of the Arithmetic Progression (AP) whose first term is 2 and common difference is 3.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$3n+1$"
+      },
+      {
+        "option": "B",
+        "text": "$3n-1$"
+      },
+      {
+        "option": "C",
+        "text": "$2n+3$"
+      },
+      {
+        "option": "D",
+        "text": "$2n-1$"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q028",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "For the AP from Q027 (first term is 2 and common difference is 3), what is the sum of the first $n$ terms?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$\\frac{n(3n+1)}{2}$"
+      },
+      {
+        "option": "B",
+        "text": "$\\frac{n(3n-1)}{2}$"
+      },
+      {
+        "option": "C",
+        "text": "$\\frac{n(2n+3)}{2}$"
+      },
+      {
+        "option": "D",
+        "text": "$\\frac{n(2n-1)}{2}$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q029",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "For the AP from Q027 (first term is 2 and common difference is 3), what is the value of the $10^{th}$ term?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "28"
+      },
+      {
+        "option": "B",
+        "text": "29"
+      },
+      {
+        "option": "C",
+        "text": "31"
+      },
+      {
+        "option": "D",
+        "text": "32"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q030",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "In a classic 'birds on branches' problem, the number of birds on the first branch is 3. The total number of birds is a number that is represented in the options. Find the total number of birds.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "8"
+      },
+      {
+        "option": "B",
+        "text": "10"
+      },
+      {
+        "option": "C",
+        "text": "12"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q031",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A number greater than 1000 is not divisible by 3. What is the remainder when the square of this number is divided by 3?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "1 or 2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q032",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the value of $\\frac{45}{3}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "15"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q033",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "If $2 < x < 4$ and $1 < y < 3$, find the ratio of the upper bound of $(x+y)$ to the lower bound of $(x–y)$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q034",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A two-digit number: the sum of the squares of its digits is 13. When 9 is subtracted from the number, the digits are reversed. Find the number.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "32"
+      },
+      {
+        "option": "C",
+        "text": "42"
+      },
+      {
+        "option": "D",
+        "text": "52"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q035",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The product of a two-digit number and its reverse is 2430. Find the numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "54 and 45"
+      },
+      {
+        "option": "B",
+        "text": "56 and 65"
+      },
+      {
+        "option": "C",
+        "text": "53 and 35"
+      },
+      {
+        "option": "D",
+        "text": "85 and 58"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q036",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Two numbers have a difference of 66 and their LCM is 360. Find the numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "120 and 54"
+      },
+      {
+        "option": "B",
+        "text": "90 and 24"
+      },
+      {
+        "option": "C",
+        "text": "180 and 114"
+      },
+      {
+        "option": "D",
+        "text": "130 and 64"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q037",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Two numbers have a sum of 85 and their LCM is 102. Find the numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "30 and 55"
+      },
+      {
+        "option": "B",
+        "text": "17 and 68"
+      },
+      {
+        "option": "C",
+        "text": "35 and 55"
+      },
+      {
+        "option": "D",
+        "text": "51 and 34"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q038",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Compare which is greater: $5^{112}$ or $2^{222}$ AND $(0.4)^4$ or $(0.8)^3$. (Choose the option that correctly identifies the greater number in both pairs).",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$5^{112}$ and $(0.8)^3$"
+      },
+      {
+        "option": "B",
+        "text": "$2^{222}$ and $(0.8)^3$"
+      },
+      {
+        "option": "C",
+        "text": "$5^{112}$ and $(0.4)^4$"
+      },
+      {
+        "option": "D",
+        "text": "$2^{222}$ and $(0.4)^4$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q039",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Can a fraction with a numerator less than its denominator be equal to a fraction with a numerator greater than its denominator (for positive numbers)?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Yes"
+      },
+      {
+        "option": "B",
+        "text": "No"
+      },
+      {
+        "option": "C",
+        "text": "Depends on the values"
+      },
+      {
+        "option": "D",
+        "text": "Only if both numerators and denominators are integers"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q040",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The Arithmetic Mean (AM) of two numbers is 24 less than the larger number. Their Geometric Mean (GM) exceeds the smaller number by 12. Find the numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6 and 54"
+      },
+      {
+        "option": "B",
+        "text": "8 and 56"
+      },
+      {
+        "option": "C",
+        "text": "12 and 60"
+      },
+      {
+        "option": "D",
+        "text": "7 and 55"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q041",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of integers between 200 and 300 (exclusive) that are not divisible by 2, 3, or 5.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "27"
+      },
+      {
+        "option": "B",
+        "text": "26"
+      },
+      {
+        "option": "C",
+        "text": "25"
+      },
+      {
+        "option": "D",
+        "text": "28"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q042",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "For the expression $(15n^3 + 6n^2 + 5n + x)/n$ to not be an integer, which of the following must be true?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$n$ is positive"
+      },
+      {
+        "option": "B",
+        "text": "$x$ is divisible by $n$"
+      },
+      {
+        "option": "C",
+        "text": "$x$ is not divisible by $n$"
+      },
+      {
+        "option": "D",
+        "text": "$n$ is not a perfect square"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q043",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the unit digit of $(36234 \\times 33512 \\times 39180) - (5429 \\times 25123 \\times 31512)$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "8"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q044",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the value of the digit $x$ such that the difference between $(1025-7)$ and $(1024+x)$ is divisible by 3.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q045",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Solve for digit $x$: $\\mathbf{x} \\mathbf{x} \\mathbf{x} = 333$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "6"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q046",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A number $N$ multiplied by 22, plus the number itself, is equal to half of the square of the number. Find the number.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "45"
+      },
+      {
+        "option": "B",
+        "text": "46"
+      },
+      {
+        "option": "C",
+        "text": "47"
+      },
+      {
+        "option": "D",
+        "text": "Insufficient information"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q047",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the units digit of $\\frac{12^{55}}{3^{11}} + \\frac{8^{48}}{16^{18}}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q048",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of the series $1 + 2 + 2^2 + \\dots + 2^{26}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$2^{24} - 1$"
+      },
+      {
+        "option": "B",
+        "text": "$2^{25} - 1$"
+      },
+      {
+        "option": "C",
+        "text": "$2^{27} - 1$"
+      },
+      {
+        "option": "D",
+        "text": "$2^{28} - 1$"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q049",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "If $\\frac{\\mathbf{x}\\mathbf{y}}{\\mathbf{a}\\mathbf{b}} = 0.\\overline{\\mathbf{x}\\mathbf{y}}$, where $\\mathbf{x}\\mathbf{y}$ and $\\mathbf{a}\\mathbf{b}$ are two-digit numbers, find $\\mathbf{a}\\mathbf{b}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "11"
+      },
+      {
+        "option": "B",
+        "text": "33"
+      },
+      {
+        "option": "C",
+        "text": "99"
+      },
+      {
+        "option": "D",
+        "text": "66"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q050",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A two-digit number $\\mathbf{x}\\mathbf{y}$ multiplied by a two-digit number $\\mathbf{a}\\mathbf{b}$ equals a three-digit number $\\mathbf{p}\\mathbf{q}\\mathbf{r}$. If $r$ is twice $y$, $q$ is twice $(x+y)$, and $p$ is twice $x$, where $x,y < 5$ and $q \\ne 0$, find $\\mathbf{a}\\mathbf{b}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "11"
+      },
+      {
+        "option": "B",
+        "text": "13"
+      },
+      {
+        "option": "C",
+        "text": "31"
+      },
+      {
+        "option": "D",
+        "text": "22"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q051",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "If $\\lfloor x \\rfloor^3 + \\{x\\}^2 = -7.91$, where $\\lfloor x \\rfloor$ is the greatest integer less than or equal to $x$ and $\\{x\\}$ is the fractional part, find $x$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$-2.03$"
+      },
+      {
+        "option": "B",
+        "text": "$-1.97$"
+      },
+      {
+        "option": "C",
+        "text": "$-2.97$"
+      },
+      {
+        "option": "D",
+        "text": "$-1.7$"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q052",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The number $35^{22} - 2^{22}$ is divisible by which of the following?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "31"
+      },
+      {
+        "option": "B",
+        "text": "13"
+      },
+      {
+        "option": "C",
+        "text": "27"
+      },
+      {
+        "option": "D",
+        "text": "33"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q053",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The two-digit numbers $\\mathbf{A}\\mathbf{B}$ and $\\mathbf{X}\\mathbf{Y}$ sum up to the three-digit number $1\\mathbf{X}\\mathbf{P}$, where $A \\ne 0$ and all digits are distinct. Find the value of $A$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q054",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The sum of two numbers is 20. Their Geometric Mean (GM) is 40% lower than their Arithmetic Mean (AM). Find the ratio of the numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4:1"
+      },
+      {
+        "option": "B",
+        "text": "9:1"
+      },
+      {
+        "option": "C",
+        "text": "1:1"
+      },
+      {
+        "option": "D",
+        "text": "17:3"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q055",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the highest power of 990 that divides 1090!",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "101"
+      },
+      {
+        "option": "B",
+        "text": "100"
+      },
+      {
+        "option": "C",
+        "text": "108"
+      },
+      {
+        "option": "D",
+        "text": "109"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q056",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the maximum value of $n$ such that $146!$ is divisible by $6^n$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "74"
+      },
+      {
+        "option": "B",
+        "text": "70"
+      },
+      {
+        "option": "C",
+        "text": "76"
+      },
+      {
+        "option": "D",
+        "text": "75"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q057",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the last two digits of $35 \\times 34 \\times 33 \\times 20$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "00"
+      },
+      {
+        "option": "B",
+        "text": "40"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q058",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The expression $333^{555} + 555^{333}$ is divisible by which of the following?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "37"
+      },
+      {
+        "option": "D",
+        "text": "All of the above"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q059",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "If $\\lfloor x \\rfloor^2 + \\{x\\}^1 = 25.16$, where $\\lfloor x \\rfloor$ is the greatest integer less than or equal to $x$ and $\\{x\\}$ is the fractional part, find $x$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5.16"
+      },
+      {
+        "option": "B",
+        "text": "$-4.84$"
+      },
+      {
+        "option": "C",
+        "text": "Both A and B"
+      },
+      {
+        "option": "D",
+        "text": "4.84"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q060",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A two-digit number: the square of the tens digit plus the product of the digits is 52. The square of the units digit plus the product of the digits is 117. Find the number.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "18"
+      },
+      {
+        "option": "B",
+        "text": "39"
+      },
+      {
+        "option": "C",
+        "text": "49"
+      },
+      {
+        "option": "D",
+        "text": "28"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q061",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A two-digit number is 11 less than the sum of the squares of its digits, and 5 greater than double the product of its digits. Find all such numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "15, 95"
+      },
+      {
+        "option": "B",
+        "text": "95"
+      },
+      {
+        "option": "C",
+        "text": "Both 15 and 95"
+      },
+      {
+        "option": "D",
+        "text": "15"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q062",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The square of the sum of two successive natural numbers exceeds the sum of their squares by 112. Find the smaller of the two numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q063",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The numerator of a fraction is 2. The fractions formed by increasing the denominator by 3 and decreasing the denominator by 5 sum up to $2/3$. Find the denominator.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "7"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "12"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q064",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the last two digits of $15 \\times 37 \\times 63 \\times 51 \\times 97 \\times 17$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "35"
+      },
+      {
+        "option": "B",
+        "text": "45"
+      },
+      {
+        "option": "C",
+        "text": "55"
+      },
+      {
+        "option": "D",
+        "text": "85"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q065",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "A fraction has its denominator $d$ equal to $\\text{numerator}^2 - 1$. The fraction is greater than $1/4$ and less than $1/3$. Find the fraction.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$3/8$"
+      },
+      {
+        "option": "B",
+        "text": "$4/15$"
+      },
+      {
+        "option": "C",
+        "text": "$5/24$"
+      },
+      {
+        "option": "D",
+        "text": "$6/35$"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q066",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of all 3-digit numbers which leave a remainder of 4 when divided by 5.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "98,270"
+      },
+      {
+        "option": "B",
+        "text": "99,270"
+      },
+      {
+        "option": "C",
+        "text": "1,02,090"
+      },
+      {
+        "option": "D",
+        "text": "90,270"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q067",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of all 2-digit numbers which leave a remainder of 3 when divided by 7.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "686"
+      },
+      {
+        "option": "B",
+        "text": "676"
+      },
+      {
+        "option": "C",
+        "text": "666"
+      },
+      {
+        "option": "D",
+        "text": "656"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q068",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of all odd 3-digit numbers divisible by 5.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "50,500"
+      },
+      {
+        "option": "B",
+        "text": "50,250"
+      },
+      {
+        "option": "C",
+        "text": "50,000"
+      },
+      {
+        "option": "D",
+        "text": "49,500"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q069",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The product of a two-digit number and its reverse is 2430. Find the lower of the two numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "54"
+      },
+      {
+        "option": "B",
+        "text": "52"
+      },
+      {
+        "option": "C",
+        "text": "63"
+      },
+      {
+        "option": "D",
+        "text": "45"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q070",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the value of $x$ such that $(x+1)^3 + (x-1)^3 = 2x(x^2 + 2)$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "All real values of x"
+      },
+      {
+        "option": "B",
+        "text": "x = 0"
+      },
+      {
+        "option": "C",
+        "text": "x = 1"
+      },
+      {
+        "option": "D",
+        "text": "No solution"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q071",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of integers between 1000 and 9999 (inclusive) that are divisible by neither 7 nor 11.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "7056"
+      },
+      {
+        "option": "B",
+        "text": "7058"
+      },
+      {
+        "option": "C",
+        "text": "7054"
+      },
+      {
+        "option": "D",
+        "text": "7060"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q072",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "If the sum of $n$ terms of an AP is $3n^2 + 4n$, find the $n^{th}$ term.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$6n + 1$"
+      },
+      {
+        "option": "B",
+        "text": "$6n - 1$"
+      },
+      {
+        "option": "C",
+        "text": "$3n + 4$"
+      },
+      {
+        "option": "D",
+        "text": "$6n + 7$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q073",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "The remainder when $7^{100}$ is divided by 48 is:",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "25"
+      },
+      {
+        "option": "D",
+        "text": "43"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q074",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of all natural numbers less than 100 which leave remainder 2 when divided by 5.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "980"
+      },
+      {
+        "option": "B",
+        "text": "990"
+      },
+      {
+        "option": "C",
+        "text": "1000"
+      },
+      {
+        "option": "D",
+        "text": "970"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q075",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "If $a$, $b$, $c$ are in arithmetic progression and $a^2$, $b^2$, $c^2$ are also in arithmetic progression, then:",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$a = b = c$"
+      },
+      {
+        "option": "B",
+        "text": "$a + c = 2b$"
+      },
+      {
+        "option": "C",
+        "text": "$b = 0$"
+      },
+      {
+        "option": "D",
+        "text": "Either A or C"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q076",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the smallest positive integer $n$ such that $2^n \\equiv 1 \\pmod{31}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "15"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "31"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q077",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of ways to arrange the digits of 112233 such that no two identical digits are adjacent.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "48"
+      },
+      {
+        "option": "B",
+        "text": "54"
+      },
+      {
+        "option": "C",
+        "text": "60"
+      },
+      {
+        "option": "D",
+        "text": "66"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q078",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "In a geometric progression, the first term is 3 and the sum of the first 5 terms is 93. Find the common ratio.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "-2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q079",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the coefficient of $x^5$ in the expansion of $(1 + x + x^2 + x^3)^4$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "15"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "25"
+      },
+      {
+        "option": "D",
+        "text": "30"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q080",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "If $n! = 2^a \\times 3^b \\times 5^c \\times \\ldots$, find the value of $a$ when $n = 25$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "18"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "22"
+      },
+      {
+        "option": "D",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q081",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "The sum of an infinite geometric series is 12 and the sum of the first three terms is 108/13. Find the first term.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q082",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the digital root of $999^{999}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "9"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q083",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when $13^{100}$ is divided by 17?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "16"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q084",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of positive divisors of $2^4 \\times 3^3 \\times 5^2$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "60"
+      },
+      {
+        "option": "B",
+        "text": "48"
+      },
+      {
+        "option": "C",
+        "text": "36"
+      },
+      {
+        "option": "D",
+        "text": "72"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q085",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "The $n^{th}$ term of the sequence 2, 6, 12, 20, 30, ... is:",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$n(n+1)$"
+      },
+      {
+        "option": "B",
+        "text": "$n(n-1)$"
+      },
+      {
+        "option": "C",
+        "text": "$2n(n+1)$"
+      },
+      {
+        "option": "D",
+        "text": "$n^2 + n$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q086",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the largest power of 2 that divides $50!$?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "47"
+      },
+      {
+        "option": "B",
+        "text": "48"
+      },
+      {
+        "option": "C",
+        "text": "46"
+      },
+      {
+        "option": "D",
+        "text": "49"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q087",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the remainder when $3^{2025}$ is divided by 13.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "9"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q088",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of the series $1^2 + 2^2 + 3^2 + \\ldots + n^2$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$\\frac{n(n+1)(2n+1)}{6}$"
+      },
+      {
+        "option": "B",
+        "text": "$\\frac{n(n+1)}{2}$"
+      },
+      {
+        "option": "C",
+        "text": "$\\frac{n^2(n+1)^2}{4}$"
+      },
+      {
+        "option": "D",
+        "text": "$n(n+1)$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q089",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the coefficient of $x^{50}$ in the expansion of $(1-x)^{100}$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$-\\binom{100}{50}$"
+      },
+      {
+        "option": "B",
+        "text": "$\\binom{100}{50}$"
+      },
+      {
+        "option": "C",
+        "text": "$-\\binom{50}{100}$"
+      },
+      {
+        "option": "D",
+        "text": "$\\binom{50}{25}$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q090",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "If the first term of a GP is 4 and the common ratio is $\\frac{1}{2}$, find the sum to infinity.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "8"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "16"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q091",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the remainder when $7^{2024}$ is divided by 11.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "7"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q092",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the sum of all divisors of 60?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "168"
+      },
+      {
+        "option": "B",
+        "text": "144"
+      },
+      {
+        "option": "C",
+        "text": "180"
+      },
+      {
+        "option": "D",
+        "text": "156"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q093",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the HCF of 144, 180, and 192.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "12"
+      },
+      {
+        "option": "B",
+        "text": "18"
+      },
+      {
+        "option": "C",
+        "text": "24"
+      },
+      {
+        "option": "D",
+        "text": "36"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q094",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 15, 25, and 35?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "525"
+      },
+      {
+        "option": "B",
+        "text": "1050"
+      },
+      {
+        "option": "C",
+        "text": "350"
+      },
+      {
+        "option": "D",
+        "text": "175"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q095",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of zeros at the end of $75!$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "18"
+      },
+      {
+        "option": "B",
+        "text": "15"
+      },
+      {
+        "option": "C",
+        "text": "20"
+      },
+      {
+        "option": "D",
+        "text": "16"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q096",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the unit digit of $17^{2023}$?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "7"
+      },
+      {
+        "option": "B",
+        "text": "9"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q097",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the largest prime factor of 1001.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "13"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "11"
+      },
+      {
+        "option": "D",
+        "text": "17"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q098",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when $5^{100}$ is divided by 7?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "4"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q099",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of positive divisors of $2^5 \\times 3^3 \\times 7^2$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "72"
+      },
+      {
+        "option": "B",
+        "text": "60"
+      },
+      {
+        "option": "C",
+        "text": "48"
+      },
+      {
+        "option": "D",
+        "text": "36"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q100",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of trailing zeros in $100!$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "24"
+      },
+      {
+        "option": "B",
+        "text": "25"
+      },
+      {
+        "option": "C",
+        "text": "20"
+      },
+      {
+        "option": "D",
+        "text": "22"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q101",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the digital root of 9876543210?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "9"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q102",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the smallest positive integer divisible by all integers from 1 to 12.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "27720"
+      },
+      {
+        "option": "B",
+        "text": "83160"
+      },
+      {
+        "option": "C",
+        "text": "13860"
+      },
+      {
+        "option": "D",
+        "text": "41580"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q103",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the sum of all two-digit numbers divisible by 7?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "693"
+      },
+      {
+        "option": "B",
+        "text": "735"
+      },
+      {
+        "option": "C",
+        "text": "651"
+      },
+      {
+        "option": "D",
+        "text": "672"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q104",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the remainder when $11^{11^{11}}$ is divided by 10.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q105",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the highest power of 3 that divides $100!$?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "48"
+      },
+      {
+        "option": "B",
+        "text": "45"
+      },
+      {
+        "option": "C",
+        "text": "42"
+      },
+      {
+        "option": "D",
+        "text": "39"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q106",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of integers between 100 and 1000 that are divisible by both 6 and 8.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "37"
+      },
+      {
+        "option": "B",
+        "text": "38"
+      },
+      {
+        "option": "C",
+        "text": "36"
+      },
+      {
+        "option": "D",
+        "text": "39"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q107",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the last two digits of $99^{99}$?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "99"
+      },
+      {
+        "option": "B",
+        "text": "01"
+      },
+      {
+        "option": "C",
+        "text": "49"
+      },
+      {
+        "option": "D",
+        "text": "51"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q108",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of all natural numbers less than 1000 which are coprime to 15.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "266000"
+      },
+      {
+        "option": "B",
+        "text": "320000"
+      },
+      {
+        "option": "C",
+        "text": "280000"
+      },
+      {
+        "option": "D",
+        "text": "240000"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q109",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when $(19!)^2$ is divided by 23?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "22"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "11"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q110",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of ways to express 100 as sum of two primes.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q111",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the smallest positive integer $n$ such that $2^n > 10^6$?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "19"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "18"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q112",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the greatest common divisor of $2^{20} - 1$ and $2^{12} - 1$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "255"
+      },
+      {
+        "option": "B",
+        "text": "15"
+      },
+      {
+        "option": "C",
+        "text": "31"
+      },
+      {
+        "option": "D",
+        "text": "63"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q113",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the sum of digits of $2^{100}$?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "115"
+      },
+      {
+        "option": "B",
+        "text": "135"
+      },
+      {
+        "option": "C",
+        "text": "125"
+      },
+      {
+        "option": "D",
+        "text": "105"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q114",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the number of prime numbers between 100 and 200.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "21"
+      },
+      {
+        "option": "B",
+        "text": "25"
+      },
+      {
+        "option": "C",
+        "text": "19"
+      },
+      {
+        "option": "D",
+        "text": "23"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q115",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when $123456789$ is divided by 37?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "18"
+      },
+      {
+        "option": "D",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q116",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the largest perfect square that divides $50!$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$2^{47} \\times 3^{22} \\times 5^{12} \\times 7^8$"
+      },
+      {
+        "option": "B",
+        "text": "$2^{46} \\times 3^{22} \\times 5^{12} \\times 7^8$"
+      },
+      {
+        "option": "C",
+        "text": "$2^{47} \\times 3^{23} \\times 5^{12} \\times 7^8$"
+      },
+      {
+        "option": "D",
+        "text": "$2^{47} \\times 3^{22} \\times 5^{11} \\times 7^8$"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q117",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 20 terms of the AP: 5, 11, 17, 23, ...",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1340"
+      },
+      {
+        "option": "B",
+        "text": "1240"
+      },
+      {
+        "option": "C",
+        "text": "1140"
+      },
+      {
+        "option": "D",
+        "text": "1440"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q118",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "In a GP, if the first term is 2 and the 5th term is 32, find the common ratio.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "$\\sqrt{2}$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q119",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "The sum of an infinite GP is 15 and first term is 5. Find the common ratio.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$\\frac{2}{3}$"
+      },
+      {
+        "option": "B",
+        "text": "$\\frac{1}{3}$"
+      },
+      {
+        "option": "C",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "option": "D",
+        "text": "$\\frac{3}{4}$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q120",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the $n^{th}$ term of the sequence: 1, 4, 9, 16, 25, ...",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$n^2$"
+      },
+      {
+        "option": "B",
+        "text": "$2n-1$"
+      },
+      {
+        "option": "C",
+        "text": "$n(n+1)$"
+      },
+      {
+        "option": "D",
+        "text": "$n^3$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q121",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "If $S_n = 2n^2 + 3n$, find the $n^{th}$ term of the AP.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$4n + 1$"
+      },
+      {
+        "option": "B",
+        "text": "$4n - 1$"
+      },
+      {
+        "option": "C",
+        "text": "$2n + 3$"
+      },
+      {
+        "option": "D",
+        "text": "$n + 5$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q122",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of the series $1 + 3 + 5 + \\ldots$ up to $n$ terms.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$n^2$"
+      },
+      {
+        "option": "B",
+        "text": "$2n^2$"
+      },
+      {
+        "option": "C",
+        "text": "$n(n+1)$"
+      },
+      {
+        "option": "D",
+        "text": "$\\frac{n(n+1)}{2}$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q123",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "The arithmetic mean of $n$ terms of an AP is 15. If the first term is 5, find the common difference.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$\\frac{20}{n-1}$"
+      },
+      {
+        "option": "B",
+        "text": "$\\frac{10}{n-1}$"
+      },
+      {
+        "option": "C",
+        "text": "$\\frac{15}{n-1}$"
+      },
+      {
+        "option": "D",
+        "text": "$\\frac{25}{n-1}$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q124",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of the first 10 terms of the GP: 1, 2, 4, 8, ...",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1023"
+      },
+      {
+        "option": "B",
+        "text": "1024"
+      },
+      {
+        "option": "C",
+        "text": "511"
+      },
+      {
+        "option": "D",
+        "text": "512"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q125",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "If three numbers are in AP and their sum is 27, and their product is 693, find the middle term.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "9"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "11"
+      },
+      {
+        "option": "D",
+        "text": "13"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q126",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the sum to infinity of the series $\\frac{1}{2} + \\frac{1}{6} + \\frac{1}{18} + \\ldots$",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$\\frac{3}{4}$"
+      },
+      {
+        "option": "B",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "option": "C",
+        "text": "$\\frac{2}{3}$"
+      },
+      {
+        "option": "D",
+        "text": "$\\frac{4}{5}$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q127",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "The sum of first $n$ natural numbers is 210. Find $n$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "19"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "18"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q128",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the number of terms in the AP: 7, 10, 13, ..., 43.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "13"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "14"
+      },
+      {
+        "option": "D",
+        "text": "11"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q129",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "If $a$, $b$, $c$ are in GP and $a+b+c = 26$, $abc = 216$, find $b$.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q130",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of all multiples of 4 between 10 and 250.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "7800"
+      },
+      {
+        "option": "B",
+        "text": "7700"
+      },
+      {
+        "option": "C",
+        "text": "7600"
+      },
+      {
+        "option": "D",
+        "text": "7900"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q131",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "The ratio of sum of first $n$ terms to sum of first $m$ terms of an AP is $n^2 : m^2$. Find the ratio of $n^{th}$ term to $m^{th}$ term.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "$(2n-1) : (2m-1)$"
+      },
+      {
+        "option": "B",
+        "text": "$n : m$"
+      },
+      {
+        "option": "C",
+        "text": "$n^2 : m^2$"
+      },
+      {
+        "option": "D",
+        "text": "$2n : 2m$"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q132",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 3 and 6?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "18"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q133",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 3 and 20?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "60"
+      },
+      {
+        "option": "B",
+        "text": "60"
+      },
+      {
+        "option": "C",
+        "text": "23"
+      },
+      {
+        "option": "D",
+        "text": "17"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q134",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 14 is divided by 3?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q135",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 3 and 5?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "15"
+      },
+      {
+        "option": "B",
+        "text": "15"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q136",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 3th term of the AP with first term 23 and common difference 8.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "39"
+      },
+      {
+        "option": "B",
+        "text": "47"
+      },
+      {
+        "option": "C",
+        "text": "77"
+      },
+      {
+        "option": "D",
+        "text": "48"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q137",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 5th term of the AP with first term 10 and common difference 13.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "62"
+      },
+      {
+        "option": "B",
+        "text": "75"
+      },
+      {
+        "option": "C",
+        "text": "63"
+      },
+      {
+        "option": "D",
+        "text": "76"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q138",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 20 is divided by 7?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q139",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 14 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "105"
+      },
+      {
+        "option": "B",
+        "text": "106"
+      },
+      {
+        "option": "C",
+        "text": "104"
+      },
+      {
+        "option": "D",
+        "text": "196"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q140",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 30 is divided by 4?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q141",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 9 and 18?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "18"
+      },
+      {
+        "option": "B",
+        "text": "162"
+      },
+      {
+        "option": "C",
+        "text": "27"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q142",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 2 and 6?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "12"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q143",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 3 and 19?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "57"
+      },
+      {
+        "option": "B",
+        "text": "57"
+      },
+      {
+        "option": "C",
+        "text": "22"
+      },
+      {
+        "option": "D",
+        "text": "16"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q144",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 10 and 10?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "100"
+      },
+      {
+        "option": "C",
+        "text": "20"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q145",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 42 is divided by 3?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q146",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 10th term of the AP with first term 20 and common difference 7.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "83"
+      },
+      {
+        "option": "B",
+        "text": "90"
+      },
+      {
+        "option": "C",
+        "text": "207"
+      },
+      {
+        "option": "D",
+        "text": "91"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q147",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 6 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "21"
+      },
+      {
+        "option": "B",
+        "text": "22"
+      },
+      {
+        "option": "C",
+        "text": "20"
+      },
+      {
+        "option": "D",
+        "text": "36"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q148",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 48 is divided by 6?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "0"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "2"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q149",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 31 is divided by 6?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "3"
+      },
+      {
+        "option": "D",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q150",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 4th term of the AP with first term 25 and common difference 8.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "49"
+      },
+      {
+        "option": "B",
+        "text": "57"
+      },
+      {
+        "option": "C",
+        "text": "108"
+      },
+      {
+        "option": "D",
+        "text": "58"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q151",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 2th term of the AP with first term 44 and common difference 10.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "54"
+      },
+      {
+        "option": "B",
+        "text": "64"
+      },
+      {
+        "option": "C",
+        "text": "98"
+      },
+      {
+        "option": "D",
+        "text": "65"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q152",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 9 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "45"
+      },
+      {
+        "option": "B",
+        "text": "46"
+      },
+      {
+        "option": "C",
+        "text": "44"
+      },
+      {
+        "option": "D",
+        "text": "81"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q153",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 49 is divided by 3?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q154",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 11 is divided by 4?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q155",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 4th term of the AP with first term 10 and common difference 8.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "34"
+      },
+      {
+        "option": "B",
+        "text": "42"
+      },
+      {
+        "option": "C",
+        "text": "48"
+      },
+      {
+        "option": "D",
+        "text": "43"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q156",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 14 is divided by 8?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "0"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q157",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 10th term of the AP with first term 45 and common difference 16.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "189"
+      },
+      {
+        "option": "B",
+        "text": "205"
+      },
+      {
+        "option": "C",
+        "text": "466"
+      },
+      {
+        "option": "D",
+        "text": "206"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q158",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 4 and 10?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "40"
+      },
+      {
+        "option": "C",
+        "text": "14"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q159",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 17 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "153"
+      },
+      {
+        "option": "B",
+        "text": "154"
+      },
+      {
+        "option": "C",
+        "text": "152"
+      },
+      {
+        "option": "D",
+        "text": "289"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q160",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 17 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "153"
+      },
+      {
+        "option": "B",
+        "text": "154"
+      },
+      {
+        "option": "C",
+        "text": "152"
+      },
+      {
+        "option": "D",
+        "text": "289"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q161",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 7 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "28"
+      },
+      {
+        "option": "B",
+        "text": "29"
+      },
+      {
+        "option": "C",
+        "text": "27"
+      },
+      {
+        "option": "D",
+        "text": "49"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q162",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 2 and 7?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "14"
+      },
+      {
+        "option": "B",
+        "text": "14"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q163",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 47 is divided by 10?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "7"
+      },
+      {
+        "option": "B",
+        "text": "8"
+      },
+      {
+        "option": "C",
+        "text": "9"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q164",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 17 is divided by 2?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q165",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 7 and 16?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "112"
+      },
+      {
+        "option": "B",
+        "text": "112"
+      },
+      {
+        "option": "C",
+        "text": "23"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q166",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 3 and 13?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "39"
+      },
+      {
+        "option": "B",
+        "text": "39"
+      },
+      {
+        "option": "C",
+        "text": "16"
+      },
+      {
+        "option": "D",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q167",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 11 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "66"
+      },
+      {
+        "option": "B",
+        "text": "67"
+      },
+      {
+        "option": "C",
+        "text": "65"
+      },
+      {
+        "option": "D",
+        "text": "121"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q168",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 10 and 7?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "70"
+      },
+      {
+        "option": "B",
+        "text": "70"
+      },
+      {
+        "option": "C",
+        "text": "17"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q169",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 18 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "171"
+      },
+      {
+        "option": "B",
+        "text": "172"
+      },
+      {
+        "option": "C",
+        "text": "170"
+      },
+      {
+        "option": "D",
+        "text": "324"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q170",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 10 and 11?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "110"
+      },
+      {
+        "option": "B",
+        "text": "110"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q171",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 19 is divided by 4?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q172",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 3th term of the AP with first term 38 and common difference 16.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "70"
+      },
+      {
+        "option": "B",
+        "text": "86"
+      },
+      {
+        "option": "C",
+        "text": "130"
+      },
+      {
+        "option": "D",
+        "text": "87"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q173",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 2th term of the AP with first term 38 and common difference 5.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "43"
+      },
+      {
+        "option": "B",
+        "text": "48"
+      },
+      {
+        "option": "C",
+        "text": "81"
+      },
+      {
+        "option": "D",
+        "text": "49"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q174",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 11 is divided by 3?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q175",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 7 and 10?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "70"
+      },
+      {
+        "option": "B",
+        "text": "70"
+      },
+      {
+        "option": "C",
+        "text": "17"
+      },
+      {
+        "option": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q176",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 2 and 19?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "38"
+      },
+      {
+        "option": "B",
+        "text": "38"
+      },
+      {
+        "option": "C",
+        "text": "21"
+      },
+      {
+        "option": "D",
+        "text": "17"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q177",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 16 is divided by 10?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "6"
+      },
+      {
+        "option": "B",
+        "text": "7"
+      },
+      {
+        "option": "C",
+        "text": "8"
+      },
+      {
+        "option": "D",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q178",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 5th term of the AP with first term 33 and common difference 10.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "73"
+      },
+      {
+        "option": "B",
+        "text": "83"
+      },
+      {
+        "option": "C",
+        "text": "175"
+      },
+      {
+        "option": "D",
+        "text": "84"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q179",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the LCM of 5 and 10?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "50"
+      },
+      {
+        "option": "C",
+        "text": "15"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q180",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "Find the sum of first 6 natural numbers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "21"
+      },
+      {
+        "option": "B",
+        "text": "22"
+      },
+      {
+        "option": "C",
+        "text": "20"
+      },
+      {
+        "option": "D",
+        "text": "36"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q181",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 30 is divided by 9?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "3"
+      },
+      {
+        "option": "B",
+        "text": "4"
+      },
+      {
+        "option": "C",
+        "text": "5"
+      },
+      {
+        "option": "D",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q182",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 44 is divided by 6?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q183",
+    "block": "Numbers",
+    "chapter_subtopic": "Number System",
+    "question_type": "MCQ",
+    "question_text": "What is the remainder when 16 is divided by 7?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "2"
+      },
+      {
+        "option": "B",
+        "text": "3"
+      },
+      {
+        "option": "C",
+        "text": "4"
+      },
+      {
+        "option": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q184",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "Find the 7th term of the AP with first term 47 and common difference 17.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "149"
+      },
+      {
+        "option": "B",
+        "text": "166"
+      },
+      {
+        "option": "C",
+        "text": "346"
+      },
+      {
+        "option": "D",
+        "text": "167"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q185",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "In an arithmetic progression, the sum of first $n$ terms equals $\\frac{1}{2}$ times the sum of next $n$ terms. What is the ratio of the sum of first $3n$ terms to the sum of first $n$ terms?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "5"
+      },
+      {
+        "option": "B",
+        "text": "6"
+      },
+      {
+        "option": "C",
+        "text": "7"
+      },
+      {
+        "option": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q186",
+    "block": "Numbers",
+    "chapter_subtopic": "Progressions",
+    "question_type": "MCQ",
+    "question_text": "A cancer cell divides into 2 cells every hour. Starting with 1 cell, how many cells will there be after 9 hours?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "512"
+      },
+      {
+        "option": "B",
+        "text": "256"
+      },
+      {
+        "option": "C",
+        "text": "1024"
+      },
+      {
+        "option": "D",
+        "text": "128"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "GEN_1562",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 20 + 14 in Numbers?",
+    "options": {
+      "A": "34",
+      "B": "35",
+      "C": "33",
+      "D": "36"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1563",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 14 + 17 in Numbers?",
+    "options": {
+      "A": "31",
+      "B": "32",
+      "C": "30",
+      "D": "33"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1564",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 13 + 4 in Numbers?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1565",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 18 + 5 in Numbers?",
+    "options": {
+      "A": "23",
+      "B": "24",
+      "C": "22",
+      "D": "25"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1566",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 3 + 4 in Numbers?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1567",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 9 + 11 in Numbers?",
+    "options": {
+      "A": "20",
+      "B": "21",
+      "C": "19",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1568",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 11 + 6 in Numbers?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1569",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 16 + 5 in Numbers?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "20",
+      "D": "23"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1570",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 3 + 10 in Numbers?",
+    "options": {
+      "A": "13",
+      "B": "14",
+      "C": "12",
+      "D": "15"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1571",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 15 + 13 in Numbers?",
+    "options": {
+      "A": "28",
+      "B": "29",
+      "C": "27",
+      "D": "30"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1572",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "What is the value of 4 + 3 in Numbers?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1668",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 12 × 15 - 15 in Numbers:",
+    "options": {
+      "A": "165",
+      "B": "166",
+      "C": "164",
+      "D": "170"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1669",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 13 × 13 - 43 in Numbers:",
+    "options": {
+      "A": "126",
+      "B": "127",
+      "C": "125",
+      "D": "131"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1670",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 5 × 6 - 34 in Numbers:",
+    "options": {
+      "A": "-4",
+      "B": "-3",
+      "C": "-5",
+      "D": "1"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1671",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 14 × 7 - 22 in Numbers:",
+    "options": {
+      "A": "76",
+      "B": "77",
+      "C": "75",
+      "D": "81"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1672",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 5 × 13 - 17 in Numbers:",
+    "options": {
+      "A": "48",
+      "B": "49",
+      "C": "47",
+      "D": "53"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1673",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 13 × 11 - 42 in Numbers:",
+    "options": {
+      "A": "101",
+      "B": "102",
+      "C": "100",
+      "D": "106"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1674",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 12 × 9 - 14 in Numbers:",
+    "options": {
+      "A": "94",
+      "B": "95",
+      "C": "93",
+      "D": "99"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1675",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 8 × 7 - 31 in Numbers:",
+    "options": {
+      "A": "25",
+      "B": "26",
+      "C": "24",
+      "D": "30"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1676",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 9 × 8 - 23 in Numbers:",
+    "options": {
+      "A": "49",
+      "B": "50",
+      "C": "48",
+      "D": "54"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1677",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 5 × 5 - 36 in Numbers:",
+    "options": {
+      "A": "-11",
+      "B": "-10",
+      "C": "-12",
+      "D": "-6"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1678",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 15 × 7 - 17 in Numbers:",
+    "options": {
+      "A": "88",
+      "B": "89",
+      "C": "87",
+      "D": "93"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1679",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 9 × 9 - 21 in Numbers:",
+    "options": {
+      "A": "60",
+      "B": "61",
+      "C": "59",
+      "D": "65"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1680",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 6 × 11 - 21 in Numbers:",
+    "options": {
+      "A": "45",
+      "B": "46",
+      "C": "44",
+      "D": "50"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1681",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 5 × 14 - 38 in Numbers:",
+    "options": {
+      "A": "32",
+      "B": "33",
+      "C": "31",
+      "D": "37"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1682",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 12 × 5 - 43 in Numbers:",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1683",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "Calculate 7 × 10 - 14 in Numbers:",
+    "options": {
+      "A": "56",
+      "B": "57",
+      "C": "55",
+      "D": "61"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1812",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 33 to 69 is 4:6, find the value of 33 when 69 = 195:",
+    "options": {
+      "A": "130",
+      "B": "132",
+      "C": "128",
+      "D": "140"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1813",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 23 to 48 is 5:7, find the value of 23 when 48 = 116:",
+    "options": {
+      "A": "82",
+      "B": "84",
+      "C": "80",
+      "D": "92"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1814",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 39 to 26 is 1:8, find the value of 39 when 26 = 107:",
+    "options": {
+      "A": "13",
+      "B": "15",
+      "C": "11",
+      "D": "23"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1815",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 35 to 33 is 5:4, find the value of 35 when 33 = 161:",
+    "options": {
+      "A": "201",
+      "B": "203",
+      "C": "199",
+      "D": "211"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1816",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 27 to 40 is 5:4, find the value of 27 when 40 = 180:",
+    "options": {
+      "A": "225",
+      "B": "227",
+      "C": "223",
+      "D": "235"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1817",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 36 to 73 is 1:3, find the value of 36 when 73 = 121:",
+    "options": {
+      "A": "40",
+      "B": "42",
+      "C": "38",
+      "D": "50"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1818",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 33 to 64 is 1:2, find the value of 33 when 64 = 114:",
+    "options": {
+      "A": "57",
+      "B": "59",
+      "C": "55",
+      "D": "67"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1819",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 36 to 23 is 1:6, find the value of 36 when 23 = 44:",
+    "options": {
+      "A": "7",
+      "B": "9",
+      "C": "5",
+      "D": "17"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1820",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 30 to 91 is 2:3, find the value of 30 when 91 = 138:",
+    "options": {
+      "A": "92",
+      "B": "94",
+      "C": "90",
+      "D": "102"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1821",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 35 to 25 is 1:4, find the value of 35 when 25 = 181:",
+    "options": {
+      "A": "45",
+      "B": "47",
+      "C": "43",
+      "D": "55"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1822",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 39 to 94 is 2:2, find the value of 39 when 94 = 52:",
+    "options": {
+      "A": "52",
+      "B": "54",
+      "C": "50",
+      "D": "62"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1823",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 18 to 63 is 2:5, find the value of 18 when 63 = 161:",
+    "options": {
+      "A": "64",
+      "B": "66",
+      "C": "62",
+      "D": "74"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1824",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 45 to 28 is 1:8, find the value of 45 when 28 = 184:",
+    "options": {
+      "A": "23",
+      "B": "25",
+      "C": "21",
+      "D": "33"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1825",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 14 to 27 is 1:5, find the value of 14 when 27 = 144:",
+    "options": {
+      "A": "28",
+      "B": "30",
+      "C": "26",
+      "D": "38"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1826",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 27 to 99 is 4:7, find the value of 27 when 99 = 58:",
+    "options": {
+      "A": "33",
+      "B": "35",
+      "C": "31",
+      "D": "43"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1827",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "If the ratio of 23 to 67 is 5:7, find the value of 23 when 67 = 104:",
+    "options": {
+      "A": "74",
+      "B": "76",
+      "C": "72",
+      "D": "84"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1941",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 4x² + -1x + 2, find f(3):",
+    "options": {
+      "A": "35",
+      "B": "40",
+      "C": "30",
+      "D": "45"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1942",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 1x² + 4x + -1, find f(2):",
+    "options": {
+      "A": "11",
+      "B": "16",
+      "C": "6",
+      "D": "21"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1943",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 3x² + 3x + -2, find f(5):",
+    "options": {
+      "A": "88",
+      "B": "93",
+      "C": "83",
+      "D": "98"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1944",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 1x² + 6x + 17, find f(2):",
+    "options": {
+      "A": "33",
+      "B": "38",
+      "C": "28",
+      "D": "43"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1945",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 3x² + -7x + 20, find f(2):",
+    "options": {
+      "A": "18",
+      "B": "23",
+      "C": "13",
+      "D": "28"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1946",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 3x² + 6x + 8, find f(3):",
+    "options": {
+      "A": "53",
+      "B": "58",
+      "C": "48",
+      "D": "63"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1947",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 2x² + 1x + -4, find f(3):",
+    "options": {
+      "A": "17",
+      "B": "22",
+      "C": "12",
+      "D": "27"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1948",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 4x² + 2x + 7, find f(2):",
+    "options": {
+      "A": "27",
+      "B": "32",
+      "C": "22",
+      "D": "37"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1949",
+    "block": "Number System",
+    "subtopic": "numbers",
+    "text": "In Numbers, if f(x) = 1x² + -2x + 9, find f(5):",
+    "options": {
+      "A": "24",
+      "B": "29",
+      "C": "19",
+      "D": "34"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Numbers question.",
+    "source": "generated",
+    "generated": true
+  }
+]

@@ -1,0 +1,998 @@
+[
+  {
+    "id": 1,
+    "text": "In a triangle ABC, point D is on side AB and point E is on side AC, such that BCED is a trapezium. DE : BC = 3 : 5. Calculate the ratio of the area of ADE and the trapezium BCED.",
+    "options": {
+      "A": "3 : 4",
+      "B": "9 : 16",
+      "C": "3 : 5",
+      "D": "9 : 25"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 2,
+    "text": "D, E, F are the mid-points of the sides BC, CA and AB respectively of a ABC. Determine the ratio of the area of triangles DEF and ABC.",
+    "options": {
+      "A": "1 : 4",
+      "B": "1 : 2",
+      "C": "2 : 3",
+      "D": "4 : 5"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 3,
+    "text": "In the adjoining figure, ABCD is a trapezium in which AB || DC and AB = 3 DC. Determine the ratio of the areas of (AOB and COD).",
+    "options": {
+      "A": "9 : 1",
+      "B": "1 : 9",
+      "C": "3 : 1",
+      "D": "1 : 3"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q3.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 4,
+    "text": "A ladder reaches a window that is 8 m above the ground on one side of the street. Keeping its foot on the same point, the ladder is twined to the other side of the street to reach a window 12 m high. Find the width of the street if the ladder is 13 m.",
+    "options": {
+      "A": "15.2 m",
+      "B": "14 m",
+      "C": "14.6 m",
+      "D": "12 m"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 5,
+    "text": "In the adjoining figure A = 60° and ABC = 80°, hence BQC is",
+    "options": {
+      "A": "40°",
+      "B": "80°",
+      "C": "20°",
+      "D": "30°"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q5.png",
+    "answer": "C",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 6,
+    "text": "The diagram below represents three circular garbage cans, each of diameter 2 m. The three cans are touching as shown. Find, in meters, the perimeter of the rope encompassing the three cans.",
+    "options": {
+      "A": "2π + 6",
+      "B": "3π + 4",
+      "C": "4π + 6",
+      "D": "6π + 6"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q6.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 7,
+    "text": "In the figure below, PQ = QS, QR = RS and angle SRQ = 100°. How many degrees is angle QPS?",
+    "options": {
+      "A": "20°",
+      "B": "40°",
+      "C": "15°",
+      "D": "30°"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q7.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 8,
+    "text": "In the figure, ABDC is a cyclic quadrilateral with O as centre of the circle. If BOC = 136°, find BDC.",
+    "options": {
+      "A": "110°",
+      "B": "112°",
+      "C": "109°",
+      "D": "115°"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q8.png",
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 9,
+    "text": "In the given figure, AD || BC. Find the value of x, given that AO = 3; OC = X - 3; BO = 3X – 19; OD = X - 5.",
+    "options": {
+      "A": "x = 8, 9",
+      "B": "x = 7, 8",
+      "C": "x = 8, 10",
+      "D": "x = 7, 10"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q9.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 10,
+    "text": "In the given figure AO/OC = DO/OB and AB = 4 cm. Find the value of BC.",
+    "options": {
+      "A": "7 cm",
+      "B": "8 cm",
+      "C": "9 cm",
+      "D": "10 cm"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q10.png",
+    "answer": "D",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 11,
+    "text": "In the given figure, AD is the bisector of BAC, AB = 6 cm, AC = 5 cm and BD = 3 cm. Find DC. It is given that ABD = ACD.",
+    "options": {
+      "A": "11.3 cm",
+      "B": "2.5 cm",
+      "C": "3.5 cm",
+      "D": "4 cm"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q11.png",
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 12,
+    "text": "In a ABC, AD is the bisector of BAC, AB = 8 cm, BD = 6 cm and DC = 3 cm. Find AC. (Given that ∠ ABC = ∠ACB)",
+    "options": {
+      "A": "4 cm",
+      "B": "6 cm",
+      "C": "3 cm",
+      "D": "5 cm"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q12.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 13,
+    "text": "If ABC is a quarter circle and a circle is inscribed in it and if AB = 1 cm, find radius of smaller circle.",
+    "options": {
+      "A": "√2 – 1",
+      "B": "(√2+1)/2",
+      "C": "(√2−1)/2",
+      "D": "1 - 2√2"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q13.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 14,
+    "text": "ABC is an equilateral triangle. Point D is on AC and point E is on BC, such that AD = 2CD and CE = EB. If we draw perpendiculars from D and E to other two sides and find the sum of the length of two perpendiculars for each set, that is, for D and E individually and denote them as per(D) and per(E) respectively, then which of the following option will be correct.",
+    "options": {
+      "A": "per(D) > per(E)",
+      "B": "per(D) < per(E)",
+      "C": "per(D) = per(E)",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q14.png",
+    "answer": "C",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 15,
+    "text": "ABCD is a trapezium in which AB is parallel to DC, AD = BC, AB = 6 cm, AB = EF and DF = EC. If two lines AF and BE are drawn so that area of ABEF is half of ABCD. Find DF/CD.",
+    "options": {
+      "A": "1/4",
+      "B": "1/3",
+      "C": "2/5",
+      "D": "1/6"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q15.png",
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 16,
+    "text": "In the given figure, ABC and ACD are right angle triangles and AB = x cm, BC = y cm, CD = z cm and x⋅y = z and x, y and z has minimum integral value. Find the area of ABCD.",
+    "options": {
+      "A": "36 cm²",
+      "B": "64 cm²",
+      "C": "24 cm²",
+      "D": "25 cm²"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q16.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 17,
+    "text": "OD, OE and OF are perpendicular bisectors to the three sides of the triangle. What is the relationship between m∠BAC and m∠BOC?",
+    "options": {
+      "A": "m∠BAC = 180 – m∠BOC",
+      "B": "m∠BOC = 90 + 1/2 m∠BAC",
+      "C": "m∠BAC = 90 + 1/2 m∠BOC",
+      "D": "m∠BOC = 2m∠BAC"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q17.png",
+    "answer": "D",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 18,
+    "text": "If two equal circles of radius 5 cm have two common tangent AB and CD which touch the circle on A, C and B, D respectively shown in the figure. If CD = 24 cm, find the length of AB.",
+    "options": {
+      "A": "27 cm",
+      "B": "25 cm",
+      "C": "26 cm",
+      "D": "30 cm"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q18.png",
+    "answer": "C",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 19,
+    "text": "If a circle is provided with a measure of 19° on centre, is it possible to divide the circle into 360 equal parts?",
+    "options": {
+      "A": "Never",
+      "B": "Possible when one more measure of 20° is given",
+      "C": "Always",
+      "D": "Possible if one more measure of 21° is given"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 20,
+    "text": "O is the centre of a circle of radius 5 cm. The chord AB subtends an angle of 60° at the centre. Find the area of the shaded portion (approximate value).",
+    "options": {
+      "A": "50 cm²",
+      "B": "62.78 cm²",
+      "C": "49.88 cm²",
+      "D": "67.67 cm²"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q20.png",
+    "answer": "D",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 21,
+    "text": "Two circles C(O, r) and C(O', r') intersect at two points A and B and O lies on C(O', r'). A tangent CD is drawn to the circle C(O', r') at A. Then",
+    "options": {
+      "A": "∠OAC = ∠OAB",
+      "B": "∠OAB = ∠AO'O",
+      "C": "∠AO'B = ∠AOB",
+      "D": "∠OAC = ∠AOB"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q21.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 22,
+    "text": "PP' and QQ' are two direct common tangents to two circles intersecting at points A and B. The common chord on produced intersects PP' at R and QQ' at S. Which of the following is true?",
+    "options": {
+      "A": "RA² + BS² = AB²",
+      "B": "RS² = PP'² + AB²",
+      "C": "RS² = PP'² + QQ'²",
+      "D": "RS² = BS² + PP'²"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q22.png",
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 23,
+    "text": "Two circles touch internally at point P and a chord AB of the circle of larger radius intersects the other circle in C and D. which of the following holds good?",
+    "options": {
+      "A": "∠CPA = ∠DPB",
+      "B": "2∠CPA = ∠CPD",
+      "C": "∠APX = ∠ADP",
+      "D": "∠BPY = ∠CPD + ∠CPA"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q23.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 24,
+    "text": "In a trapezium ABCD, AB || CD and AD = BC. If P is point of intersection of diagonals AC and BD, then all of the following is wrong except",
+    "options": {
+      "A": "PA/PB = PC/PD",
+      "B": "PA/PB = PC/CD",
+      "C": "PA·AB = PD·DC",
+      "D": "PA·PD = AB·DC"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 25,
+    "text": "All of the following is true except:",
+    "options": {
+      "A": "The points of intersection of direct common tangents and indirect common tangents of two circles divide the line segment joining the two centres respectively externally and internally in the ratio of their radii.",
+      "B": "In a cyclic quadrilateral ABCD, if the diagonal CA bisects the angle C, then diagonal BD is parallel to the tangent at A to the circle through A, B, C, D.",
+      "C": "If TA, TB are tangent segments to a circle C(O, r) from an external point T and OT intersects the circle in P, then AP bisects the angle TAB.",
+      "D": "If in a right triangle ABC, BD is the perpendicular on the hypotenuse AC, then (i) AC⋅AD = AB² and (ii) AC⋅AD = BC²"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 26,
+    "text": "Directions 26 and 27: Two cows are tethered at the mid-points of two adjacent sides of a square field. Each of them is tied with a rope in such a way that grazing area of each cow is a semicircular region of diameter equals to the side of square. If side of the square is 10 m, then answer the following questions. 26. What is the area of the grazing field that is grazed by both the cows (in m²)?",
+    "options": {
+      "A": "12.5(π + 2)",
+      "B": "12.5(π - 2)",
+      "C": "25(2π + 1)",
+      "D": "25(2π - 1)"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 27,
+    "text": "Directions 26 and 27: Two cows are tethered at the mid-points of two adjacent sides of a square field. Each of them is tied with a rope in such a way that grazing area of each cow is a semicircular region of diameter equals to the side of square. If side of the square is 10 m, then answer the following questions. 27. For the given situation, the area of the non-grazed regions (in m²) is:",
+    "options": {
+      "A": "75 + 12.5π",
+      "B": "75 - 12.5π",
+      "C": "75 + 25π",
+      "D": "75 - 13π"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 28,
+    "text": "Directions for 28 and 29: In the rectangle PQRS, M and N are two points on SR and PQ respectively such that MN bisects SQ perpendicularly at O. If SR = 4 cm, RQ = 3 cm. 28. What will be the value of MO/SO?",
+    "options": {
+      "A": "0.8",
+      "B": "0.75",
+      "C": "0.65",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q32&33.png",
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 29,
+    "text": "Directions for 28 and 29: In the rectangle PQRS, M and N are two points on SR and PQ respectively such that MN bisects SQ perpendicularly at O. If SR = 4 cm, RQ = 3 cm. 29. Find the area of quadrilateral SONP.",
+    "options": {
+      "A": "3.65 cm²",
+      "B": "4.66 cm²",
+      "C": "2.66 cm²",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q32&33.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 30,
+    "text": "A rectangle PQRS is inscribed in a semicircle of centre O and diameter MN. M, S, R, N are collinear. RN = 2 cm and QR = 4 cm, then what is the area of the semicircle not overlapped by the rectangle PQRS.",
+    "options": {
+      "A": "(12.5π + 12) cm²",
+      "B": "(12.5π − 12) cm²",
+      "C": "(12.5π + 24) cm²",
+      "D": "(12.5π − 24) cm²"
+    },
+    "image": "",
+    "answer": "D",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 31,
+    "text": "In the diagram given below, quadrilateral PQRS is divided into six smaller triangles. The number inside the triangle mentions it's area. If SN/NR = 1.25 then find the value of a + b.",
+    "options": {
+      "A": "42",
+      "B": "52",
+      "C": "54",
+      "D": "60"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q31.png",
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 32,
+    "text": "In the figure given below: QM, PN, RT are the altitudes of an isosceles triangle and PQ = QR = 15 cm and PR = 18 cm. Answer the following questions: Find the ratio of QT/QO =?",
+    "options": {
+      "A": "0.8",
+      "B": "0.6",
+      "C": "0.7",
+      "D": "0.9"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q32&33.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 33,
+    "text": "In the figure given below: QM, PN, RT are the altitudes of an isosceles triangle and PQ = QR = 15 cm and PR = 18 cm. Answer the following questions: The value of OT is:",
+    "options": {
+      "A": "3.15 cm",
+      "B": "3.35 cm",
+      "C": "3.05 cm",
+      "D": "3.55 cm"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q32&33.png",
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 34,
+    "text": "In the figure given below ΔPQR is a right angled triangle with ∠P = 90°. The center of the incircle of the given triangle is O. Circles with centers O₁ and O₂ touch the circle and two sides as shown in the figure. If the radius of the incircle of ΔPQR is 1 cm and BR : BQ = 2 : 3, then find the value of r₁ : r₂ (where r₁ is the radius of circle with center O₁ and r₂ is the radius of circle with center O₂).",
+    "options": {
+      "A": "(33-11√5-6√10+10√2)/18",
+      "B": "(33+11√5-6√10-10√2)/18",
+      "C": "(33-11√5+6√10-10√2)/18",
+      "D": "(33+11√5+6√10-10√2)/18"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q34.png",
+    "answer": "C",
+    "difficulty": "MODERATE",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 35,
+    "text": "A circle is inscribed in a triangle PQR. It touches side PQ at point X. If ∠P = 60° PX = 3 cm, QX = 5 cm, then answer the following questions. Find the radius of the circle.",
+    "options": {
+      "A": "3√3/√7",
+      "B": "5√3/√7",
+      "C": "3√3",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q35&36.png",
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 36,
+    "text": "A circle is inscribed in a triangle PQR. It touches side PQ at point X. If ∠P = 60° PX = 3 cm, QX = 5 cm, then answer the following questions. Find the area of the shaded portion",
+    "options": {
+      "A": "10√3 - 3π cm²",
+      "B": "10√3 - 13π cm²",
+      "C": "10√3 - 2π cm²",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q35&36.png",
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 37,
+    "text": "In quadrilateral PQRS, PQ||SR and PS||QR. TU||SR and TU passes through the point of intersection of PR & WS. If the ratio of the area of ΔPOW to ΔSOR is 9 : 25, then find the ratio of area of quadrilateral WQUX and ΔXUR.",
+    "options":
+    {
+      "A": "38 : 25",
+      "B": "39 : 25",
+      "C": "41 : 25",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q37&Q38.png",
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 38,
+    "text": "In quadrilateral PQRS, PQ||SR and PS||QR. TU||SR and TU passes through the point of intersection of PR & WS. If the ratio of the area of ΔPOW to ΔSOR is 9 : 25. If WQ = 2 cm, then TX × XU =?",
+    "options":
+    {
+      "A": "25/4 cm²",
+      "B": "75/16 cm²",
+      "C": "50/33 cm²",
+      "D": "100/67 cm²"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q37&Q38.png",
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 39,
+    "text": "In the given figure PQ and PR are tangents of a semicircle. Center 'O' of this semicircle lies on QR. If QO = 2 cm and OR = 4 cm. If ∠P = 90° the radius of the semicircle is:",
+    "options": {
+      "A": "√6/4 cm",
+      "B": "√6/5 cm",
+      "C": "4√2/3 cm",
+      "D": "√6/6 cm"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q39.png",
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 40,
+    "text": "The radius of a circle with center O is √50 cm. A and C are two points on the circle, and B is a point inside the circle. The length of AB is 6 cm, and the length of BC is 2 cm. The angle ABC is a right angle. Find the square of the distance OB.",
+    "options": {
+      "A": "26",
+      "B": "25",
+      "C": "24",
+      "D": "23"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 41,
+    "text": "Triangle ABC is a right angled triangle. D and E are mid points of AB and BC respectively. Read the following statements. I. AE = 19 II. CD = 22 III. Angle B is a right angle. Which of the following statements would be sufficient to determine the length of AC?",
+    "options": {
+      "A": "Statement I and Statement II.",
+      "B": "Statement I and Statement III.",
+      "C": "Statement II and III.",
+      "D": "All three statements."
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 42,
+    "text": "In Δ RPQ, ∠P = 120° angle bisector of ∠P meets RQ at S. PQ = 9 cm, PS = 6 cm. Then the value of PR (in cm) is:",
+    "options": {
+      "A": "18",
+      "B": "16",
+      "C": "12",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q42.png",
+    "answer": "18",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 43,
+    "text": "ABC is a right angled triangle (right angled at B), in which AB = 12 cm and BC = 9 cm. A circle is drawn taking AC as diameter. Another circle is drawn with AB₁ as diameter which intersects the previous circle at A and P₁, and intersects BC at B₁ (B₁ ≠ B). Similarly, a circle is drawn with A₁B₁ as diameter, which intersects the first circle at A₁ and P₂ and intersects BC at B₂(B₂ ≠ B₁) and so on. The value of 'n' for which AB₁ + AB₂ + AB₃ + ... + ABₙ = 8 cm is:",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q43&44.png",
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 44,
+    "text": " ABC is a right angled triangle (right angled at B), in which AB = 12 cm and BC = 9 cm. A circle is drawn taking AC as diameter. Another circle is drawn with AB₁ as diameter which intersects the previous circle at A and P₁, and intersects BC at B₁ (B₁ ≠ B). Similarly, a circle is drawn with A₁B₁ as diameter, which intersects the first circle at A₁ and P₂ and intersects BC at B₂(B₂ ≠ B₁) and so on. What will be the value of n for which: BB₁ + B₁B₂ + B₂B₃ + ... + Bₙ₋₁Bₙ = 6 cm:",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "∞"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q43&44.png",
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 45,
+    "text": "Two circles of radius 3 cm and 6 cm intersect each other in such a way that their common chord is of maximum possible length. Then what is the area of the triangle formed by joining the points of intersection of the two circles to the center of the bigger circle.",
+    "options": {
+      "A": "7√2 cm²",
+      "B": "9√2 cm²",
+      "C": "10√2 cm²",
+      "D": "12√2 cm²"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 46,
+    "text": "What is the area of the region that is common to the two circles (in cm²)?",
+    "options": {
+      "A": "15π",
+      "B": "18π",
+      "C": "21π",
+      "D": "24π"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 47,
+    "text": "Triangle PQR is a right angled isosceles triangle with ∠Q = 90° and PQ = QR = 6 cm. A circle with center O touches the side QR at W, PR at X and PQ at Y. The ratio PX : QW : RX is:",
+    "options": {
+      "A": "1:(√2 – 1) : 1",
+      "B": "1:1:1",
+      "C": "√2:1:1",
+      "D": "(6-3√2):(6-3√2):1"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q47&Q48.png",
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 48,
+    "text": "Triangle PQR is a right angled isosceles triangle with ∠Q = 90° and PQ = QR = 6 cm. A circle with center O touches the side QR at W, PR at X and PQ at Y. The area of quadrilateral PYOX:",
+    "options": {
+      "A": "9 cm²",
+      "B": "9(√2 – 1) cm²",
+      "C": "12 cm²",
+      "D": "9(3 - 2√2) cm²"
+    },
+    "image": "[Image for Directions 47 and 48]",
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 49,
+    "text": "In the given figure ΔABC is an equilateral triangle. BP ⊥ AC and PR ⊥ AB, PQ ⊥ BC. The ratio of area of ΔPRB and ΔPQC is",
+    "options": {
+      "A": "4 : 1",
+      "B": "3 : 1",
+      "C": "2 : 1",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q49.png",
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 50,
+    "text": "In the previous question if length of side of equilateral triangle is 4 cm, then area of ΔRPQ is:",
+    "options": {
+      "A": "5√3/4 cm²",
+      "B": "4√3/3 cm²",
+      "C": "6√3/5 cm²",
+      "D": "None of these"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q49.png",
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 51,
+    "text": "In isosceles triangle PQR, A and B are points on PR and PQ respectively such that AB || QR, C and D are the points on QR such that AC || PD. If PQ = 10 cm, PA : AR = 2 : 3 and ∠APD = ∠BAC, then find the length of DC (in cm.)",
+    "options": {
+      "A": "4 cm",
+      "B": "5 cm",
+      "C": "6 cm",
+      "D": "7 cm"
+    },
+    "image": "",
+    "answer": "4cm",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 52,
+    "text": "In a ΔPQR, X, Y, Z are points on sides PQ, QR, RP respectively such that PX : XQ = 1 : 1, PZ : ZR = 1:2, QY : YR = 2 : 3. What is the ratio of the area of quadrilateral XYRZ to that of ΔPXZ?",
+    "options": {
+      "A": "19:5",
+      "B": "18:7",
+      "C": "20:9",
+      "D": "None of these"
+    },
+    "image": "",
+    "answer": "19:5",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 53,
+    "text": " A circle passes through vertices B and C of triangle ABC, and intersects sides AB and AC at P and Q respectively. If the sides of the triangle have lengths AB = c, BC = a, CA = b. The length BP in terms of a, b, c is:",
+    "options": {
+      "A": "a²/(b + c)",
+      "B": "b²/(a + c)",
+      "C": "(c² - a²)/(2b)",
+      "D": "(b² + c² - a²)/(2b)"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q53&Q54.png",
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 54,
+    "text": "A circle passes through vertices B and C of triangle ABC, and intersects sides AB and AC at P and Q respectively. If the sides of the triangle have lengths AB = c, BC = a, CA = b. The length CQ in terms of a, b, c is:",
+    "options": {
+      "A": "(a² + b² - c²)/(2a)",
+      "B": "(b² + c² - a²)/(2a)",
+      "C": "a²/(b + c)",
+      "D": "b²/(a + c)"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q53&Q54.png",
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 55,
+    "text": "In a regular polygon, the number of sides is ‘p’ times the number of diagonals. If the interior angle of the polygon is x, then x =?",
+    "options": {
+      "A": "180(p-1)/(p+1)",
+      "B": "180(p+1)/(p+2)",
+      "C": "180(p-1)/(p+2)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 56,
+    "text": "In the given figure, ABCD is a trapezium with AB ∥ CD. The diagonals AC and BD intersect at point P. E is a point on AD such that PE ∥ AB. If AB = 8 cm, CD = 12 cm, and the perpendicular distance between AB and CD is 6 cm. 56. The ratio AP : PC is:",
+    "options": {
+      "A": "2 : 3",
+      "B": "3 : 2",
+      "C": "4 : 6",
+      "D": "8 : 12"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q56&57.png",
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 57,
+    "text": "In the given figure, ABCD is a trapezium with AB ∥ CD. The diagonals AC and BD intersect at point P. E is a point on AD such that PE ∥ AB. If AB = 8 cm, CD = 12 cm, and the perpendicular distance between AB and CD is 6 cm. The length of PE is:",
+    "options": {
+      "A": "4.8 cm",
+      "B": "5.0 cm",
+      "C": "9.6 cm",
+      "D": "10.0 cm"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q56&57.png",
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 58,
+    "text": "In a triangle ABC, AB = 3, BC = 4 and CA = 5. Point D is the midpoint of AB, point E is on the segment AC and point F is on the segment BC. If AE = 1.5 and BF = 0.5 then ∠DEF =",
+    "options": {
+      "A": "30°",
+      "B": "60°",
+      "C": "45°",
+      "D": "75°"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 59,
+    "text": "In a ΔPQR three points X, Y, Z lie on PQ, QR, RP respectively and if PX : QZ = 1 : 2, QX : QZ = 3 : 2 and PY : YR = 1 : 3, then which of the following options is true.",
+    "options": {
+      "A": "Area of ΔXYZ is maximum when QZ : QR = 1 : 2",
+      "B": "Area of ΔXYZ is minimum when QZ : QR = 2 : 3",
+      "C": "Area of ΔXYZ is maximum when QZ : QR = 2 : 3",
+      "D": "Area of ΔXYZ will be same for any value of QZ : QR."
+    },
+    "image": "Geometry(Moderate+Difficult)/Q59.png",
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 60,
+    "text": "ABCD is a square with sides of length 10 units. OCD is an isosceles triangle with base CD. OC cuts AB at point Q and OD cuts AB at point P. The area of trapezoid PQCD is 80 square units. The altitude from O of the triangle OPQ is:",
+    "options": {
+      "A": "15",
+      "B": "12",
+      "C": "10",
+      "D": "8"
+    },
+    "image": null,
+    "answer": "15",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 61,
+    "text": "If D is the midpoint of side BC of a triangle ABC and AD is perpendicular to AC then:",
+    "options": {
+      "A": "3AC² = BC² − AB²",
+      "B": "3BC² = AC² − 3AB²",
+      "C": "5AB² = BC² + AC²",
+      "D": "None of these."
+    },
+    "image": "Geometry(Moderate+Difficult)/Q61.png",
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 62,
+    "text": "In a triangle ABC the length of side BC is 295. If the length of side AB is a perfect square, then the length of side AC is a power of 2, and the length of side AC is twice the length of side AB. Determine the perimeter of the triangle.",
+    "options": {
+      "A": "1063",
+      "B": "1055",
+      "C": "1100",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "1063",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 63,
+    "text": "There is a triangular building (ABC) located in the heart of Aurangabad, the city of Aurangzeb. The length of the one wall in the east (BC) direction is 397 feet. If the length of south wall (AB) is a perfect cube, the length of the southwest wall (AC) is a power of three, and the length of wall in southwest (AC) is thrice the length of side AB, determine the perimeter of this triangular building.",
+    "options": {
+      "A": "3609 feet",
+      "B": "3813 feet",
+      "C": "3773 feet",
+      "D": "3313 feet"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 64,
+    "text": "In a circular field, AOB and COD are two mutually perpendicular diameters having length of 4 meters. X is the mid-point of OA. Y is a point on the circumference such that ∠YOD = 30°. Which of the following correctly gives the relation among the three alternate paths from X to Y?",
+    "options": {
+      "A": "XOBY : XODY : XADY :: 5.15 : 4.50 : 5.06",
+      "B": "XOBY : XODY : XADY :: 6.25 : 5.34 : 4.24",
+      "C": "XOBY : XODY : XADY :: 4.04 : 5.35 : 5.25",
+      "D": "XOBY : XODY : XADY :: 5.19 : 5.09 : 4.04"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q64.png",
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 65,
+    "text": "ABCD is a parallelogram with ∠ABC = 60°. If the longer diagonal is of length 7 cm and the area of the parallelogram ABCD is 15√3/2 cm², then the perimeter of the parallelogram (in cm) is:",
+    "options": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "18"
+    },
+    "image": null,
+    "answer": "16",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 66,
+    "text": "The center of a circle inside a triangle is at a distance of 625 cm, from each of the vertices of the triangle. If the diameter of the circle is 350 cm and the circle is touching only two sides of the triangle, find the area of the triangle.",
+    "options": {
+      "A": "240000",
+      "B": "387072",
+      "C": "480000",
+      "D": "506447"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 67,
+    "text": "Two poles, of height 2 meters and 3 meters, are 5 meters apart. The height of the point of intersection of the lines joining the top of each pole to the foot of the opposite pole is,",
+    "options": {
+      "A": "1.2 meters",
+      "B": "1.0 meters",
+      "C": "5.0 meters",
+      "D": "3.0 meters"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 68,
+    "text": "There are two squares S₁ and S₂ with areas 8 and 9 units, respectively. S₁ is inscribed within S₂, with one corner of S₁ on each side S₂. The corners of the smaller square divides the sides of the bigger square into two segments, one of length ‘a’ and the other of length ‘b’, where, b > a. A possible value of ‘b/a’, is:",
+    "options": {
+      "A": "≥5 and <8",
+      "B": "≥8 and <11",
+      "C": "≥11 and <14",
+      "D": "≥14 and <17"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 69,
+    "text": "In ΔABC, 1/AC² = 1/BC² + 1/AB², then which of the following statement is true.",
+    "options": {
+      "A": "Δ ABC is always an acute angled triangle",
+      "B": "∠A > 90°",
+      "C": "AB² + BC² = AC²",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 70,
+    "text": "A city has a park shaped as a right angled triangle. The length of the longest side of this park is 80 m. The Mayor of the city wants to construct three paths from the corner point opposite to the longest side such that these three paths divide the longest side into four equal segments. Determine the sum of the squares of the lengths of the three paths (in m²)",
+    "options": {
+      "A": "5600",
+      "B": "6400",
+      "C": "4800",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "5600",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 71,
+    "text": "In a rectangle PQRS, PQ = 14 cm, X is a point on SR such that SX : XR = 4 : 3 and QX = 10 cm. If ∠PXQ = a, ∠XPQ = b, ∠XQP = c, then which of the following is correct?",
+    "options": {
+      "A": "a > b > c",
+      "B": "b > c > a",
+      "C": "a > c > b",
+      "D": "c > b > a"
+    },
+    "image": "Geometry(Moderate+Difficult)/Q71.png",
+    "answer": "C",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Geometry and Mensuration"
+  }
+]

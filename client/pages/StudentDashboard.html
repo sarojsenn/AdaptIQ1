@@ -1,0 +1,2483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - AdaptIQ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#0a0a0f',
+                        'purple-primary': '#8b5cf6',
+                        'purple-secondary': '#a855f7',
+                        'purple-light': '#c084fc',
+                    },
+                    backgroundImage: {
+                        'gradient-primary': 'linear-gradient(135deg, #1e1b4b 0%, #581c87 50%, #7c3aed 100%)',
+                        'gradient-card': 'linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1e1b4b 50%, #312e81 100%);
+            min-height: 100vh;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .logo-text {
+            font-weight: 800;
+            font-size: 1.75rem;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Streak and Achievement Animations */
+        .achievement-badge {
+            transition: all 0.3s ease;
+            transform: scale(0.95);
+        }
+        
+        .achievement-badge:hover {
+            transform: scale(1.05);
+        }
+        
+        .achievement-badge.unlocked {
+            animation: achievementPulse 2s infinite;
+        }
+        
+        @keyframes achievementPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .streak-milestone {
+            transition: all 0.3s ease;
+        }
+        
+        .streak-milestone.unlocked {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(16, 185, 129, 0.05));
+            border-color: rgba(34, 197, 94, 0.3);
+        }
+        
+        .streak-progress {
+            transition: width 0.8s ease-in-out;
+        }
+        
+        @keyframes streakFire {
+            0%, 100% { transform: scale(1) rotate(-2deg); }
+            50% { transform: scale(1.1) rotate(2deg); }
+        }
+        
+        .streak-emoji {
+            animation: streakFire 2s ease-in-out infinite;
+        }
+        
+        /* Notification animations */
+        @keyframes slideInRight {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes slideOutRight {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(100%); opacity: 0; }
+        }
+        
+        .notification-enter {
+            animation: slideInRight 0.3s ease-out;
+        }
+        
+        .notification-exit {
+            animation: slideOutRight 0.3s ease-in;
+        }
+
+    </style>
+</head>
+<body class="text-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-40 px-4 sm:px-6 py-4 glass-effect">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2 sm:space-x-3">
+                <img src="../assets/images/img_.png" alt="AdaptIQ Logo" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover shadow-lg" />
+                <span class="logo-text">
+                    <span class="gradient-text text-2xl sm:text-4xl font-bold">Adapt</span><span class="text-white text-2xl sm:text-4xl font-bold">IQ</span>
+                </span>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg hover:bg-white hover:bg-opacity-10 transition-all duration-300">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            
+            <!-- Desktop Navigation Tabs -->
+            <div class="hidden md:flex items-center space-x-4">
+                <button class="glass-effect px-4 lg:px-6 py-2 rounded-full text-white bg-white bg-opacity-10 font-semibold text-sm lg:text-base">
+                    Dashboard
+                </button>
+                <a href="RealDatasetAssessment.html" class="px-4 lg:px-6 py-2 rounded-full text-gray-300 hover:text-white hover:bg-white hover:bg-opacity-5 transition-all duration-300 text-sm lg:text-base">
+                    Assessment
+                </a>
+                <a href="Diagnosis.html" class="px-4 lg:px-6 py-2 rounded-full text-gray-300 hover:text-white hover:bg-white hover:bg-opacity-5 transition-all duration-300 text-sm lg:text-base">
+                    Diagnosis
+                </a>
+            </div>
+
+            <!-- User Profile -->
+            <div class="hidden md:block relative">
+                <button onclick="toggleUserMenu()" class="flex items-center space-x-3 p-2 rounded-lg hover:bg-white hover:bg-opacity-10 transition-all duration-300">
+                    <!-- Avatar container with image and text fallback -->
+                    <div id="dashboardAvatar" class="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 border-purple-light bg-purple-primary overflow-hidden relative">
+                        <img id="dashboardAvatarImage" class="w-full h-full object-cover hidden" alt="Profile Picture">
+                        <span id="studentInitial" class="w-full h-full flex items-center justify-center text-white text-sm lg:text-xl font-bold">S</span>
+                    </div>
+                    <span id="studentNameNav" class="hidden lg:block text-sm font-medium">Student</span>
+                    <svg class="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                
+                <!-- Dropdown Menu -->
+                <div id="userDropdown" class="hidden absolute right-0 mt-2 w-48 rounded-lg shadow-lg border border-white border-opacity-20 overflow-hidden" style="background:rgba(42,34,82,0.97);color:#fff;backdrop-filter:blur(8px);">
+                    <div class="p-3 border-b border-white border-opacity-10">
+                        <p class="text-sm font-medium text-white">Student Dashboard</p>
+                        <p class="text-xs text-gray-400">Manage your account</p>
+                    </div>
+                    <div class="py-2">
+                        <button onclick="viewProfile()" class="w-full text-left px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white hover:bg-opacity-10 transition-colors duration-200 flex items-center space-x-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                            <span>View Profile</span>
+                        </button>
+                        <button onclick="viewSettings()" class="w-full text-left px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white hover:bg-opacity-10 transition-colors duration-200 flex items-center space-x-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                            <span>Settings</span>
+                        </button>
+                        <hr class="border-white border-opacity-20 my-2">
+                        <button onclick="logout()" class="w-full text-left px-4 py-2 text-sm text-red-400 hover:text-red-300 hover:bg-red-500 hover:bg-opacity-10 transition-colors duration-200 flex items-center space-x-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+                            </svg>
+                            <span>Logout</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <div id="mobileMenu" class="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 z-50 hidden">
+        <div class="fixed top-0 left-0 w-64 h-full glass-effect transform -translate-x-full transition-transform duration-300" id="mobileMenuContent">
+            <div class="p-6">
+                <!-- Close Button -->
+                <div class="flex justify-between items-center mb-8">
+                    <span class="text-xl font-bold gradient-text">Menu</span>
+                    <button id="closeMobileMenu" class="p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- User Profile Mobile -->
+                <div class="mb-8 p-4 glass-effect rounded-xl">
+                    <div class="flex items-center space-x-3">
+                        <div id="mobileAvatar" class="w-12 h-12 rounded-full border-2 border-purple-light bg-purple-primary overflow-hidden relative">
+                            <img id="mobileAvatarImage" class="w-full h-full object-cover hidden" alt="Profile Picture">
+                            <span id="mobileStudentInitial" class="w-full h-full flex items-center justify-center text-white text-xl font-bold">S</span>
+                        </div>
+                        <div>
+                            <p id="mobileStudentName" class="font-semibold">Student</p>
+                            <p class="text-sm text-gray-400">Grade: <span id="mobileStudentGrade">Not Set</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="space-y-3">
+                    <a href="#" class="flex items-center space-x-3 p-3 rounded-lg bg-purple-primary bg-opacity-20 text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z"></path>
+                        </svg>
+                        <span>Dashboard</span>
+                    </a>
+                    <a href="RealDatasetAssessment.html" class="flex items-center space-x-3 p-3 rounded-lg text-gray-300 hover:text-white hover:bg-white hover:bg-opacity-10 transition-all">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                        </svg>
+                        <span>Assessment</span>
+                    </a>
+                    <a href="Diagnosis.html" class="flex items-center space-x-3 p-3 rounded-lg text-gray-300 hover:text-white hover:bg-white hover:bg-opacity-10 transition-all">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4"></path>
+                        </svg>
+                        <span>Diagnosis</span>
+                    </a>
+                    <a href="Profile.html" class="flex items-center space-x-3 p-3 rounded-lg text-gray-300 hover:text-white hover:bg-white hover:bg-opacity-10 transition-all">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                        <span>Profile</span>
+                    </a>
+                    <a href="Settings.html" class="flex items-center space-x-3 p-3 rounded-lg text-gray-300 hover:text-white hover:bg-white hover:bg-opacity-10 transition-all">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        <span>Settings</span>
+                    </a>
+                </div>
+
+                <!-- Logout Button -->
+                <div class="mt-8 pt-6 border-t border-white border-opacity-20">
+                    <button onclick="logout()" class="flex items-center space-x-3 p-3 rounded-lg text-red-400 hover:text-red-300 hover:bg-red-500 hover:bg-opacity-10 transition-all w-full">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+                        </svg>
+                        <span>Logout</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Dashboard Content -->
+    <main class="pt-20 sm:pt-24 px-4 sm:px-6 pb-8">
+        <div class="max-w-7xl mx-auto">
+            
+            <!-- Welcome Section -->
+            <div class="mb-6 sm:mb-8">
+                <h1 id="welcomeMessage" class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2">Welcome back, Student! 👋</h1>
+                <p class="text-gray-300 text-sm sm:text-base">Track your learning progress and performance insights</p>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6 mb-6 sm:mb-8">
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-gray-400 text-xs sm:text-sm">Current Ability</p>
+                            <p class="text-xl sm:text-2xl font-bold gradient-text stat-current-ability">0</p>
+                        </div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-purple-primary to-purple-secondary rounded-full flex items-center justify-center text-sm sm:text-base">
+                            📊
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-gray-400 text-xs sm:text-sm">Questions Attempted</p>
+                            <p class="text-xl sm:text-2xl font-bold text-white stat-total-questions">0</p>
+                        </div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center text-sm sm:text-base">
+                            ❓
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-gray-400 text-xs sm:text-sm">Average Accuracy</p>
+                            <p class="text-xl sm:text-2xl font-bold text-green-400 stat-accuracy">0%</p>
+                        </div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center text-sm sm:text-base">
+                            🎯
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-gray-400 text-xs sm:text-sm">Assessments Taken</p>
+                            <p class="text-xl sm:text-2xl font-bold text-white stat-assessments-taken">0</p>
+                        </div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center text-sm sm:text-base">
+                            📝
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Streak Card -->
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl relative overflow-hidden">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-gray-400 text-xs sm:text-sm">Current Streak</p>
+                            <p class="text-xl sm:text-2xl font-bold text-orange-400 stat-streak">0</p>
+                            <p class="text-xs text-gray-500 mt-1 streak-type">Daily login</p>
+                        </div>
+                        <div class="flex items-center justify-center text-2xl sm:text-3xl">
+                            <span class="streak-emoji">🔥</span>
+                        </div>
+                    </div>
+                    <!-- Streak progress bar -->
+                    <div class="mt-3">
+                        <div class="w-full bg-gray-600 rounded-full h-2">
+                            <div class="streak-progress bg-gradient-to-r from-orange-500 to-red-500 h-2 rounded-full transition-all duration-500" style="width: 0%"></div>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-1 streak-goal">Goal: 7 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
+                
+                <!-- Ability Progress Chart -->
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl">
+                    <h3 class="text-lg sm:text-xl font-semibold mb-4 text-white">Ability Progress</h3>
+                    <div class="h-48 sm:h-64">
+                        <canvas id="abilityChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Question Difficulty Distribution -->
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl">
+                    <h3 class="text-lg sm:text-xl font-semibold mb-4 text-white">Question Difficulty Distribution</h3>
+                    <div class="h-48 sm:h-64">
+                        <canvas id="difficultyChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Recent Assessment Performance -->
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl">
+                    <h3 class="text-lg sm:text-xl font-semibold mb-4 text-white">Recent Assessment</h3>
+                    <div class="h-48 sm:h-64">
+                        <canvas id="recentChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Accuracy Trend -->
+                <div class="glass-effect p-4 sm:p-6 rounded-2xl">
+                    <h3 class="text-xl font-semibold mb-4 text-white">Accuracy Trend</h3>
+                    <div class="h-64">
+                        <canvas id="accuracyChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Streak Achievements & Gamification -->
+            <div class="glass-effect p-6 rounded-2xl mt-8">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="text-xl font-semibold text-white flex items-center">
+                        <span class="mr-3">🏆</span>
+                        Achievements & Streaks
+                    </h3>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm text-gray-400">XP:</span>
+                        <span class="text-lg font-bold text-yellow-400 stat-xp">0</span>
+                    </div>
+                </div>
+
+                <!-- Achievement Badges -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                    <div class="achievement-badge bg-gradient-to-r from-yellow-500/20 to-orange-500/20 p-4 rounded-xl border border-yellow-500/30 text-center" data-achievement="first-assessment">
+                        <div class="text-3xl mb-2">🎯</div>
+                        <p class="text-sm font-semibold text-yellow-400">First Assessment</p>
+                        <p class="text-xs text-gray-400">Complete your first test</p>
+                    </div>
+                    
+                    <div class="achievement-badge bg-gradient-to-r from-green-500/20 to-emerald-500/20 p-4 rounded-xl border border-green-500/30 text-center" data-achievement="streak-master">
+                        <div class="text-3xl mb-2">🔥</div>
+                        <p class="text-sm font-semibold text-green-400">Streak Master</p>
+                        <p class="text-xs text-gray-400">7-day study streak</p>
+                    </div>
+                    
+                    <div class="achievement-badge bg-gradient-to-r from-blue-500/20 to-cyan-500/20 p-4 rounded-xl border border-blue-500/30 text-center" data-achievement="accuracy-ace">
+                        <div class="text-3xl mb-2">🎪</div>
+                        <p class="text-sm font-semibold text-blue-400">Accuracy Ace</p>
+                        <p class="text-xs text-gray-400">90%+ accuracy</p>
+                    </div>
+                    
+                    <div class="achievement-badge bg-gradient-to-r from-purple-500/20 to-pink-500/20 p-4 rounded-xl border border-purple-500/30 text-center" data-achievement="knowledge-seeker">
+                        <div class="text-3xl mb-2">📚</div>
+                        <p class="text-sm font-semibold text-purple-400">Knowledge Seeker</p>
+                        <p class="text-xs text-gray-400">100+ questions answered</p>
+                    </div>
+                </div>
+
+                <!-- Streak Milestones -->
+                <div class="bg-gradient-to-r from-orange-500/10 to-red-500/10 p-4 rounded-xl border border-orange-500/20">
+                    <div class="flex items-center justify-between mb-3">
+                        <h4 class="font-semibold text-orange-400 flex items-center">
+                            <span class="mr-2">🔥</span>
+                            Streak Milestones
+                        </h4>
+                        <span class="text-sm text-gray-400">Next reward in <span class="streak-next-reward">6</span> days</span>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="streak-milestone flex items-center space-x-3 p-3 bg-white/5 rounded-lg" data-days="3">
+                            <div class="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center text-sm">3</div>
+                            <div>
+                                <p class="text-sm font-medium text-white">3-Day Streak</p>
+                                <p class="text-xs text-gray-400">+50 XP</p>
+                            </div>
+                            <div class="ml-auto">
+                                <span class="milestone-status text-xs px-2 py-1 rounded-full bg-gray-600 text-gray-300">Locked</span>
+                            </div>
+                        </div>
+                        
+                        <div class="streak-milestone flex items-center space-x-3 p-3 bg-white/5 rounded-lg" data-days="7">
+                            <div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-sm">7</div>
+                            <div>
+                                <p class="text-sm font-medium text-white">Weekly Warrior</p>
+                                <p class="text-xs text-gray-400">+100 XP</p>
+                            </div>
+                            <div class="ml-auto">
+                                <span class="milestone-status text-xs px-2 py-1 rounded-full bg-gray-600 text-gray-300">Locked</span>
+                            </div>
+                        </div>
+                        
+                        <div class="streak-milestone flex items-center space-x-3 p-3 bg-white/5 rounded-lg" data-days="30">
+                            <div class="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center text-sm">30</div>
+                            <div>
+                                <p class="text-sm font-medium text-white">Monthly Master</p>
+                                <p class="text-xs text-gray-400">+500 XP</p>
+                            </div>
+                            <div class="ml-auto">
+                                <span class="milestone-status text-xs px-2 py-1 rounded-full bg-gray-600 text-gray-300">Locked</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script>
+        // Chart.js configurations
+        Chart.defaults.color = '#e5e5e5';
+        Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.1)';
+
+    // Global chart variables
+    let abilityChart, difficultyChart, recentChart, accuracyChart;
+
+        // Initialize charts with empty data
+        function initializeCharts() {
+            console.log('Initializing charts...');
+            try {
+                // Destroy existing charts if they exist and are Chart instances
+                if (window.abilityChart && typeof window.abilityChart.destroy === 'function') {
+                    window.abilityChart.destroy();
+                }
+                if (window.difficultyChart && typeof window.difficultyChart.destroy === 'function') {
+                    window.difficultyChart.destroy();
+                }
+                if (window.recentChart && typeof window.recentChart.destroy === 'function') {
+                    window.recentChart.destroy();
+                }
+                if (window.accuracyChart && typeof window.accuracyChart.destroy === 'function') {
+                    window.accuracyChart.destroy();
+                }
+
+                // Get canvas elements
+                const abilityCanvas = document.getElementById('abilityChart');
+                const difficultyCanvas = document.getElementById('difficultyChart');
+                const recentCanvas = document.getElementById('recentChart');
+                const accuracyCanvas = document.getElementById('accuracyChart');
+
+                if (!abilityCanvas || !difficultyCanvas || !recentCanvas || !accuracyCanvas) {
+                    console.error('Chart canvas elements not found');
+                    return;
+                }
+
+                // Ability Progress Chart
+                window.abilityChart = new Chart(abilityCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: ['Session 1', 'Session 2', 'Session 3', 'Session 4', 'Session 5'],
+                        datasets: [{
+                            label: 'Ability Score',
+                            data: [0.2, 0.3, 0.45, 0.6, 0.75],
+                            borderColor: '#8b5cf6',
+                            backgroundColor: 'rgba(139, 92, 246, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            },
+                            x: {
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            }
+                        }
+                    }
+                });
+
+                // Difficulty Distribution Chart
+                window.difficultyChart = new Chart(difficultyCanvas, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Easy', 'Moderate', 'Hard', 'Very Hard'],
+                        datasets: [{
+                            data: [5, 8, 4, 2],
+                            backgroundColor: ['#10b981', '#3b82f6', '#f59e0b', '#ef4444']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { position: 'bottom' } }
+                    }
+                });
+
+                // Recent Assessment Chart
+                window.recentChart = new Chart(recentCanvas, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6'],
+                        datasets: [{
+                            label: 'Performance',
+                            data: [1, 0, 1, 1, 0, 1],
+                            backgroundColor: ['#34d399', '#ef4444', '#34d399', '#34d399', '#ef4444', '#34d399']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                max: 1,
+                                ticks: {
+                                    callback: function(value) {
+                                        return value === 1 ? 'Correct' : value === 0 ? 'Incorrect' : '';
+                                    }
+                                },
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            },
+                            x: {
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            }
+                        }
+                    }
+                });
+
+                // Accuracy Trend Chart
+                window.accuracyChart = new Chart(accuracyCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: ['Period 1', 'Period 2', 'Period 3', 'Period 4', 'Period 5'],
+                        datasets: [{
+                            label: 'Accuracy %',
+                            data: [45, 55, 68, 72, 78],
+                            borderColor: '#10b981',
+                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            y: {
+                                beginAtZero: false,
+                                min: 0,
+                                max: 100,
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            },
+                            x: {
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            }
+                        }
+                    }
+                });
+
+                console.log('Charts initialized successfully');
+            } catch (error) {
+                console.error('Error initializing charts:', error);
+            }
+        }
+
+        // User dropdown menu functions
+        function toggleUserMenu() {
+            const dropdown = document.getElementById('userDropdown');
+            dropdown.classList.toggle('hidden');
+        }
+
+        function viewProfile() {
+            toggleUserMenu();
+            window.location.href = 'Profile.html';
+        }
+
+        function viewSettings() {
+            toggleUserMenu();
+            window.location.href = 'Settings.html';
+        }
+
+        // Mobile menu functions
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const mobileMenuContent = document.getElementById('mobileMenuContent');
+            
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+                setTimeout(() => {
+                    mobileMenuContent.classList.remove('-translate-x-full');
+                }, 10);
+            } else {
+                mobileMenuContent.classList.add('-translate-x-full');
+                setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                }, 300);
+            }
+        }
+
+        function closeMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const mobileMenuContent = document.getElementById('mobileMenuContent');
+            
+            mobileMenuContent.classList.add('-translate-x-full');
+            setTimeout(() => {
+                mobileMenu.classList.add('hidden');
+            }, 300);
+        }
+
+        // TEST FUNCTION - Remove in production
+        function testWithKnownData() {
+            console.log('Setting test data for known student...');
+            localStorage.setItem('studentName', 'Dashboard Test');
+            localStorage.setItem('studentGrade', '12');
+            localStorage.setItem('profileId', '5cc66a92c8dce49b');
+            console.log('Test data set. Refreshing dashboard...');
+            fetchDashboardData();
+            fetchDiagnosisAndRender();
+        }
+
+        // Make test function available globally for debugging
+        window.testWithKnownData = testWithKnownData;
+
+        // Show onboarding message for new students
+        function showOnboardingMessage() {
+            console.log('Showing onboarding message for new student');
+            
+            // Update stats with zeros but indicate it's intentional
+            updateDashboardStats({
+                totalQuestions: 0,
+                correctAnswers: 0,
+                accuracy: 0,
+                currentAbility: 0,
+                assessmentsTaken: 0,
+                averageScore: 0
+            });
+            
+            // Show helpful message in diagnosis area
+            const notice = document.getElementById('diagnosisNotice');
+            if (notice) {
+                notice.classList.remove('hidden');
+                notice.innerHTML = `
+                    <div class="text-center py-12 px-6">
+                        <div class="text-blue-600 text-8xl mb-6">📊</div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Welcome to Your Dashboard!</h3>
+                        <p class="text-lg text-gray-600 mb-8 max-w-md mx-auto">
+                            Complete your first assessment to unlock personalized insights, 
+                            progress tracking, and detailed performance analytics.
+                        </p>
+                        <a href="RealDatasetAssessment.html" 
+                           class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 
+                                  text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 
+                                  transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
+                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                      d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                            Start Your First Assessment
+                        </a>
+                        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
+                            <div class="text-center">
+                                <div class="text-green-500 text-2xl mb-2">🎯</div>
+                                <h4 class="font-semibold text-gray-800">Adaptive Learning</h4>
+                                <p class="text-sm text-gray-600">Questions adjust to your skill level</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-purple-500 text-2xl mb-2">📈</div>
+                                <h4 class="font-semibold text-gray-800">Progress Tracking</h4>
+                                <p class="text-sm text-gray-600">Monitor your improvement over time</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-orange-500 text-2xl mb-2">🧠</div>
+                                <h4 class="font-semibold text-gray-800">Smart Insights</h4>
+                                <p class="text-sm text-gray-600">Detailed analysis of your strengths</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        // Event listeners for mobile menu
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const closeMobileMenuBtn = document.getElementById('closeMobileMenu');
+            const mobileMenu = document.getElementById('mobileMenu');
+
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+            }
+
+            if (closeMobileMenuBtn) {
+                closeMobileMenuBtn.addEventListener('click', closeMobileMenu);
+            }
+
+            // Close mobile menu when clicking on backdrop
+            if (mobileMenu) {
+                mobileMenu.addEventListener('click', function(e) {
+                    if (e.target === mobileMenu) {
+                        closeMobileMenu();
+                    }
+                });
+            }
+
+            // Update mobile menu user info
+            updateMobileMenuUserInfo();
+        });
+
+        function updateMobileMenuUserInfo() {
+            const user = (() => { try { return JSON.parse(localStorage.getItem('user') || '{}'); } catch { return {}; } })();
+            const studentName = localStorage.getItem('studentName') || [user.firstName, user.lastName].filter(Boolean).join(' ') || 'Student';
+            const studentGrade = getStoredGrade(); // Use the persistent grade function
+            
+            const mobileStudentName = document.getElementById('mobileStudentName');
+            const mobileStudentGrade = document.getElementById('mobileStudentGrade');
+            const mobileStudentInitial = document.getElementById('mobileStudentInitial');
+            
+            if (mobileStudentName) mobileStudentName.textContent = studentName;
+            if (mobileStudentGrade) mobileStudentGrade.textContent = studentGrade;
+            if (mobileStudentInitial) mobileStudentInitial.textContent = studentName.charAt(0).toUpperCase();
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('userDropdown');
+            const userButton = event.target.closest('button[onclick="toggleUserMenu()"]');
+            
+            if (!userButton && !dropdown.contains(event.target)) {
+                dropdown.classList.add('hidden');
+            }
+        });
+
+        // Data fetching and updating functions
+        async function fetchDashboardData() {
+            console.log('Starting dashboard data fetch...');
+            
+            // First try to fetch from Flask API (where assessment data is stored)
+            try {
+                console.log('Attempting to fetch from Flask API...');
+                await fetchFlaskDashboardData();
+                console.log('Flask API data loaded successfully');
+                return;
+            } catch (error) {
+                console.warn('Flask API failed, trying Node.js backend:', error);
+            }
+
+            // Fallback to Node.js backend if Flask fails
+            try {
+                const token = localStorage.getItem('authToken');
+                if (!token) {
+                    console.log('No auth token found for Node.js backend, using Flask only');
+                    showFallbackData();
+                    return;
+                }
+
+                // Fetch stats from Node.js backend
+                const statsResponse = await fetch('http://localhost:3000/api/dashboard/stats', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                const statsData = await statsResponse.json();
+
+                // Fetch progress data from Node.js backend
+                const progressResponse = await fetch('http://localhost:3000/api/dashboard/progress', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                const progressData = await progressResponse.json();
+
+                // Fetch recent activity from Node.js backend
+                const activityResponse = await fetch('http://localhost:3000/api/dashboard/recent-activity', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                const activityData = await activityResponse.json();
+
+                if (statsData.success) {
+                    updateDashboardStats(statsData.stats);
+                }
+
+                if (progressData.success) {
+                    updateChartsWithNodeData(progressData.progress);
+                }
+
+                if (activityData.success) {
+                    updateRecentActivity(activityData.activities);
+                }
+
+                // Also fetch diagnosis data from Flask backend for detailed charts
+                await fetchDiagnosisAndRender();
+
+            } catch (error) {
+                console.error('Error fetching dashboard data:', error);
+                // Show fallback data when Node.js backend is unavailable
+                showFallbackData();
+            }
+        }
+
+        // Function to show fallback data when backend is unavailable
+        function showFallbackData() {
+            console.log('Using fallback data - fetching from Flask API directly');
+            // Instead of showing zeros, fetch actual data from Flask API
+            fetchFlaskDashboardData();
+        }
+
+        async function fetchFlaskDashboardData() {
+            console.log('🚀 fetchFlaskDashboardData() CALLED');
+            try {
+                let name = localStorage.getItem('studentName');
+                let grade = localStorage.getItem('studentGrade');
+                
+                console.log('📦 localStorage check:', { studentName: name, studentGrade: grade });
+                
+                // FALLBACK: Get from logged-in user data if not in studentName
+                if (!name) {
+                    const user = (() => { try { return JSON.parse(localStorage.getItem('user') || '{}'); } catch { return {}; } })();
+                    name = [user.firstName, user.lastName].filter(Boolean).join('').toLowerCase();
+                    console.log('📝 Using logged-in user name:', name, 'from user:', user);
+                }
+                
+                if (!name) {
+                    console.error('❌ No name available! Cannot fetch data.');
+                    return;
+                }
+                
+                console.log('✅ Name resolved:', name);
+                console.log('🔍 Dashboard Loading for:', name);
+                
+                // STRATEGY: Try multiple grades if not set (9, 10, 11, 12)
+                const gradesToTry = grade ? [grade] : ['9', '10', '11', '12'];
+                
+                let diagnosisData = null;
+                let diagnosisRes = null;
+                
+                for (const tryGrade of gradesToTry) {
+                    const params = new URLSearchParams();
+                    params.set('student_name', name);
+                    params.set('student_grade', tryGrade);
+                    
+                    console.log(`🔍 Trying grade ${tryGrade}...`);
+                    diagnosisRes = await fetch('http://localhost:5000/api/student/diagnosis?' + params.toString());
+                    diagnosisData = await diagnosisRes.json();
+                    
+                    if (diagnosisData.success && diagnosisData.diagnosis.total_responses > 0) {
+                        console.log(`✅ Found data with grade ${tryGrade}!`);
+                        break;
+                    }
+                }
+
+                if (diagnosisRes.ok && diagnosisData.success) {
+                    const diag = diagnosisData.diagnosis;
+                    
+                    // SYNC: Store to BOTH localStorage (for name display) AND global state
+                    if (diag.profile && diag.profile.name && diag.profile.grade) {
+                        localStorage.setItem('studentName', diag.profile.name);
+                        localStorage.setItem('studentGrade', diag.profile.grade);
+                        localStorage.setItem('profileId', diag.profile.profile_id);
+                        window.dashboardState.profile = diag.profile;
+                        console.log('✅ Profile synced from MongoDB:', diag.profile);
+                    }
+                    
+                    // Calculate stats from diagnosis data
+                    const accuracy = diag.overall_accuracy || 0;
+                    const currentAbility = diag.current_ability || 0;
+                    const averageScore = accuracy;
+                    
+                    // FIX: Count only NON-LIVE sessions to avoid duplicates
+                    const sessions = diag.sessions_trend || {};
+                    const nonLiveSessions = Object.keys(sessions).filter(key => key !== 'live');
+                    const assessmentsTaken = nonLiveSessions.length;
+                    
+                    // FIX: Get total questions from actual saved session, not including live duplicates
+                    let totalQuestions = 0;
+                    if (nonLiveSessions.length > 0) {
+                        // Sum questions from all non-live sessions
+                        totalQuestions = nonLiveSessions.reduce((sum, sessionId) => {
+                            return sum + (sessions[sessionId].total || 0);
+                        }, 0);
+                    }
+                    
+                    const correctAnswers = totalQuestions > 0 ? Math.round((accuracy / 100) * totalQuestions) : 0;
+                    
+                    console.log('✅ Flask data loaded:', { 
+                        totalQuestions, 
+                        correctAnswers, 
+                        accuracy, 
+                        currentAbility,
+                        assessmentsTaken,
+                        sessions: diag.sessions 
+                    });
+                    
+                    const stats = {
+                        totalQuestions: totalQuestions,
+                        correctAnswers: correctAnswers,
+                        accuracy: accuracy,
+                        currentAbility: Math.round(currentAbility * 100) / 100,
+                        assessmentsTaken: assessmentsTaken,
+                        averageScore: averageScore
+                    };
+                    
+                    // Store in global state
+                    window.dashboardState.stats = stats;
+                    window.dashboardState.diagnosis = diag;
+                    
+                    updateDashboardStats(stats);
+                    
+                    // Also render the diagnosis charts
+                    renderDiagnosisCharts(diag);
+                } else {
+                    console.error('Failed to fetch Flask diagnosis data:', diagnosisData.error);
+                    // Show zeros if data fetch fails
+                    updateDashboardStats({
+                        totalQuestions: 0,
+                        correctAnswers: 0,
+                        accuracy: 0,
+                        currentAbility: 0,
+                        assessmentsTaken: 0,
+                        averageScore: 0
+                    });
+                }
+            } catch (error) {
+                console.error('Error fetching Flask dashboard data:', error);
+                // Show zeros if API fails
+                updateDashboardStats({
+                    totalQuestions: 0,
+                    correctAnswers: 0,
+                    accuracy: 0,
+                    currentAbility: 0,
+                    assessmentsTaken: 0,
+                    averageScore: 0
+                });
+            }
+        }
+
+        // Function to refresh only recent activity
+        async function refreshRecentActivity() {
+            try {
+                const name = localStorage.getItem('studentName');
+                const grade = localStorage.getItem('studentGrade');
+                const profileId = localStorage.getItem('profileId');
+                
+                if ((!name || !grade) && !profileId) {
+                    updateRecentActivity([]);
+                    return;
+                }
+
+                const container = document.getElementById('recentActivityContainer');
+                container.innerHTML = `
+                    <div class="flex items-center justify-center py-4">
+                        <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-purple-primary"></div>
+                        <span class="ml-3 text-gray-400">Refreshing...</span>
+                    </div>
+                `;
+
+                // Fetch diagnosis data to generate recent activity
+                const params = new URLSearchParams();
+                if (profileId) {
+                    params.set('profile_id', profileId);
+                } else {
+                    // For strict isolation, avoid fetching any shared history if no profileId yet
+                    if (notice) { notice.classList.remove('hidden'); notice.textContent = 'No student profile yet. Start an assessment to initialize your profile.'; }
+                    return;
+                }
+                
+                const response = await fetch(`http://localhost:5000/api/student/diagnosis?${params.toString()}`);
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    const activities = generateRecentActivityFromDiagnosis(data.diagnosis);
+                    updateRecentActivity(activities);
+                } else {
+                    updateRecentActivity([]);
+                }
+            } catch (error) {
+                console.error('Error refreshing recent activity:', error);
+                updateRecentActivity([]);
+            }
+        }
+
+        // Generate recent activity data from diagnosis information
+        function generateRecentActivityFromDiagnosis(diagnosis) {
+            const activities = [];
+            
+            // Add session-based activities
+            const sessionsData = diagnosis.sessions_trend || {};
+            const sessionEntries = Object.entries(sessionsData)
+                .filter(([_, session]) => session.total >= 3) // Only meaningful sessions
+                .sort((a, b) => b[1].total - a[1].total) // Sort by question count
+                .slice(0, 5); // Take latest 5 sessions
+
+            sessionEntries.forEach(([sessionId, session], index) => {
+                const timeAgo = `${index + 1} assessment${index === 0 ? ' (Latest)' : ''} ago`;
+                const accuracy = session.accuracy;
+                const icon = accuracy >= 80 ? '🏆' : accuracy >= 60 ? '⭐' : accuracy >= 40 ? '📈' : '📚';
+                const color = accuracy >= 80 ? 'green-500' : accuracy >= 60 ? 'yellow-500' : accuracy >= 40 ? 'blue-500' : 'red-500';
+                
+                activities.push({
+                    subject: `Assessment Session`,
+                    timeAgo: timeAgo,
+                    accuracy: accuracy,
+                    totalQuestions: session.total,
+                    icon: icon,
+                    color: color
+                });
+            });
+
+            // Add topic-based activities for strong/weak areas
+            const topicEntries = Object.entries(diagnosis.per_topic || {})
+                .sort((a, b) => b[1].accuracy - a[1].accuracy)
+                .slice(0, 3);
+
+            topicEntries.forEach((topicEntry, index) => {
+                const [topic, stats] = topicEntry;
+                const isStrength = stats.accuracy >= 70;
+                const icon = isStrength ? '💪' : '🎯';
+                const color = isStrength ? 'green-500' : 'orange-500';
+                const timeAgo = 'Ongoing practice';
+                
+                activities.push({
+                    subject: `${topic} ${isStrength ? '(Strength)' : '(Focus Area)'}`,
+                    timeAgo: timeAgo,
+                    accuracy: stats.accuracy,
+                    totalQuestions: stats.total,
+                    icon: icon,
+                    color: color
+                });
+            });
+
+            return activities.slice(0, 6); // Return max 6 activities
+        }
+
+        function updateDashboardStats(stats) {
+            console.log('📊 Updating dashboard stats:', stats);
+            
+            // Update stat cards
+            const statElements = {
+                totalQuestions: document.querySelector('.stat-total-questions'),
+                correctAnswers: document.querySelector('.stat-correct-answers'),
+                accuracy: document.querySelector('.stat-accuracy'),
+                currentAbility: document.querySelector('.stat-current-ability'),
+                assessmentsTaken: document.querySelector('.stat-assessments-taken'),
+                averageScore: document.querySelector('.stat-average-score')
+            };
+            
+            console.log('📋 Stat elements found:', {
+                totalQuestions: !!statElements.totalQuestions,
+                correctAnswers: !!statElements.correctAnswers,
+                accuracy: !!statElements.accuracy,
+                currentAbility: !!statElements.currentAbility,
+                assessmentsTaken: !!statElements.assessmentsTaken,
+                averageScore: !!statElements.averageScore
+            });
+
+            // Update each stat if element exists
+            if (statElements.totalQuestions) {
+                statElements.totalQuestions.textContent = stats.totalQuestions;
+            }
+            if (statElements.correctAnswers) {
+                statElements.correctAnswers.textContent = stats.correctAnswers;
+            }
+            if (statElements.accuracy) {
+                statElements.accuracy.textContent = stats.accuracy + '%';
+            }
+            if (statElements.currentAbility) {
+                statElements.currentAbility.textContent = stats.currentAbility;
+            }
+            if (statElements.assessmentsTaken) {
+                // Use Flask API data (number of sessions)
+                statElements.assessmentsTaken.textContent = stats.assessmentsTaken;
+            }
+            if (statElements.averageScore) {
+                statElements.averageScore.textContent = stats.averageScore + '%';
+            }
+        }
+
+        // ========================= GLOBAL STATE (FROM FLASK API) =========================
+        
+        // Global dashboard state - populated from Flask API
+        window.dashboardState = {
+            profile: null,
+            stats: null,
+            diagnosis: null
+        };
+        
+        function getCompletedAssessmentsCount() {
+            // Return from Flask API state, not localStorage
+            return window.dashboardState.stats?.assessmentsTaken || 0;
+        }
+        
+        function recordCompletedAssessment() {
+            // No-op: Assessment tracking now handled by Flask/MongoDB
+            console.log('Assessment recording handled by Flask API automatically');
+            
+            // Save back to localStorage
+            localStorage.setItem('completedAssessments', JSON.stringify(completedAssessments));
+            
+            // Update the display immediately
+            const assessmentElement = document.querySelector('.stat-assessments-taken');
+            if (assessmentElement) {
+                assessmentElement.textContent = completedAssessments.length;
+            }
+            
+            console.log(`Assessment recorded. Total completed: ${completedAssessments.length}`);
+            return assessmentId;
+        }
+
+        // ========================= GRADE PERSISTENCE FUNCTIONS =========================
+        
+        function saveGradePermanently(grade) {
+            // Only save if grade is not already set
+            const currentGrade = localStorage.getItem('studentGrade');
+            if (!currentGrade || currentGrade === 'Not Set') {
+                localStorage.setItem('studentGrade', grade);
+                localStorage.setItem('gradeSetAt', new Date().toISOString());
+                console.log(`Grade saved permanently: ${grade}`);
+                updateGradeDisplay(grade);
+                return true;
+            } else {
+                console.log(`Grade already set to: ${currentGrade}, not changing`);
+                return false;
+            }
+        }
+        
+        function updateGradeDisplay(grade) {
+            const mobileGradeElement = document.getElementById('mobileStudentGrade');
+            if (mobileGradeElement) {
+                mobileGradeElement.textContent = grade;
+            }
+            
+            // Update any other grade display elements
+            const gradeElements = document.querySelectorAll('[data-student-grade]');
+            gradeElements.forEach(element => {
+                element.textContent = grade;
+            });
+        }
+        
+        function getStoredGrade() {
+            return localStorage.getItem('studentGrade') || 'Not Set';
+        }
+
+        // ========================= STREAK & GAMIFICATION FUNCTIONS =========================
+        
+        function initializeStreakSystem() {
+            // Initialize streak data from localStorage
+            const streakData = getStreakData();
+            updateStreakDisplay(streakData);
+            updateAchievements(streakData);
+            checkDailyLogin();
+        }
+
+        function getStreakData() {
+            const defaultData = {
+                currentStreak: 0,
+                longestStreak: 0,
+                lastLoginDate: null,
+                totalXP: 0,
+                achievements: [],
+                streakType: 'daily login',
+                dailyLogins: 0,
+                assessmentsCompleted: 0,
+                correctAnswers: 0
+            };
+            
+            const saved = localStorage.getItem('streakData');
+            return saved ? { ...defaultData, ...JSON.parse(saved) } : defaultData;
+        }
+
+        function saveStreakData(data) {
+            localStorage.setItem('streakData', JSON.stringify(data));
+        }
+
+        function checkDailyLogin() {
+            const streakData = getStreakData();
+            const today = new Date().toDateString();
+            const lastLogin = streakData.lastLoginDate;
+            
+            if (lastLogin !== today) {
+                // New day login
+                const yesterday = new Date();
+                yesterday.setDate(yesterday.getDate() - 1);
+                
+                if (lastLogin === yesterday.toDateString()) {
+                    // Consecutive day - increase streak
+                    streakData.currentStreak++;
+                    streakData.totalXP += 10; // Daily XP bonus
+                    showStreakNotification(`🔥 ${streakData.currentStreak} day streak! +10 XP`);
+                } else if (lastLogin) {
+                    // Streak broken
+                    if (streakData.currentStreak > 0) {
+                        showStreakNotification(`💔 Streak broken! Starting fresh...`);
+                    }
+                    streakData.currentStreak = 1;
+                    streakData.totalXP += 5; // New streak XP
+                } else {
+                    // First time
+                    streakData.currentStreak = 1;
+                    streakData.totalXP += 5;
+                    showStreakNotification(`🎉 Welcome! Your learning journey begins! +5 XP`);
+                }
+                
+                streakData.lastLoginDate = today;
+                streakData.dailyLogins++;
+                
+                // Update longest streak
+                if (streakData.currentStreak > streakData.longestStreak) {
+                    streakData.longestStreak = streakData.currentStreak;
+                }
+                
+                // Check for streak milestones
+                checkStreakMilestones(streakData);
+                
+                saveStreakData(streakData);
+                updateStreakDisplay(streakData);
+                updateAchievements(streakData);
+            }
+        }
+
+        function updateStreakDisplay(streakData) {
+            // Update streak counter
+            const streakElement = document.querySelector('.stat-streak');
+            const streakTypeElement = document.querySelector('.streak-type');
+            const streakProgressElement = document.querySelector('.streak-progress');
+            const streakGoalElement = document.querySelector('.streak-goal');
+            const streakEmojiElement = document.querySelector('.streak-emoji');
+            const xpElement = document.querySelector('.stat-xp');
+            
+            if (streakElement) streakElement.textContent = streakData.currentStreak;
+            if (streakTypeElement) streakTypeElement.textContent = streakData.streakType;
+            if (xpElement) xpElement.textContent = streakData.totalXP;
+            
+            // Update progress bar (progress towards next milestone)
+            const nextMilestone = getNextMilestone(streakData.currentStreak);
+            if (streakProgressElement && nextMilestone) {
+                const progress = (streakData.currentStreak / nextMilestone.days) * 100;
+                streakProgressElement.style.width = Math.min(progress, 100) + '%';
+            }
+            
+            if (streakGoalElement && nextMilestone) {
+                streakGoalElement.textContent = `Goal: ${nextMilestone.days} days`;
+            }
+            
+            // Update emoji based on streak length
+            if (streakEmojiElement) {
+                if (streakData.currentStreak >= 30) streakEmojiElement.textContent = '🚀';
+                else if (streakData.currentStreak >= 14) streakEmojiElement.textContent = '⭐';
+                else if (streakData.currentStreak >= 7) streakEmojiElement.textContent = '🔥';
+                else if (streakData.currentStreak >= 3) streakEmojiElement.textContent = '💪';
+                else if (streakData.currentStreak >= 1) streakEmojiElement.textContent = '🔥';
+                else streakEmojiElement.textContent = '🌱';
+            }
+        }
+
+        function getNextMilestone(currentStreak) {
+            const milestones = [
+                { days: 3, name: '3-Day Streak', xp: 50 },
+                { days: 7, name: 'Weekly Warrior', xp: 100 },
+                { days: 14, name: 'Two Week Champion', xp: 200 },
+                { days: 30, name: 'Monthly Master', xp: 500 }
+            ];
+            
+            return milestones.find(m => m.days > currentStreak) || null;
+        }
+
+        function checkStreakMilestones(streakData) {
+            const milestones = [
+                { days: 3, achievement: 'streak-3', xp: 50 },
+                { days: 7, achievement: 'streak-master', xp: 100 },
+                { days: 14, achievement: 'streak-14', xp: 200 },
+                { days: 30, achievement: 'streak-30', xp: 500 }
+            ];
+            
+            milestones.forEach(milestone => {
+                if (streakData.currentStreak === milestone.days && 
+                    !streakData.achievements.includes(milestone.achievement)) {
+                    
+                    // Award achievement
+                    streakData.achievements.push(milestone.achievement);
+                    streakData.totalXP += milestone.xp;
+                    
+                    showAchievementUnlocked(milestone.achievement, milestone.xp);
+                }
+            });
+        }
+
+        function updateAchievements(streakData) {
+            // Update achievement badges
+            const badges = document.querySelectorAll('.achievement-badge');
+            badges.forEach(badge => {
+                const achievement = badge.dataset.achievement;
+                if (streakData.achievements.includes(achievement)) {
+                    badge.classList.add('opacity-100');
+                    badge.classList.remove('opacity-50');
+                    badge.style.transform = 'scale(1)';
+                } else {
+                    badge.classList.add('opacity-50');
+                    badge.classList.remove('opacity-100');
+                }
+            });
+            
+            // Update streak milestones
+            const milestones = document.querySelectorAll('.streak-milestone');
+            milestones.forEach(milestone => {
+                const days = parseInt(milestone.dataset.days);
+                const statusElement = milestone.querySelector('.milestone-status');
+                
+                if (streakData.currentStreak >= days) {
+                    statusElement.textContent = 'Unlocked';
+                    statusElement.className = 'milestone-status text-xs px-2 py-1 rounded-full bg-green-500 text-white';
+                    milestone.classList.add('opacity-100');
+                    milestone.classList.remove('opacity-50');
+                } else {
+                    statusElement.textContent = 'Locked';
+                    statusElement.className = 'milestone-status text-xs px-2 py-1 rounded-full bg-gray-600 text-gray-300';
+                    milestone.classList.add('opacity-50');
+                    milestone.classList.remove('opacity-100');
+                }
+            });
+        }
+
+        function showStreakNotification(message) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.className = 'fixed top-4 right-4 bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-4 rounded-lg shadow-lg z-50 transform translate-x-full transition-transform duration-300';
+            notification.innerHTML = `
+                <div class="flex items-center space-x-3">
+                    <div class="text-2xl">🔥</div>
+                    <div>
+                        <p class="font-semibold">Streak Update!</p>
+                        <p class="text-sm opacity-90">${message}</p>
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Animate in
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // Remove after 4 seconds
+            setTimeout(() => {
+                notification.style.transform = 'translateX(full)';
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.parentNode.removeChild(notification);
+                    }
+                }, 300);
+            }, 4000);
+        }
+
+        function showAchievementUnlocked(achievement, xp) {
+            const achievementNames = {
+                'first-assessment': 'First Assessment',
+                'streak-master': 'Streak Master',
+                'accuracy-ace': 'Accuracy Ace',
+                'knowledge-seeker': 'Knowledge Seeker',
+                'streak-3': '3-Day Streak',
+                'streak-14': 'Two Week Champion',
+                'streak-30': 'Monthly Master'
+            };
+            
+            const name = achievementNames[achievement] || 'Achievement';
+            showStreakNotification(`🏆 ${name} unlocked! +${xp} XP`);
+        }
+
+        function awardAssessmentXP(score, questionsAnswered) {
+            const streakData = getStreakData();
+            
+            // Calculate XP based on performance
+            const baseXP = questionsAnswered * 2;
+            const bonusXP = Math.floor((score / 100) * questionsAnswered * 3);
+            const totalXP = baseXP + bonusXP;
+            
+            streakData.totalXP += totalXP;
+            streakData.assessmentsCompleted++;
+            
+            // Check for assessment-based achievements
+            if (streakData.assessmentsCompleted === 1 && !streakData.achievements.includes('first-assessment')) {
+                streakData.achievements.push('first-assessment');
+                streakData.totalXP += 100;
+                showAchievementUnlocked('first-assessment', 100);
+            }
+            
+            if (score >= 90 && !streakData.achievements.includes('accuracy-ace')) {
+                streakData.achievements.push('accuracy-ace');
+                streakData.totalXP += 150;
+                showAchievementUnlocked('accuracy-ace', 150);
+            }
+            
+            saveStreakData(streakData);
+            updateStreakDisplay(streakData);
+            updateAchievements(streakData);
+            
+            return totalXP;
+        }
+
+        function updateCharts(progress) {
+            // Update ability progress chart
+            if (abilityChart && progress.abilityProgress.length > 0) {
+                const labels = progress.abilityProgress.map((_, index) => `Session ${index + 1}`);
+                abilityChart.data.labels = labels;
+                abilityChart.data.datasets[0].data = progress.abilityProgress;
+                abilityChart.update('none');
+            }
+
+            // Update difficulty distribution chart
+            if (difficultyChart) {
+                const distribution = progress.difficultyDistribution;
+                difficultyChart.data.datasets[0].data = [
+                    distribution.easy,
+                    distribution.moderate,
+                    distribution.hard,
+                    distribution.veryHard
+                ];
+                difficultyChart.update('none');
+            }
+
+            // Update recent performance chart
+            if (recentChart && progress.recentPerformance.length > 0) {
+                const labels = progress.recentPerformance.map((_, index) => `Q${index + 1}`);
+                const data = progress.recentPerformance.map(item => item.correct ? 1 : 0);
+                recentChart.data.labels = labels;
+                recentChart.data.datasets[0].data = data;
+                recentChart.update('none');
+            }
+
+            // Update accuracy trend chart
+            if (accuracyChart && progress.accuracyTrend.length > 0) {
+                const labels = progress.accuracyTrend.map((_, index) => `Period ${index + 1}`);
+                accuracyChart.data.labels = labels;
+                accuracyChart.data.datasets[0].data = progress.accuracyTrend;
+                accuracyChart.update('none');
+            }
+        }
+
+        // New function to update charts with Node.js backend data
+        function updateChartsWithNodeData(progress) {
+            console.log('Updating charts with Node.js data:', progress);
+            
+            // Create default chart structures if no data
+            const defaultData = {
+                abilityProgress: [0, 0.2, 0.4, 0.6, 0.8],
+                accuracyTrend: [50, 60, 70, 75, 80],
+                difficultyDistribution: { easy: 0, moderate: 0, hard: 0, veryHard: 0 },
+                recentPerformance: []
+            };
+
+            const data = { ...defaultData, ...progress };
+
+            // Destroy existing charts before creating new ones
+            [abilityChart, difficultyChart, recentChart, accuracyChart].forEach(c => { 
+                if (c) {
+                    c.destroy();
+                }
+            });
+
+            // Get canvas elements
+            const abilityCanvas = document.getElementById('abilityChart');
+            const difficultyCanvas = document.getElementById('difficultyChart');
+            const recentCanvas = document.getElementById('recentChart');
+            const accuracyCanvas = document.getElementById('accuracyChart');
+
+            // Ability Progress Chart
+            if (abilityCanvas && data.abilityProgress.length > 0) {
+                const labels = data.abilityProgress.map((_, index) => `Session ${index + 1}`);
+                abilityChart = new Chart(abilityCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: data.abilityProgress,
+                            label: 'Ability Progress',
+                            borderColor: '#60a5fa',
+                            backgroundColor: '#60a5fa33',
+                            tension: 0.25,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            y: { beginAtZero: true, max: 1 }
+                        }
+                    }
+                });
+            }
+
+            // Difficulty Distribution Chart
+            if (difficultyCanvas) {
+                const distribution = data.difficultyDistribution;
+                const labels = ['Easy', 'Moderate', 'Hard', 'Very Hard'];
+                const values = [distribution.easy, distribution.moderate, distribution.hard, distribution.veryHard];
+                
+                difficultyChart = new Chart(difficultyCanvas, {
+                    type: 'doughnut',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: values,
+                            backgroundColor: ['#34d399', '#60a5fa', '#f59e0b', '#ef4444']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { position: 'bottom' } }
+                    }
+                });
+            }
+
+            // Recent Assessment Performance Chart
+            if (recentCanvas && data.recentPerformance.length > 0) {
+                const labels = data.recentPerformance.map((_, index) => `Q${index + 1}`);
+                const values = data.recentPerformance.map(item => item.correct ? 100 : 0);
+                
+                recentChart = new Chart(recentCanvas, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: values,
+                            label: 'Performance (%)',
+                            backgroundColor: values.map(v => v === 100 ? '#34d399' : '#ef4444')
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: { y: { beginAtZero: true, max: 100 } }
+                    }
+                });
+            }
+
+            // Accuracy Trend Chart
+            if (accuracyCanvas && data.accuracyTrend.length > 0) {
+                const labels = data.accuracyTrend.map((_, index) => `Period ${index + 1}`);
+                
+                accuracyChart = new Chart(accuracyCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: data.accuracyTrend,
+                            label: 'Accuracy Trend (%)',
+                            borderColor: '#8b5cf6',
+                            backgroundColor: '#8b5cf633',
+                            tension: 0.25,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: { y: { beginAtZero: true, max: 100 } }
+                    }
+                });
+            }
+        }
+
+        // Diagnosis fetching and rendering
+        async function fetchDiagnosisAndRender() {
+            try {
+                const name = localStorage.getItem('studentName');
+                const grade = localStorage.getItem('studentGrade');
+                const profileId = localStorage.getItem('profileId');
+                
+                console.log('Dashboard debug - name:', name, 'grade:', grade, 'profileId:', profileId);
+                
+                const notice = document.getElementById('diagnosisNotice');
+                if ((!name || !grade) && !profileId) {
+                    if (notice) { notice.classList.remove('hidden'); notice.textContent = 'Diagnosis needs your name and grade. Start an assessment to set them.'; }
+                    return;
+                } else if (notice) { notice.classList.add('hidden'); }
+                const params = new URLSearchParams();
+                if (profileId) {
+                    params.set('profile_id', profileId);
+                } else {
+                    params.set('student_name', name);
+                    params.set('student_grade', grade);
+                }
+                const res = await fetch('http://localhost:5000/api/student/diagnosis?' + params.toString());
+                const data = await res.json();
+                if (!res.ok || !data.success) { throw new Error(data.error || 'Failed to load diagnosis'); }
+                renderDiagnosisCharts(data.diagnosis);
+            } catch (e) {
+                console.error('Diagnosis error:', e);
+                const notice = document.getElementById('diagnosisNotice');
+                if (notice) { notice.classList.remove('hidden'); notice.textContent = 'Unable to load diagnosis. Ensure the AI server is running.'; }
+            }
+        }
+
+        function renderDiagnosisCharts(diag) {
+            try {
+                console.log('Rendering diagnosis charts with data:', diag);
+                
+                // FIRST: Destroy existing charts to prevent canvas reuse error
+                if (window.abilityChart && typeof window.abilityChart.destroy === 'function') {
+                    window.abilityChart.destroy();
+                    window.abilityChart = null;
+                }
+                if (window.difficultyChart && typeof window.difficultyChart.destroy === 'function') {
+                    window.difficultyChart.destroy();
+                    window.difficultyChart = null;
+                }
+                if (window.recentChart && typeof window.recentChart.destroy === 'function') {
+                    window.recentChart.destroy();
+                    window.recentChart = null;
+                }
+                if (window.accuracyChart && typeof window.accuracyChart.destroy === 'function') {
+                    window.accuracyChart.destroy();
+                    window.accuracyChart = null;
+                }
+                
+                const tEntries = Object.entries(diag.per_topic || {});
+                const tLabels = tEntries.map(([k]) => k);
+                const tAcc = tEntries.map(([_, v]) => v.accuracy);
+
+                const dEntries = Object.entries(diag.per_difficulty || {});
+                const dLabels = dEntries.map(([k]) => k);
+                const dAcc = dEntries.map(([_, v]) => v.accuracy);
+
+                const ability = diag.ability_trend || [];
+                const aLabels = ability.map(p => new Date(p.t).toLocaleTimeString());
+                const aValues = ability.map(p => p.ability);
+
+                const sEntries = Object.entries(diag.sessions_trend || {});
+                const sLabels = sEntries.map(([k]) => k === 'live' ? 'Live' : (k.length > 8 ? '...' + k.slice(-6) : k));
+                const sAcc = sEntries.map(([_, v]) => v.accuracy);
+
+                // Get canvas elements
+                const abilityCanvas = document.getElementById('abilityChart');
+                const difficultyCanvas = document.getElementById('difficultyChart');
+                const recentCanvas = document.getElementById('recentChart');
+                const accuracyCanvas = document.getElementById('accuracyChart');
+
+                // Ability Chart - show even with single data point
+                if (abilityCanvas) {
+                    if (ability.length > 0) {
+                        window.abilityChart = new Chart(abilityCanvas, { 
+                            type: 'line', 
+                            data: { 
+                                labels: aLabels, 
+                                datasets: [{ 
+                                    data: aValues, 
+                                    label: 'Ability Trend', 
+                                    borderColor: '#60a5fa', 
+                                    backgroundColor: '#60a5fa33', 
+                                    tension: 0.25, 
+                                    fill: true 
+                                }] 
+                            }, 
+                            options: { 
+                                responsive: true, 
+                                maintainAspectRatio: false,
+                                plugins: { legend: { display: false } } 
+                            } 
+                        });
+                    } else {
+                        // Show placeholder when no ability data
+                        showChartPlaceholder(abilityCanvas, 'Complete an assessment to see ability progress');
+                    }
+                }
+
+                // Difficulty Chart - show even with single difficulty level
+                if (difficultyCanvas) {
+                    if (dLabels.length > 0) {
+                        window.difficultyChart = new Chart(difficultyCanvas, { 
+                            type: 'bar', 
+                            data: { 
+                                labels: dLabels, 
+                                datasets: [{ 
+                                    data: dAcc, 
+                                    label: 'Accuracy by Difficulty (%)', 
+                                    backgroundColor: ['#34d399', '#60a5fa', '#f59e0b', '#ef4444']
+                                }] 
+                            }, 
+                            options: { 
+                                responsive: true, 
+                                maintainAspectRatio: false,
+                                plugins: { legend: { display: false } }, 
+                                scales: { y: { beginAtZero: true, max: 100 } } 
+                            } 
+                        });
+                    } else {
+                        showChartPlaceholder(difficultyCanvas, 'Answer questions to see difficulty analysis');
+                    }
+                }
+
+                // Recent Sessions Chart - show even with single session
+                if (recentCanvas) {
+                    if (sLabels.length > 0) {
+                        window.recentChart = new Chart(recentCanvas, { 
+                            type: 'bar', 
+                            data: { 
+                                labels: sLabels, 
+                                datasets: [{ 
+                                    data: sAcc, 
+                                    label: 'Session Accuracy (%)', 
+                                    backgroundColor: '#f59e0b' 
+                                }] 
+                            }, 
+                            options: { 
+                                responsive: true, 
+                                maintainAspectRatio: false,
+                                plugins: { legend: { display: false } }, 
+                                scales: { y: { beginAtZero: true, max: 100 } } 
+                            } 
+                        });
+                    } else {
+                        showChartPlaceholder(recentCanvas, 'Complete assessments to see session history');
+                    }
+                }
+
+                // Topic Accuracy Chart - show even with single topic  
+                if (accuracyCanvas) {
+                    if (tLabels.length > 0) {
+                        window.accuracyChart = new Chart(accuracyCanvas, { 
+                            type: 'doughnut', 
+                            data: { 
+                                labels: tLabels, 
+                                datasets: [{ 
+                                    data: tAcc, 
+                                    backgroundColor: ['#34d399', '#60a5fa', '#f59e0b', '#ef4444', '#8b5cf6']
+                                }] 
+                            }, 
+                            options: { 
+                                responsive: true, 
+                                maintainAspectRatio: false,
+                                plugins: { legend: { position: 'bottom' } } 
+                            } 
+                        });
+                    } else {
+                        showChartPlaceholder(accuracyCanvas, 'Answer questions to see topic analysis');
+                    }
+                }
+
+                console.log('Charts created successfully');
+
+            } catch (error) {
+                console.error('Error rendering diagnosis charts:', error);
+                // Don't show fallback - wait for real data
+                console.log('⏳ Waiting for Flask API data...');
+            }
+        }
+
+        // Helper function to show chart placeholders
+        function showChartPlaceholder(canvas, message) {
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#6b7280';
+            ctx.font = '14px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText(message, canvas.width / 2, canvas.height / 2);
+        }
+
+        // Create fallback charts when no data is available
+        function createFallbackCharts() {
+            console.log('Creating fallback charts');
+            
+            const sampleData = {
+                abilityProgress: [0.2, 0.3, 0.45, 0.6, 0.75],
+                accuracyTrend: [45, 55, 68, 72, 78],
+                difficultyDistribution: { easy: 5, moderate: 8, hard: 4, veryHard: 2 },
+                recentPerformance: [
+                    { correct: true }, { correct: false }, { correct: true }, 
+                    { correct: true }, { correct: false }
+                ]
+            };
+
+            updateChartsWithNodeData(sampleData);
+        }
+
+        // NEW: Update recent activity from Flask API responses
+        function updateRecentActivityFromResponses(responses) {
+            if (!responses || responses.length === 0) {
+                updateRecentActivity([]);
+                return;
+            }
+            
+            // Convert responses to activity format (show last 10)
+            const activities = responses.slice(-10).reverse().map((resp, idx) => {
+                const isCorrect = resp.is_correct;
+                const timeAgo = idx === 0 ? 'Just now' : `${idx} response${idx > 1 ? 's' : ''} ago`;
+                
+                return {
+                    subject: resp.block || 'Assessment Question',
+                    icon: isCorrect ? '✅' : '❌',
+                    accuracy: isCorrect ? 100 : 0,
+                    totalQuestions: 1,
+                    timeAgo: timeAgo
+                };
+            });
+            
+            console.log('📊 Updating recent activity with', activities.length, 'items');
+            updateRecentActivity(activities);
+        }
+        
+        function updateRecentActivity(activities) {
+            const container = document.getElementById('recentActivityContainer');
+            
+            if (!activities || activities.length === 0) {
+                container.innerHTML = `
+                    <div class="flex flex-col items-center justify-center py-12 text-gray-400">
+                        <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-2xl mb-4">
+                            📚
+                        </div>
+                        <p class="text-lg font-medium mb-2">No recent activity</p>
+                        <p class="text-sm text-center">Start taking assessments to see your progress and activity here</p>
+                        <button onclick="window.location.href='RealDatasetAssessment.html'" class="mt-4 px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105">
+                            Take Assessment
+                        </button>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = activities.map(activity => {
+                const accuracyColor = activity.accuracy >= 80 ? 'text-green-400' : 
+                                    activity.accuracy >= 60 ? 'text-yellow-400' : 'text-red-400';
+                
+                const bgGradient = activity.accuracy >= 80 ? 'from-green-500/10 to-emerald-500/10' :
+                                 activity.accuracy >= 60 ? 'from-yellow-500/10 to-orange-500/10' : 
+                                 'from-red-500/10 to-pink-500/10';
+                
+                const progressWidth = Math.max(activity.accuracy, 5); // Minimum 5% width for visibility
+                
+                return `
+                    <div class="relative p-4 bg-gradient-to-r ${bgGradient} rounded-xl border border-white/10 hover:border-white/20 transition-all duration-300 transform hover:scale-[1.02]">
+                        <!-- Progress bar background -->
+                        <div class="absolute bottom-0 left-0 h-1 bg-gray-600 rounded-b-xl w-full"></div>
+                        <div class="absolute bottom-0 left-0 h-1 bg-gradient-to-r ${activity.accuracy >= 80 ? 'from-green-400 to-emerald-400' : activity.accuracy >= 60 ? 'from-yellow-400 to-orange-400' : 'from-red-400 to-pink-400'} rounded-b-xl transition-all duration-500" style="width: ${progressWidth}%"></div>
+                        
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-xl shadow-lg">
+                                    ${activity.icon}
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-white text-sm">${activity.subject}</p>
+                                    <p class="text-xs text-gray-300 flex items-center">
+                                        <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                        ${activity.timeAgo}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <p class="font-bold text-lg ${accuracyColor}">${activity.accuracy}%</p>
+                                <p class="text-xs text-gray-400 flex items-center justify-end">
+                                    <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                    ${activity.totalQuestions} questions
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Auto-refresh dashboard data every 30 seconds
+        function startAutoRefresh() {
+            // Auto-refresh disabled - manual refresh only
+            console.log('ℹ️ Auto-refresh disabled');
+        }
+
+        // Real-time assessment update listeners
+        function setupRealTimeListeners() {
+            // BroadcastChannel for modern browsers
+            if ('BroadcastChannel' in window) {
+                const assessmentChannel = new BroadcastChannel('assessment-updates');
+                assessmentChannel.addEventListener('message', handleRealTimeUpdate);
+            }
+            
+            // Storage event for cross-tab communication fallback
+            window.addEventListener('storage', function(event) {
+                if (event.key === 'assessment-update' && event.newValue) {
+                    try {
+                        const updateData = JSON.parse(event.newValue);
+                        handleRealTimeUpdate({ data: updateData });
+                    } catch (e) {
+                        console.error('Error parsing assessment update:', e);
+                    }
+                }
+            });
+        }
+
+        function handleRealTimeUpdate(event) {
+            const { type, data } = event.data;
+            console.log('Dashboard received real-time update:', type, data);
+            
+            switch (type) {
+                case 'question-answered':
+                    // Refresh dashboard data when a question is answered
+                    console.log('Question answered, refreshing dashboard...');
+                    fetchDashboardData();
+                    fetchDiagnosisAndRender();
+                    refreshRecentActivity();
+                    break;
+                    
+                case 'assessment-completed':
+                    // Record the completed assessment
+                    console.log('Assessment completed, recording assessment...');
+                    recordCompletedAssessment();
+                    
+                    // Save grade permanently if provided in the data
+                    if (data && data.studentGrade) {
+                        saveGradePermanently(data.studentGrade);
+                    }
+                    
+                    // Major refresh when assessment is completed
+                    setTimeout(() => {
+                        fetchDashboardData();
+                        fetchDiagnosisAndRender();
+                        refreshRecentActivity();
+                    }, 1000); // Small delay to ensure backend processing is complete
+                    break;
+            }
+        }
+
+        // Main dashboard initialization - consolidated
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Dashboard initializing...');
+            
+            // Ensure current user and stored profile are aligned
+            try {
+                const user = JSON.parse(localStorage.getItem('user') || '{}');
+                const storedProfileId = localStorage.getItem('profileId');
+                if (user && user.id && storedProfileId && storedProfileId !== user.id) {
+                    localStorage.setItem('profileId', user.id);
+                    localStorage.removeItem('studentName');
+                    // DON'T remove studentGrade - preserve it once set
+                    const gradeSetAt = localStorage.getItem('gradeSetAt');
+                    if (!gradeSetAt) {
+                        localStorage.removeItem('studentGrade'); // Only remove if never been set
+                    }
+                    localStorage.removeItem('streakData');
+                    localStorage.removeItem('profileImage');
+                }
+            } catch(_) {}
+
+            // Initialize all dashboard components
+            initializeCharts();
+            initializeStreakSystem();
+            updateStudentInfo();
+            setupProfileUpdateListeners();
+            setupRealTimeListeners();
+            
+            // Initialize assessment counter display
+            const assessmentElement = document.querySelector('.stat-assessments-taken');
+            if (assessmentElement) {
+                assessmentElement.textContent = getCompletedAssessmentsCount();
+            }
+            
+            // Check for force refresh from assessment
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('refresh') === 'true') {
+                console.log('Force refreshing dashboard data...');
+                window.history.replaceState({}, document.title, window.location.pathname);
+                setTimeout(() => {
+                    fetchDashboardData();
+                    fetchDiagnosisAndRender();
+                }, 500);
+            } else if (urlParams.get('test') === 'true') {
+                console.log('Running test mode with known data...');
+                testWithKnownData();
+            } else {
+                console.log('Normal dashboard load');
+                fetchDashboardData();
+                fetchDiagnosisAndRender();
+            }
+            
+            startAutoRefresh();
+            
+            // Set up periodic updates
+            setInterval(updateStudentInfo, 3000);
+        });
+
+        // Public function to manually refresh data (can be called from assessment pages)
+        window.refreshDashboard = function() {
+            console.log('🔄 Manual dashboard refresh triggered');
+            fetchDashboardData();
+            fetchDiagnosisAndRender();
+        };
+        
+        // Aggressive refresh after assessment completion
+        window.refreshDashboardAfterAssessment = function() {
+            console.log('🎯 Assessment completed - starting aggressive refresh');
+            
+            // Immediate refresh
+            fetchDashboardData();
+            fetchDiagnosisAndRender();
+            
+            // Poll every 2 seconds for 30 seconds to catch MongoDB update
+            let pollCount = 0;
+            const maxPolls = 15;
+            const pollInterval = setInterval(() => {
+                pollCount++;
+                console.log(`📊 Polling Flask API (${pollCount}/${maxPolls})...`);
+                fetchDashboardData();
+                fetchDiagnosisAndRender();
+                
+                if (pollCount >= maxPolls) {
+                    clearInterval(pollInterval);
+                    console.log('✅ Polling complete');
+                }
+            }, 2000);
+        };
+
+
+        // Authentication and user data loading
+        window.addEventListener('load', async function() {
+            const token = localStorage.getItem('authToken');
+            const userData = JSON.parse(localStorage.getItem('userData') || '{}');
+
+            if (!token) {
+                // User is not logged in, redirect to sign in
+                window.location.href = 'SignIn.html';
+                return;
+            }
+
+            try {
+                // Verify token and get user profile
+                const response = await fetch('http://localhost:3000/api/profile', {
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    }
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    // Update user name in the dashboard
+                    const userName = data.user.firstName || userData.firstName || 'Student';
+                    
+                    // Store the user name in localStorage for consistent access
+                    localStorage.setItem('studentName', userName);
+                    
+                    // Update all student info elements using our function
+                    updateStudentInfo();
+
+                    // Update stats with real data if available
+                    if (data.session) {
+                        const abilityElement = document.querySelector('.stat-current-ability');
+                        if (abilityElement && data.session.ability !== undefined) {
+                            abilityElement.textContent = data.session.ability.toFixed(2);
+                        }
+
+                        const questionsElement = document.querySelector('.stat-total-questions');
+                        if (questionsElement && data.session.questionsAnswered !== undefined) {
+                            questionsElement.textContent = data.session.questionsAnswered;
+                        }
+
+                        const accuracyPercent = data.session.questionsAnswered > 0 
+                            ? ((data.session.correctAnswers / data.session.questionsAnswered) * 100).toFixed(1)
+                            : '0.0';
+                        
+                        const accuracyElement = document.querySelector('.stat-accuracy');
+                        if (accuracyElement) {
+                            accuracyElement.textContent = accuracyPercent + '%';
+                        }
+                    }
+                } else {
+                    // Token is invalid, redirect to sign in
+                    localStorage.removeItem('authToken');
+                    localStorage.removeItem('userData');
+                    window.location.href = 'SignIn.html';
+                }
+            } catch (error) {
+                console.error('Profile fetch error:', error);
+                // Network error, but don't redirect - allow offline usage
+                const userName = userData?.firstName || 'Student';
+                
+                // Store the user name and update display
+                localStorage.setItem('studentName', userName);
+                updateStudentInfo();
+            }
+        });
+
+        // Logout functionality
+        async function logout() {
+            if (confirm('Are you sure you want to sign out?')) {
+                try {
+                    // Call server logout endpoint if token exists
+                    const token = localStorage.getItem('authToken');
+                    if (token) {
+                        await fetch('http://localhost:3000/api/logout', {
+                            method: 'POST',
+                            headers: {
+                                'Authorization': `Bearer ${token}`,
+                                'Content-Type': 'application/json'
+                            }
+                        });
+                    }
+                } catch (error) {
+                    console.log('Logout API call failed, proceeding with local logout');
+                } finally {
+                    // Clear all local storage and session data
+                    localStorage.removeItem('authToken');
+                    localStorage.removeItem('userData');
+                    localStorage.removeItem('user');
+                    localStorage.removeItem('profileId');
+                    localStorage.removeItem('studentName');
+                    localStorage.removeItem('studentGrade');
+                    localStorage.removeItem('streakData');
+                    localStorage.removeItem('profileImage');
+                    sessionStorage.clear();
+                    
+                    // Redirect to landing page
+                    window.location.href = 'LandingPage.html';
+                }
+            }
+        }
+
+        // Update student name and initial throughout the dashboard
+        function updateStudentInfo() {
+            // Try to get student name from different sources
+            let studentName = 'Student'; // Default name
+            let userData = null;
+            
+            try {
+                // First try to get from assessment localStorage
+                const storedStudentName = localStorage.getItem('studentName');
+                if (storedStudentName && storedStudentName.trim() !== '') {
+                    studentName = storedStudentName.trim();
+                }
+                // Fallback to userData
+                else {
+                    userData = JSON.parse(localStorage.getItem('userData')) || JSON.parse(sessionStorage.getItem('userData'));
+                    if (userData && userData.firstName && userData.firstName.length > 0) {
+                        studentName = userData.firstName;
+                    } else if (userData && userData.email && userData.email.length > 0) {
+                        studentName = userData.email.split('@')[0]; // Use email prefix
+                    }
+                }
+            } catch (e) {
+                console.log('Error getting student data:', e);
+            }
+
+            // Update avatar - check for profile image first
+            const profileImage = localStorage.getItem('profileImage');
+            const avatarImage = document.getElementById('dashboardAvatarImage');
+            const initialSpan = document.getElementById('studentInitial');
+            
+            if (profileImage && avatarImage && initialSpan) {
+                // Show profile image
+                avatarImage.src = profileImage;
+                avatarImage.classList.remove('hidden');
+                initialSpan.classList.add('hidden');
+            } else if (initialSpan) {
+                // Show initial letter
+                if (avatarImage) {
+                    avatarImage.classList.add('hidden');
+                }
+                initialSpan.classList.remove('hidden');
+                
+                // Get first name for initial if available
+                let firstName = studentName;
+                if (userData && userData.firstName) {
+                    firstName = userData.firstName;
+                } else {
+                    // Try to extract first name from full name
+                    firstName = studentName.split(' ')[0];
+                }
+                
+                const initial = firstName.charAt(0).toUpperCase();
+                initialSpan.textContent = initial;
+            }
+
+            // Update student name in navigation
+            const studentNameNav = document.getElementById('studentNameNav');
+            if (studentNameNav) {
+                // Capitalize first letter and limit length for nav
+                const displayName = studentName.charAt(0).toUpperCase() + studentName.slice(1);
+                const shortName = displayName.length > 12 ? displayName.substring(0, 12) + '...' : displayName;
+                studentNameNav.textContent = shortName;
+            }
+
+            // Update welcome message
+            const welcomeMessage = document.getElementById('welcomeMessage');
+            if (welcomeMessage) {
+                const displayName = studentName.charAt(0).toUpperCase() + studentName.slice(1);
+                welcomeMessage.textContent = `Welcome back, ${displayName}! 👋`;
+            }
+        }
+
+        // Test function to set a sample student name (for testing purposes)
+        function setTestStudentName(name) {
+            localStorage.setItem('studentName', name);
+            updateStudentInfo();
+            console.log(`Student name set to: ${name}`);
+        }
+
+        // Listen for profile updates from other pages
+        function setupProfileUpdateListeners() {
+            // Listen for custom profile update events (same tab)
+            window.addEventListener('profileUpdated', function(event) {
+                console.log('Profile updated event received:', event.detail);
+                updateStudentInfo();
+            });
+
+            // Listen for storage events (cross-tab communication)
+            window.addEventListener('storage', function(event) {
+                if (event.key === 'profileImage' || event.key === 'studentName' || event.key === 'userData' || event.key === 'profileUpdated') {
+                    console.log('Profile data changed in another tab');
+                    updateStudentInfo();
+                }
+                
+                // Listen for assessment updates
+                if (event.key === 'assessment-update' && event.newValue) {
+                    try {
+                        const updateData = JSON.parse(event.newValue);
+                        handleRealTimeUpdate({ data: updateData });
+                    } catch (e) {
+                        console.error('Error parsing assessment update:', e);
+                    }
+                }
+            });
+        }
+
+        // Real-time assessment update listeners
+        function setupRealTimeListeners() {
+            // BroadcastChannel for modern browsers
+            if ('BroadcastChannel' in window) {
+                const assessmentChannel = new BroadcastChannel('assessment-updates');
+                assessmentChannel.addEventListener('message', handleRealTimeUpdate);
+            }
+        }
+
+        function handleRealTimeUpdate(event) {
+            const { type, data } = event.data;
+            console.log('Dashboard received real-time update:', type, data);
+            
+            switch (type) {
+                case 'question-answered':
+                    // Refresh dashboard data when a question is answered
+                    console.log('Question answered, refreshing dashboard...');
+                    fetchDashboardData();
+                    fetchDiagnosisAndRender();
+                    refreshRecentActivity();
+                    break;
+                    
+                case 'assessment-completed':
+                    // Major refresh when assessment is completed
+                    console.log('Assessment completed, full dashboard refresh...');
+                    setTimeout(() => {
+                        fetchDashboardData();
+                        fetchDiagnosisAndRender();
+                        refreshRecentActivity();
+                    }, 1000); // Small delay to ensure backend processing is complete
+                    break;
+            }
+        }
+
+        // Functions for loading student data are above
+
+    </script>
+
+    <script>
+        // Fallback chart initialization for when backend is not available
+        function initializeFallbackCharts() {
+            console.log('Initializing fallback charts');
+            
+            // FIRST: Destroy existing charts to prevent canvas reuse error
+            if (window.abilityChart && typeof window.abilityChart.destroy === 'function') {
+                window.abilityChart.destroy();
+                window.abilityChart = null;
+            }
+            if (window.difficultyChart && typeof window.difficultyChart.destroy === 'function') {
+                window.difficultyChart.destroy();
+                window.difficultyChart = null;
+            }
+            if (window.recentChart && typeof window.recentChart.destroy === 'function') {
+                window.recentChart.destroy();
+                window.recentChart = null;
+            }
+            if (window.accuracyChart && typeof window.accuracyChart.destroy === 'function') {
+                window.accuracyChart.destroy();
+                window.accuracyChart = null;
+            }
+            
+            // Sample data for demonstration
+            const sampleData = {
+                abilityProgress: [0.2, 0.3, 0.45, 0.6, 0.75],
+                accuracyTrend: [45, 55, 68, 72, 78],
+                difficultyDistribution: { easy: 5, moderate: 8, hard: 4, veryHard: 2 },
+                recentPerformance: [
+                    { correct: true }, { correct: false }, { correct: true }, 
+                    { correct: true }, { correct: false }, { correct: true }
+                ]
+            };
+
+            // Get canvas elements
+            const abilityCanvas = document.getElementById('abilityChart');
+            const difficultyCanvas = document.getElementById('difficultyChart');
+            const recentCanvas = document.getElementById('recentChart');
+            const accuracyCanvas = document.getElementById('accuracyChart');
+
+            // Create Ability Progress Chart
+            if (abilityCanvas) {
+                try {
+                    window.abilityChart = new Chart(abilityCanvas, {
+                        type: 'line',
+                        data: {
+                            labels: ['Session 1', 'Session 2', 'Session 3', 'Session 4', 'Session 5'],
+                            datasets: [{
+                                label: 'Ability Progress',
+                                data: sampleData.abilityProgress,
+                                borderColor: '#60a5fa',
+                                backgroundColor: '#60a5fa33',
+                                tension: 0.25,
+                                fill: true
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false } },
+                            scales: { y: { beginAtZero: true, max: 1 } }
+                        }
+                    });
+                } catch (e) { console.error('Error creating ability chart:', e); }
+            }
+
+            // Create Difficulty Distribution Chart  
+            if (difficultyCanvas) {
+                try {
+                    window.difficultyChart = new Chart(difficultyCanvas, {
+                        type: 'doughnut',
+                        data: {
+                            labels: ['Easy', 'Moderate', 'Hard', 'Very Hard'],
+                            datasets: [{
+                                data: [
+                                    sampleData.difficultyDistribution.easy,
+                                    sampleData.difficultyDistribution.moderate,
+                                    sampleData.difficultyDistribution.hard,
+                                    sampleData.difficultyDistribution.veryHard
+                                ],
+                                backgroundColor: ['#34d399', '#60a5fa', '#f59e0b', '#ef4444']
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { legend: { position: 'bottom' } }
+                        }
+                    });
+                } catch (e) { console.error('Error creating difficulty chart:', e); }
+            }
+
+            // Create Recent Assessment Chart
+            if (recentCanvas) {
+                try {
+                    const recentData = sampleData.recentPerformance.map(item => item.correct ? 100 : 0);
+                    window.recentChart = new Chart(recentCanvas, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6'],
+                            datasets: [{
+                                label: 'Performance (%)',
+                                data: recentData,
+                                backgroundColor: recentData.map(v => v === 100 ? '#34d399' : '#ef4444')
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false } },
+                            scales: { y: { beginAtZero: true, max: 100 } }
+                        }
+                    });
+                } catch (e) { console.error('Error creating recent chart:', e); }
+            }
+
+            // Create Accuracy Trend Chart
+            if (accuracyCanvas) {
+                try {
+                    window.accuracyChart = new Chart(accuracyCanvas, {
+                        type: 'line',
+                        data: {
+                            labels: ['Period 1', 'Period 2', 'Period 3', 'Period 4', 'Period 5'],
+                            datasets: [{
+                                label: 'Accuracy Trend (%)',
+                                data: sampleData.accuracyTrend,
+                                borderColor: '#8b5cf6',
+                                backgroundColor: '#8b5cf633',
+                                tension: 0.25,
+                                fill: true
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false } },
+                            scales: { y: { beginAtZero: true, max: 100 } }
+                        }
+                    });
+                } catch (e) { console.error('Error creating accuracy chart:', e); }
+            }
+        }
+
+        // No fallback initialization needed - dashboard loads real data immediately
+    </script>
+</body>
+</html>

@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaptIQ - Real Dataset Assessment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#0a0a0f',
+                        'purple-primary': '#8b5cf6',
+                        'purple-secondary': '#a855f7',
+                        'purple-light': '#c084fc',
+                    },
+                    backgroundImage: {
+                        'gradient-primary': 'linear-gradient(135deg, #1e1b4b 0%, #581c87 50%, #7c3aed 100%)',
+                        'gradient-card': 'linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1e1b4b 50%, #312e81 100%);
+            min-height: 100vh;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .difficulty-very-easy { 
+            background: linear-gradient(135deg, #10b981 0%, #34d399 100%); 
+            color: white;
+        }
+        .difficulty-easy { 
+            background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%); 
+            color: white;
+        }
+        .difficulty-moderate { 
+            background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%); 
+            color: white;
+        }
+        .difficulty-difficult { 
+            background: linear-gradient(135deg, #ef4444 0%, #f87171 100%); 
+            color: white;
+        }
+        
+        .option-button {
+            transition: all 0.3s ease;
+            touch-action: manipulation;
+        }
+        
+        .option-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .option-button:active {
+                transform: scale(0.98);
+                box-shadow: 0 2px 8px rgba(139, 92, 246, 0.4);
+            }
+            .option-button:hover {
+                transform: none;
+                box-shadow: none;
+            }
+        }
+        
+        .correct {
+            background-color: rgba(34, 197, 94, 0.3) !important;
+            border-color: #22c55e !important;
+        }
+        
+        .incorrect {
+            background-color: rgba(239, 68, 68, 0.3) !important;
+            border-color: #ef4444 !important;
+        }
+        
+        .disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .progress-bar {
+            transition: width 0.8s ease-in-out;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+        
+        select option {
+            background-color: #1e1b4b;
+            color: white;
+        }
+    </style>
+</head>
+<body class="text-white">
+    <!-- Header -->
+    <header class="glass-effect sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-3 sm:px-6 py-3 sm:py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                    <img src="../assets/images/img_.png" alt="AdaptIQ Logo" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover shadow-lg" />
+                    <span class="logo-text">
+                         <span class="text-lg sm:text-2xl lg:text-4xl font-bold gradient-text">Adapt</span><span class="text-lg sm:text-2xl lg:text-4xl font-bold text-white">IQ</span>
+                    </span>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobileStatsToggle" class="md:hidden p-2 rounded-lg glass-effect">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                
+                <!-- Desktop Live Stats -->
+                <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
+                    <div class="text-center">
+                        <div class="text-xs text-gray-300">Progress</div>
+                        <div class="font-bold text-sm lg:text-lg" id="questionCounter">0 / 20</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-xs text-gray-300">Difficulty</div>
+                        <div class="font-bold text-sm lg:text-lg px-2 py-1 rounded-full text-xs" id="currentDifficultyBadge">Starting</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-xs text-gray-300">Score</div>
+                        <div class="font-bold text-sm lg:text-lg text-green-400" id="currentScore">0%</div>
+                    </div>
+                    <button 
+                        onclick="window.location.href='StudentDashboard.html'" 
+                        class="glass-effect px-3 py-2 rounded-lg font-medium text-xs lg:text-sm hover:bg-white hover:bg-opacity-10 transition-all duration-300"
+                    >
+                        Dashboard
+                    </button>
+                    <button 
+                        onclick="window.location.href='Diagnosis.html'" 
+                        class="glass-effect px-3 py-2 rounded-lg font-medium text-xs lg:text-sm hover:bg-white hover:bg-opacity-10 transition-all duration-300"
+                    >
+                        Diagnosis
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Stats Panel -->
+            <div id="mobileStatsPanel" class="md:hidden hidden mt-3 p-3 glass-effect rounded-lg">
+                <div class="grid grid-cols-3 gap-3 mb-3">
+                    <div class="text-center">
+                        <div class="text-xs text-gray-300">Progress</div>
+                        <div class="font-bold text-sm" id="questionCounterMobile">0 / 20</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-xs text-gray-300">Difficulty</div>
+                        <div class="font-bold text-sm px-2 py-1 rounded-full text-xs" id="currentDifficultyBadgeMobile">Starting</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-xs text-gray-300">Score</div>
+                        <div class="font-bold text-sm text-green-400" id="currentScoreMobile">0%</div>
+                    </div>
+                </div>
+                <div class="flex space-x-2">
+                    <button 
+                        onclick="window.location.href='StudentDashboard.html'" 
+                        class="flex-1 glass-effect px-3 py-2 rounded-lg font-medium text-xs hover:bg-white hover:bg-opacity-10 transition-all duration-300"
+                    >
+                        Dashboard
+                    </button>
+                    <button 
+                        onclick="window.location.href='Diagnosis.html'" 
+                        class="flex-1 glass-effect px-3 py-2 rounded-lg font-medium text-xs hover:bg-white hover:bg-opacity-10 transition-all duration-300"
+                    >
+                        Diagnosis
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <!-- Welcome Screen -->
+        <div id="welcomeScreen" class="text-center">
+            <div class="glass-effect p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl mb-6 sm:mb-8">
+                <div class="flex flex-col sm:flex-row items-center justify-center mb-3 sm:mb-4 space-y-2 sm:space-y-0 sm:space-x-3">
+                    <img src="../assets/images/img_.png" alt="AdaptIQ Logo" class="w-10 h-10 sm:w-12 sm:h-12">
+                    <h1 class="text-2xl sm:text-3xl lg:text-5xl font-bold gradient-text">AdaptIQ Assessment</h1>
+                </div>
+                <div id="welcomeMessage" class="mb-3 sm:mb-4">
+                    <!-- Will be populated with student info -->
+                </div>
+                <p class="text-gray-300 text-sm sm:text-base lg:text-lg mb-4 sm:mb-6 px-2">
+                    Experience truly adaptive assessment using <strong>real questions from your dataset</strong><br>
+                    <span class="text-purple-light font-semibold">Questions adapt based on your performance - get harder when you're doing well, easier when you need support!</span>
+                </p>
+                
+                <!-- Student Info Form -->
+                <div class="max-w-xs sm:max-w-md mx-auto space-y-3 sm:space-y-4 mb-6 sm:mb-8">
+                    <div class="text-left">
+                        <label for="questionCountSelect" class="block text-xs sm:text-sm text-gray-300 mb-1">Number of questions</label>
+                        <select 
+                            id="questionCountSelect"
+                            class="w-full px-3 sm:px-4 py-2 sm:py-3 bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg text-white focus:border-purple-light focus:outline-none text-sm sm:text-base"
+                        >
+                            <option value="10">10</option>
+                            <option value="20" selected>20</option>
+                            <option value="30">30</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                        <p class="text-xs text-gray-400 mt-1">You can choose between 10 and 100 questions.</p>
+                    </div>
+                </div>
+                
+                <button 
+                    id="startAssessment" 
+                    class="bg-gradient-to-r from-purple-primary to-purple-secondary px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base lg:text-lg hover:from-purple-secondary hover:to-purple-light transition-all duration-300 transform hover:scale-105"
+                >
+                    🚀 Start Real Dataset Assessment
+                </button>
+            </div>
+            
+            <!-- Dataset Info -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6">
+                <div class="glass-effect p-4 sm:p-6 rounded-lg sm:rounded-xl">
+                    <div class="text-2xl sm:text-3xl mb-3 sm:mb-4">📊</div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 gradient-text">Real Questions</h3>
+                    <p class="text-gray-300 text-xs sm:text-sm">Using actual questions from your dataset with proper difficulty levels</p>
+                </div>
+                <div class="glass-effect p-4 sm:p-6 rounded-lg sm:rounded-xl">
+                    <div class="text-2xl sm:text-3xl mb-3 sm:mb-4">🎯</div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 gradient-text">True Adaptation</h3>
+                    <p class="text-gray-300 text-xs sm:text-sm">Difficulty increases/decreases based on your actual performance</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assessment Screen -->
+        <div id="assessmentScreen" class="hidden">
+            <!-- Enhanced Progress Bar -->
+            <div class="mb-6 sm:mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2 sm:mb-3 space-y-1 sm:space-y-0">
+                    <span class="text-xs sm:text-sm text-gray-300">Assessment Progress</span>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-xs sm:text-sm text-gray-300" id="progressPercent">0%</span>
+                        <span class="text-xs text-purple-light" id="adaptationInfo">Starting level</span>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3 sm:h-4">
+                    <div class="bg-gradient-to-r from-purple-primary to-purple-secondary h-3 sm:h-4 rounded-full progress-bar" 
+                         id="progressBar" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="glass-effect p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl mb-4 sm:mb-6 fade-in">
+                <!-- Question Header -->
+                <div class="flex flex-col lg:flex-row justify-between items-start mb-4 sm:mb-6 space-y-3 lg:space-y-0">
+                    <div class="flex-1 w-full lg:w-auto">
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-3">
+                            <span class="px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-bold" id="questionDifficultyBadge">Very Easy</span>
+                            <span class="text-xs text-gray-400">Question ID: <span id="questionId">-</span></span>
+                        </div>
+                        <h2 class="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 leading-relaxed" id="questionText">Loading your personalized question...</h2>
+                    </div>
+                    <div class="flex flex-row lg:flex-col items-center lg:items-center space-x-4 lg:space-x-0 lg:space-y-2 w-full lg:w-auto justify-between lg:justify-center">
+                        <div class="flex items-center space-x-2">
+                            <div class="w-2 h-2 bg-purple-light rounded-full pulse-animation"></div>
+                            <span class="text-xs text-gray-300">AI Adapting</span>
+                        </div>
+                        <div class="text-xs text-gray-400">Success Probability: <span id="successProbability">-</span></div>
+                    </div>
+                </div>
+
+                <!-- Answer Options -->
+                <div class="space-y-2 sm:space-y-3" id="answerOptions">
+                    <!-- Options will be dynamically generated -->
+                </div>
+
+                <!-- Real-time Feedback -->
+                <div id="feedbackSection" class="hidden mt-4 sm:mt-6 p-3 sm:p-4 rounded-lg border-l-4">
+                    <div class="flex items-start space-x-2 sm:space-x-3">
+                        <span id="feedbackIcon" class="text-2xl sm:text-3xl"></span>
+                        <div class="flex-1">
+                            <div class="font-bold text-base sm:text-lg" id="feedbackTitle"></div>
+                            <div class="text-xs sm:text-sm text-gray-300 mt-1" id="feedbackMessage"></div>
+                            <div class="text-xs text-purple-light mt-2" id="adaptationMessage"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next Question Button -->
+                <div class="mt-4 sm:mt-6 text-center">
+                    <button 
+                        id="nextQuestion" 
+                        class="hidden bg-gradient-to-r from-purple-primary to-purple-secondary px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-bold hover:from-purple-secondary hover:to-purple-light transition-all duration-300 transform hover:scale-105 text-sm sm:text-base"
+                    >
+                        Continue Assessment →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Real-time Performance Dashboard -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+                <div class="glass-effect p-3 sm:p-4 rounded-lg sm:rounded-xl text-center">
+                    <div class="text-lg sm:text-2xl font-bold text-purple-light" id="abilityEstimate">0.0</div>
+                    <div class="text-xs text-gray-300">Ability Estimate</div>
+                </div>
+                <div class="glass-effect p-3 sm:p-4 rounded-lg sm:rounded-xl text-center">
+                    <div class="text-lg sm:text-2xl font-bold text-blue-400" id="knowledgeLevel">0%</div>
+                    <div class="text-xs text-gray-300">Knowledge Level</div>
+                </div>
+                <div class="glass-effect p-3 sm:p-4 rounded-lg sm:rounded-xl text-center">
+                    <div class="text-lg sm:text-2xl font-bold text-green-400" id="streakCounter">0</div>
+                    <div class="text-xs text-gray-300">Current Streak</div>
+                </div>
+                <div class="glass-effect p-3 sm:p-4 rounded-lg sm:rounded-xl text-center">
+                    <div class="text-lg sm:text-2xl font-bold text-yellow-400" id="adaptationCounter">0</div>
+                    <div class="text-xs text-gray-300">Adaptations</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Enhanced Results Screen -->
+        <div id="resultsScreen" class="hidden text-center">
+            <div class="glass-effect p-8 rounded-2xl mb-8">
+                <div class="text-6xl mb-4">🏆</div>
+                <h1 class="text-4xl font-bold gradient-text mb-4">Assessment Complete!</h1>
+                <p class="text-gray-300 text-lg mb-8">
+                    You've completed the adaptive assessment using real dataset questions!
+                </p>
+
+                <!-- Final Results Dashboard -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                    <div class="glass-effect p-6 rounded-xl">
+                        <div class="text-4xl font-bold text-purple-light" id="finalScore">0%</div>
+                        <div class="text-sm text-gray-300">Final Score</div>
+                    </div>
+                    <div class="glass-effect p-6 rounded-xl">
+                        <div class="text-2xl font-bold text-blue-400" id="finalAbility">-</div>
+                        <div class="text-sm text-gray-300">Ability Level</div>
+                    </div>
+                    <div class="glass-effect p-6 rounded-xl">
+                        <div class="text-4xl font-bold text-green-400" id="questionsAnswered">0</div>
+                        <div class="text-sm text-gray-300">Questions Answered</div>
+                    </div>
+                    <div class="glass-effect p-6 rounded-xl">
+                        <div class="text-3xl font-bold text-yellow-400" id="timeSpent">0:00</div>
+                        <div class="text-sm text-gray-300">Time Spent</div>
+                    </div>
+                </div>
+
+                <!-- Difficulty Performance Breakdown -->
+                <div class="glass-effect p-6 rounded-xl mb-8 text-left">
+                    <h3 class="text-xl font-bold mb-4 gradient-text">Performance by Topics</h3>
+                        <div id="difficultyBreakdown" class="space-y-3">
+                            <!-- Will be filled dynamically -->
+                        </div>
+                        <div class="mt-4">
+                            <canvas id="topicsChart" height="120"></canvas>
+                        </div>
+                </div>
+
+                <!-- AI-Powered Personalized Recommendations -->
+                <div class="glass-effect p-6 rounded-xl mb-8 text-left">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold gradient-text">Your Personalized Learning Path</h3>
+                        <span class="text-xs text-gray-300">Generated by AI</span>
+                    </div>
+                    <div id="recommendations" class="space-y-4 mb-4">
+                        <!-- AI learning path items rendered here -->
+                    </div>
+                    <div id="aiReport" class="hidden border-t border-white border-opacity-10 pt-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-lg">🤖</span>
+                                <span class="text-sm text-gray-300">AI-Powered Personalized Report</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span id="aiAccChip" class="hidden text-xs px-2 py-1 rounded bg-white bg-opacity-10 text-gray-200">Accuracy —</span>
+                                <span id="aiAbilityChip" class="hidden text-xs px-2 py-1 rounded bg-white bg-opacity-10 text-gray-200">Ability —</span>
+                            </div>
+                        </div>
+                        <div id="aiReportContent" class="text-gray-200 text-sm"></div>
+                        <div id="aiReportTags" class="mt-3 flex flex-wrap gap-2"></div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex justify-center space-x-4 mb-6">
+                    <button 
+                        id="retakeAssessment" 
+                        class="bg-gradient-to-r from-purple-primary to-purple-secondary px-6 py-3 rounded-lg font-bold hover:from-purple-secondary hover:to-purple-light transition-all duration-300"
+                    >
+                        Take Assessment Again
+                    </button>
+                    <button 
+                        onclick="window.location.href='StudentDashboard.html'" 
+                        class="glass-effect px-6 py-3 rounded-lg font-bold hover:bg-white hover:bg-opacity-10 transition-all duration-300"
+                    >
+                        Back to Dashboard
+                    </button>
+                </div>
+
+                <!-- Profile Save Reminder -->
+                <div class="glass-effect p-6 rounded-xl border-l-4 border-blue-400 bg-blue-500/10">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <span class="text-2xl">👤</span>
+                        <h3 class="text-lg font-bold text-blue-300">Save Your Progress</h3>
+                    </div>
+                    <p class="text-gray-300 text-sm mb-4">
+                        Want to track your learning journey? Update your profile to save assessment results and get personalized recommendations!
+                    </p>
+                    <button 
+                        onclick="window.location.href='Profile.html'" 
+                        class="bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-2 rounded-lg text-white font-medium hover:from-blue-600 hover:to-blue-700 transition-all duration-300 text-sm"
+                    >
+                        Update Profile Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Configuration
+        const API_BASE_URL = 'http://localhost:5000/api';
+        
+        // Real-time cross-tab communication
+        const assessmentChannel = ('BroadcastChannel' in window) ? new BroadcastChannel('assessment-updates') : null;
+        
+        // Assessment state
+        let assessmentState = {
+            studentId: '',
+            studentName: '',
+            studentGrade: '',
+            currentQuestion: 0,
+            totalQuestions: 20,
+            score: 0,
+            correctAnswers: 0,
+            ability: 0.0,
+            knowledgeLevel: 0,
+            responses: [],
+            answeredQuestions: [],
+            startTime: null,
+            adaptationCount: 0,
+            currentDifficulty: 'Very Easy',
+            consecutiveStreak: 0
+        };
+
+        let currentQuestion = null;
+
+        // DOM elements
+        const welcomeScreen = document.getElementById('welcomeScreen');
+        const assessmentScreen = document.getElementById('assessmentScreen');
+        const resultsScreen = document.getElementById('resultsScreen');
+        const startAssessmentBtn = document.getElementById('startAssessment');
+
+        // Event listeners
+        startAssessmentBtn.addEventListener('click', startAssessment);
+        document.getElementById('nextQuestion').addEventListener('click', loadQuestion);
+        document.getElementById('retakeAssessment').addEventListener('click', retakeAssessment);
+
+        // Check dataset status on page load
+        checkDatasetStatus();
+        
+        // Initialize welcome message with student info
+        initializeWelcomeMessage();
+        
+        function initializeWelcomeMessage() {
+            const studentName = localStorage.getItem('studentName');
+            const studentGrade = localStorage.getItem('studentGrade');
+            const welcomeMessage = document.getElementById('welcomeMessage');
+            
+            if (studentName && studentGrade) {
+                welcomeMessage.innerHTML = `
+                    <div class="bg-gradient-to-r from-purple-500/20 to-pink-500/20 p-4 rounded-lg border border-purple-500/30 mb-4">
+                        <p class="text-white font-semibold">Welcome back, ${studentName}!</p>
+                        <p class="text-gray-300 text-sm">Grade ${studentGrade} • Ready for your adaptive assessment</p>
+                    </div>
+                `;
+            } else {
+                welcomeMessage.innerHTML = `
+                    <div class="bg-gradient-to-r from-red-500/20 to-orange-500/20 p-4 rounded-lg border border-red-500/30 mb-4">
+                        <p class="text-white font-semibold">Please update your profile first</p>
+                        <p class="text-gray-300 text-sm">Update your profile to access the assessment</p>
+                        <button onclick="window.location.href='Profile.html'" class="mt-2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-300">
+                            Update Profile
+                        </button>
+                    </div>
+                `;
+            }
+        }
+
+        async function checkDatasetStatus() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/health`);
+                const data = await response.json();
+                
+                if (data.status === 'healthy' && data.model_loaded) {
+                    // Model is loaded and ready - assessment can proceed
+                    console.log('Dataset loaded successfully');
+                } else {
+                    // Model not loaded - disable start button
+                    startAssessmentBtn.disabled = true;
+                    startAssessmentBtn.textContent = 'Model Not Available';
+                }
+            } catch (error) {
+                console.error('Health check failed:', error);
+                // Server not responding - disable start button
+                startAssessmentBtn.disabled = true;
+                startAssessmentBtn.textContent = 'Server Unavailable';
+            }
+        }
+
+        async function startAssessment() {
+            // Get name and grade from localStorage (set during signup)
+            const name = localStorage.getItem('studentName');
+            const grade = localStorage.getItem('studentGrade');
+            const profileId = localStorage.getItem('profileId');
+
+            if (!profileId && (!name || !grade)) {
+                alert('Please update your profile first to access the assessment. Redirecting to Profile...');
+                window.location.href = 'Profile.html';
+                return;
+            }
+
+            try {
+                startAssessmentBtn.textContent = 'Starting Assessment...';
+                startAssessmentBtn.disabled = true;
+
+                const questionCountSelect = document.getElementById('questionCountSelect');
+                const selectedCount = questionCountSelect ? Math.min(100, Math.max(1, parseInt(questionCountSelect.value || '20'))) : 20;
+
+                const response = await fetch(`${API_BASE_URL}/student/start`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        // Use authenticated user's id as base, but keep session id unique per assessment
+                        student_id: (profileId ? `${profileId}_${Date.now()}` : `${name || 'Student'}_${grade || 'NA'}_${Date.now()}`),
+                        student_name: name || 'Student',
+                        student_grade: grade || 'NA',
+                        profile_id: profileId || undefined,
+                        max_questions: selectedCount
+                    })
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.student_id) {
+                    assessmentState.sessionId = data.student_id;
+                    assessmentState.studentName = name;
+                    assessmentState.studentGrade = grade;
+                    assessmentState.startTime = new Date();
+                    assessmentState.totalQuestions = data.max_questions || selectedCount;
+                    
+                    // Update localStorage with current session info
+                    localStorage.setItem('studentName', name);
+                    
+                    // Only set grade if not already permanently set
+                    const currentGrade = localStorage.getItem('studentGrade');
+                    const gradeSetAt = localStorage.getItem('gradeSetAt');
+                    if (!currentGrade || currentGrade === 'Not Set' || !gradeSetAt) {
+                        localStorage.setItem('studentGrade', grade);
+                        localStorage.setItem('gradeSetAt', new Date().toISOString());
+                        console.log(`Grade set to: ${grade}`);
+                    } else {
+                        console.log(`Grade already set to: ${currentGrade}, keeping existing grade`);
+                        assessmentState.studentGrade = currentGrade; // Use existing grade
+                    }
+                    
+                    if (data.profile_id) { localStorage.setItem('profileId', data.profile_id); }
+
+                    // Switch to assessment screen
+                    welcomeScreen.classList.add('hidden');
+                    assessmentScreen.classList.remove('hidden');
+
+                    // Display the first question returned by the start endpoint
+                    if (data.first_question) {
+                        currentQuestion = data.first_question;
+                        displayQuestion(currentQuestion, {
+                            questions_answered: 0,
+                            predicted_success_probability: 0.5,
+                            current_difficulty: currentQuestion.difficulty || 'Moderate'
+                        });
+                        updateProgressDisplays({
+                            questions_answered: 0,
+                            current_difficulty: currentQuestion.difficulty || 'Moderate'
+                        });
+                    } else {
+                        await loadQuestion();
+                    }
+                } else {
+                    alert(`Failed to start assessment: ${data.error || 'Unknown error'}`);
+                }
+            } catch (error) {
+                console.error('Error starting assessment:', error);
+                alert('Failed to connect to assessment server. Please try again.');
+            } finally {
+                startAssessmentBtn.textContent = '🚀 Start Real Dataset Assessment';
+                startAssessmentBtn.disabled = false;
+            }
+        }
+
+        async function loadQuestion() {
+            try {
+                // Show loading state
+                document.getElementById('questionText').textContent = 'AI is selecting your next question based on your performance...';
+                document.getElementById('answerOptions').innerHTML = '<div class="text-center py-8"><div class="pulse-animation">🧠 Analyzing your ability and selecting optimal question...</div></div>';
+
+                const response = await fetch(`${API_BASE_URL}/student/question`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ student_id: assessmentState.sessionId })
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.question) {
+                    currentQuestion = data.question;
+                    
+                    // Create progress object from available data
+                    const progress = {
+                        questions_answered: assessmentState.responses ? assessmentState.responses.length : 0,
+                        predicted_success_probability: 0.5, // Default value
+                        current_difficulty: currentQuestion.difficulty || 'Moderate'
+                    };
+
+                    // Update UI with real question data
+                    displayQuestion(currentQuestion, progress);
+                    updateProgressDisplays(progress);
+
+                } else if (data.error && data.error.includes('No more questions')) {
+                    await showResults();
+                } else {
+                    console.error('API Error:', data);
+                    alert(`Error loading question: ${data.error || 'Unknown error'}`);
+                }
+
+            } catch (error) {
+                console.error('Error loading question:', error);
+                alert('Failed to load question. Please check your connection.');
+            }
+        }
+
+        function displayQuestion(question, progress) {
+            // Update question display
+            document.getElementById('questionId').textContent = question.id;
+            document.getElementById('questionText').textContent = question.text;
+            
+            // Handle question image if present
+            let questionImageContainer = document.getElementById('questionImageContainer');
+            if (!questionImageContainer) {
+                // Create image container if it doesn't exist
+                questionImageContainer = document.createElement('div');
+                questionImageContainer.id = 'questionImageContainer';
+                questionImageContainer.className = 'mb-4';
+                // Insert after question text
+                const questionText = document.getElementById('questionText');
+                questionText.parentNode.insertBefore(questionImageContainer, questionText.nextSibling);
+            }
+            
+            if (question.has_image && question.image_id && question.image_id !== 'None') {
+                questionImageContainer.innerHTML = `
+                    <div class="bg-white bg-opacity-5 p-4 rounded-lg border border-gray-700">
+                        <img src="${API_BASE_URL}/image/${question.image_id}" 
+                             alt="Question diagram" 
+                             class="max-w-full h-auto mx-auto rounded-lg shadow-lg"
+                             style="max-height: 400px;"
+                             onerror="this.parentElement.innerHTML='<div class=\\'text-center text-gray-400 py-4\\'>📷 Image not available (ID: ${question.image_id})</div>'" />
+                    </div>
+                `;
+                questionImageContainer.style.display = 'block';
+            } else if (question.image_path && question.image_path !== 'None' && question.image_path.trim() !== '') {
+                // Fallback to image path if available
+                questionImageContainer.innerHTML = `
+                    <div class="bg-white bg-opacity-5 p-4 rounded-lg border border-gray-700">
+                        <img src="${API_BASE_URL}/image/${encodeURIComponent(question.image_path)}" 
+                             alt="Question diagram" 
+                             class="max-w-full h-auto mx-auto rounded-lg shadow-lg"
+                             style="max-height: 400px;"
+                             onerror="this.parentElement.innerHTML='<div class=\\'text-center text-gray-400 py-4\\'>📷 Image not available</div>'" />
+                    </div>
+                `;
+                questionImageContainer.style.display = 'block';
+            } else {
+                questionImageContainer.style.display = 'none';
+            }
+            
+            // Update difficulty badge with proper styling
+            const difficultyBadge = document.getElementById('questionDifficultyBadge');
+            difficultyBadge.textContent = question.difficulty;
+            difficultyBadge.className = `px-3 py-1 rounded-full text-sm font-bold difficulty-${question.difficulty.toLowerCase().replace(' ', '-')}`;
+            
+            // Update success probability
+            document.getElementById('successProbability').textContent = `${Math.round(progress.predicted_success_probability * 100)}%`;
+
+            // Create answer options
+            const optionsContainer = document.getElementById('answerOptions');
+            optionsContainer.innerHTML = '';
+
+            let hasValidOptions = false;
+            
+            if (question.options && typeof question.options === 'object') {
+                // New API format: options as object {A: "text", B: "text", ...}
+                const optionKeys = ['A', 'B', 'C', 'D'];
+                
+                optionKeys.forEach(optionKey => {
+                    const optionText = question.options[optionKey];
+                    if (optionText && optionText.trim() && optionText.trim() !== 'nan' && optionText.trim() !== '') {
+                        hasValidOptions = true;
+                        const button = document.createElement('button');
+                        button.className = 'option-button w-full p-3 sm:p-4 text-left border border-white border-opacity-20 rounded-lg hover:border-purple-light hover:bg-white hover:bg-opacity-10 transition-all duration-200 min-h-[50px] flex items-center';
+                        button.innerHTML = `
+                            <span class="font-bold text-purple-light mr-3">${optionKey}.</span>
+                            <span class="text-gray-100">${optionText}</span>
+                        `;
+                        button.onclick = () => selectAnswer(optionKey);
+                        optionsContainer.appendChild(button);
+                    }
+                });
+            } else {
+                // Fallback: old format with option_a, option_b, etc.
+                const options = ['a', 'b', 'c', 'd'];
+                options.forEach(option => {
+                    const optionText = question[`option_${option}`];
+                    if (optionText && optionText.trim() && optionText.trim() !== 'nan' && optionText.trim() !== '') {
+                        hasValidOptions = true;
+                        const button = document.createElement('button');
+                        button.className = 'option-button w-full p-3 sm:p-4 text-left border border-white border-opacity-20 rounded-lg hover:border-purple-light hover:bg-white hover:bg-opacity-10 transition-all duration-200 min-h-[50px] flex items-center';
+                        button.innerHTML = `
+                            <span class="font-bold text-purple-light mr-3">${option.toUpperCase()}.</span>
+                            <span class="text-gray-100">${optionText}</span>
+                        `;
+                        button.onclick = () => selectAnswer(option.toUpperCase());
+                        optionsContainer.appendChild(button);
+                    }
+                });
+            }
+            
+            // If no valid options found, show an error message
+            if (!hasValidOptions) {
+                optionsContainer.innerHTML = `
+                    <div class="text-center py-8">
+                        <div class="text-red-400 mb-4">⚠️ This question appears to have missing options</div>
+                        <div class="text-gray-300 text-sm">Question ID: ${question.id}</div>
+                        <button onclick="loadQuestion()" class="mt-4 bg-purple-600 px-4 py-2 rounded-lg hover:bg-purple-700">
+                            Skip to Next Question
+                        </button>
+                    </div>
+                `;
+            }
+
+            // Hide feedback and next button
+            document.getElementById('feedbackSection').classList.add('hidden');
+            document.getElementById('nextQuestion').classList.add('hidden');
+        }
+
+        function updateProgressDisplays(progress) {
+            // Update progress bar
+            assessmentState.currentQuestion = progress.questions_answered + 1;
+            const progressPercent = (progress.questions_answered / assessmentState.totalQuestions) * 100;
+            document.getElementById('progressBar').style.width = `${progressPercent}%`;
+            document.getElementById('progressPercent').textContent = `${Math.round(progressPercent)}%`;
+            
+            // Update counters (both desktop and mobile)
+            document.getElementById('questionCounter').textContent = `${progress.questions_answered + 1} / ${assessmentState.totalQuestions}`;
+            const mobileCounter = document.getElementById('questionCounterMobile');
+            if (mobileCounter) {
+                mobileCounter.textContent = `${progress.questions_answered + 1} / ${assessmentState.totalQuestions}`;
+            }
+            
+            // Update difficulty badge in header (both desktop and mobile)
+            const headerBadge = document.getElementById('currentDifficultyBadge');
+            headerBadge.textContent = progress.current_difficulty;
+            headerBadge.className = `font-bold text-lg px-3 py-1 rounded-full text-xs difficulty-${progress.current_difficulty.toLowerCase().replace(' ', '-')}`;
+            
+            const mobileBadge = document.getElementById('currentDifficultyBadgeMobile');
+            if (mobileBadge) {
+                mobileBadge.textContent = progress.current_difficulty;
+                mobileBadge.className = `font-bold text-sm px-2 py-1 rounded-full text-xs difficulty-${progress.current_difficulty.toLowerCase().replace(' ', '-')}`;
+            }
+            
+            // Update real-time stats
+            document.getElementById('abilityEstimate').textContent = (progress.ability_estimate || 0).toFixed(2);
+            document.getElementById('adaptationInfo').textContent = `Next: ${progress.current_difficulty || 'Moderate'}`;
+        }
+
+        async function selectAnswer(selectedOption) {
+            if (!currentQuestion) return;
+
+            try {
+                // Disable all options immediately
+                document.querySelectorAll('.option-button').forEach(btn => {
+                    btn.classList.add('disabled');
+                    btn.onclick = null;
+                });
+
+                const correctOption = currentQuestion.answer;
+                const isCorrect = selectedOption === correctOption;
+
+                // Visual feedback on options
+                document.querySelectorAll('.option-button').forEach(btn => {
+                    const optionLetter = btn.querySelector('span').textContent.toLowerCase().replace('.', '');
+                    if (optionLetter === correctOption) {
+                        btn.classList.add('correct');
+                    } else if (optionLetter === selectedOption && !isCorrect) {
+                        btn.classList.add('incorrect');
+                    }
+                });
+
+                // Submit response to API
+                const response = await fetch(`${API_BASE_URL}/student/submit`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        student_id: assessmentState.sessionId,
+                        question_id: currentQuestion.id,
+                        answer: selectedOption
+                    })
+                });
+
+                const data = await response.json();
+
+                if (response.ok && !data.error) {
+                    const serverIsCorrect = data.is_correct;
+                    
+                    // Update assessment state
+                    if (!assessmentState.responses) {
+                        assessmentState.responses = [];
+                    }
+                    assessmentState.responses.push({
+                        questionId: currentQuestion.id,
+                        selectedOption: selectedOption,
+                        isCorrect: serverIsCorrect,
+                        difficulty: currentQuestion.difficulty
+                    });
+
+                    // Update real-time stats with progress data from server
+                    if (data.updated_progress && data.adaptation_info) {
+                        updateRealTimeStats(data.updated_progress, data.adaptation_info);
+                    }
+
+                    // Show feedback based on server response
+                    showFeedback(serverIsCorrect, data.feedback, {
+                        new_ability: data.new_ability,
+                        correct_answer: data.correct_answer
+                    });
+
+                    // Update dashboard data in real-time
+                    await updateDashboardAssessment(currentQuestion.id, currentQuestion.difficulty, serverIsCorrect);
+
+                    // Notify other tabs/pages of the update
+                    notifyRealTimeUpdate('question-answered', {
+                        questionId: currentQuestion.id,
+                        difficulty: currentQuestion.difficulty,
+                        isCorrect: serverIsCorrect,
+                        profileId: localStorage.getItem('profileId'),
+                        sessionId: assessmentState.sessionId
+                    });
+
+                } else {
+                    alert(`Error submitting response: ${data.error}`);
+                }
+
+            } catch (error) {
+                console.error('Error submitting response:', error);
+                alert('Failed to submit answer. Please try again.');
+            }
+        }
+
+        function updateRealTimeStats(progress, adaptationInfo) {
+            // Update desktop score
+            const currentScoreElement = document.getElementById('currentScore');
+            if (currentScoreElement) {
+                currentScoreElement.textContent = `${progress.current_score || 0}%`;
+            }
+            
+            // Update mobile score
+            const currentScoreMobile = document.getElementById('currentScoreMobile');
+            if (currentScoreMobile) {
+                currentScoreMobile.textContent = `${progress.current_score || 0}%`;
+            }
+            
+            // Update dashboard
+            const abilityElement = document.getElementById('abilityEstimate');
+            if (abilityElement) {
+                abilityElement.textContent = (progress.ability_estimate || 0).toFixed(2);
+            }
+            
+            const knowledgeElement = document.getElementById('knowledgeLevel');
+            if (knowledgeElement) {
+                knowledgeElement.textContent = `${Math.round((progress.knowledge_level || 0) * 100)}%`;
+            }
+            
+            const streakElement = document.getElementById('streakCounter');
+            if (streakElement) {
+                streakElement.textContent = Math.max(progress.consecutive_correct || 0, progress.consecutive_incorrect || 0);
+            }
+            
+            // Track adaptations
+            if (adaptationInfo && adaptationInfo.next_difficulty_hint !== adaptationInfo.current_difficulty) {
+                assessmentState.adaptationCount = (assessmentState.adaptationCount || 0) + 1;
+                const adaptationElement = document.getElementById('adaptationCounter');
+                if (adaptationElement) {
+                    adaptationElement.textContent = assessmentState.adaptationCount;
+                }
+            }
+            
+            console.log('Updated real-time stats:', {
+                score: progress.current_score,
+                ability: progress.ability_estimate,
+                knowledge: progress.knowledge_level,
+                streak: Math.max(progress.consecutive_correct || 0, progress.consecutive_incorrect || 0)
+            });
+        }
+
+        function showFeedback(isCorrect, feedback, adaptationInfo) {
+            const feedbackSection = document.getElementById('feedbackSection');
+            const feedbackIcon = document.getElementById('feedbackIcon');
+            const feedbackTitle = document.getElementById('feedbackTitle');
+            const feedbackMessage = document.getElementById('feedbackMessage');
+            const adaptationMessage = document.getElementById('adaptationMessage');
+
+            // Set feedback content
+            feedbackIcon.textContent = isCorrect ? '✅' : '❌';
+            feedbackTitle.textContent = isCorrect ? 'Correct!' : 'Not quite right';
+            feedbackMessage.textContent = feedback.explanation;
+            
+            // Adaptation message
+            if (adaptationInfo.next_difficulty_hint !== adaptationInfo.current_difficulty) {
+                const direction = getDifficultyDirection(adaptationInfo.current_difficulty, adaptationInfo.next_difficulty_hint);
+                adaptationMessage.textContent = `📈 Difficulty will ${direction} to ${adaptationInfo.next_difficulty_hint} level based on your performance`;
+            } else {
+                adaptationMessage.textContent = `📊 Staying at ${adaptationInfo.current_difficulty} level - keep going!`;
+            }
+
+            // Show feedback with appropriate styling
+            feedbackSection.className = `mt-6 p-4 rounded-lg border-l-4 ${isCorrect ? 'bg-green-900 bg-opacity-20 border-green-400' : 'bg-red-900 bg-opacity-20 border-red-400'}`;
+            feedbackSection.classList.remove('hidden');
+
+            // Show next button
+            document.getElementById('nextQuestion').classList.remove('hidden');
+        }
+
+        function getDifficultyDirection(current, next) {
+            const levels = ['Very easy', 'Easy', 'Moderate', 'Difficult'];
+            const currentIndex = levels.indexOf(current);
+            const nextIndex = levels.indexOf(next);
+            
+            if (nextIndex > currentIndex) return 'increase';
+            if (nextIndex < currentIndex) return 'decrease';
+            return 'stay';
+        }
+
+        async function showResults() {
+            try {
+                // First ensure all assessment data is synchronized
+                console.log('Assessment completed, syncing final data...');
+                
+                const response = await fetch(`${API_BASE_URL}/student/summary?student_id=${assessmentState.sessionId}`, {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    displayResults(data);
+                    
+                    // Mark assessment as completed for dashboard sync
+                    console.log('Assessment completed successfully, data ready for dashboard update');
+                    
+                    // Notify other tabs/pages that assessment is complete
+                    notifyRealTimeUpdate('assessment-completed', {
+                        profileId: localStorage.getItem('profileId'),
+                        sessionId: assessmentState.sessionId,
+                        finalResults: data.final_results,
+                        studentGrade: localStorage.getItem('studentGrade') // Include grade for persistence
+                    });
+                } else {
+                    alert(`Error getting results: ${data.error}`);
+                }
+
+            } catch (error) {
+                console.error('Error getting results:', error);
+                alert('Failed to load results. Please try again.');
+            }
+        }
+
+        function displayResults(data) {
+            assessmentScreen.classList.add('hidden');
+            resultsScreen.classList.remove('hidden');
+
+            const results = data.final_results;
+
+            // Update final results
+            document.getElementById('finalScore').textContent = `${results.final_score}%`;
+            document.getElementById('finalAbility').textContent = results.ability_level;
+            document.getElementById('questionsAnswered').textContent = results.questions_answered;
+            document.getElementById('timeSpent').textContent = `${results.time_spent_minutes} min`;
+
+            // Display difficulty breakdown
+            displayDifficultyBreakdown(data.difficulty_performance);
+
+            // Render performance by topics chart (if available)
+            try {
+                const topicPerf = data.topic_performance || data.performance_by_topic || null;
+                if (topicPerf) {
+                    renderTopicsChart(topicPerf);
+                } else if (data.difficulty_performance) {
+                    // Fallback: create a small topics-like mapping using difficulty buckets as placeholders
+                    const fallback = {
+                        'Arithmetic': { correct: Math.round((data.difficulty_performance['Easy']?.correct || 0)), total: Math.round((data.difficulty_performance['Easy']?.total || 1)) },
+                        'Algebra': { correct: Math.round((data.difficulty_performance['Moderate']?.correct || 0)), total: Math.round((data.difficulty_performance['Moderate']?.total || 1)) },
+                        'Geometry': { correct: Math.round((data.difficulty_performance['Difficult']?.correct || 0)), total: Math.round((data.difficulty_performance['Difficult']?.total || 1)) },
+                        'Numbers': { correct: Math.round((data.difficulty_performance['Very Easy']?.correct || 0)), total: Math.round((data.difficulty_performance['Very Easy']?.total || 1)) }
+                    };
+                    renderTopicsChart(fallback);
+                }
+            } catch (e) {
+                console.warn('Failed to render topics chart:', e);
+            }
+
+            // Display server baseline recs immediately
+            displayRecommendations(data.recommendations);
+            // Then auto-generate AI report and (potentially) replace learning path with AI plan
+            autoGenerateAIReport();
+        }
+
+        function displayDifficultyBreakdown(performance) {
+            const container = document.getElementById('difficultyBreakdown');
+            container.innerHTML = '';
+
+            Object.entries(performance).forEach(([difficulty, stats]) => {
+                const accuracy = Math.round((stats.correct / stats.total) * 100);
+                const div = document.createElement('div');
+                div.className = 'flex items-center justify-between p-3 glass-effect rounded-lg';
+                div.innerHTML = `
+                    <div class="flex items-center space-x-3">
+                        <span class="px-2 py-1 rounded text-xs font-bold difficulty-${difficulty.toLowerCase().replace(' ', '-')}">${difficulty}</span>
+                        <span class="text-gray-300">${stats.correct}/${stats.total} correct</span>
+                    </div>
+                    <div class="font-bold ${accuracy >= 80 ? 'text-green-400' : accuracy >= 60 ? 'text-yellow-400' : 'text-red-400'}">${accuracy}%</div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+            // Render a bar chart showing performance by topics
+            function renderTopicsChart(topicPerformance) {
+                try {
+                    const ctx = document.getElementById('topicsChart');
+                    if (!ctx) return;
+
+                    // Normalize input: topicPerformance is expected as { TopicName: { correct, total } }
+                    const labels = [];
+                    const accuracies = [];
+
+                    Object.entries(topicPerformance).forEach(([topic, stats]) => {
+                        const correct = Number(stats.correct || 0);
+                        const total = Number(stats.total || 1);
+                        const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+                        labels.push(topic);
+                        accuracies.push(accuracy);
+                    });
+
+                    // Destroy existing chart instance if present
+                    if (window.topicsChartInstance) {
+                        window.topicsChartInstance.destroy();
+                    }
+
+                    window.topicsChartInstance = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: 'Accuracy %',
+                                data: accuracies,
+                                backgroundColor: labels.map(() => 'rgba(139,92,246,0.9)'),
+                                borderColor: labels.map(() => 'rgba(139,92,246,1)'),
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    max: 100,
+                                    ticks: { stepSize: 20 }
+                                }
+                            },
+                            plugins: {
+                                legend: { display: false },
+                                tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y}%` } }
+                            }
+                        }
+                    });
+                } catch (e) {
+                    console.error('Error rendering topics chart', e);
+                }
+            }
+
+        function displayRecommendations(recommendations) {
+            const container = document.getElementById('recommendations');
+            container.innerHTML = '';
+
+            (recommendations || []).forEach(item => {
+                const rec = typeof item === 'string' ? { icon: '📌', title: item, description: '', priority: 'low' } : item;
+                const priorityClass = rec.priority === 'high' ? 'border-red-400' : rec.priority === 'medium' ? 'border-yellow-400' : 'border-green-400';
+                const div = document.createElement('div');
+                div.className = `flex items-start space-x-4 p-4 glass-effect rounded-xl border-l-4 ${priorityClass}`;
+                div.innerHTML = `
+                    <span class="text-2xl">${rec.icon || '📌'}</span>
+                    <div class="flex-1">
+                        <div class="font-bold text-purple-light text-lg">${rec.title || ''}</div>
+                        ${rec.description ? `<div class=\"text-sm text-gray-300 mt-1\">${rec.description}</div>` : ''}
+                    </div>
+                    <div class="text-xs text-gray-300 capitalize px-2 py-1 bg-white bg-opacity-10 rounded">${(rec.priority || 'low')}</div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        async function autoGenerateAIReport() {
+            const wrap = document.getElementById('aiReport');
+            const out = document.getElementById('aiReportContent');
+            if (!wrap || !out) return;
+            // show a subtle skeleton while loading
+            wrap.classList.remove('hidden');
+            out.innerHTML = '<div class="animate-pulse text-gray-400">Generating personalized AI report…</div>';
+            try {
+                const payload = {
+                    profile_id: localStorage.getItem('profileId') || undefined,
+                    student_name: localStorage.getItem('studentName') || undefined,
+                    student_grade: localStorage.getItem('studentGrade') || undefined
+                };
+                const res = await fetch(`${API_BASE_URL}/student/personalized_report`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+                if (!res.ok || !data.success) throw new Error(data.error || 'Report generation failed');
+
+                // Render summary chips
+                const accChip = document.getElementById('aiAccChip');
+                const ablChip = document.getElementById('aiAbilityChip');
+                if (typeof data.overall_accuracy === 'number') {
+                    accChip.textContent = `Accuracy ${data.overall_accuracy}%`;
+                    accChip.classList.remove('hidden');
+                }
+                if (typeof data.current_ability === 'number') {
+                    ablChip.textContent = `Ability ${data.current_ability}`;
+                    ablChip.classList.remove('hidden');
+                }
+
+                // Basic markdown to HTML (headers + bullets) without external libs
+                let md = (data.report_markdown || '').trim();
+                md = md
+                    .replace(/^### (.*)$/gim, '<div class="text-base font-semibold text-purple-light mb-1">$1</div>')
+                    .replace(/^#### (.*)$/gim, '<div class="text-sm font-semibold text-gray-200 mt-2">$1</div>')
+                    .replace(/^\- (.*)$/gim, '<div class="text-sm text-gray-300">• $1</div>')
+                    .replace(/\n\n/g, '<br>');
+                out.innerHTML = md;
+
+                // Render tags for strengths/weaknesses
+                const tags = document.getElementById('aiReportTags');
+                tags.innerHTML = '';
+                const addPill = (text, tone) => {
+                    const span = document.createElement('span');
+                    const color = tone === 'pos' ? 'bg-green-400/20 text-green-300' : 'bg-red-400/20 text-red-300';
+                    span.className = `text-xs px-2 py-1 rounded-full ${color}`;
+                    span.textContent = text;
+                    tags.appendChild(span);
+                };
+                (data.strengths || []).slice(0, 4).forEach(t => addPill(t, 'pos'));
+                (data.weaknesses || []).slice(0, 4).forEach(t => addPill(t, 'neg'));
+
+                if (data.learning_path) { displayRecommendations(data.learning_path); }
+            } catch (e) {
+                out.innerHTML = `<span class="text-red-300">${e.message}</span>`;
+            }
+        }
+
+        function retakeAssessment() {
+            // Reset state
+            assessmentState = {
+                sessionId: '',
+                studentName: '',
+                studentGrade: '',
+                currentQuestion: 0,
+                totalQuestions: (document.getElementById('questionCountSelect') ? Math.min(100, Math.max(1, parseInt(document.getElementById('questionCountSelect').value || '20'))) : 20),
+                score: 0,
+                ability: 0,
+                knowledgeLevel: 0,
+                responses: [],
+                startTime: null,
+                adaptationCount: 0,
+                currentDifficulty: 'Very easy',
+                consecutiveStreak: 0
+            };
+
+            currentQuestion = null;
+
+            // Show welcome screen
+            resultsScreen.classList.add('hidden');
+            welcomeScreen.classList.remove('hidden');
+
+            // Recheck dataset status
+            checkDatasetStatus();
+        }
+
+        // Real-time update notification function
+        function notifyRealTimeUpdate(eventType, data) {
+            console.log('Notifying real-time update:', eventType, data);
+            
+            // Use BroadcastChannel for modern browsers
+            if (assessmentChannel) {
+                assessmentChannel.postMessage({ type: eventType, data: data, timestamp: Date.now() });
+            }
+            
+            // Fallback: localStorage event for cross-tab communication
+            localStorage.setItem('assessment-update', JSON.stringify({ 
+                type: eventType, 
+                data: data, 
+                timestamp: Date.now() 
+            }));
+            
+            // Immediately clear to trigger storage event
+            setTimeout(() => localStorage.removeItem('assessment-update'), 100);
+        }
+
+        // Dashboard update function
+        async function updateDashboardAssessment(questionId, difficulty, isCorrect, timeSpent = 0) {
+            try {
+                const token = localStorage.getItem('authToken');
+                if (!token) {
+                    console.log('No auth token found for dashboard update');
+                    return;
+                }
+
+                const response = await fetch('http://localhost:3000/api/assessment/update', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        questionId: questionId,
+                        difficulty: difficulty,
+                        correct: isCorrect,
+                        timeSpent: timeSpent
+                    })
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    console.log('Dashboard updated:', data);
+                    
+                    // Refresh dashboard if it's open in another tab
+                    if (window.opener && window.opener.refreshDashboard) {
+                        window.opener.refreshDashboard();
+                    }
+                } else {
+                    console.error('Failed to update dashboard:', data.message);
+                }
+            } catch (error) {
+                console.error('Error updating dashboard:', error);
+            }
+        }
+
+        // Redirect to dashboard with refresh
+        async function redirectToDashboard() {
+            console.log('Redirecting to StudentDashboard.html...');
+            // Show loading message if button exists
+            const button = event?.target;
+            if (button) {
+                button.innerHTML = '<span class="animate-pulse">Returning to Dashboard...</span>';
+                button.disabled = true;
+            }
+            try {
+                // Ensure all assessment data is properly saved before redirecting
+                console.log('Finalizing assessment data...');
+                // Small delay to ensure all pending requests complete
+                await new Promise(resolve => setTimeout(resolve, 500));
+                // Redirect directly to StudentDashboard.html
+                window.location.href = 'StudentDashboard.html?refresh=true&source=assessment';
+            } catch (error) {
+                console.error('Error during redirect:', error);
+                // Fallback redirect
+                window.location.href = 'StudentDashboard.html';
+            }
+        }
+
+        // --- Cheating Detection: Tab Switching ---
+        let cheatingWarnings = 0;
+        let cheatingSuspended = false;
+
+        function showCheatingWarning() {
+            cheatingWarnings++;
+            if (cheatingWarnings >= 3) {
+                cheatingSuspended = true;
+                alert('Test suspended due to repeated cheating (tab switching detected). Please contact your instructor.');
+                if (assessmentScreen) assessmentScreen.classList.add('hidden');
+                if (resultsScreen) resultsScreen.classList.remove('hidden');
+                // Optionally: log suspension to backend here
+            } else {
+                alert(`Security Warning: Cheating detected! (${cheatingWarnings}/3 warnings). Do not switch tabs during the test.`);
+            }
+        }
+
+        // Mobile stats toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileStatsToggle = document.getElementById('mobileStatsToggle');
+            const mobileStatsPanel = document.getElementById('mobileStatsPanel');
+            
+            if (mobileStatsToggle && mobileStatsPanel) {
+                mobileStatsToggle.addEventListener('click', function() {
+                    mobileStatsPanel.classList.toggle('hidden');
+                });
+            }
+        });
+
+        window.addEventListener('blur', function() {
+            if (!cheatingSuspended && assessmentScreen && !assessmentScreen.classList.contains('hidden')) {
+                showCheatingWarning();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,3925 @@
+[
+  {
+    "id": "Q1",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Basic Dice Probability",
+    "question_text": "In throwing a fair dice, what is the probability of getting the number '3'?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/3"
+      },
+      {
+        "option": "B",
+        "text": "1/6"
+      },
+      {
+        "option": "C",
+        "text": "1/9"
+      },
+      {
+        "option": "D",
+        "text": "1/12"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q2",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Dice Probability with Constraint",
+    "question_text": "What is the chance of throwing a number greater than 4 with an ordinary dice whose faces are numbered from 1 to 6?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/3"
+      },
+      {
+        "option": "B",
+        "text": "1/6"
+      },
+      {
+        "option": "C",
+        "text": "1/9"
+      },
+      {
+        "option": "D",
+        "text": "1/8"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q3",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "Find the chance of throwing at least one ace (one) in a simple throw with two dice.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/12"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      },
+      {
+        "option": "D",
+        "text": "11/36"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q4",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Ball Drawing Without Replacement",
+    "question_text": "Find the chance of drawing 2 blue balls in succession from a bag containing 5 red and 7 blue balls, if the balls are not being replaced.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "3/13"
+      },
+      {
+        "option": "B",
+        "text": "21/64"
+      },
+      {
+        "option": "C",
+        "text": "7/22"
+      },
+      {
+        "option": "D",
+        "text": "21/61"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q5",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Card Drawing",
+    "question_text": "From a pack of 52 cards, two are drawn at random. Find the chance that one is a knave and the other a queen.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "8/663"
+      },
+      {
+        "option": "B",
+        "text": "1/6"
+      },
+      {
+        "option": "C",
+        "text": "1/9"
+      },
+      {
+        "option": "D",
+        "text": "1/12"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q6",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Single Card Drawing",
+    "question_text": "If a card is picked up at random from a pack of 52 cards. Find the probability that it is a spade.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/9"
+      },
+      {
+        "option": "B",
+        "text": "1/6"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q7",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Single Card Drawing",
+    "question_text": "If a card is picked up at random from a pack of 52 cards. Find the probability that it is a king or queen.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "3/13"
+      },
+      {
+        "option": "B",
+        "text": "2/13"
+      },
+      {
+        "option": "C",
+        "text": "7/52"
+      },
+      {
+        "option": "D",
+        "text": "1/169"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q8",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Single Card Drawing",
+    "question_text": "If a card is picked up at random from a pack of 52 cards. Find the probability that it is a spade or king or queen.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "21/52"
+      },
+      {
+        "option": "B",
+        "text": "5/13"
+      },
+      {
+        "option": "C",
+        "text": "19/52"
+      },
+      {
+        "option": "D",
+        "text": "15/52"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q9",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Three Coins Probability",
+    "question_text": "Three coins are tossed. What is the probability of getting 2 Tails and 1 Head?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/4"
+      },
+      {
+        "option": "B",
+        "text": "3/8"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "1/8"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q10",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Three Coins Probability",
+    "question_text": "Three coins are tossed. What is the probability of getting 1 Tail and 2 Heads?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "3/8"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "3/4"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q11",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Three Coins Probability",
+    "question_text": "Three coins are tossed. What is the probability of getting neither 3 Heads nor 3 Tails?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/2"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "3/4"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q12",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Three Coins Probability",
+    "question_text": "Three coins are tossed. What is the probability of getting three Heads?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/8"
+      },
+      {
+        "option": "B",
+        "text": "1/4"
+      },
+      {
+        "option": "C",
+        "text": "1/2"
+      },
+      {
+        "option": "D",
+        "text": "2/3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q13",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Complement Probability",
+    "question_text": "Three coins are tossed. What is the probability that there is at least one Tail?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "2/3"
+      },
+      {
+        "option": "B",
+        "text": "7/8"
+      },
+      {
+        "option": "C",
+        "text": "3/8"
+      },
+      {
+        "option": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q14",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "Two fair dice are thrown. Find the probability that the sum of the faces is divisible by 2 or 4.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/2"
+      },
+      {
+        "option": "B",
+        "text": "3/4"
+      },
+      {
+        "option": "C",
+        "text": "1/3"
+      },
+      {
+        "option": "D",
+        "text": "2/3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q15",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "Two fair dice are thrown. Find the probability that the sum of the faces is divisible by 2 and 4.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/3"
+      },
+      {
+        "option": "B",
+        "text": "1/4"
+      },
+      {
+        "option": "C",
+        "text": "3/4"
+      },
+      {
+        "option": "D",
+        "text": "5/7"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q16",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "Two fair dice are thrown. Find the probability that the sum of the faces is a prime number less than 8.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "11/13"
+      },
+      {
+        "option": "B",
+        "text": "1/13"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      },
+      {
+        "option": "D",
+        "text": "13/36"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q17",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "A bag contains 3 green and 7 white balls. Two balls are drawn without replacement. Probability that both are white?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/7"
+      },
+      {
+        "option": "B",
+        "text": "5/11"
+      },
+      {
+        "option": "C",
+        "text": "7/11"
+      },
+      {
+        "option": "D",
+        "text": "7/15"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q18",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "A bag contains 3 green and 7 white balls. Two balls are drawn without replacement. Probability they are of different colours?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "7/15"
+      },
+      {
+        "option": "B",
+        "text": "7/9"
+      },
+      {
+        "option": "C",
+        "text": "5/11"
+      },
+      {
+        "option": "D",
+        "text": "7/11"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q19",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Exam Probability",
+    "question_text": "100 students appeared for two examinations. 60 passed first, 50 passed second, 30 passed both. Probability a student failed both?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/5"
+      },
+      {
+        "option": "B",
+        "text": "1/7"
+      },
+      {
+        "option": "C",
+        "text": "5/7"
+      },
+      {
+        "option": "D",
+        "text": "5/6"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q20",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Dice Probability",
+    "question_text": "What is the probability of throwing a number greater than 2 with a fair dice?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "2/3"
+      },
+      {
+        "option": "B",
+        "text": "2/5"
+      },
+      {
+        "option": "C",
+        "text": "1"
+      },
+      {
+        "option": "D",
+        "text": "3/5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q21",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Card Drawing",
+    "question_text": "Three cards numbered 2, 4, 8 are put into a box. If one is drawn, probability it's a prime number?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "4/5"
+      },
+      {
+        "option": "D",
+        "text": "5/7"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q22",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Card Drawing",
+    "question_text": "From a box containing cards numbered 2, 4, and 8, if one is drawn, find the probability that the card drawn is even.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2/3"
+      },
+      {
+        "option": "C",
+        "text": "1/2"
+      },
+      {
+        "option": "D",
+        "text": "3/5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q23",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Card Drawing",
+    "question_text": "From a box containing cards numbered 2, 4, and 8, if one is drawn, find the probability that the card drawn is odd.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "0"
+      },
+      {
+        "option": "C",
+        "text": "1/3"
+      },
+      {
+        "option": "D",
+        "text": "2/3"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q24",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Coin Tossing",
+    "question_text": "Two fair coins are tossed. Find the probability of obtaining 2 Heads.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "2/3"
+      },
+      {
+        "option": "C",
+        "text": "1/2"
+      },
+      {
+        "option": "D",
+        "text": "1/4"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q25",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Coin Tossing",
+    "question_text": "Two fair coins are tossed. Find the probability of obtaining 1 Head and 1 Tail.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/2"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "1/3"
+      },
+      {
+        "option": "D",
+        "text": "2/3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q26",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Coin Tossing",
+    "question_text": "Two fair coins are tossed. Find the probability of obtaining 2 Tails.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1"
+      },
+      {
+        "option": "B",
+        "text": "1/4"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q27",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "In rolling two dices, find the probability that there is at least one '6'.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "11/36"
+      },
+      {
+        "option": "B",
+        "text": "22/36"
+      },
+      {
+        "option": "C",
+        "text": "15/36"
+      },
+      {
+        "option": "D",
+        "text": "29/36"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q28",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "In rolling two dices, find the probability that the sum is 5.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/4"
+      },
+      {
+        "option": "B",
+        "text": "1/9"
+      },
+      {
+        "option": "C",
+        "text": "1/2"
+      },
+      {
+        "option": "D",
+        "text": "1/6"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q29",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "From a bag containing 4 white and 5 black balls, 3 are drawn at random. What are the odds against all being black?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "5/37"
+      },
+      {
+        "option": "B",
+        "text": "37/5"
+      },
+      {
+        "option": "C",
+        "text": "11/13"
+      },
+      {
+        "option": "D",
+        "text": "13/37"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q30",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Dice Probability",
+    "question_text": "Amit throws three dice in Ludo. If he needs 15 or higher to win, find his chance of winning.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "5/54"
+      },
+      {
+        "option": "B",
+        "text": "17/216"
+      },
+      {
+        "option": "C",
+        "text": "13/216"
+      },
+      {
+        "option": "D",
+        "text": "15/216"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q31",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Digit Formation",
+    "question_text": "Probability of forming the number 187 or 215 with three distinct digits chosen from 1-9 (no repetition).",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "12/504"
+      },
+      {
+        "option": "B",
+        "text": "18/504"
+      },
+      {
+        "option": "C",
+        "text": "2/504"
+      },
+      {
+        "option": "D",
+        "text": "24/504"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q32",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Digit Formation",
+    "question_text": "A three-digit number is formed using the digits 1-9, with repetition allowed. Find the probability that the number formed is 187 or 215.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "2/729"
+      },
+      {
+        "option": "B",
+        "text": "6/729"
+      },
+      {
+        "option": "C",
+        "text": "11/729"
+      },
+      {
+        "option": "D",
+        "text": "4/729"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q33",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Horse Race Probability",
+    "question_text": "In a horse race (18 horses), the probability of horses 1, 2, and 3 winning are P(1)=1/6, P(2)=1/10, P(3)=1/8. Find the probability that one of them wins (assuming mutually exclusive events).",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "47/120"
+      },
+      {
+        "option": "B",
+        "text": "119/120"
+      },
+      {
+        "option": "C",
+        "text": "11/129"
+      },
+      {
+        "option": "D",
+        "text": "1/5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q34",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "Two balls are drawn from a bag with 8 green and 13 blue balls. Find the chance that both are blue.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/5"
+      },
+      {
+        "option": "B",
+        "text": "13/35"
+      },
+      {
+        "option": "C",
+        "text": "11/15"
+      },
+      {
+        "option": "D",
+        "text": "14/45"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q35",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "Two fair dice are thrown. Probability of throwing a double?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/6"
+      },
+      {
+        "option": "B",
+        "text": "1"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q36",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "Two fair dice are thrown. Find the probability that the sum is greater than 10?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "2/3"
+      },
+      {
+        "option": "B",
+        "text": "2/5"
+      },
+      {
+        "option": "C",
+        "text": "1/6"
+      },
+      {
+        "option": "D",
+        "text": "1/12"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q37",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "Two fair dice are thrown. Find the probability that the sum is less than 10?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "5/6"
+      },
+      {
+        "option": "B",
+        "text": "2/5"
+      },
+      {
+        "option": "C",
+        "text": "3/5"
+      },
+      {
+        "option": "D",
+        "text": "2/3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q38",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Lottery Problem",
+    "question_text": "In a lottery with a ₹1 crore prize and 5000 tickets, a man holds 10 tickets. What is his expectation value?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "₹20,000"
+      },
+      {
+        "option": "B",
+        "text": "₹25,000"
+      },
+      {
+        "option": "C",
+        "text": "₹30,000"
+      },
+      {
+        "option": "D",
+        "text": "₹15,000"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q39",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Letter Selection",
+    "question_text": "Two letters are chosen at random from the letters of the word LIME. Find the probability that they are L and M.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/2"
+      },
+      {
+        "option": "B",
+        "text": "1/4"
+      },
+      {
+        "option": "C",
+        "text": "1/3"
+      },
+      {
+        "option": "D",
+        "text": "1/6"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q40",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "A bag contains 4 black and 5 red balls. 3 are chosen randomly. Find the chance that all are black.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/21"
+      },
+      {
+        "option": "B",
+        "text": "1/20"
+      },
+      {
+        "option": "C",
+        "text": "2/23"
+      },
+      {
+        "option": "D",
+        "text": "1/9"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q41",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Digit Formation",
+    "question_text": "A two-digit number is formed from the digits 2, 3, 5, 7, 9 (no repetition). Find the probability that the number formed is 35.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/10"
+      },
+      {
+        "option": "B",
+        "text": "1/20"
+      },
+      {
+        "option": "C",
+        "text": "2/11"
+      },
+      {
+        "option": "D",
+        "text": "1/11"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q42",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Card Drawing",
+    "question_text": "From a pack of 52 cards, 3 are drawn at random. Find the probability of getting a King, a Queen, and a Jack.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "16/5525"
+      },
+      {
+        "option": "B",
+        "text": "1/133"
+      },
+      {
+        "option": "C",
+        "text": "1/143"
+      },
+      {
+        "option": "D",
+        "text": "1/153"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q43",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Ball Selection",
+    "question_text": "A bag contains balls numbered 1–20. If one ball is drawn, find the probability that the number on it is a multiple of 5 or 7.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "3/10"
+      },
+      {
+        "option": "B",
+        "text": "7/10"
+      },
+      {
+        "option": "C",
+        "text": "1/11"
+      },
+      {
+        "option": "D",
+        "text": "2/3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q44",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Sample Survey",
+    "question_text": "In a sample of 1972 children: 1000 boys and 972 girls. Based on this data, what is the probability that a newborn is a girl?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "243/250"
+      },
+      {
+        "option": "B",
+        "text": "250/257"
+      },
+      {
+        "option": "C",
+        "text": "9/10"
+      },
+      {
+        "option": "D",
+        "text": "243/493"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q45",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "A bag contains 3 red, 6 white, and 7 black balls. Two are drawn at random. Find the probability that both are black.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/8"
+      },
+      {
+        "option": "B",
+        "text": "7/40"
+      },
+      {
+        "option": "C",
+        "text": "12/40"
+      },
+      {
+        "option": "D",
+        "text": "13/40"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q46",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "A bag contains 6 red, 4 white, and 8 blue balls. Three are drawn at random. Find the probability that all three are the same colour.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "17/240"
+      },
+      {
+        "option": "B",
+        "text": "5/51"
+      },
+      {
+        "option": "C",
+        "text": "31/204"
+      },
+      {
+        "option": "D",
+        "text": "none"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q47",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "A bag contains 6 red, 4 white, and 8 blue balls. Three are drawn at random. Find the probability that all three are blue.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "8/51"
+      },
+      {
+        "option": "B",
+        "text": "50/51"
+      },
+      {
+        "option": "C",
+        "text": "7/102"
+      },
+      {
+        "option": "D",
+        "text": "13/51"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q48",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Probability Theory",
+    "question_text": "If P(A)=1/3, P(B)=1/2, P(A∩B)=1/4, find P(A'∪B').",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/3"
+      },
+      {
+        "option": "B",
+        "text": "2/5"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "3/4"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q49",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Probability Theory",
+    "question_text": "Given P(A)=0.5 and P(A∩B)≤0.3. Can P(B) be equal to 0.9?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "No"
+      },
+      {
+        "option": "B",
+        "text": "Yes"
+      },
+      {
+        "option": "C",
+        "text": "Either"
+      },
+      {
+        "option": "D",
+        "text": "Can't say"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q50",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Academic Probability",
+    "question_text": "The probability of a student passing Mathematics is 3/5, passing English is 1/3, and passing both is 1/8. Find the probability that the student passes at least one subject.",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "97/120"
+      },
+      {
+        "option": "B",
+        "text": "87/120"
+      },
+      {
+        "option": "C",
+        "text": "53/120"
+      },
+      {
+        "option": "D",
+        "text": "120/297"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q51",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Ranking Probability",
+    "question_text": "The odds in favour of standing first of three students Amit, Vikas and Vivek appearing at an examination are 1:2, 2:5 and 1:7 respectively. What is the probability that either of them will stand first (assume that a tie for the first place is not possible)?",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "168/178"
+      },
+      {
+        "option": "B",
+        "text": "122/168"
+      },
+      {
+        "option": "C",
+        "text": "5/168"
+      },
+      {
+        "option": "D",
+        "text": "125/168"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q52",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Conditional Probability",
+    "question_text": "A, B, C are three mutually exclusive and exhaustive events associated with a random experiment. Find P(A) if it is given that P(B) = 3/2 P(A) and P(C) = 1/2 P(B).",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "4/13"
+      },
+      {
+        "option": "B",
+        "text": "2/3"
+      },
+      {
+        "option": "C",
+        "text": "12/13"
+      },
+      {
+        "option": "D",
+        "text": "1/13"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q53",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Conditional Probability",
+    "question_text": "A and B are two mutually exclusive events of an experiment. If P(A') = 0.65, P(A ∪ B) = 0.65 and P(B) = p, find the value of p.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "0.25"
+      },
+      {
+        "option": "B",
+        "text": "0.3"
+      },
+      {
+        "option": "C",
+        "text": "0.1"
+      },
+      {
+        "option": "D",
+        "text": "0.2"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q54",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag Problem",
+    "question_text": "A bag contains 4 white and 2 black balls. Another bag contains 3 white and 5 black balls. If one ball is drawn from each bag, find the probability that both are white.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/3"
+      },
+      {
+        "option": "B",
+        "text": "2/3"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      },
+      {
+        "option": "D",
+        "text": "3/4"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q55",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag Problem",
+    "question_text": "A bag contains 4 white and 2 black balls. Another bag contains 3 white and 5 black balls. If one ball is drawn from each bag, find the probability that both are black.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "3/24"
+      },
+      {
+        "option": "B",
+        "text": "1/24"
+      },
+      {
+        "option": "C",
+        "text": "3/12"
+      },
+      {
+        "option": "D",
+        "text": "5/24"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q56",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag Problem",
+    "question_text": "A bag contains 4 white and 2 black balls. Another bag contains 3 white and 5 black balls. If one ball is drawn from each bag, find the probability that one is white and one is black.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "13/24"
+      },
+      {
+        "option": "B",
+        "text": "15/24"
+      },
+      {
+        "option": "C",
+        "text": "11/21"
+      },
+      {
+        "option": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q57",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Independent Events",
+    "question_text": "The odds against an event A is 5:3 and the odds in favour of another independent event B is 7:5. Find the probability that at least one of the two events will occur.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "52/96"
+      },
+      {
+        "option": "B",
+        "text": "69/96"
+      },
+      {
+        "option": "C",
+        "text": "71/96"
+      },
+      {
+        "option": "D",
+        "text": "13/96"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q58",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Interview Selection",
+    "question_text": "Kamal and Monica appeared for an interview for two vacancies. The probability of Kamal's selection is 1/3 and that of Monica's selection is 1/5. Find the probability that only one of them will be selected.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "2/5"
+      },
+      {
+        "option": "B",
+        "text": "1/5"
+      },
+      {
+        "option": "C",
+        "text": "5/9"
+      },
+      {
+        "option": "D",
+        "text": "2/3"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q59",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Interview Selection",
+    "question_text": "A husband and a wife appear in an interview for two vacancies for the same post. The probability of husband's selection is 1/7 and that of the wife's selection is 1/5. Find the probability that both of them will be selected.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/35"
+      },
+      {
+        "option": "B",
+        "text": "2/35"
+      },
+      {
+        "option": "C",
+        "text": "3/35"
+      },
+      {
+        "option": "D",
+        "text": "1/7"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q60",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Interview Selection",
+    "question_text": "The probability of a husband's selection is 1/7 and that of his wife's selection is 1/5 for two vacancies. Find the probability that only one of them will be selected.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/7"
+      },
+      {
+        "option": "B",
+        "text": "3/7"
+      },
+      {
+        "option": "C",
+        "text": "2/7"
+      },
+      {
+        "option": "D",
+        "text": "5/7"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q61",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Interview Selection",
+    "question_text": "The probability of a husband's selection is 1/7 and that of his wife's selection is 1/5 for two vacancies. Find the probability that none of them will be selected.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "24/35"
+      },
+      {
+        "option": "B",
+        "text": "20/35"
+      },
+      {
+        "option": "C",
+        "text": "21/35"
+      },
+      {
+        "option": "D",
+        "text": "2/7"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q62",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Interview Selection",
+    "question_text": "The probability of a husband's selection is 1/7 and that of his wife's selection is 1/5 for two vacancies. Find the probability that at least one of them will be selected.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "12/35"
+      },
+      {
+        "option": "B",
+        "text": "11/35"
+      },
+      {
+        "option": "C",
+        "text": "16/35"
+      },
+      {
+        "option": "D",
+        "text": "1/5"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q63",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Conditional",
+    "question_text": "Two fair dice are thrown. Given that the sum of the dice is less than or equal to 4, find the probability that only one dice shows two.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/4"
+      },
+      {
+        "option": "B",
+        "text": "1/2"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "1/3"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q64",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Target Practice",
+    "question_text": "A can hit the target 3 times in 6 shots, B 2 times in 4 times and C 4 times in 6 shots. They fire a volley. What is the probability that at least 2 shots hit?",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "7/12"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "2/3"
+      },
+      {
+        "option": "D",
+        "text": "3/4"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q65",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Ball Distribution",
+    "question_text": "There are two bags, one of them contains 5 red and 7 white balls and the other 3 red and 12 white balls, and a ball is to be drawn from one or the other of the two bags. Find the chance of drawing a red ball.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "37/120"
+      },
+      {
+        "option": "B",
+        "text": "30/120"
+      },
+      {
+        "option": "C",
+        "text": "35/120"
+      },
+      {
+        "option": "D",
+        "text": "17/120"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q66",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Card Drawing With Replacement",
+    "question_text": "If two cards are drawn one after another with replacement from a pack of 52 cards, find the probability that both are kings.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/221"
+      },
+      {
+        "option": "B",
+        "text": "1/169"
+      },
+      {
+        "option": "C",
+        "text": "1/200"
+      },
+      {
+        "option": "D",
+        "text": "1/100"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q67",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Card Drawing Without Replacement",
+    "question_text": "If two cards are drawn one after another without replacement from a pack of 52 cards, find the probability that both are kings.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/221"
+      },
+      {
+        "option": "B",
+        "text": "1/200"
+      },
+      {
+        "option": "C",
+        "text": "1/169"
+      },
+      {
+        "option": "D",
+        "text": "1/100"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q68",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Card Drawing Without Replacement",
+    "question_text": "From a pack of 52 cards, 3 cards are drawn at random. Find the probability that they are a king, a queen and a jack.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "16/5525"
+      },
+      {
+        "option": "B",
+        "text": "1/133"
+      },
+      {
+        "option": "C",
+        "text": "1/143"
+      },
+      {
+        "option": "D",
+        "text": "1/153"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q69",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "A box contains 5 red, 6 white and 7 black balls. Two balls are drawn at random. Find the probability that they are of the same colour.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "45/136"
+      },
+      {
+        "option": "B",
+        "text": "47/136"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      },
+      {
+        "option": "D",
+        "text": "1/5"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q70",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Probability of Union",
+    "question_text": "The probability that A hits a target is 1/4 and the probability that B hits a target is 1/3. Find the probability that the target is hit at least once.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/2"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      },
+      {
+        "option": "D",
+        "text": "1/12"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q71",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Conditional Probability",
+    "question_text": "A card is drawn from a pack of 52 cards. What is the probability of drawing a King, given that the card drawn is a red card?",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/13"
+      },
+      {
+        "option": "B",
+        "text": "1/26"
+      },
+      {
+        "option": "C",
+        "text": "1/52"
+      },
+      {
+        "option": "D",
+        "text": "2/13"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q72",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Conditional Probability",
+    "question_text": "In a town of 1000 people, 540 are male, 250 are vegetarians, and 170 are male vegetarians. Find the probability that a person selected at random is a vegetarian given that the selected person is a male.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "8/27"
+      },
+      {
+        "option": "B",
+        "text": "17/54"
+      },
+      {
+        "option": "C",
+        "text": "5/54"
+      },
+      {
+        "option": "D",
+        "text": "2/27"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q73",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bayes' Theorem",
+    "question_text": "In a factory, machine X, Y, Z produce 30%, 50%, 20% of the total output. The percentage of defective items from them are 1%, 2%, and 1% respectively. If a defective item is drawn, find the probability that it was produced by machine X.",
+    "data_paragraph": "DIFFICULT",
+    "options": [
+      {
+        "option": "A",
+        "text": "3/16"
+      },
+      {
+        "option": "B",
+        "text": "10/16"
+      },
+      {
+        "option": "C",
+        "text": "2/16"
+      },
+      {
+        "option": "D",
+        "text": "1/16"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q74",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Two Dice Probability",
+    "question_text": "Two dice are thrown. What is the probability that the sum of the numbers is 10 or more?",
+    "data_paragraph": "VERY EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/12"
+      },
+      {
+        "option": "B",
+        "text": "1/6"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      },
+      {
+        "option": "D",
+        "text": "1/9"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q75",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Bag and Ball Problem",
+    "question_text": "A bag contains 5 green and 7 blue balls. Two balls are drawn without replacement. Find the probability that one is green and one is blue.",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "35/66"
+      },
+      {
+        "option": "B",
+        "text": "1/33"
+      },
+      {
+        "option": "C",
+        "text": "7/33"
+      },
+      {
+        "option": "D",
+        "text": "5/33"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q76",
+    "block": "Modern Math",
+    "chapter_subtopic": "Probability",
+    "question_type": "Independent Events",
+    "question_text": "If P(A) = 0.5, P(B) = 0.4 and A and B are independent events. Find P(A ∪ B).",
+    "data_paragraph": "MODERATE",
+    "options": [
+      {
+        "option": "A",
+        "text": "0.7"
+      },
+      {
+        "option": "B",
+        "text": "0.6"
+      },
+      {
+        "option": "C",
+        "text": "0.8"
+      },
+      {
+        "option": "D",
+        "text": "0.9"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q77",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. How many students failed in both?",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "40"
+      },
+      {
+        "option": "B",
+        "text": "30"
+      },
+      {
+        "option": "C",
+        "text": "50"
+      },
+      {
+        "option": "D",
+        "text": "20"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q78",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. How many students passed in at least one subject?",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "80"
+      },
+      {
+        "option": "B",
+        "text": "90"
+      },
+      {
+        "option": "C",
+        "text": "100"
+      },
+      {
+        "option": "D",
+        "text": "110"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q79",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. How many students passed only in Mathematics?",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "30"
+      },
+      {
+        "option": "B",
+        "text": "40"
+      },
+      {
+        "option": "C",
+        "text": "50"
+      },
+      {
+        "option": "D",
+        "text": "60"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q80",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. How many students passed only in Physics?",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q81",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. Find the probability that a student passed in both the subjects.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/4"
+      },
+      {
+        "option": "B",
+        "text": "1/2"
+      },
+      {
+        "option": "C",
+        "text": "1/3"
+      },
+      {
+        "option": "D",
+        "text": "1/5"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q82",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. Find the probability that a student failed in both the subjects.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/2"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      },
+      {
+        "option": "D",
+        "text": "1/5"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q83",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. Find the probability that a student passed in at least one subject.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "2/3"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "1/2"
+      },
+      {
+        "option": "D",
+        "text": "1/4"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q84",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. Find the probability that a student passed in Mathematics only.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/4"
+      },
+      {
+        "option": "B",
+        "text": "1/3"
+      },
+      {
+        "option": "C",
+        "text": "1/2"
+      },
+      {
+        "option": "D",
+        "text": "1/5"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q85",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Student Survey",
+    "question_text": "In a class of 120 students, 60 passed in Mathematics, 50 passed in Physics and 30 passed in both. Find the probability that a student passed in Physics only.",
+    "data_paragraph": "EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "1/5"
+      },
+      {
+        "option": "B",
+        "text": "1/6"
+      },
+      {
+        "option": "C",
+        "text": "1/4"
+      },
+      {
+        "option": "D",
+        "text": "1/3"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q86",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "Among the passengers in a bus, 50% like tea, 60% like coffee, 40% like ice cream. 30% like tea and coffee, 25% like coffee and ice cream, 20% like tea and ice cream. 10% like all three. The percentage of passengers who like tea only is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q87",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like coffee only is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q88",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like ice cream only is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q89",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like none of the three products is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q90",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like only 1 of the 3 products is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "50"
+      },
+      {
+        "option": "B",
+        "text": "60"
+      },
+      {
+        "option": "C",
+        "text": "70"
+      },
+      {
+        "option": "D",
+        "text": "80"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q91",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like at least one of the three products is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "80"
+      },
+      {
+        "option": "B",
+        "text": "90"
+      },
+      {
+        "option": "C",
+        "text": "100"
+      },
+      {
+        "option": "D",
+        "text": "70"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q92",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like tea but not coffee is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q93",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like coffee but not tea is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q94",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like ice cream but not tea is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q95",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like ice cream but not coffee is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q96",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like tea and coffee but not ice cream is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q97",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like coffee and ice cream but not tea is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "20"
+      },
+      {
+        "option": "C",
+        "text": "30"
+      },
+      {
+        "option": "D",
+        "text": "40"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q98",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like tea and ice cream but not coffee is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "10"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "15"
+      },
+      {
+        "option": "D",
+        "text": "25"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q99",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like at least 2 of the 3 products is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "35"
+      },
+      {
+        "option": "B",
+        "text": "45"
+      },
+      {
+        "option": "C",
+        "text": "55"
+      },
+      {
+        "option": "D",
+        "text": "65"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q100",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like at most 2 of the 3 products is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "70"
+      },
+      {
+        "option": "B",
+        "text": "80"
+      },
+      {
+        "option": "C",
+        "text": "90"
+      },
+      {
+        "option": "D",
+        "text": "60"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q101",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like tea or coffee is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "70"
+      },
+      {
+        "option": "B",
+        "text": "80"
+      },
+      {
+        "option": "C",
+        "text": "90"
+      },
+      {
+        "option": "D",
+        "text": "60"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q102",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like coffee or ice cream is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "70"
+      },
+      {
+        "option": "B",
+        "text": "80"
+      },
+      {
+        "option": "C",
+        "text": "75"
+      },
+      {
+        "option": "D",
+        "text": "65"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q103",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like tea or ice cream is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "70"
+      },
+      {
+        "option": "B",
+        "text": "80"
+      },
+      {
+        "option": "C",
+        "text": "65"
+      },
+      {
+        "option": "D",
+        "text": "55"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q104",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like tea but not ice cream is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "30"
+      },
+      {
+        "option": "C",
+        "text": "40"
+      },
+      {
+        "option": "D",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q105",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like coffee but not ice cream is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "20"
+      },
+      {
+        "option": "B",
+        "text": "30"
+      },
+      {
+        "option": "C",
+        "text": "40"
+      },
+      {
+        "option": "D",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q106",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like both tea and ice cream but not coffee is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "15"
+      },
+      {
+        "option": "B",
+        "text": "5"
+      },
+      {
+        "option": "C",
+        "text": "10"
+      },
+      {
+        "option": "D",
+        "text": "25"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q107",
+    "block": "Modern Math",
+    "chapter_subtopic": "Set Theory",
+    "question_type": "Passenger Preferences",
+    "question_text": "The percentage of passengers who like at least 2 of the 3 products is:",
+    "data_paragraph": "SET THEORY - VERY EASY AND EASY",
+    "options": [
+      {
+        "option": "A",
+        "text": "35"
+      },
+      {
+        "option": "B",
+        "text": "45"
+      },
+      {
+        "option": "C",
+        "text": "55"
+      },
+      {
+        "option": "D",
+        "text": "65"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "GEN_1625",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 15 + 17 in Mathematics?",
+    "options": {
+      "A": "32",
+      "B": "33",
+      "C": "31",
+      "D": "34"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1626",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 9 + 6 in Mathematics?",
+    "options": {
+      "A": "15",
+      "B": "16",
+      "C": "14",
+      "D": "17"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1627",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 18 + 3 in Mathematics?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "20",
+      "D": "23"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1628",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 18 + 8 in Mathematics?",
+    "options": {
+      "A": "26",
+      "B": "27",
+      "C": "25",
+      "D": "28"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1629",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 20 + 15 in Mathematics?",
+    "options": {
+      "A": "35",
+      "B": "36",
+      "C": "34",
+      "D": "37"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1630",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 8 + 4 in Mathematics?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "11",
+      "D": "14"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1631",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 13 + 14 in Mathematics?",
+    "options": {
+      "A": "27",
+      "B": "28",
+      "C": "26",
+      "D": "29"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1632",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 1 + 16 in Mathematics?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1633",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 3 + 19 in Mathematics?",
+    "options": {
+      "A": "22",
+      "B": "23",
+      "C": "21",
+      "D": "24"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1634",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "What is the value of 16 + 1 in Mathematics?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1764",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 15 × 10 - 16 in Mathematics:",
+    "options": {
+      "A": "134",
+      "B": "135",
+      "C": "133",
+      "D": "139"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1765",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 8 × 8 - 43 in Mathematics:",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "20",
+      "D": "26"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1766",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 12 × 14 - 33 in Mathematics:",
+    "options": {
+      "A": "135",
+      "B": "136",
+      "C": "134",
+      "D": "140"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1767",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 13 × 5 - 45 in Mathematics:",
+    "options": {
+      "A": "20",
+      "B": "21",
+      "C": "19",
+      "D": "25"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1768",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 5 × 7 - 29 in Mathematics:",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "5",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1769",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 15 × 14 - 26 in Mathematics:",
+    "options": {
+      "A": "184",
+      "B": "185",
+      "C": "183",
+      "D": "189"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1770",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 10 × 9 - 11 in Mathematics:",
+    "options": {
+      "A": "79",
+      "B": "80",
+      "C": "78",
+      "D": "84"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1771",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 11 × 11 - 11 in Mathematics:",
+    "options": {
+      "A": "110",
+      "B": "111",
+      "C": "109",
+      "D": "115"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1772",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 8 × 15 - 46 in Mathematics:",
+    "options": {
+      "A": "74",
+      "B": "75",
+      "C": "73",
+      "D": "79"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1773",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 14 × 5 - 29 in Mathematics:",
+    "options": {
+      "A": "41",
+      "B": "42",
+      "C": "40",
+      "D": "46"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1774",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 12 × 6 - 49 in Mathematics:",
+    "options": {
+      "A": "23",
+      "B": "24",
+      "C": "22",
+      "D": "28"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1775",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 8 × 9 - 23 in Mathematics:",
+    "options": {
+      "A": "49",
+      "B": "50",
+      "C": "48",
+      "D": "54"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1776",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 7 × 15 - 28 in Mathematics:",
+    "options": {
+      "A": "77",
+      "B": "78",
+      "C": "76",
+      "D": "82"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1777",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 7 × 12 - 24 in Mathematics:",
+    "options": {
+      "A": "60",
+      "B": "61",
+      "C": "59",
+      "D": "65"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1778",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 13 × 9 - 29 in Mathematics:",
+    "options": {
+      "A": "88",
+      "B": "89",
+      "C": "87",
+      "D": "93"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1779",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "Calculate 10 × 10 - 32 in Mathematics:",
+    "options": {
+      "A": "68",
+      "B": "69",
+      "C": "67",
+      "D": "73"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1908",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 11 to 87 is 4:6, find the value of 11 when 87 = 96:",
+    "options": {
+      "A": "64",
+      "B": "66",
+      "C": "62",
+      "D": "74"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1909",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 22 to 24 is 2:4, find the value of 22 when 24 = 163:",
+    "options": {
+      "A": "81",
+      "B": "83",
+      "C": "79",
+      "D": "91"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1910",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 31 to 21 is 2:5, find the value of 31 when 21 = 147:",
+    "options": {
+      "A": "58",
+      "B": "60",
+      "C": "56",
+      "D": "68"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1911",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 22 to 42 is 4:6, find the value of 22 when 42 = 120:",
+    "options": {
+      "A": "80",
+      "B": "82",
+      "C": "78",
+      "D": "90"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1912",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 31 to 57 is 5:8, find the value of 31 when 57 = 155:",
+    "options": {
+      "A": "96",
+      "B": "98",
+      "C": "94",
+      "D": "106"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1913",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 43 to 22 is 3:5, find the value of 43 when 22 = 200:",
+    "options": {
+      "A": "120",
+      "B": "122",
+      "C": "118",
+      "D": "130"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1914",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 47 to 83 is 4:6, find the value of 47 when 83 = 124:",
+    "options": {
+      "A": "82",
+      "B": "84",
+      "C": "80",
+      "D": "92"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1915",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 27 to 29 is 2:4, find the value of 27 when 29 = 115:",
+    "options": {
+      "A": "57",
+      "B": "59",
+      "C": "55",
+      "D": "67"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1916",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 50 to 44 is 5:4, find the value of 50 when 44 = 183:",
+    "options": {
+      "A": "228",
+      "B": "230",
+      "C": "226",
+      "D": "238"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1917",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 20 to 84 is 1:2, find the value of 20 when 84 = 88:",
+    "options": {
+      "A": "44",
+      "B": "46",
+      "C": "42",
+      "D": "54"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1918",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 17 to 23 is 2:4, find the value of 17 when 23 = 81:",
+    "options": {
+      "A": "40",
+      "B": "42",
+      "C": "38",
+      "D": "50"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1919",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 36 to 32 is 2:8, find the value of 36 when 32 = 143:",
+    "options": {
+      "A": "35",
+      "B": "37",
+      "C": "33",
+      "D": "45"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1920",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 15 to 33 is 3:2, find the value of 15 when 33 = 156:",
+    "options": {
+      "A": "234",
+      "B": "236",
+      "C": "232",
+      "D": "244"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1921",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 16 to 71 is 2:6, find the value of 16 when 71 = 54:",
+    "options": {
+      "A": "18",
+      "B": "20",
+      "C": "16",
+      "D": "28"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1922",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "If the ratio of 22 to 75 is 5:4, find the value of 22 when 75 = 114:",
+    "options": {
+      "A": "142",
+      "B": "144",
+      "C": "140",
+      "D": "152"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1993",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "In Mathematics, if f(x) = 1x² + -10x + 4, find f(2):",
+    "options": {
+      "A": "-12",
+      "B": "-7",
+      "C": "-17",
+      "D": "-2"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1994",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "In Mathematics, if f(x) = 1x² + 2x + 12, find f(1):",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "10",
+      "D": "25"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1995",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "In Mathematics, if f(x) = 4x² + 2x + -16, find f(5):",
+    "options": {
+      "A": "94",
+      "B": "99",
+      "C": "89",
+      "D": "104"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1996",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "In Mathematics, if f(x) = 1x² + 5x + 18, find f(2):",
+    "options": {
+      "A": "32",
+      "B": "37",
+      "C": "27",
+      "D": "42"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1997",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "In Mathematics, if f(x) = 3x² + -2x + -12, find f(2):",
+    "options": {
+      "A": "-4",
+      "B": "1",
+      "C": "-9",
+      "D": "6"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1998",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "In Mathematics, if f(x) = 2x² + 0x + -14, find f(2):",
+    "options": {
+      "A": "-6",
+      "B": "-1",
+      "C": "-11",
+      "D": "4"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1999",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "In Mathematics, if f(x) = 5x² + -10x + 9, find f(2):",
+    "options": {
+      "A": "9",
+      "B": "14",
+      "C": "4",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Mathematics question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_2000",
+    "block": "Mathematics",
+    "subtopic": "mathematics",
+    "text": "In Mathematics, if f(x) = 4x² + -5x + 0, find f(2):",
+    "options": {
+      "A": "6",
+      "B": "11",
+      "C": "1",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Mathematics question.",
+    "source": "generated",
+    "generated": true
+  }
+]

@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AdaptIQ - Diagnosis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    body { background: linear-gradient(135deg, #0f0f23 0%, #1e1b4b 50%, #312e81 100%); min-height: 100vh; }
+    .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); }
+    .ai-report-content {
+      line-height: 1.6;
+    }
+    .ai-report-content h3 {
+      color: #c084fc;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .ai-report-content h2 {
+      color: #a855f7;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .ai-report-content li {
+      margin-bottom: 0.25rem;
+      margin-left: 1rem;
+    }
+    .ai-report-content strong {
+      color: #ffffff;
+    }
+    
+    /* Mobile chart responsiveness */
+    @media (max-width: 768px) {
+      canvas {
+        max-height: 300px !important;
+      }
+      .ai-report-content {
+        font-size: 0.875rem;
+      }
+      .ai-report-content h2, .ai-report-content h3 {
+        font-size: 1rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.25rem;
+      }
+    }
+    
+    @media (max-width: 640px) {
+      canvas {
+        max-height: 250px !important;
+      }
+    }
+  </style>
+</head>
+<body class="text-white">
+  <header class="glass sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
+      <!-- Mobile Header -->
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2 sm:space-x-3">
+          <img src="../assets/images/img_.png" alt="Logo" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover shadow-lg" />
+          <h1 class="text-lg sm:text-2xl font-bold"><span class="text-purple-400">Adapt</span>IQ Diagnosis</h1>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button id="mobileMenuBtn" class="md:hidden glass p-2 rounded">
+          <div class="w-5 h-5 flex flex-col justify-center space-y-1">
+            <div class="w-full h-0.5 bg-white"></div>
+            <div class="w-full h-0.5 bg-white"></div>
+            <div class="w-full h-0.5 bg-white"></div>
+          </div>
+        </button>
+        
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex space-x-3">
+          <button onclick="window.location.href='StudentDashboard.html'" class="glass px-4 py-2 rounded hover:bg-white hover:bg-opacity-10 transition-all">Dashboard</button>
+          <button onclick="window.location.href='RealDatasetAssessment.html'" class="glass px-4 py-2 rounded hover:bg-white hover:bg-opacity-10 transition-all">Assessment</button>
+          <button class="glass px-4 py-2 rounded bg-purple-600 text-white font-semibold">Diagnosis</button>
+          <button onclick="refreshNow()" class="glass px-3 py-2 rounded hover:bg-white hover:bg-opacity-10 transition-all" title="Refresh data now">
+            🔄
+          </button>
+        </div>
+      </div>
+      
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="md:hidden hidden mt-3 pb-3 border-t border-white border-opacity-20">
+        <div class="flex flex-col space-y-2 pt-3">
+          <button onclick="window.location.href='StudentDashboard.html'" class="glass px-4 py-2 rounded text-left hover:bg-white hover:bg-opacity-10 transition-all">Dashboard</button>
+          <button onclick="window.location.href='RealDatasetAssessment.html'" class="glass px-4 py-2 rounded text-left hover:bg-white hover:bg-opacity-10 transition-all">Assessment</button>
+          <button class="glass px-4 py-2 rounded text-left bg-purple-600 text-white font-semibold">Diagnosis</button>
+          <button onclick="refreshNow()" class="glass px-4 py-2 rounded text-left hover:bg-white hover:bg-opacity-10 transition-all">
+            🔄 Refresh Data
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-8">
+    <section class="glass p-4 sm:p-6 rounded-xl sm:rounded-2xl mb-4 sm:mb-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4">
+        <div>
+          <div id="studentName" class="text-lg sm:text-xl font-semibold">-</div>
+          <div id="studentMeta" class="text-sm text-gray-300">-</div>
+        </div>
+        <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+          <div class="text-sm text-gray-300">Total responses: <span id="totalResponses">0</span></div>
+          <div class="flex items-center gap-2 text-xs">
+            <div id="updateStatus" class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+            <span class="text-gray-400">Live updates active</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
+      <div class="glass p-4 sm:p-6 rounded-xl sm:rounded-2xl">
+        <h2 class="text-base sm:text-lg font-bold mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
+          <span>🤖 AI Performance Analysis</span>
+          <span id="analysisProvider" class="text-xs bg-purple-600 px-2 py-1 rounded-full self-start sm:self-auto">Loading...</span>
+        </h2>
+        <div id="aiAnalysisContent" class="ai-report-content text-sm text-gray-300 max-h-48 sm:max-h-64 overflow-y-auto">
+          <div class="animate-pulse">Analyzing student performance...</div>
+        </div>
+      </div>
+      <div class="glass p-4 sm:p-6 rounded-xl sm:rounded-2xl">
+        <h2 class="text-base sm:text-lg font-bold mb-3">Performance by Topics</h2>
+        <div class="h-48 sm:h-auto">
+          <canvas id="topicsChart" height="200"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mt-4 sm:mt-6">
+      <div class="glass p-4 sm:p-6 rounded-xl sm:rounded-2xl">
+        <h2 class="text-base sm:text-lg font-bold mb-3">Strengths & Weaknesses</h2>
+        <div class="h-48 sm:h-64 mb-4">
+          <canvas id="strengthWeaknessChart"></canvas>
+        </div>
+        <div id="performanceSummary" class="text-xs space-y-2 border-t border-gray-600 pt-4">
+          <div class="grid grid-cols-2 gap-2">
+            <div class="text-center">
+              <div class="text-green-400 font-bold text-lg" id="excellentCount">0</div>
+              <div class="text-gray-400">Excellent (80%+)</div>
+            </div>
+            <div class="text-center">
+              <div class="text-red-400 font-bold text-lg" id="weakCount">0</div>
+              <div class="text-gray-400">Weak (<40%)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="glass p-4 sm:p-6 rounded-xl sm:rounded-2xl">
+        <h2 class="text-base sm:text-lg font-bold mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
+          <span>🤖 AI-Powered Report</span>
+          <span id="reportProvider" class="text-xs bg-purple-600 px-2 py-1 rounded-full self-start sm:self-auto">Loading...</span>
+        </h2>
+        <div id="aiReportContent" class="ai-report-content text-sm text-gray-300 max-h-64 sm:max-h-80 overflow-y-auto">
+          <div class="animate-pulse">Generating personalized report...</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const API_BASE_URL = 'http://localhost:5000/api';
+    let refreshInterval;
+    let charts = {};
+
+    function getProfileFromStorage() {
+      const user = (() => { try { return JSON.parse(localStorage.getItem('user') || '{}'); } catch { return {}; } })();
+      const name = localStorage.getItem('studentName') || [user.firstName, user.lastName].filter(Boolean).join(' ');
+      const grade = localStorage.getItem('studentGrade') || '';
+      const profileId = localStorage.getItem('profileId') || (user && user.id) || '';
+      return { name, grade, profileId };
+    }
+
+    async function fetchDiagnosis(name, grade, profileId) {
+      // Strict isolation: require profileId; if missing, fetch nothing
+      const params = new URLSearchParams();
+      if (profileId) {
+        params.set('profile_id', profileId);
+      } else {
+        throw new Error('No profile initialized yet. Take an assessment to create one.');
+      }
+      const res = await fetch(`${API_BASE_URL}/student/diagnosis?${params.toString()}`);
+      const data = await res.json();
+      if (!res.ok || !data.success) throw new Error(data.error || 'Failed to load diagnosis');
+      return data.diagnosis;
+    }
+
+    async function fetchPersonalizedReport(name, grade, profileId) {
+      try {
+        // Strict isolation: require profileId only
+        const payload = {};
+        if (profileId) payload.profile_id = profileId; else throw new Error('No profile initialized');
+        
+        const res = await fetch(`${API_BASE_URL}/student/personalized_report`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        
+        const data = await res.json();
+        if (!res.ok || !data.success) throw new Error(data.error || 'Failed to load report');
+        return data;
+      } catch (e) {
+        console.error('Error fetching personalized report:', e);
+        return {
+          provider: 'error',
+          report_markdown: '❌ Failed to load AI report. Please try again.',
+          strengths: [],
+          weaknesses: []
+        };
+      }
+    }
+
+    function renderBarChart(ctx, labels, values, label, colors) {
+      return new Chart(ctx, {
+        type: 'bar',
+        data: { labels, datasets: [{ label, data: values, backgroundColor: colors, borderWidth: 0 }] },
+        options: { 
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { 
+            y: { 
+              beginAtZero: true, 
+              max: 100, 
+              ticks: { 
+                color: '#ddd',
+                font: {
+                  size: window.innerWidth < 640 ? 10 : 12
+                }
+              } 
+            }, 
+            x: { 
+              ticks: { 
+                color: '#ddd',
+                font: {
+                  size: window.innerWidth < 640 ? 10 : 12
+                },
+                maxRotation: window.innerWidth < 640 ? 45 : 0
+              } 
+            } 
+          }, 
+          plugins: { 
+            legend: { 
+              labels: { 
+                color: '#ddd',
+                font: {
+                  size: window.innerWidth < 640 ? 10 : 12
+                }
+              } 
+            } 
+          } 
+        }
+      });
+    }
+
+    function renderPieChart(ctx, labels, values, label, colors, tooltipData = null) {
+      return new Chart(ctx, {
+        type: 'doughnut', // Changed to doughnut for better visual appeal
+        data: { 
+          labels, 
+          datasets: [{ 
+            label, 
+            data: values, 
+            backgroundColor: colors, 
+            borderWidth: 3,
+            borderColor: '#1e1b4b',
+            hoverBorderWidth: 4,
+            hoverBorderColor: '#ffffff'
+          }] 
+        },
+        options: { 
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { 
+            legend: { 
+              labels: { 
+                color: '#ddd',
+                font: { size: window.innerWidth < 640 ? 10 : 12 },
+                padding: window.innerWidth < 640 ? 10 : 15,
+                usePointStyle: true,
+                pointStyle: 'circle'
+              },
+              position: window.innerWidth < 640 ? 'bottom' : 'bottom'
+            },
+            tooltip: {
+              backgroundColor: 'rgba(30, 27, 75, 0.95)',
+              titleColor: '#ffffff',
+              bodyColor: '#e5e7eb',
+              borderColor: '#8b5cf6',
+              borderWidth: 1,
+              callbacks: {
+                title: function(context) {
+                  const dataIndex = context[0].dataIndex;
+                  const originalLabel = context[0].label.replace(/^[🏆⭐✅📈🔴]\s/, '');
+                  return originalLabel;
+                },
+                label: function(context) {
+                  const accuracy = context.parsed;
+                  const level = getPerformanceLevel(accuracy);
+                  const totalQuestions = tooltipData ? tooltipData[context.dataIndex]?.total || 'N/A' : 'N/A';
+                  const correctAnswers = tooltipData ? tooltipData[context.dataIndex]?.correct || 'N/A' : 'N/A';
+                  
+                  return [
+                    `Accuracy: ${accuracy}%`,
+                    `Performance: ${level}`,
+                    `Questions: ${correctAnswers}/${totalQuestions}`
+                  ];
+                },
+                afterLabel: function(context) {
+                  const accuracy = context.parsed;
+                  if (accuracy >= 80) return '🎯 Excellent work! Keep it up!';
+                  if (accuracy >= 70) return '👍 Good performance, aim higher!';
+                  if (accuracy >= 60) return '📚 Room for improvement';
+                  if (accuracy >= 40) return '💪 Focus on this area';
+                  return '🔥 Needs urgent attention';
+                }
+              }
+            }
+          },
+          cutout: '50%', // Creates the doughnut hole
+          animation: {
+            animateRotate: true,
+            animateScale: true
+          }
+        }
+      });
+    }
+
+    function toColors(n) {
+      const base = ['#8b5cf6','#a855f7','#c084fc','#60a5fa','#34d399','#f59e0b','#ef4444'];
+      return Array.from({length: n}, (_,i)=> base[i%base.length]);
+    }
+
+    function getTopicColor(topic, accuracy) {
+      // Define specific colors for different topics
+      const topicColors = {
+        'Mathematics': '#3b82f6',      // Blue
+        'Arithmetic': '#10b981',       // Emerald
+        'Algebra': '#8b5cf6',          // Purple
+        'Geometry': '#f59e0b',         // Amber
+        'Geometry and Mensuration': '#f59e0b', // Amber
+        'Modern Math': '#6366f1',      // Indigo
+        'Number System': '#06b6d4',    // Cyan
+        'Logical Reasoning': '#ec4899', // Pink
+        'VARC': '#84cc16',             // Lime
+        'Probability': '#f97316',      // Orange
+        'Statistics': '#14b8a6',       // Teal
+        'Trigonometry': '#a855f7',     // Violet
+        'Calculus': '#dc2626',         // Red
+        'Coordinate Geometry': '#eab308', // Yellow
+        'Data Interpretation': '#059669', // Green
+        'Verbal Ability': '#7c3aed',   // Purple variant
+        'Reading Comprehension': '#0891b2', // Sky
+        'English': '#16a34a',          // Green variant
+        'Physics': '#dc2626',          // Red
+        'Chemistry': '#059669',        // Green
+        'Biology': '#ca8a04'           // Yellow variant
+      };
+
+      // Get base color for topic, fallback to default if not found
+      let baseColor = topicColors[topic] || '#6b7280'; // Default gray
+
+      // Adjust opacity/brightness based on performance
+      if (accuracy >= 80) {
+        return baseColor; // Full brightness for excellent performance
+      } else if (accuracy >= 60) {
+        return baseColor + 'CC'; // 80% opacity for good performance
+      } else if (accuracy >= 40) {
+        return baseColor + '99'; // 60% opacity for average performance
+      } else {
+        return baseColor + '66'; // 40% opacity for poor performance
+      }
+    }
+
+    function getPerformanceIcon(accuracy) {
+      if (accuracy >= 80) return '🏆'; // Trophy for excellent
+      if (accuracy >= 70) return '⭐'; // Star for good
+      if (accuracy >= 60) return '✅'; // Check for satisfactory
+      if (accuracy >= 40) return '📈'; // Chart for needs improvement
+      return '🔴'; // Red circle for weak
+    }
+
+    function getPerformanceLevel(accuracy) {
+      if (accuracy >= 80) return 'Excellent';
+      if (accuracy >= 70) return 'Good';
+      if (accuracy >= 60) return 'Satisfactory';
+      if (accuracy >= 40) return 'Needs Work';
+      return 'Weak';
+    }
+
+    function updateChart(chartKey, labels, values, colors = null, tooltipData = null) {
+      if (charts[chartKey]) {
+        charts[chartKey].data.labels = labels;
+        charts[chartKey].data.datasets[0].data = values;
+        if (colors) {
+          charts[chartKey].data.datasets[0].backgroundColor = colors;
+        }
+        // Store tooltip data for pie chart
+        if (tooltipData && chartKey === 'strengthWeaknessChart') {
+          charts[chartKey].tooltipData = tooltipData;
+        }
+        charts[chartKey].update('none'); // Disable animation for smoother updates
+      }
+    }
+
+    async function loadDiagnosisData() {
+      try {
+        const { name, grade, profileId } = getProfileFromStorage();
+        if (!name || !grade) {
+          document.getElementById('studentName').textContent = 'No student selected';
+          document.getElementById('studentMeta').textContent = 'Go back and start an assessment';
+          return;
+        }
+        
+        // Load diagnosis data and AI report in parallel
+        const [diag, aiReport] = await Promise.all([
+          fetchDiagnosis(name, grade, profileId),
+          fetchPersonalizedReport(name, grade, profileId)
+        ]);
+        
+        // Update basic info
+        document.getElementById('studentName').textContent = name;
+        document.getElementById('studentMeta').textContent = `Grade ${grade} • Profile ${diag.profile.profile_id || ''}`;
+        document.getElementById('totalResponses').textContent = diag.total_responses;
+
+        // Topic chart data
+        const topicEntries = Object.entries(diag.per_topic);
+        const topicLabels = topicEntries.map(([k])=>k);
+        const topicAcc = topicEntries.map(([_,v])=>v.accuracy);
+        const topicColors = toColors(topicLabels.length);
+
+        // Difficulty chart data
+        const diffEntries = Object.entries(diag.per_difficulty);
+        const diffLabels = diffEntries.map(([k])=>k);
+        const diffAcc = diffEntries.map(([_,v])=>v.accuracy);
+        const diffColors = toColors(diffLabels.length);
+
+        // Strengths & Weaknesses pie chart data with detailed colors and info
+        const strengthsData = [];
+        const strengthsLabels = [];
+        const strengthsColors = [];
+        const tooltipData = [];
+        
+        // Sort topics by accuracy for better visual organization
+        const sortedTopicEntries = topicEntries.sort(([,a], [,b]) => b.accuracy - a.accuracy);
+        
+        sortedTopicEntries.forEach(([topic, stats]) => {
+          const icon = getPerformanceIcon(stats.accuracy);
+          const color = getTopicColor(topic, stats.accuracy);
+          const level = getPerformanceLevel(stats.accuracy);
+          
+          strengthsData.push(stats.accuracy);
+          strengthsLabels.push(`${icon} ${topic} (${level})`);
+          strengthsColors.push(color);
+          tooltipData.push({
+            topic: topic,
+            accuracy: stats.accuracy,
+            total: stats.total,
+            correct: stats.correct,
+            level: level
+          });
+        });
+
+        // Generate AI-powered performance analysis
+        const analysisContent = document.getElementById('aiAnalysisContent');
+        const analysisProvider = document.getElementById('analysisProvider');
+        
+        if (diag.total_responses > 0) {
+          // Create detailed analysis based on actual data
+          let analysisHtml = '<div class="space-y-3">';
+          
+          // Performance summary
+          analysisHtml += `<div class="bg-gradient-to-r from-purple-900/30 to-blue-900/30 p-3 rounded-lg">
+            <h4 class="font-bold text-white mb-2">📊 Performance Overview</h4>
+            <p class="text-sm">You've answered <strong>${diag.total_responses}</strong> questions with <strong>${diag.overall_accuracy}%</strong> accuracy.</p>
+            <p class="text-sm mt-1">Current ability level: <span class="text-purple-300 font-semibold">${diag.current_ability.toFixed(2)}</span></p>
+          </div>`;
+          
+          // Strengths analysis
+          const strengths = topicEntries.filter(([,stats]) => stats.accuracy >= 70);
+          if (strengths.length > 0) {
+            analysisHtml += `<div class="bg-gradient-to-r from-green-900/30 to-emerald-900/30 p-3 rounded-lg">
+              <h4 class="font-bold text-green-300 mb-2">💪 Your Strengths</h4>`;
+            strengths.forEach(([topic, stats]) => {
+              analysisHtml += `<p class="text-sm">• <strong>${topic}</strong>: ${stats.accuracy}% (${stats.correct}/${stats.total})</p>`;
+            });
+            analysisHtml += '</div>';
+          }
+          
+          // Improvement areas
+          const weaknesses = topicEntries.filter(([,stats]) => stats.accuracy < 50);
+          if (weaknesses.length > 0) {
+            analysisHtml += `<div class="bg-gradient-to-r from-red-900/30 to-pink-900/30 p-3 rounded-lg">
+              <h4 class="font-bold text-red-300 mb-2">🎯 Focus Areas</h4>`;
+            weaknesses.forEach(([topic, stats]) => {
+              analysisHtml += `<p class="text-sm">• <strong>${topic}</strong>: ${stats.accuracy}% - More practice needed</p>`;
+            });
+            analysisHtml += '</div>';
+          }
+          
+          // Progress insights
+          if (diag.ability_trend && diag.ability_trend.length > 1) {
+            const recent = diag.ability_trend.slice(-3);
+            const trend = recent[recent.length - 1].ability > recent[0].ability ? 'improving' : 'stable';
+            analysisHtml += `<div class="bg-gradient-to-r from-blue-900/30 to-indigo-900/30 p-3 rounded-lg">
+              <h4 class="font-bold text-blue-300 mb-2">📈 Progress Trend</h4>
+              <p class="text-sm">Your ability is currently <strong>${trend}</strong> based on recent performance.</p>
+            </div>`;
+          }
+          
+          analysisHtml += '</div>';
+          analysisContent.innerHTML = analysisHtml;
+          analysisProvider.textContent = 'AI Analysis';
+          analysisProvider.className = 'text-xs bg-purple-600 px-2 py-1 rounded-full';
+        } else {
+          analysisContent.innerHTML = `
+            <div class="text-center py-8 text-gray-400">
+              <div class="text-4xl mb-2">📚</div>
+              <p>No assessment data available yet.</p>
+              <p class="text-sm mt-1">Take an assessment to see your personalized analysis!</p>
+            </div>`;
+          analysisProvider.textContent = 'No Data';
+          analysisProvider.className = 'text-xs bg-gray-600 px-2 py-1 rounded-full';
+        }
+
+        // Update charts: render Performance by Topics bar chart
+        if (charts.topicsChart) {
+          updateChart('topicsChart', topicLabels, topicAcc, topicColors);
+        } else {
+          charts.topicsChart = renderBarChart(document.getElementById('topicsChart'), topicLabels, topicAcc, 'Accuracy %', topicColors);
+        }
+
+        if (charts.strengthWeaknessChart) {
+          updateChart('strengthWeaknessChart', strengthsLabels, strengthsData, strengthsColors, tooltipData);
+        } else {
+          charts.strengthWeaknessChart = renderPieChart(
+            document.getElementById('strengthWeaknessChart'), 
+            strengthsLabels, 
+            strengthsData, 
+            'Performance %', 
+            strengthsColors,
+            tooltipData
+          );
+        }
+
+        // Update performance summary
+        const excellentCount = tooltipData.filter(item => item.accuracy >= 80).length;
+        const weakCount = tooltipData.filter(item => item.accuracy < 40).length;
+        
+        document.getElementById('excellentCount').textContent = excellentCount;
+        document.getElementById('weakCount').textContent = weakCount;
+
+        // Update AI Report
+        const reportContent = document.getElementById('aiReportContent');
+        const reportProvider = document.getElementById('reportProvider');
+        
+        if (aiReport.report_markdown) {
+          // Convert markdown to HTML (basic conversion)
+          const htmlContent = aiReport.report_markdown
+            .replace(/### (.*?)\n/g, '<h3 class="text-lg font-bold mt-4 mb-2 text-purple-300">$1</h3>')
+            .replace(/## (.*?)\n/g, '<h2 class="text-xl font-bold mt-4 mb-2 text-purple-200">$1</h2>')
+            .replace(/\*\*(.*?)\*\*/g, '<strong class="text-white">$1</strong>')
+            .replace(/- (.*?)\n/g, '<li class="ml-4 mb-1">• $1</li>')
+            .replace(/\n\n/g, '<br><br>')
+            .replace(/\n/g, '<br>');
+          
+          reportContent.innerHTML = htmlContent;
+          reportProvider.textContent = aiReport.provider === 'fallback' ? 'Rule-based' : 'AI-Powered';
+          reportProvider.className = aiReport.provider === 'fallback' 
+            ? 'text-xs bg-gray-600 px-2 py-1 rounded-full'
+            : 'text-xs bg-purple-600 px-2 py-1 rounded-full';
+        } else {
+          reportContent.innerHTML = '<div class="text-gray-400">No report available</div>';
+          reportProvider.textContent = 'Unavailable';
+          reportProvider.className = 'text-xs bg-red-600 px-2 py-1 rounded-full';
+        }
+
+        console.log('Diagnosis data updated at:', new Date().toLocaleTimeString());
+      } catch (e) {
+        console.error('Error updating diagnosis:', e);
+        // Don't show alert for refresh errors, just log them
+      }
+    }
+
+    function startRealTimeUpdates() {
+      // Clear any existing interval
+      if (refreshInterval) {
+        clearInterval(refreshInterval);
+      }
+      
+      // Update every 5 seconds
+      refreshInterval = setInterval(loadDiagnosisData, 5000);
+      console.log('Real-time updates started - refreshing every 5 seconds');
+      
+      // Set up BroadcastChannel for immediate updates
+      if ('BroadcastChannel' in window) {
+        const assessmentChannel = new BroadcastChannel('assessment-updates');
+        assessmentChannel.addEventListener('message', handleRealTimeUpdate);
+      }
+      
+      // Set up storage event listener for cross-tab updates
+      window.addEventListener('storage', function(event) {
+        if (event.key === 'assessment-update' && event.newValue) {
+          try {
+            const updateData = JSON.parse(event.newValue);
+            handleRealTimeUpdate({ data: updateData });
+          } catch (e) {
+            console.error('Error parsing assessment update:', e);
+          }
+        }
+      });
+    }
+
+    function handleRealTimeUpdate(event) {
+      const { type, data } = event.data;
+      console.log('Diagnosis received real-time update:', type, data);
+      
+      switch (type) {
+        case 'question-answered':
+          // Refresh diagnosis when a question is answered
+          console.log('Question answered, refreshing diagnosis...');
+          loadDiagnosisData();
+          break;
+          
+        case 'assessment-completed':
+          // Major refresh when assessment is completed
+          console.log('Assessment completed, full diagnosis refresh...');
+          setTimeout(() => {
+            loadDiagnosisData();
+          }, 1000); // Small delay to ensure backend processing is complete
+          break;
+      }
+    }
+
+    function stopRealTimeUpdates() {
+      if (refreshInterval) {
+        clearInterval(refreshInterval);
+        refreshInterval = null;
+        console.log('Real-time updates stopped');
+      }
+    }
+
+    async function refreshNow() {
+      // Add visual feedback
+      const statusEl = document.getElementById('updateStatus');
+      const originalClass = statusEl.className;
+      statusEl.className = 'w-2 h-2 bg-yellow-400 rounded-full animate-spin';
+      
+      try {
+        await loadDiagnosisData();
+        statusEl.className = 'w-2 h-2 bg-green-400 rounded-full animate-pulse';
+      } catch (e) {
+        statusEl.className = 'w-2 h-2 bg-red-400 rounded-full';
+        setTimeout(() => {
+          statusEl.className = originalClass;
+        }, 3000);
+      }
+    }
+
+    async function init() {
+      await loadDiagnosisData();
+      startRealTimeUpdates();
+    }
+
+    // Stop updates when page is hidden/closed
+    document.addEventListener('visibilitychange', function() {
+      if (document.hidden) {
+        stopRealTimeUpdates();
+      } else {
+        startRealTimeUpdates();
+      }
+    });
+
+    // Clean up on page unload
+    window.addEventListener('beforeunload', stopRealTimeUpdates);
+
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      
+      if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', function() {
+          mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+          if (!mobileMenuBtn.contains(event.target) && !mobileMenu.contains(event.target)) {
+            mobileMenu.classList.add('hidden');
+          }
+        });
+      }
+    });
+
+    init();
+  </script>
+</body>
+</html>

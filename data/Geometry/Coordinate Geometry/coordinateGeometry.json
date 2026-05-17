@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "text": "Find the distance between the points (3, 4) and (8, -6).",
+    "options": {
+      "A": "√5",
+      "B": "5√5",
+      "C": "2√5",
+      "D": "4√5"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 2,
+    "text": "Find the distance between the points (5, 2) and (0, 0).",
+    "options": {
+      "A": "√27",
+      "B": "√21",
+      "C": "√29",
+      "D": "√31"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 3,
+    "text": "Find the value of p if the distance between the points (8, p) and (4, 3) is 5.",
+    "options": {
+      "A": "6",
+      "B": "0",
+      "C": "Both (A) and (B)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 4,
+    "text": "Find the value of c if the distance between the point (c, 4) and the origin is 5 units.",
+    "options": {
+      "A": "3",
+      "B": "-3",
+      "C": "Both A and B",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 5,
+    "text": "Find the mid-point of the line segment made by joining the points (3, 2) and (6, 4).",
+    "options": {
+      "A": "(9/2, 3)",
+      "B": "(9/2, -1)",
+      "C": "(9/2, -3)",
+      "D": "(1/2, 3)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 6,
+    "text": "If the origin is the mid-point of the line segment joined by the points (2, 3) and (x, y), find the value of (x, y).",
+    "options": {
+      "A": "(2, 3)",
+      "B": "(-2, 3)",
+      "C": "(-2, -3)",
+      "D": "(2, -3)"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 7,
+    "text": "Find the points which divide the line segment joining (2, 5) and (-1, 2) in the ratio 2 : 1 internally.",
+    "options": {
+      "A": "(1, 2)",
+      "B": "(-3, 2)",
+      "C": "(3, 1)",
+      "D": "(0, 3)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 8,
+    "text": "In what ratio does the x - axis divide the line segment joining the points (2, -3) and (5, 6)?",
+    "options": {
+      "A": "2 : 1",
+      "B": "1 : 2",
+      "C": "3 : 4",
+      "D": "2 : 3"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 9,
+    "text": "How many squares are possible if two of the vertices of a quadrilateral are (1, 0) and (2, 0)?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 10,
+    "text": "If the point R (1, -2) divides externally the line segment joining P (2, 5) and Q in the ratio 3 : 4, what will be the coordinates of Q?",
+    "options": {
+      "A": "(4, 3)",
+      "B": "(2, -4)",
+      "C": "(7/3, 23/3)",
+      "D": "(1, 2)"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 11,
+    "text": "Find the coordinates of the points that trisect the line segment joining (-1, -2) and (-3, 4).",
+    "options": {
+      "A": "(-5/3, 0)",
+      "B": "(-7/3, 2)",
+      "C": "Both (A) and (B)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 12,
+    "text": "Find the coordinates of the point that divides the line segment joining the points (6, 3) and (-4, 5) in the ratio 3 : 2 internally.",
+    "options": {
+      "A": "(0, 21/5)",
+      "B": "(0, 19/5)",
+      "C": "(18/5, 19/5)",
+      "D": "(-21/5, -19/5)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 13,
+    "text": "In Question 12 question, find the coordinates of the point if it divides the points externally.",
+    "options": {
+      "A": "(-24, -9)",
+      "B": "(3, -5)",
+      "C": "(-24, 9)",
+      "D": "(5, -3)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 14,
+    "text": "In what ratio is the line segment joining (-1, 3) and (4, -7) divided at the point (2, -3)?",
+    "options": {
+      "A": "3 : 2",
+      "B": "2 : 3",
+      "C": "5 : 3",
+      "D": "3 : 5"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 15,
+    "text": "In question 14, find the nature of division?",
+    "options": {
+      "A": "Internal",
+      "B": "External",
+      "C": "Cannot be said",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 16,
+    "text": "In what ratio is the line segment made by the points (7, 3) and (-4, 5) divided by the y - axis?",
+    "options": {
+      "A": "2 : 3",
+      "B": "4 : 7",
+      "C": "3 : 5",
+      "D": "7 : 4"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 17,
+    "text": "What is the nature of the division in the above question?",
+    "options": {
+      "A": "External",
+      "B": "Internal",
+      "C": "Cannot be said",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 18,
+    "text": "If the coordinates of the mid-point of the line segment joining the points (2, 1) and (1, -3) is (x, y) then the relation between x and y can best be described as",
+    "options": {
+      "A": "3x + 2y = 5",
+      "B": "6x + y = 8",
+      "C": "5x - 2y = 4",
+      "D": "2x - 5y = 4"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 19,
+    "text": "Points (6, 8), (3, 7), (-2, -2) and (1, -1) are joined to form a quadrilateral. What will be this structure?",
+    "options": {
+      "A": "Rhombus",
+      "B": "Parallelogram",
+      "C": "Square",
+      "D": "Rectangle"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 20,
+    "text": "Points (1, 6), (6, 9), (7, 2) and (5, 1) are joined to be the vertex of a quadrilateral. What will be the structure?",
+    "options": {
+      "A": "Rhombus",
+      "B": "Parallelogram",
+      "C": "Square",
+      "D": "Rectangle"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 21,
+    "text": "What will be the centroid of a triangle whose vertices are (2, 4), (6, 4) and (2, 0)?",
+    "options": {
+      "A": "(10/3, 8/3)",
+      "B": "(8, 5)",
+      "C": "(10/3, 8/3)",
+      "D": "(1, 4)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 22,
+    "text": "The distance between the lines 4x + 3y = 11 and 8x + 6y = 15 is",
+    "options": {
+      "A": "4",
+      "B": "7/10",
+      "C": "1/2",
+      "D": "26"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 23,
+    "text": "If the mid-point of the line joining (3, 4) and (p, 7) is (x, y) and 2x + 2y + 1 = 0, then what will be the value of p?",
+    "options": {
+      "A": "15",
+      "B": "-17/2",
+      "C": "-15",
+      "D": "17/2"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 24,
+    "text": "Find the third vertex of the triangle whose two vertices are (-3, 1) and (0, -2) and the centroid is the origin.",
+    "options": {
+      "A": "(0, 3)",
+      "B": "(-3, -1)",
+      "C": "(3, 1)",
+      "D": "(0, 1)"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 25,
+    "text": "Find the area of the triangle whose vertices are (1, 3), (-7, 6) and (5, -1).",
+    "options": {
+      "A": "20",
+      "B": "10",
+      "C": "18",
+      "D": "24"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 26,
+    "text": "Find the area of the triangle whose vertices are (a, b + c), (b, c + a), (c, a + b).",
+    "options": {
+      "A": "2ac",
+      "B": "2bc",
+      "C": "b(a + c)",
+      "D": "c(a - b)"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 27,
+    "text": "The number of lines that are parallel to 2x + 6y + 7 = 0 and have an intercept of length 10 between the coordinates axes is",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "Infinite"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 28,
+    "text": "Which of the following three points represent a straight line?",
+    "options": {
+      "A": "(-2/3, 3), (-5, 6) and (-8, 8)",
+      "B": "(-1/3, 3), (5, 6) and (-8, 8)",
+      "C": "(2/3, 3), (-5, 6) and (-8, 8)",
+      "D": "(-1/3, 3), (2/3, 6) and (8, 8)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 29,
+    "text": "Which of the following will be the equation of a straight line that is parallel to the y - axis at a distance 11 units from it?",
+    "options": {
+      "A": "x = + 11, x = -11",
+      "B": "y = 11, y = -11",
+      "C": "y = 0",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 30,
+    "text": "Which of the following will be the equation of a straight line parallel to the y - axis at a distance of 9 units to the left?",
+    "options": {
+      "A": "x = -9",
+      "B": "x = 9",
+      "C": "y = 9",
+      "D": "y = -9"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 31,
+    "text": "What can be said about the equation of the straight line x = 7?",
+    "options": {
+      "A": "It is the equation of a straight line at a distance of 7 units towards the right of the y - axis.",
+      "B": "It is the equation of a straight line at a distance of 7 units towards the left of the y - axis.",
+      "C": "It is the equation of a straight line at a distance of 7 units below the x - axis.",
+      "D": "It is the equation of a straight line at a distance of 7 units above the x - axis."
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 32,
+    "text": "What can be said about the equation of the straight line y = -8?",
+    "options": {
+      "A": "It is the equation of a straight line at a distance of 8 units below the x - axis.",
+      "B": "It is the equation of a straight line at a distance of 8 units towards the left of the y - axis.",
+      "C": "It is the equation of a straight line at a distance of 8 units towards the right of the y - axis.",
+      "D": "It is the equation of a straight line at a distance of 8 units above the x - axis."
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 33,
+    "text": "Which of the following straight lines passes through the origin?",
+    "options": {
+      "A": "x + y = 4",
+      "B": "x² + y² = -6",
+      "C": "x + y = 5",
+      "D": "x = 4y"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 34,
+    "text": "What is the point of intersection of the equation of lines x + 5y = 6 and x + 5y = 7?",
+    "options": {
+      "A": "(4, 2/5)",
+      "B": "(-7, 4)",
+      "C": "(3, -2/5)",
+      "D": "(4, 4/5)"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 35,
+    "text": "If P (6, 7), Q (2, 3) and R (4, -2) be the vertices of a triangle, then which of the following is not a point contained in this triangle?",
+    "options": {
+      "A": "(4, 3)",
+      "B": "(3, 3)",
+      "C": "(4, 2)",
+      "D": "(6, 1)"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 36,
+    "text": "What is the reflection of the point (4, 5) in the second quadrant?",
+    "options": {
+      "A": "(-4, -5)",
+      "B": "(-4, 5)",
+      "C": "(4, -5)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 37,
+    "text": "What will be the reflection of the point (4, 5) in the third quadrant?",
+    "options": {
+      "A": "(-4, -5)",
+      "B": "(-4, 5)",
+      "C": "(4, -5)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 38,
+    "text": "What will be the reflection of the point (4, 5) in the fourth quadrant?",
+    "options": {
+      "A": "(-4, -5)",
+      "B": "(-4, 5)",
+      "C": "(4, -5)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 39,
+    "text": "If the origin gets shifted to (2, 2), then what will be the new coordinates of the point (4, -2)?",
+    "options": {
+      "A": "(-2, 4)",
+      "B": "(2, 4)",
+      "C": "(4, 2)",
+      "D": "(2, -4)"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 40,
+    "text": "What will be the length of the perpendicular drawn from the point (4, 5) upon the straight line 3x + 4y = 10?",
+    "options": {
+      "A": "11/5",
+      "B": "22/5",
+      "C": "22/3",
+      "D": "11/2"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "EASY",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 41,
+    "text": "Find the area of the quadrilateral the coordinates of whose angular points taken in order are (1, 1), (3, 4), (5, -2) and (4, -7).",
+    "options": {
+      "A": "20.5",
+      "B": "41",
+      "C": "82",
+      "D": "61.5"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 42,
+    "text": "Find the area of the quadrilateral the coordinates of whose angular points taken in order are (-1, 6), (-3, -9), (5, -8) and (3, 9).",
+    "options": {
+      "A": "48",
+      "B": "96",
+      "C": "192",
+      "D": "72"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 43,
+    "text": "Two vertices of a triangle are (5, -1) and (-2, 3). If the orthocenter of the triangle is the origin, what will be the coordinates of the third point?",
+    "options": {
+      "A": "(4, 7)",
+      "B": "(-4, 7)",
+      "C": "(-4, -7)",
+      "D": "(4, -7)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 44,
+    "text": "Find the equation of the straight line passing through the origin and the point of intersection of the lines x/2 + y/3 = 1 and x - 2y + 1 = 1.",
+    "options": {
+      "A": "y = x",
+      "B": "y = -x",
+      "C": "y = 2x",
+      "D": "y = -2x"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 45,
+    "text": "One side of a rectangle lies along the line 4x + 7y + 5 = 0. Two of its vertices are (-3, 1) and (1, 1). Which of the following may be an equation which represents any of the other three straight lines?",
+    "options": {
+      "A": "7x - 4y = 3",
+      "B": "7x - 4y = 3 or 0",
+      "C": "y + 1 = 0",
+      "D": "4x + 7y = 3"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 46,
+    "text": "The non-zero value of k for which the line x + 2y - 7 = 0 is collinear to the equation (kx + 1), (p + 1), (p + 1-2p) is:",
+    "options": {
+      "A": "p = 0",
+      "B": "p = 1",
+      "C": "p = -1/2",
+      "D": "Any value of p"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 47,
+    "text": "The straight line joining (1, 2) and (2, -2) is perpendicular to the line joining (8, 2) and (4, p). What will be the value of p?",
+    "options": {
+      "A": "-1",
+      "B": "1",
+      "C": "3",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 48,
+    "text": "What will be the length of the perpendicular drawn from the point (-3, -4) to the straight line 12(x + 6) = 5(y - 2)?",
+    "options": {
+      "A": "5(23/13)",
+      "B": "5(13/23)",
+      "C": "3(23/13)",
+      "D": "3(13/23)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 49,
+    "text": "The area of the triangle with vertices at (a, b + c), (b, c + a) and (c, a + b) is",
+    "options": {
+      "A": "a² + b² + c²",
+      "B": "a² + b² + c²",
+      "C": "a² + b² + c",
+      "D": "1"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 50,
+    "text": "Find the distance between the two parallel straight lines y = mx + c₁ and y = mx + c₂ (Assume c > d)",
+    "options": {
+      "A": "(c₁-c₂)/√(1+m²)",
+      "B": "(c₁-c₂)/√(1+m²)",
+      "C": "(c₁-c₂)/(1+m²)",
+      "D": "(c₁-c₂)/(1+m²)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 51,
+    "text": "What will be the equation of the straight line that passes through the intersection of the straight lines 2x - 3y + 4 = 0 and 3x + 4y - 5 = 0 and is perpendicular to the straight line 3x - 4y = 7?",
+    "options": {
+      "A": "8x + 6y = 37/7",
+      "B": "4x + 3y = 23/7",
+      "C": "4x + 3y = 65/7",
+      "D": "8x + 6y = 65/7"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 52,
+    "text": "In question 11, find the equation of the straight line if it is parallel to the straight line 3x + 4y = 57",
+    "options": {
+      "A": "8x + 6y = 57/7",
+      "B": "3x + 4y = 23/7",
+      "C": "4x + 3y = 65/7",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 53,
+    "text": "The orthocentre of the triangle formed by the points (0, 0), (4, 0) and (0, 6) is",
+    "options": {
+      "A": "(4, 6/3)",
+      "B": "(3, 4)",
+      "C": "(4, 3)",
+      "D": "(3, 3/2)"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 54,
+    "text": "The area of a triangle is 5 square units, two of its vertices are (2, 1) and (3, -2). The third vertex lies on y = x + 3. What will be the third vertex?",
+    "options": {
+      "A": "(5, 13/3)",
+      "B": "(7, 13/3)",
+      "C": "(3, 4)",
+      "D": "(1, 2)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 55,
+    "text": "The equations of two equal sides AB and AC of an isosceles triangle ABC are x + y = 5 and 7x - y = 3 respectively. What will be the equation of the side BC if area of triangle ABC is 5 square units.",
+    "options": {
+      "A": "x + 3y - 1 = 0",
+      "B": "x - 3y + 1 = 0",
+      "C": "2x - y = 5",
+      "D": "x + 2y = 5"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 56,
+    "text": "Three vertices of a rhombus, taken in order are (2, -1), (3, 4) and (-2, 3). Find the fourth vertex.",
+    "options": {
+      "A": "(3, 2)",
+      "B": "(-3, -2)",
+      "C": "(-3, 2)",
+      "D": "(3, -2)"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 57,
+    "text": "Four vertices of a parallelogram taken in order are (-1, a), b, (3, 3) and (4, b). What will be the ratio of a to b?",
+    "options": {
+      "A": "4 : 1",
+      "B": "1 : 2",
+      "C": "1 : 3",
+      "D": "3 : 1"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 58,
+    "text": "What will be the new equation of straight line 3x + 4y = 6 if the origin gets shifted to (3, -4)?",
+    "options": {
+      "A": "3x + 4y = 9",
+      "B": "3x - 3y = 4",
+      "C": "3x + 3y = 0",
+      "D": "3x + 4y = 0"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 59,
+    "text": "What will be the value of p if the equation of straight line 2x + 5y = 4 gets changed to 2x + 5y = p after shifting the origin at (3, 3)?",
+    "options": {
+      "A": "16",
+      "B": "-17",
+      "C": "12",
+      "D": "10"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 60,
+    "text": "A line passing through the points (a, 2a) and (-2, 3) is perpendicular to the line 4x + 3y = 0. Find the value of a?",
+    "options": {
+      "A": "-11/4",
+      "B": "11/8",
+      "C": "14/3",
+      "D": "-10/3"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 61,
+    "text": "The area of a triangle is 5 square units. Two of its vertices are (2, 1) and (3, -2). The third vertex lies on y = x + 3. What will be the third vertex?",
+    "options": {
+      "A": "(4 - 7)",
+      "B": "(4, 7)",
+      "C": "(-4, -7)",
+      "D": "(-4, 7)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 62,
+    "text": "One side of a rectangle lies along the line 4x + 7y + 5 = 0. Two of its vertices are (-3, 1) and (1, 1). Which of the following may be an equation which represents any of the other three straight lines?",
+    "options": {
+      "A": "14x - 8y = 6",
+      "B": "7x + 4y = -25",
+      "C": "4x + 7y = 11",
+      "D": "14x - 8y = 20"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 63,
+    "text": "The area of a triangle formed by the points (p, 2-2p), (1-p, 2p) and (-4-p, 6-2p) is independent of p. How many integral values of p are possible?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 64,
+    "text": "What are the points on the axis of x whose perpendicular distance from the straight line x/2 + y/3 = 1 is p?",
+    "options": {
+      "A": "5|p + √(p² + q²)|, 0",
+      "B": "5|p - √(p² + q²)|, 0",
+      "C": "Both (A) and (B)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 65,
+    "text": "If the medians PT and RS of a triangle with vertices P (0, b), Q (0, 0) and R (a, 0) are perpendicular to each other, which of the following satisfies the relationship between a and b?",
+    "options": {
+      "A": "b² = a²",
+      "B": "2b² = a²",
+      "C": "a = -2b",
+      "D": "a² + b² = 0"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 66,
+    "text": "The point of intersection of the lines x/2 + y/3 = 1 and x/4 + y/3 = 1 lies on the line",
+    "options": {
+      "A": "x + y = 0",
+      "B": "x - y = 1",
+      "C": "x - y = 0",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 67,
+    "text": "PQR is an isosceles triangle. If the coordinates of the base are Q (1, 3) and R (-2, 7), then the coordinates of the vertex P can be",
+    "options": {
+      "A": "(4, 6)",
+      "B": "(2, 5)",
+      "C": "(5/2, 6)",
+      "D": "(1/2, 2)"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 68,
+    "text": "The extremities of a diagonal of a parallelogram are the points (3, -4) and (-6, 5). If the third vertex is the point (-2, 1), the coordinate of the fourth vertex is",
+    "options": {
+      "A": "(1, 0)",
+      "B": "(1, 0)",
+      "C": "(1, 1)",
+      "D": "(1, -1)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 69,
+    "text": "If the points (a, 0), (0, b) and (1, 1) are collinear then which of the following is true?",
+    "options": {
+      "A": "a/1 + b/1 = 2",
+      "B": "1/a + 1/b = 1",
+      "C": "1/a - 1/b = 2",
+      "D": "1/a + 1/b = 1"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 70,
+    "text": "If P and Q are two points on the line 3x + 4y = -15, such that OP = OQ = 9 units, the area of the triangle POQ will be",
+    "options": {
+      "A": "18√2 sq units",
+      "B": "3√2 sq units",
+      "C": "6√2 sq units",
+      "D": "15√2 sq units"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 71,
+    "text": "If the coordinates of the points A, B, C and D are (6, 3), (-3, -5), (4, -2) and (x, 3x) respectively and if the ratio of the area of triangles ABC and DBC is 2 : 1, then the value of x is",
+    "options": {
+      "A": "1/2",
+      "B": "5/2",
+      "C": "23/2",
+      "D": "23/2"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 72,
+    "text": "The equations of two equal sides AB and AC of an isosceles triangle ABC are x + y = 5 and 7x - y = 3 respectively. What will be the length of the intercept cut by the side BC on the y - axis?",
+    "options": {
+      "A": "2",
+      "B": "8",
+      "C": "1.5",
+      "D": "No unique solution"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 73,
+    "text": "A line is represented by the equation 4x + 5y = 6 in the coordinate system with the origin at (0, 0). You are required to find the equation of the straight line perpendicular to this line that passes through the point (1, -2) located in the coordinate system whose origin is at (-1, -2).",
+    "options": {
+      "A": "5x - 4y = 11",
+      "B": "5x - 4y = 13",
+      "C": "5x - 4y = -3",
+      "D": "5x - 4y = -7"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 74,
+    "text": "P (3, 1), Q (6, 5) and R (x, y) are three points such that the angle PRQ is a right angle and the area of ΔPRQ is 7. The number of such points R that are possible is",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 75,
+    "text": "Two sides of a square lie on the lines x + y = 1 and x + y = 2 = 0. What is its area?",
+    "options": {
+      "A": "1/2",
+      "B": "1/2",
+      "C": "5",
+      "D": "4"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 76,
+    "text": "Find the value of k if the straight line 2x + 3y + 4 + k (6x - y + 12) = 0 is perpendicular to the line 7x + 5y = 4.",
+    "options": {
+      "A": "-23/34",
+      "B": "23/34",
+      "C": "-23/34",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 77,
+    "text": "If p is the length of the perpendicular from the origin to the line x/2 + y/3 = 1, then which of the following is true?",
+    "options": {
+      "A": "1/p² = 1/2² + 1/3²",
+      "B": "p² = 1/2² + 1/3²",
+      "C": "1/p = 1/2 + 1/3",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 78,
+    "text": "How many points on x + y = 4 are there that is at unit distance from the line 4x + 3y = 10?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 79,
+    "text": "What will be the area of the rhombus ax ± by ± c = 0?",
+    "options": {
+      "A": "2c²/(ab)",
+      "B": "2c/(ab)",
+      "C": "2c²/(ab)",
+      "D": "2c²/(ab)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  },
+  {
+    "id": 80,
+    "text": "The coordinates of the mid-points of the sides of a triangle are (4, 2), (3, 3) and (2, 2). What will be the coordinates of the centroid of the triangle?",
+    "options": {
+      "A": "(3, 7/3)",
+      "B": "(-3, -7/3)",
+      "C": "(3, -7/3)",
+      "D": "(-3, 7/3)"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "subtopic": "Coordinate Geometry"
+  }
+]

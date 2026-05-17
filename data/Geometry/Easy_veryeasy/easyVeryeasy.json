@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "text": "A vertical stick 20 m long casts a shadow 10 m long on the ground. At the same time, a tower casts the shadow 50 m long on the ground. Find the height of the tower.",
+    "options": {
+      "A": "100 m",
+      "B": "120 m",
+      "C": "25 m",
+      "D": "200 m"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 2,
+    "text": "In the figure, ∆ABC is similar to ∆EDC. If we have AB = 4 cm, ED = 3 cm, CE = 4.2 and CD = 4.8 cm, find the value of CA and CB.",
+    "options": {
+      "A": "6 cm, 6.4 cm",
+      "B": "4.8 cm, 6.4 cm",
+      "C": "5.4 cm, 6.4 cm",
+      "D": "5.6 cm, 6.4 cm"
+    },
+    "image": "Geometry(easy+very easy)/Q2.png",
+    "answer": "D",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 3,
+    "text": "The area of similar triangles, ABC and DEF are 144 cm² and 81 cm² respectively. If the longest side of larger ABC be 36 cm, then the longest side of smaller DEF is",
+    "options": {
+      "A": "20 cm",
+      "B": "26 cm",
+      "C": "27 cm",
+      "D": "30 cm"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 4,
+    "text": "Two isosceles triangles have equal angles and their areas are in the ratio 16 : 25. Find the ratio of their corresponding heights.",
+    "options": {
+      "A": "4 : 5",
+      "B": "16 : 25",
+      "C": "5 : 4",
+      "D": "2 : 5"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 5,
+    "text": "The areas of two similar triangles are respectively 9 cm² and 16 cm². Find the ratio of their corresponding sides.",
+    "options": {
+      "A": "3 : 4",
+      "B": "4 : 3",
+      "C": "2 : 3",
+      "D": "4 : 5"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 6,
+    "text": "Two poles of height 6 m and 11 m stand vertically upright on a plane ground. If the distance between their foot is 2 m, find the distance between their tops.",
+    "options": {
+      "A": "12 m",
+      "B": "14 m",
+      "C": "13 m",
+      "D": "11 m"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 7,
+    "text": "The radius of a circle is 9 cm and length of one of its chords is 14 cm. Find the distance of the chord from the centre.",
+    "options": {
+      "A": "5.66 cm",
+      "B": "6.3 cm",
+      "C": "4 cm",
+      "D": "7 cm"
+    },
+    "image": null,
+    "answer": "A",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 8,
+    "text": "Find the length of a chord that is at a distance of 12 cm from the centre of a circle of radius 13 cm.",
+    "options": {
+      "A": "9 cm",
+      "B": "8 cm",
+      "C": "12 cm",
+      "D": "10 cm"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 9,
+    "text": "If O is the centre of circle, find x. [Figure shows a circle with center O, and points on the circumference forming an angle x and a central angle 70 degrees]",
+    "options": {
+      "A": "35°",
+      "B": "30°",
+      "C": "39°",
+      "D": "40°"
+    },
+    "image": "Geometry(easy+very easy)/Q9.png",
+    "answer": "A",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 10,
+    "text": "Find the value of x in the given figure. [Figure shows a cyclic quadrilateral with one exterior angle x and one opposite interior angle 130 degrees]",
+    "options": {
+      "A": "120°",
+      "B": "130°",
+      "C": "110°",
+      "D": "100°"
+    },
+    "image": "Geometry(easy+very easy)/Q10.png",
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 11,
+    "text": "Find the value of x in the figure, if it is given that AC and BD are diameters of the circle. [Figure shows two intersecting diameters AC and BD, with a chord AB forming angle x with diameter AC, and an angle 60 degrees formed by chord CD at the center O]",
+    "options": {
+      "A": "60°",
+      "B": "45°",
+      "C": "15°",
+      "D": "30°"
+    },
+    "image": "Geometry(easy+very easy)/Q11.png",
+    "answer": "D",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 12,
+    "text": "Find the value of x in the given figure. [Figure shows a circle with two secants intersecting outside, with given segment lengths 4, 3, 5, and x]",
+    "options": {
+      "A": "2.2 cm",
+      "B": "1.6 cm",
+      "C": "3 cm",
+      "D": "2.6 cm"
+    },
+    "image": "Geometry(easy+very easy)/Q12.png",
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 13,
+    "text": "Find the value of x in the given figure. [Figure shows a circle with two intersecting chords, with segment lengths 4, 9, x, and 3]",
+    "options": {
+      "A": "16 cm",
+      "B": "9 cm",
+      "C": "12 cm",
+      "D": "7 cm"
+    },
+    "image": "Geometry(easy+very easy)/Q13.png",
+    "answer": "C",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 14,
+    "text": "Find the value of x in the given figure. [Figure shows a circle with a tangent and a secant from an external point, with segment lengths 5, 4, and x]",
+    "options": {
+      "A": "13 cm",
+      "B": "12 cm",
+      "C": "16 cm",
+      "D": "15 cm"
+    },
+    "image": "Geometry(easy+very easy)/Q14.png",
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 15,
+    "text": "ABC is a right angled triangle with BC = 6 cm and AB = 8 cm. A circle with centre O and radius x has been inscribed in ABC. What is the value of x?",
+    "options": {
+      "A": "2.4 cm",
+      "B": "2 cm",
+      "C": "3.6 cm",
+      "D": "4 cm"
+    },
+    "image": "Geometry(easy+very easy)/Q15.png",
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 16,
+    "text": "In the given figure AB is the diameter of the circle and ∠PAB = 25°. Find ∠TPA.",
+    "options": {
+      "A": "50°",
+      "B": "65°",
+      "C": "70°",
+      "D": "45°"
+    },
+    "image": "Geometry(easy+very easy)/Q16.png",
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 17,
+    "text": "In the given figure, find ∠ADB. [Figure shows a circle with center O, and points A, B, C, D on the circumference. Angle AOB is 96 degrees and C is on the major arc AB]",
+    "options": {
+      "A": "132°",
+      "B": "144°",
+      "C": "48°",
+      "D": "96°"
+    },
+    "image": "Geometry(easy+very easy)/Q17.png",
+    "answer": "C",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 18,
+    "text": "In the given figure, two straight lines PQ and RS intersect each other at O. If ∠SOT = 75°, find the value of a, b and c. [Figure shows intersecting lines PQ and RS, with a line segment OT. Angles are marked: ∠ROQ = a, ∠POT = b, ∠TOS = 75°, ∠SOQ = c, and a = 4c, b = 2c]",
+    "options": {
+      "A": "a = 84°, b = 21°, c = 48°",
+      "B": "a = 48°, b = 20°, c = 50°",
+      "C": "a = 72°, b = 24°, c = 54°",
+      "D": "a = 64°, b = 28°, c = 45°"
+    },
+    "image": "Geometry(easy+very easy)/Q18.png",
+    "answer": "C",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 19,
+    "text": "In the following figure A, B, C and D are the concyclic points. Find the value of x. [Figure shows a cyclic quadrilateral ABCD with angle A = x, and angle C = 130 degrees]",
+    "options": {
+      "A": "130°",
+      "B": "50°",
+      "C": "60°",
+      "D": "30°"
+    },
+    "image": "Geometry(easy+very easy)/Q19.png",
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 20,
+    "text": "In the following figure, it is given that O is the centre of the circle and ∠AOC = 140°. Find ∠ABC. [Figure shows a circle with center O. Angle AOC is 140 degrees (reflex), and inscribed angle ABC is x]",
+    "options": {
+      "A": "110°",
+      "B": "120°",
+      "C": "115°",
+      "D": "130°"
+    },
+    "image": "Geometry(easy+very easy)/Q20.png",
+    "answer": "C",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 21,
+    "text": "In the following figure, O is the centre of the circle and ∠ABO = 30°, find ∠ACB.",
+    "options": {
+      "A": "60°",
+      "B": "120°",
+      "C": "75°",
+      "D": "90°"
+    },
+    "image": "Geometry(easy+very easy)/Q21.png",
+    "answer": "A",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 22,
+    "text": "In the following figure, find the value of x. [Figure shows a circle with center O, and inscribed angle x and an angle 25 degrees]",
+    "options": {
+      "A": "40°",
+      "B": "25°",
+      "C": "30°",
+      "D": "45°"
+    },
+    "image": "Geometry(easy+very easy)/Q22.png",
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 23,
+    "text": "If Angle BAC = 2 * Angle ABC in the figure below, what is the value of x. [Figure shows a triangle ABC with AB=AC, angle ACB=x, and Angle DAC = Angle BAC = 2*Angle ABC]",
+    "options": {
+      "A": "80°",
+      "B": "100°",
+      "C": "40°",
+      "D": "Cannot be determined"
+    },
+    "image": "Geometry(easy+very easy)/Q23.png",
+    "answer": "C",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 24,
+    "text": "Find the perimeter of the given figure. [Figure shows a composite shape: a rectangle with sides 12 and 10, and two semicircles of radius 3 attached to the sides of length 12]",
+    "options": {
+      "A": "(32 + 3π) cm",
+      "B": "(36 + 6π) cm",
+      "C": "(46 + 3π) cm",
+      "D": "(26 + 6π) cm"
+    },
+    "image": "Geometry(easy+very easy)/Q24.png",
+    "answer": "D",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 25,
+    "text": "In the figure, AB is parallel to CD and RD || SL || TM || AN, and BR : RS : ST : TA = 3 : 5 : 2 : 7. If it is known that CN = 1.333 BR. Find the ratio of BF: FG : GH : HI : IC.",
+    "options": {
+      "A": "3 : 7 : 2 : 5 : 4",
+      "B": "3 : 5 : 2 : 7 : 4",
+      "C": "4 : 7 : 2 : 5 : 3",
+      "D": "4 : 5 : 2 : 7 : 3"
+    },
+    "image": "Geometry(easy+very easy)/Q25.png",
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 26,
+    "text": "In ∆ ABC, if ∠A = 60° and the angle bisectors of ∠B and ∠C meet at X then ∠BXC (in degrees) is =?",
+    "options": {
+      "A": "120",
+      "B": "100",
+      "C": "90",
+      "D": "150"
+    },
+    "image": "Geometry(easy+very easy)/Q26.png",
+    "answer": "120",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 27,
+    "text": "∆PQR is a right angled triangle and ∠Q = 90°, PQ = 15 cm, QR = 20 cm and QS ⊥ PR. Find the length of SR (in cm).",
+    "options": {
+      "A": "16",
+      "B": "12",
+      "C": "9",
+      "D": "18"
+    },
+    "image": "Geometry(easy+very easy)/Q27&28.png",
+    "answer": "16",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 28,
+    "text": "∆PQR is a right angled triangle and ∠Q = 90°, PQ = 15 cm, QR = 20 cm and QS ⊥ PR. Find the length of SQ (in cm).",
+    "options": {
+      "A": "12",
+      "B": "10",
+      "C": "8",
+      "D": "15"
+    },
+    "image": "Geometry(easy+very easy)/Q27&28.png",
+    "answer": "12",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 29,
+    "text": "In the given diagram ∆ABC is a right angled triangle, ∠ABC = 90°, BD ⊥ AC. If AB : AC = 3 : 5 and area of ∆ABD is 90 cm², then the area of ∆ABC (in cm²) is:",
+    "options": {
+      "A": "250",
+      "B": "300",
+      "C": "150",
+      "D": "400"
+    },
+    "image": "Geometry(easy+very easy)/Q29.png",
+    "answer": "250",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 30,
+    "text": "If the inradius of an equilateral triangle is $\\sqrt{3}$ cm, then its area is:",
+    "options": {
+      "A": "$7\\sqrt{3}$ cm²",
+      "B": "$9\\sqrt{3}$ cm²",
+      "C": "$10\\sqrt{3}$ cm²",
+      "D": "$12\\sqrt{3}$ cm²"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 31,
+    "text": "If ∆ABC is a right angled triangle such that ∠B = 90°, AB + BC - AC = 20 cm and perimeter of ∆ABC = 60 cm, then area of the triangle (in cm²) is.",
+    "options": {
+      "A": "100",
+      "B": "120",
+      "C": "150",
+      "D": "180"
+    },
+    "image": null,
+    "answer": "120",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 32,
+    "text": "Find the sum of the squares of the medians of a triangle whose sides are 6 cm, 7 cm, 8 cm.",
+    "options": {
+      "A": "147",
+      "B": "148",
+      "C": "146",
+      "D": "150"
+    },
+    "image": null,
+    "answer": "147",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 33,
+    "text": "In the diagram given below. S is a point on QR such that: ∠QPS = 40°, ∠TRQ = 30°, then ∠PSQ =? [Figure shows a triangle PQR with a point S on QR and T on PQ extended. Angle TRQ is 30, Angle QPS is 40. PQR is a straight line]",
+    "options": {
+      "A": "70°",
+      "B": "60°",
+      "C": "80°",
+      "D": "50°"
+    },
+    "image": "Geometry(easy+very easy)/Q33.png",
+    "answer": "70°",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 34,
+    "text": "In the given diagram, PQ touches the circle at R. T, S, U are the points on the circle. If ∠SRQ = 60° then ∠SUR =? [Figure shows a circle with tangent PQ at R. T, S, U are on the circle. Angle SRQ is 60 degrees]",
+    "options": {
+      "A": "120°",
+      "B": "60°",
+      "C": "30°",
+      "D": "45°"
+    },
+    "image": "Geometry(easy+very easy)/Q34.png",
+    "answer": "60°",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 35,
+    "text": "In a right angled triangle ∆PQR, ∠Q = 90°, if A and B are points on the sides PQ and QR respectively then:",
+    "options": {
+      "A": "AR² + PB² = 2(PR² + AB²)",
+      "B": "AR² + PB² = PR² + AB²",
+      "C": "AR² + RB² = 0.5(PR² + AB²)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 36,
+    "text": "In the given diagram if AB || CD || EF then which of the given options is true. [Figure shows two transversals intersecting three parallel lines AB, CD, EF]",
+    "options": {
+      "A": "AE/EC = BF/FD",
+      "B": "AC/CE = BD/DF",
+      "C": "AC/AE = BD/BF",
+      "D": "AE/EC = BD/BF"
+    },
+    "image": "Geometry(easy+very easy)/Q36.png",
+    "answer": "C",
+    "difficulty": "Very Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 37,
+    "text": "In the given figure PR = QR = PS, ∠PSR = x, ∠TPS = 90° then x =? [Figure shows a triangle PQR with point S on PR, and T on PR extended. PR=QR=PS, Angle TPS=90]",
+    "options": {
+      "A": "15°",
+      "B": "30°",
+      "C": "45°",
+      "D": "60°"
+    },
+    "image": "Geometry(easy+very easy)/Q37.png",
+    "answer": "A",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 38,
+    "text": "If the sides of a triangle measure 72, 75 and 21. What is the measure of its inradius?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "6"
+    },
+    "image": null,
+    "answer": "9",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 39,
+    "text": "ABCD has area equals to 28. BC is parallel to AD. BA is perpendicular to AD. If BC is 6 and AD is 8, then what is AB?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "image": "Geometry(easy+very easy)/Q39.png",
+    "answer": "4",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 40,
+    "text": "In the previous question (Q39: ABCD is a right-angled trapezium with Area=28, BC=6, AD=8, AB=4), find BC.",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "image": "Geometry(easy+very easy)/Q39.png",
+    "answer": "6",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 41,
+    "text": "Two tangents are drawn to a circle from an exterior point A; they touch the circle at points B and C, respectively. A third tangent intersects segment AB in P and AC in R, and touches the circle at Q. If AB = 20, then the perimeter of triangle APR is:",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "50",
+      "D": "60"
+    },
+    "image": null,
+    "answer": "40",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 42,
+    "text": "In the diagram given below, if D is the mid-point of side AC and DB = AD = DC then ∆ABC is a: [Figure shows a triangle ABC with median BD. D is midpoint of AC and DB=AD=DC]",
+    "options": {
+      "A": "Right angled triangle",
+      "B": "Equilateral triangle",
+      "C": "Acute angled triangle",
+      "D": "Obtuse angled triangle"
+    },
+    "image": "Geometry(easy+very easy)/Q42&43.png",
+    "answer": "A",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 43,
+    "text": "If ∆ABC is an isosceles triangle (with AB=BC or AC=BC etc.) and D is the mid-point of side AC with DB = AD = DC (from Q42), then ∠BDC =?",
+    "options": {
+      "A": "60°",
+      "B": "90°",
+      "C": "120°",
+      "D": "100°"
+    },
+    "image": "Geometry(easy+very easy)/Q42&43.png",
+    "answer": "120°",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 44,
+    "text": "In the diagram given below if AB = AC and ∠ADC = 2∠ABD, ∠DAC = 30° Then ∠BAD =? [Figure shows an isosceles triangle ABC with AB=AC, and a point D on BC. Angle DAC=30, Angle ADC=2*Angle ABD]",
+    "options": {
+      "A": "15°",
+      "B": "20°",
+      "C": "30°",
+      "D": "45°"
+    },
+    "image": "Geometry(easy+very easy)/Q44.png",
+    "answer": "A",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 45,
+    "text": "In the given diagram two concentric circles with center O are shown. If ∠AOB = 120° Then ∠OAP =? [Figure shows two concentric circles, a line OAB, and a tangent PA to the inner circle at P, where A and B are on the outer circle and inner circle respectively. Angle AOB is 120 degrees]",
+    "options": {
+      "A": "40°",
+      "B": "60°",
+      "C": "30°",
+      "D": "50°"
+    },
+    "image": "Geometry(easy+very easy)/Q45.png",
+    "answer": "60°",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 46,
+    "text": "If the interior angle of a regular polygon is 120°, find the number of diagonals of the polygon.",
+    "options": {
+      "A": "9",
+      "B": "6",
+      "C": "12",
+      "D": "3"
+    },
+    "image": null,
+    "answer": "9",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 47,
+    "text": "The internal angle of a regular polygon exceeds the internal angle of another regular polygon by 18°. If the second polygon has half the number of sides as the first, then the number of sides in the first polygon is.",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "8",
+      "D": "12"
+    },
+    "image": null,
+    "answer": "10",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 48,
+    "text": "The sum of the interior angles of a regular polygon is 40 times the exterior angle. Find the number of sides of the polygon.",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "9"
+    },
+    "image": null,
+    "answer": "12",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 49,
+    "text": "In the given diagram, O is the center of the circle. ∠AOC = 140°. If AB = BC then find ∠BCA = _____. [Figure shows a circle with center O. Angle AOC is 140 degrees (major arc). A, B, C are on the circumference. AB=BC]",
+    "options": {
+      "A": "35°",
+      "B": "40°",
+      "C": "50°",
+      "D": "70°"
+    },
+    "image": "Geometry(easy+very easy)/Q49.png",
+    "answer": "35°",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 50,
+    "text": "In the given diagram, if ‘O’ is the center of the circle, chord PR and SQ intersect each other at O, ∠POQ = 80°, then ∠QSR =? [Figure shows a circle with center O, intersecting chords PR and SQ at O. Angle POQ=80 degrees]",
+    "options": {
+      "A": "40°",
+      "B": "50°",
+      "C": "60°",
+      "D": "70°"
+    },
+    "image": "Geometry(easy+very easy)/Q50.png",
+    "answer": "40°",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 51,
+    "text": "O is the center and AC is the tangent of the circle at B. In the diagram given below, if ∠OBE = 70°. Find ∠BOE: [Figure shows a circle with center O, tangent AC at B, and points E and D on the circle. Angle OBE is 70 degrees]",
+    "options": {
+      "A": "40°",
+      "B": "50°",
+      "C": "60°",
+      "D": "70°"
+    },
+    "image": "Geometry(easy+very easy)/Q51&52.png",
+    "answer": "40°",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 52,
+    "text": "In the previous question (Q51: O is the center, AC is tangent at B, ∠OBE = 70°), find ∠BAO. [Figure suggests A, B, C are collinear on the tangent, O is center]",
+    "options": {
+      "A": "20°",
+      "B": "40°",
+      "C": "70°",
+      "D": "Cannot be determined"
+    },
+    "image": "Geometry(easy+very easy)/Q51&52.png",
+    "answer": "D",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 53,
+    "text": "Two circles having equal radius intersect each other at A and B. The diameters AC and AD intersect at A. If C, B, D are collinear and ∠ACB = 30°, then find ∠CAD = ____. [Figure shows two intersecting circles with centers O1, O2, diameters AC, AD, and intersection points A, B. C, B, D are collinear. Angle ACB=30]",
+    "options": {
+      "A": "60°",
+      "B": "90°",
+      "C": "120°",
+      "D": "45°"
+    },
+    "image": "Geometry(easy+very easy)/Q53&54.png",
+    "answer": "120°",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 54,
+    "text": "If BC = 2 cm, then AD (in cm) = (Context from Q53: Two equal radius circles intersect at A and B. Diameters AC and AD intersect at A. C, B, D are collinear. ∠ACB = 30°)",
+    "options": {
+      "A": "4",
+      "B": "2√3",
+      "C": "3",
+      "D": "None of these"
+    },
+    "image": "Geometry(easy+very easy)/Q53&54.png",
+    "answer": "B",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 55,
+    "text": "In the diagram O is the center of the circle. PS is the tangent of the circle at S. ∠OSQ = 50°. Find ∠SPR. [Figure shows a circle with center O, tangent PS at S, and points R, Q on the circle. Angle OSQ=50]",
+    "options": {
+      "A": "10°",
+      "B": "20°",
+      "C": "30°",
+      "D": "40°"
+    },
+    "image": "Geometry(easy+very easy)/Q55.png",
+    "answer": "20°",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 56,
+    "text": "Lines joining midpoint of a quadrilateral form a:",
+    "options": {
+      "A": "square",
+      "B": "parallelogram",
+      "C": "rectangle",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 57,
+    "text": "In the given diagram ABCD is a trapezium. If AB = 4 cm, CD = 6 cm and OB = 5 cm, then BD = ____cm. [Figure shows a trapezium ABCD with AB || CD, and diagonals AC, BD intersecting at O]",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "12.5",
+      "D": "15"
+    },
+    "image": "Geometry(easy+very easy)/Q57.png",
+    "answer": "12.5",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 58,
+    "text": "In the given diagram PQRS is a trapezium and SR = $4\\sqrt{6}$ cm and ∠SQR = 60°, ∠QSR = 45°. Find the length of QR is ___cm. [Figure shows a trapezium PQRS with PQ || SR, and diagonal SQ. Angles SQR=60, QSR=45]",
+    "options": {
+      "A": "$8\\sqrt{3}$",
+      "B": "$6\\sqrt{3}$",
+      "C": "$4\\sqrt{2}$",
+      "D": "$4\\sqrt{3}$"
+    },
+    "image": "Geometry(easy+very easy)/Q58&59.png",
+    "answer": "$8\\sqrt{3}$",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 59,
+    "text": "PS + QR = _____cm. (Context from Q58: PQRS is a trapezium, SR = $4\\sqrt{6}$ cm, ∠SQR = 60°, ∠QSR = 45°. QR = $8\\sqrt{3}$)",
+    "options": {
+      "A": "$12\\sqrt{2}$",
+      "B": "$14\\sqrt{2}$",
+      "C": "$15\\sqrt{2}$",
+      "D": "$16\\sqrt{2}$"
+    },
+    "image": "Geometry(easy+very easy)/Q58&59.png",
+    "answer": "$12\\sqrt{2}$",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 60,
+    "text": "ABCD is a rectangle with AD = 10. P is a point on BC such that ∠APD = 90°. If DP = 8, then the length of BP is _____?",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "3",
+      "D": "5"
+    },
+    "image": null,
+    "answer": "6",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 61,
+    "text": "ABCD is a quadrilateral. The diagonals of ABCD intersect at the point P. The area of the triangles APD and BPC are 27 and 12, respectively. If the areas of the triangles APB and CPD are equal then the area of triangle APB is",
+    "options": {
+      "A": "12",
+      "B": "15",
+      "C": "16",
+      "D": "18"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 62,
+    "text": "In a right angle triangle BAC given below, AD is the altitude of the hypotenuse BC. The figure is followed by three possible inferences: 1. Triangle ABD and triangle CAD are similar. 2. Triangle ADB and triangle CDA are congruent. 3. Triangle ADB and triangle CAB are similar. Mark the correct option.",
+    "options": {
+      "A": "1 and 2 are correct",
+      "B": "1 and 3 are correct",
+      "C": "Only 3 is correct",
+      "D": "All three are correct"
+    },
+    "image": "Geometry(easy+very easy)/Q62.png",
+    "answer": "B",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 63,
+    "text": "The area of an isosceles triangle is 12 cm². If one of the equal sides is 5 cm long, mark the option which can give the length of the base.",
+    "options": {
+      "A": "4 cm",
+      "B": "6 cm",
+      "C": "10 cm",
+      "D": "9 cm"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 64,
+    "text": "An arc AB of a circle subtends an angle ‘x’ radian at the center O of the circle. If the area of the sector AOB is equal to the square of the length of the arc AB, then x is:",
+    "options": {
+      "A": "1/r",
+      "B": "1/2",
+      "C": "2/r",
+      "D": "2"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 65,
+    "text": "What is the value of c² in the given figure, where the radius of the circle is ‘a’ units? [Figure shows a circle with center O, a chord of length c, and two radii 'a' forming an angle $\\theta$. A point on the circle is connected to another point at a distance 'b' from O on the extension of a radius, forming a side 'c']",
+    "options": {
+      "A": "c² = a² + b² - 2 ab cos $\\theta$",
+      "B": "c² = a² + b² - 2 sin $\\theta$",
+      "C": "c² = a² - b² + 2ab cos $\\theta$",
+      "D": "None of these."
+    },
+    "image": "Geometry(easy+very easy)/Q65.png",
+    "answer": "A",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 66,
+    "text": "In a circle, the height of an arc is 21 cm and the diameter is 84 cm. Find the chord of ‘half of the arc’.",
+    "options": {
+      "A": "42 cm",
+      "B": "21 cm",
+      "C": "21$\\sqrt{2}$ cm",
+      "D": "30 cm"
+    },
+    "image": null,
+    "answer": "42 cm",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 67,
+    "text": "The perimeter of a right angled triangle measures 234 m and the hypotenuse measures 97 m. Then the other two sides of the triangle are measured as",
+    "options": {
+      "A": "100 m and 37 m",
+      "B": "72 m and 65 m",
+      "C": "80 m and 57 m",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "D",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 68,
+    "text": "A 25 feet long ladder is placed against the wall with its base 7 feet from the wall. The base of the ladder is drawn out so that the top comes down by half the distance that the base is drawn out. This distance is in the range:",
+    "options": {
+      "A": "(2, 7)",
+      "B": "(5, 8)",
+      "C": "(9, 10)",
+      "D": "None of these"
+    },
+    "image": null,
+    "answer": "C",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 69,
+    "text": "In KyaKya Island, there is a circular park. There are four points of entry into the park, namely – P, Q, R and S. The king of the island constructed three paths PQ, RS, and PS. The length of the path PQ is 10 units, and the length of the path RS is 7 units. The paths PQ and RS are extended past Q and R respectively, and they meet at a point T. The path from Q to T measures 8 units, and it was found that the $\\angle$PTS is 60°. Find the area (in square units) enclosed by the paths PT, TS, and PS.",
+    "options": {
+      "A": "$36\\sqrt{3}$",
+      "B": "$54\\sqrt{3}$",
+      "C": "$72\\sqrt{3}$",
+      "D": "$90\\sqrt{3}$"
+    },
+    "image": "Geometry(easy+very easy)/Q69.png",
+    "answer": "B",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 70,
+    "text": "There are two circles $C_1$, and $C_2$ of radii 3 and 8 units respectively. The common internal tangent T, touches the circles at points P and Q respectively. The line joining the centers of the circles intersects T at X. The distance of X from the center of the smaller circle is 5 units. What is the length of the line segment PQ?",
+    "options": {
+      "A": "$\\le 13$",
+      "B": "$>13$ and $\\le 14$",
+      "C": "$> 14$ and $< 15$",
+      "D": "$>15$ and $\\le 16$"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 71,
+    "text": "In quadrilateral PQRS, PQ = 5 units, QR = 17 units, RS = 5 units, and PS = 9 units. The length of the diagonal QS can be:",
+    "options": {
+      "A": "$> 10$ and $< 12$",
+      "B": "$> 12$ and $< 14$",
+      "C": "$> 14$ and $< 16$",
+      "D": "$>16$ and $<18$"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 72,
+    "text": "In an equilateral triangle ABC, whose length of each side is 3 cm, D is a point on BC such that BD = $\\frac{1}{3}$ of BC. What is the length of AD?",
+    "options": {
+      "A": "$\\sqrt{5}$ cm",
+      "B": "$\\sqrt{7}$ cm",
+      "C": "$\\sqrt{6}$ cm",
+      "D": "$\\sqrt{8}$ cm"
+    },
+    "image": null,
+    "answer": "B",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 73,
+    "text": "Eight points lie on the circumference of a circle. The difference between the number of triangles and the number of quadrilaterals that can be formed by connecting these points is:",
+    "options": {
+      "A": "14",
+      "B": "28",
+      "C": "42",
+      "D": "56"
+    },
+    "image": null,
+    "answer": "28",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 74,
+    "text": "In a square PQRS, A and B are two points on PS and SR such that PA = 2AS, and RB = 2BS. If PQ = 6, the area of the triangle ABQ is",
+    "options": {
+      "A": "18",
+      "B": "24",
+      "C": "12",
+      "D": "15"
+    },
+    "image": "Geometry(easy+very easy)/Q74.png",
+    "answer": "15",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  },
+  {
+    "id": 75,
+    "text": "A pole has to be erected on the boundary of a circular park of diameter 13 meters in such a way that the difference of its distances from two diametrically opposite fixed gates A and B on the boundary is 7 meters. The shortest distance of the pole from one of the gates is ___",
+    "options": {
+      "A": "5 m",
+      "B": "12 m",
+      "C": "3 m",
+      "D": "6 m"
+    },
+    "image": null,
+    "answer": "5 m",
+    "difficulty": "Easy",
+    "subtopic": "Geometry and Mensuration"
+  }
+]

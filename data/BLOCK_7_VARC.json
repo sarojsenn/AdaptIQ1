@@ -1,0 +1,5028 @@
+[
+  {
+    "id": "Q001",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "The King was embarrassed (A)/ to find evidence (B)/ against his own queen. (C)/ No error(D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "The King was embarrassed"
+      },
+      {
+        "option": "B",
+        "text": "to find evidence"
+      },
+      {
+        "option": "C",
+        "text": "against his own queen"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q002",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "He waved us goodbye (A)/ as he boarded the train (B)/ which disappeared into the tunnel. (C)/ No error (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "He waved us goodbye"
+      },
+      {
+        "option": "B",
+        "text": "as he boarded the train"
+      },
+      {
+        "option": "C",
+        "text": "which disappeared into the tunnel"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q003",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "A small parcel (A)/ of novels is (B)/ better than none. (C)/ No error (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "A small parcel"
+      },
+      {
+        "option": "B",
+        "text": "of novels is"
+      },
+      {
+        "option": "C",
+        "text": "better than none"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q004",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "At the request of the Defence Attorney (A)/the Jury was called (B)/and their individual verdicts were recorded. (C)/No error (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "At the request of the Defence Attorney"
+      },
+      {
+        "option": "B",
+        "text": "the Jury was called"
+      },
+      {
+        "option": "C",
+        "text": "and their individual verdicts were recorded"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q005",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "My brother goes (A)/ to the office (B)/ five-day week. (C)/ No error (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "My brother goes"
+      },
+      {
+        "option": "B",
+        "text": "to the office"
+      },
+      {
+        "option": "C",
+        "text": "five-day week"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q006",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "Slow and steady (A)/ wins the race (B)/ as the wise would say. (C)/ No error (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Slow and steady"
+      },
+      {
+        "option": "B",
+        "text": "wins the race"
+      },
+      {
+        "option": "C",
+        "text": "as the wise would say"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q007",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "We often hear people say (A)/ that most human beings have not evolved (B)/or grow up enough to stick to truth or non-violence.(C)/ No error (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "We often hear people say"
+      },
+      {
+        "option": "B",
+        "text": "that most human beings have not evolved"
+      },
+      {
+        "option": "C",
+        "text": "or grow up enough to stick to truth or non-violence"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q008",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "A time slot of fifteen minutes(A)/ are allowed(B)/ to each speaker.(C)/ No error (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "A time slot of fifteen minutes"
+      },
+      {
+        "option": "B",
+        "text": "are allowed"
+      },
+      {
+        "option": "C",
+        "text": "to each speaker"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q009",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "Only one of the boys _____ not done the homework given yesterday.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "have"
+      },
+      {
+        "option": "B",
+        "text": "has"
+      },
+      {
+        "option": "C",
+        "text": "can"
+      },
+      {
+        "option": "D",
+        "text": "could"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q010",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "His wife has a twin who resembles her so much that at first he had great trouble telling _____.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "one from the other"
+      },
+      {
+        "option": "B",
+        "text": "one from another"
+      },
+      {
+        "option": "C",
+        "text": "each other"
+      },
+      {
+        "option": "D",
+        "text": "who is which"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q011",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "**_____** wants to succeed in life must be prepared to work hard.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "whoever"
+      },
+      {
+        "option": "B",
+        "text": "whom"
+      },
+      {
+        "option": "C",
+        "text": "which"
+      },
+      {
+        "option": "D",
+        "text": "what"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q012",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "Vinod, two of ___ brothers attend primary school, wishes to be a school teacher after his graduation from the University.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "whom"
+      },
+      {
+        "option": "B",
+        "text": "them"
+      },
+      {
+        "option": "C",
+        "text": "whose"
+      },
+      {
+        "option": "D",
+        "text": "which"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q013",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "Our new digital photo-print machine, the manual **_____** is lost**,** awaits to be set up properly.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "of what"
+      },
+      {
+        "option": "B",
+        "text": "where"
+      },
+      {
+        "option": "C",
+        "text": "by whom"
+      },
+      {
+        "option": "D",
+        "text": "of which"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q014",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "I have never seen _____ animal before.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "any larger"
+      },
+      {
+        "option": "B",
+        "text": "as large"
+      },
+      {
+        "option": "C",
+        "text": "such a large"
+      },
+      {
+        "option": "D",
+        "text": "so large"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q015",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "As soon as we arrived in the dormitory we _____ our pullovers.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "hang"
+      },
+      {
+        "option": "B",
+        "text": "hanged"
+      },
+      {
+        "option": "C",
+        "text": "hung"
+      },
+      {
+        "option": "D",
+        "text": "hungs"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q016",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "Remember _____ your temper even when provoked.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "not to loose"
+      },
+      {
+        "option": "B",
+        "text": "not to lose"
+      },
+      {
+        "option": "C",
+        "text": "not losing"
+      },
+      {
+        "option": "D",
+        "text": "not to loss"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q017",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "Difficulty after difficulty _____ in his way to success.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "arose"
+      },
+      {
+        "option": "B",
+        "text": "rose"
+      },
+      {
+        "option": "C",
+        "text": "roused"
+      },
+      {
+        "option": "D",
+        "text": "raise"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q018",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "**Arise!** Our freedom is in danger.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Arise"
+      },
+      {
+        "option": "B",
+        "text": "Rise"
+      },
+      {
+        "option": "C",
+        "text": "Raise"
+      },
+      {
+        "option": "D",
+        "text": "Arose"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q019",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "One is _____ in duty to help the ageing parents.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "bound"
+      },
+      {
+        "option": "B",
+        "text": "bounded"
+      },
+      {
+        "option": "C",
+        "text": "binding"
+      },
+      {
+        "option": "D",
+        "text": "binded"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q020",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "Many a man (A)/ want to be (B)/ rich quickly. (C)/ No error (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Many a man"
+      },
+      {
+        "option": "B",
+        "text": "want to be"
+      },
+      {
+        "option": "C",
+        "text": "rich quickly"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q021",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "We have **no less than** a thousand students in our College",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "We have not less than a thousand students..."
+      },
+      {
+        "option": "B",
+        "text": "We have no less than thousand students..."
+      },
+      {
+        "option": "C",
+        "text": "We have no fewer than a thousand students..."
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q022",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "**Many a man** would welcome the opportunity.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Many man"
+      },
+      {
+        "option": "B",
+        "text": "A many man"
+      },
+      {
+        "option": "C",
+        "text": "Many a men"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q023",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "**English** opens the window upon the world's knowledge.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "The English"
+      },
+      {
+        "option": "B",
+        "text": "The English language"
+      },
+      {
+        "option": "C",
+        "text": "The English land"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q024",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "What **you have been doing** in the workshop since last month?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "have you done"
+      },
+      {
+        "option": "B",
+        "text": "you have done"
+      },
+      {
+        "option": "C",
+        "text": "have you been doing"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q025",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "You are asked to copy this letter **word by word**.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "word for word"
+      },
+      {
+        "option": "B",
+        "text": "word with word"
+      },
+      {
+        "option": "C",
+        "text": "word to word"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q026",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "**Riding upon his horse, the tiger jumped at him.**",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Riding upon the tiger, the horse jumped at him."
+      },
+      {
+        "option": "B",
+        "text": "The tiger jumped at him while he was riding upon his horse."
+      },
+      {
+        "option": "C",
+        "text": "The tiger rode at him while he was jumping upon his horse."
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q027",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "I did not see him **since he wrote last.**",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "I could not see him"
+      },
+      {
+        "option": "B",
+        "text": "I shall not see him"
+      },
+      {
+        "option": "C",
+        "text": "I have not seen him"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q028",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "**If I hadn’t seen the car coming,** I might have been killed.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "If I had seen the car coming"
+      },
+      {
+        "option": "B",
+        "text": "When I hadn’t seen the car coming"
+      },
+      {
+        "option": "C",
+        "text": "Since I hadn’t seen the car coming"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q029",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "The dictator **declared** an emergency in the country.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "proposed"
+      },
+      {
+        "option": "B",
+        "text": "decreed"
+      },
+      {
+        "option": "C",
+        "text": "ordered"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q030",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "James **had been teaching** at the university since June.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "has been teaching"
+      },
+      {
+        "option": "B",
+        "text": "have been teaching"
+      },
+      {
+        "option": "C",
+        "text": "is teaching"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q031",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "The manager’s role is to **define and resolve** problems.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "identify and resolved"
+      },
+      {
+        "option": "B",
+        "text": "defined and resolved"
+      },
+      {
+        "option": "C",
+        "text": "spot and resolved"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q032",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "We kept all the old paintings in a place where they **would remain safe** from harm or danger.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "will remain safe"
+      },
+      {
+        "option": "B",
+        "text": "are safe"
+      },
+      {
+        "option": "C",
+        "text": "may remain safe"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q033",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "**They left the hotel by car where they had been staying.**",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "They left the hotel where they had been staying by car."
+      },
+      {
+        "option": "B",
+        "text": "They left where they were staying in a hotel by car."
+      },
+      {
+        "option": "C",
+        "text": "In a car they left where they were staying in a hotel"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q034",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Active/Passive Voice",
+    "question_text": "Change the voice: The waiter filled the glasses with water.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "The glasses filled with water the waiter"
+      },
+      {
+        "option": "B",
+        "text": "The glasses were filled with water by the waiter"
+      },
+      {
+        "option": "C",
+        "text": "The waiter was filled the glasses with water"
+      },
+      {
+        "option": "D",
+        "text": "The water were filled on the glasses by waiter"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q035",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Active/Passive Voice",
+    "question_text": "Change the voice: She took the dog for a walk.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "The dog was taken for a walk by her"
+      },
+      {
+        "option": "B",
+        "text": "The dog took her for a walk"
+      },
+      {
+        "option": "C",
+        "text": "The dog was took for a walk"
+      },
+      {
+        "option": "D",
+        "text": "The dog took a walk by her"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q036",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Active/Passive Voice",
+    "question_text": "Change the voice: He was driving the car so fast that it skidded on the snowy road.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "The car was driven by him so fast that it skidded..."
+      },
+      {
+        "option": "B",
+        "text": "The car was being driven by him so fast that it skidded..."
+      },
+      {
+        "option": "C",
+        "text": "The car had been driven by him so fast that it skidded..."
+      },
+      {
+        "option": "D",
+        "text": "The car has been driven by him so fast that it skidded..."
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q037",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Active/Passive Voice",
+    "question_text": "Change the voice: They will laugh at you.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "You can be laughed at by them"
+      },
+      {
+        "option": "B",
+        "text": "You may be laughed at by them"
+      },
+      {
+        "option": "C",
+        "text": "You will be laughed at by them"
+      },
+      {
+        "option": "D",
+        "text": "You will have been laughed at by them"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q038",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Active/Passive Voice",
+    "question_text": "Change the voice: Then her face was bowed.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Then she was being bowed her face"
+      },
+      {
+        "option": "B",
+        "text": "Her face was bowed by then"
+      },
+      {
+        "option": "C",
+        "text": "Then she bowed her face"
+      },
+      {
+        "option": "D",
+        "text": "Then her face has been bowed"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q039",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "He informed (A)/ for me(B)/ to the police.(C)/ No error.(D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "He informed"
+      },
+      {
+        "option": "B",
+        "text": "for me"
+      },
+      {
+        "option": "C",
+        "text": "to the police"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q040",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "It is wishful(A)/thinking that you can improve the situation(B)/ by doing with such people. (C)/No error. (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "It is wishful"
+      },
+      {
+        "option": "B",
+        "text": "thinking that you can improve the situation"
+      },
+      {
+        "option": "C",
+        "text": "by doing with such people"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q041",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "He is(A)/now looking(B)/about a job.(C)/ No error. (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "He is"
+      },
+      {
+        "option": "B",
+        "text": "now looking"
+      },
+      {
+        "option": "C",
+        "text": "about a job"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q042",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "Do not(A)/look left(B)/on women. (C)/ No error. (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Do not"
+      },
+      {
+        "option": "B",
+        "text": "look left"
+      },
+      {
+        "option": "C",
+        "text": "on women"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q043",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Error Spotting",
+    "question_text": "It was I who was responsible of(A)/making all the arrangements for the(B)/ successful completion of his studies.(C)/No error. (D)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "It was I who was responsible of"
+      },
+      {
+        "option": "B",
+        "text": "making all the arrangements for the"
+      },
+      {
+        "option": "C",
+        "text": "successful completion of his studies"
+      },
+      {
+        "option": "D",
+        "text": "No error"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q044",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "Goaded to frenzy, **the bull charged its tormentors.**",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "the tormentors were charged by the bull"
+      },
+      {
+        "option": "B",
+        "text": "the tormentors were being charged by the bull"
+      },
+      {
+        "option": "C",
+        "text": "the bull charged on its tormentors"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q045",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "They consider **him as** a fool.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "him to be"
+      },
+      {
+        "option": "B",
+        "text": "him"
+      },
+      {
+        "option": "C",
+        "text": "as a fool"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q046",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "I **could not help but** laugh.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "could not help"
+      },
+      {
+        "option": "B",
+        "text": "cannot help but"
+      },
+      {
+        "option": "C",
+        "text": "could not help laughing"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q047",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "There are some works of art **that are not of much importance.**",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "that are of no importance"
+      },
+      {
+        "option": "B",
+        "text": "which are not important"
+      },
+      {
+        "option": "C",
+        "text": "of minor importance"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q048",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "**Not one of the children** have ever sung on stage.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Not one of the children has"
+      },
+      {
+        "option": "B",
+        "text": "Not one child has"
+      },
+      {
+        "option": "C",
+        "text": "Not one of the child have"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q049",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "The long-distance telephone lines **were cut out** due to the storm.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "were cut up"
+      },
+      {
+        "option": "B",
+        "text": "were cut into"
+      },
+      {
+        "option": "C",
+        "text": "were cut off"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q050",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Sentence Improvement",
+    "question_text": "The management is **not good at** cracking a joke.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "not good in"
+      },
+      {
+        "option": "B",
+        "text": "not good for"
+      },
+      {
+        "option": "C",
+        "text": "not good with"
+      },
+      {
+        "option": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q051",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "He got a divorce because his wife _____ the bed.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "soiled"
+      },
+      {
+        "option": "B",
+        "text": "fouled"
+      },
+      {
+        "option": "C",
+        "text": "defiled"
+      },
+      {
+        "option": "D",
+        "text": "stained"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q052",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "He is not ashamed _____ his sins.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "by"
+      },
+      {
+        "option": "B",
+        "text": "with"
+      },
+      {
+        "option": "C",
+        "text": "of"
+      },
+      {
+        "option": "D",
+        "text": "to"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q053",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "He has been absent _____ the office since Monday.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "from"
+      },
+      {
+        "option": "B",
+        "text": "with"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "in"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q054",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "She has great affection _____ her grandchildren.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "with"
+      },
+      {
+        "option": "B",
+        "text": "at"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "for"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q055",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "She is totally absorbed _____ her work.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "with"
+      },
+      {
+        "option": "B",
+        "text": "in"
+      },
+      {
+        "option": "C",
+        "text": "at"
+      },
+      {
+        "option": "D",
+        "text": "to"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q056",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "Are you acquainted _____ the customs of London?",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "with"
+      },
+      {
+        "option": "B",
+        "text": "of"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "by"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q057",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "I will abide _____ your decision.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "at"
+      },
+      {
+        "option": "B",
+        "text": "by"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "with"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q058",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "She is in a great rage _____ her maid.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "at"
+      },
+      {
+        "option": "B",
+        "text": "to"
+      },
+      {
+        "option": "C",
+        "text": "with"
+      },
+      {
+        "option": "D",
+        "text": "on"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q059",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "We are anxious _____ your health.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "for"
+      },
+      {
+        "option": "B",
+        "text": "at"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "on"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q060",
+    "block": "VARC",
+    "chapter_subtopic": "GRAMMAR",
+    "question_type": "Fill in the Blanks",
+    "question_text": "The patient is amenable _____ the advice of his doctor.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "to"
+      },
+      {
+        "option": "B",
+        "text": "for"
+      },
+      {
+        "option": "C",
+        "text": "with"
+      },
+      {
+        "option": "D",
+        "text": "at"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q061",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "The judge asked the jury to look at the evidence with complete _____.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "disinterest"
+      },
+      {
+        "option": "B",
+        "text": "non-interest"
+      },
+      {
+        "option": "C",
+        "text": "uninterest"
+      },
+      {
+        "option": "D",
+        "text": "detachment"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q062",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "Most people are influenced by _____ on the spot.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "persuasion"
+      },
+      {
+        "option": "B",
+        "text": "atmosphere"
+      },
+      {
+        "option": "C",
+        "text": "superstition"
+      },
+      {
+        "option": "D",
+        "text": "emotion"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q063",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "After a hard day's work I like to _____ home to a nice warm bath.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "go"
+      },
+      {
+        "option": "B",
+        "text": "travel"
+      },
+      {
+        "option": "C",
+        "text": "come"
+      },
+      {
+        "option": "D",
+        "text": "walk"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q064",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "I shall give you a full _____ of the events.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "statement"
+      },
+      {
+        "option": "B",
+        "text": "report"
+      },
+      {
+        "option": "C",
+        "text": "detail"
+      },
+      {
+        "option": "D",
+        "text": "account"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q065",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "There are some works of art that are not _____ much importance.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "of"
+      },
+      {
+        "option": "B",
+        "text": "for"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "in"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q066",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "The patient is _____ on a restricted diet.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "prescribed"
+      },
+      {
+        "option": "B",
+        "text": "recommended"
+      },
+      {
+        "option": "C",
+        "text": "advised"
+      },
+      {
+        "option": "D",
+        "text": "suggested"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q067",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "I am so hungry I could eat a horse, and I haven't got a penny _____ me.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "in"
+      },
+      {
+        "option": "B",
+        "text": "on"
+      },
+      {
+        "option": "C",
+        "text": "with"
+      },
+      {
+        "option": "D",
+        "text": "at"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q068",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "The old furniture was put up for _____ at the school fair.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "sale"
+      },
+      {
+        "option": "B",
+        "text": "sell"
+      },
+      {
+        "option": "C",
+        "text": "purchase"
+      },
+      {
+        "option": "D",
+        "text": "buy"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q069",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "I have been waiting for you for _____ than two hours.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "more"
+      },
+      {
+        "option": "B",
+        "text": "some"
+      },
+      {
+        "option": "C",
+        "text": "many"
+      },
+      {
+        "option": "D",
+        "text": "no"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q070",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "I don't think you can _____ him to his word.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "pin"
+      },
+      {
+        "option": "B",
+        "text": "hold"
+      },
+      {
+        "option": "C",
+        "text": "keep"
+      },
+      {
+        "option": "D",
+        "text": "take"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q071",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Phrasal Verbs",
+    "question_text": "Our new digital photo-print machine is not working. I will have to look _____ a manual.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "up"
+      },
+      {
+        "option": "B",
+        "text": "after"
+      },
+      {
+        "option": "C",
+        "text": "for"
+      },
+      {
+        "option": "D",
+        "text": "into"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q072",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Phrasal Verbs",
+    "question_text": "I cannot _____ to spend so much money on a new dress.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "afford"
+      },
+      {
+        "option": "B",
+        "text": "agree"
+      },
+      {
+        "option": "C",
+        "text": "allow"
+      },
+      {
+        "option": "D",
+        "text": "permit"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q073",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "The patient is confined _____ his bed.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "to"
+      },
+      {
+        "option": "B",
+        "text": "at"
+      },
+      {
+        "option": "C",
+        "text": "in"
+      },
+      {
+        "option": "D",
+        "text": "with"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q074",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "All of us are accountable to the team leader _____ our performance.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "for"
+      },
+      {
+        "option": "B",
+        "text": "to"
+      },
+      {
+        "option": "C",
+        "text": "with"
+      },
+      {
+        "option": "D",
+        "text": "at"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q075",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Phrasal Verbs",
+    "question_text": "You must try to live _____ your means.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "up to"
+      },
+      {
+        "option": "B",
+        "text": "up with"
+      },
+      {
+        "option": "C",
+        "text": "by"
+      },
+      {
+        "option": "D",
+        "text": "with"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q076",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "The poor peasants have to be content _____ coarse food.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "with"
+      },
+      {
+        "option": "B",
+        "text": "to"
+      },
+      {
+        "option": "C",
+        "text": "at"
+      },
+      {
+        "option": "D",
+        "text": "in"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q077",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "She is totally deficient _____ common sense.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "with"
+      },
+      {
+        "option": "B",
+        "text": "in"
+      },
+      {
+        "option": "C",
+        "text": "at"
+      },
+      {
+        "option": "D",
+        "text": "of"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q078",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "He is not content _____ what he has.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "with"
+      },
+      {
+        "option": "B",
+        "text": "to"
+      },
+      {
+        "option": "C",
+        "text": "in"
+      },
+      {
+        "option": "D",
+        "text": "at"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q079",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "I shall call _____ you tomorrow morning.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "on"
+      },
+      {
+        "option": "B",
+        "text": "at"
+      },
+      {
+        "option": "C",
+        "text": "in"
+      },
+      {
+        "option": "D",
+        "text": "for"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q080",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "We cannot dispense _____ the services of a courageous man.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "at"
+      },
+      {
+        "option": "B",
+        "text": "to"
+      },
+      {
+        "option": "C",
+        "text": "with"
+      },
+      {
+        "option": "D",
+        "text": "on"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q081",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Phrasal Verbs",
+    "question_text": "He is running _____ a high fever.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "after"
+      },
+      {
+        "option": "B",
+        "text": "at"
+      },
+      {
+        "option": "C",
+        "text": "for"
+      },
+      {
+        "option": "D",
+        "text": "a"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q082",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "I have broken _____ with my friend.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "up"
+      },
+      {
+        "option": "B",
+        "text": "at"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "in"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q083",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Phrasal Verbs",
+    "question_text": "I have to brush _____ my English as I am going to the UK next month.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "up"
+      },
+      {
+        "option": "B",
+        "text": "at"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "on"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q084",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Phrasal Verbs",
+    "question_text": "He called _____ me as he passed through the town.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "at"
+      },
+      {
+        "option": "B",
+        "text": "for"
+      },
+      {
+        "option": "C",
+        "text": "on"
+      },
+      {
+        "option": "D",
+        "text": "in"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q085",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Phrasal Verbs",
+    "question_text": "The audience suddenly became silent as the actor's wife _____ to be a well known criminal.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "turned out"
+      },
+      {
+        "option": "B",
+        "text": "turned in"
+      },
+      {
+        "option": "C",
+        "text": "turned up"
+      },
+      {
+        "option": "D",
+        "text": "turned about"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q086",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "We all have_____ the widowed girl.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "sympathy at"
+      },
+      {
+        "option": "B",
+        "text": "sympathy for"
+      },
+      {
+        "option": "C",
+        "text": "sympathy with"
+      },
+      {
+        "option": "D",
+        "text": "sympathy of"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q087",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "They organized an event last month in _____with another company.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "competition"
+      },
+      {
+        "option": "B",
+        "text": "collaboration"
+      },
+      {
+        "option": "C",
+        "text": "connection"
+      },
+      {
+        "option": "D",
+        "text": "regulation"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q088",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Vocabulary",
+    "question_text": "He_____ to help me and called me a fool.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "refused"
+      },
+      {
+        "option": "B",
+        "text": "denied"
+      },
+      {
+        "option": "C",
+        "text": "offered"
+      },
+      {
+        "option": "D",
+        "text": "thought"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q089",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "The river abounds _____ fish and crocodiles.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "with"
+      },
+      {
+        "option": "B",
+        "text": "in"
+      },
+      {
+        "option": "C",
+        "text": "at"
+      },
+      {
+        "option": "D",
+        "text": "to"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q090",
+    "block": "VARC",
+    "chapter_subtopic": "FILL IN THE BLANKS",
+    "question_type": "Prepositions",
+    "question_text": "I am angry _____ the way you behave.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "at"
+      },
+      {
+        "option": "B",
+        "text": "with"
+      },
+      {
+        "option": "C",
+        "text": "to"
+      },
+      {
+        "option": "D",
+        "text": "in"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q091",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "A close shave",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "A close call"
+      },
+      {
+        "option": "B",
+        "text": "A clean shave"
+      },
+      {
+        "option": "C",
+        "text": "A narrow escape"
+      },
+      {
+        "option": "D",
+        "text": "A smooth shave"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q092",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "A red rag to a bull",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Something that causes anger"
+      },
+      {
+        "option": "B",
+        "text": "A harmless thing"
+      },
+      {
+        "option": "C",
+        "text": "A cheerful thing"
+      },
+      {
+        "option": "D",
+        "text": "A colourful thing"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q093",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "A white elephant",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "A useful thing"
+      },
+      {
+        "option": "B",
+        "text": "A costly but useless thing"
+      },
+      {
+        "option": "C",
+        "text": "A cheap thing"
+      },
+      {
+        "option": "D",
+        "text": "A rare thing"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q094",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "At a loss",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To be happy"
+      },
+      {
+        "option": "B",
+        "text": "To be sad"
+      },
+      {
+        "option": "C",
+        "text": "To be puzzled"
+      },
+      {
+        "option": "D",
+        "text": "To be lucky"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q095",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Bury the hatchet",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To make peace"
+      },
+      {
+        "option": "B",
+        "text": "To hide something"
+      },
+      {
+        "option": "C",
+        "text": "To start a quarrel"
+      },
+      {
+        "option": "D",
+        "text": "To give up a fight"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q096",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "By all means",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "By every possible way"
+      },
+      {
+        "option": "B",
+        "text": "By a single way"
+      },
+      {
+        "option": "C",
+        "text": "By no means"
+      },
+      {
+        "option": "D",
+        "text": "By any means"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q097",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Carry out",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To execute"
+      },
+      {
+        "option": "B",
+        "text": "To postpone"
+      },
+      {
+        "option": "C",
+        "text": "To delay"
+      },
+      {
+        "option": "D",
+        "text": "To cancel"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q098",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Chew the cud",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To eat slowly"
+      },
+      {
+        "option": "B",
+        "text": "To speak softly"
+      },
+      {
+        "option": "C",
+        "text": "To meditate"
+      },
+      {
+        "option": "D",
+        "text": "To chew food"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q099",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Cut a sorry figure",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To look sad"
+      },
+      {
+        "option": "B",
+        "text": "To look happy"
+      },
+      {
+        "option": "C",
+        "text": "To look pale"
+      },
+      {
+        "option": "D",
+        "text": "To look impressive"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q100",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "An old head on young shoulders",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "A wise young person"
+      },
+      {
+        "option": "B",
+        "text": "A foolish young person"
+      },
+      {
+        "option": "C",
+        "text": "An old man with young ideas"
+      },
+      {
+        "option": "D",
+        "text": "A young person with old ideas"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q101",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "A bad egg",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "One who is dishonest and unreliable"
+      },
+      {
+        "option": "B",
+        "text": "An unreliable plan"
+      },
+      {
+        "option": "C",
+        "text": "a disowned son or daughter"
+      },
+      {
+        "option": "D",
+        "text": "a bad bargain"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q102",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "bring to heel",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "to punish someone"
+      },
+      {
+        "option": "B",
+        "text": "to stop someone from creating trouble"
+      },
+      {
+        "option": "C",
+        "text": "to force someone to obey"
+      },
+      {
+        "option": "D",
+        "text": "to surrender"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q103",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "a close fist",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "a greedy person"
+      },
+      {
+        "option": "B",
+        "text": "a miserly person"
+      },
+      {
+        "option": "C",
+        "text": "a fighter"
+      },
+      {
+        "option": "D",
+        "text": "a friend"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q104",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "blow one's own trumpet",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "to praise others"
+      },
+      {
+        "option": "B",
+        "text": "to praise oneself"
+      },
+      {
+        "option": "C",
+        "text": "to appreciate others"
+      },
+      {
+        "option": "D",
+        "text": "to criticize others"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q105",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "back up",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "to support"
+      },
+      {
+        "option": "B",
+        "text": "to criticize"
+      },
+      {
+        "option": "C",
+        "text": "to oppose"
+      },
+      {
+        "option": "D",
+        "text": "to ignore"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q106",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "a bee in one's bonnet",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "be angry about something"
+      },
+      {
+        "option": "B",
+        "text": "having an obsession"
+      },
+      {
+        "option": "C",
+        "text": "a painful thing"
+      },
+      {
+        "option": "D",
+        "text": "a happy thought"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q107",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "wild and woolly",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "uncouth in appearance or behaviour"
+      },
+      {
+        "option": "B",
+        "text": "either too much of something or too little"
+      },
+      {
+        "option": "C",
+        "text": "near to perfection"
+      },
+      {
+        "option": "D",
+        "text": "ignoring all obligations"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q108",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "give it a whirl",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "to be engaged in cheating"
+      },
+      {
+        "option": "B",
+        "text": "to completely destroy something"
+      },
+      {
+        "option": "C",
+        "text": "attach or criticize someone"
+      },
+      {
+        "option": "D",
+        "text": "to try out something"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q109",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "alarums and Excursions",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "value for money and time"
+      },
+      {
+        "option": "B",
+        "text": "confused activity and uproar"
+      },
+      {
+        "option": "C",
+        "text": "source of fun or amusement"
+      },
+      {
+        "option": "D",
+        "text": "derive excitement or pleasure from"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q110",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "up in the air (about someone or something)",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "in prison"
+      },
+      {
+        "option": "B",
+        "text": "still to be settled"
+      },
+      {
+        "option": "C",
+        "text": "on the wrong track"
+      },
+      {
+        "option": "D",
+        "text": "enjoying great success"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q111",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "give oneself airs",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "be intelligent"
+      },
+      {
+        "option": "B",
+        "text": "penniless"
+      },
+      {
+        "option": "C",
+        "text": "pretend to be good"
+      },
+      {
+        "option": "D",
+        "text": "prepare for a difficulty"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q112",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "alphabet Soup",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "incomprehensible or confusing mix"
+      },
+      {
+        "option": "B",
+        "text": "something outstandingly good"
+      },
+      {
+        "option": "C",
+        "text": "fashionable and glamorous"
+      },
+      {
+        "option": "D",
+        "text": "privileged people"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q113",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "be all one to",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "succeed in doing something"
+      },
+      {
+        "option": "B",
+        "text": "searching thoroughly"
+      },
+      {
+        "option": "C",
+        "text": "not in keeping with the rules"
+      },
+      {
+        "option": "D",
+        "text": "make no difference"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q114",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "an article of faith",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "a formula for carrying a curse on someone"
+      },
+      {
+        "option": "B",
+        "text": "become very successful or famous"
+      },
+      {
+        "option": "C",
+        "text": "a firmly held belief"
+      },
+      {
+        "option": "D",
+        "text": "angry or Agitated"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q115",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "in the ascendant",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "a general view from above"
+      },
+      {
+        "option": "B",
+        "text": "rising in power or influence"
+      },
+      {
+        "option": "C",
+        "text": "to reject someone"
+      },
+      {
+        "option": "D",
+        "text": "waiting quietly for a good opportunity"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q116",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "bring home the bacon",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "an action to be taken when all else fails"
+      },
+      {
+        "option": "B",
+        "text": "be grateful for what we have"
+      },
+      {
+        "option": "C",
+        "text": "supply material support"
+      },
+      {
+        "option": "D",
+        "text": "setback for someone or something"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q117",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "have the ball at your feet.",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "be able to recognize"
+      },
+      {
+        "option": "B",
+        "text": "miss something of what is going on around"
+      },
+      {
+        "option": "C",
+        "text": "enable someone to avoid humiliation"
+      },
+      {
+        "option": "D",
+        "text": "to be in the best position to do something"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q118",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "banana oil",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "perfectly cool or self-possessed"
+      },
+      {
+        "option": "B",
+        "text": "nonsensical talk"
+      },
+      {
+        "option": "C",
+        "text": "a plentiful supply"
+      },
+      {
+        "option": "D",
+        "text": "very long time"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q119",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "after one's own heart",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "sharing or having one's tastes or views."
+      },
+      {
+        "option": "B",
+        "text": "infatuation with a person which is not reciprocated."
+      },
+      {
+        "option": "C",
+        "text": "memorise something by heart."
+      },
+      {
+        "option": "D",
+        "text": "don't have the courage to do something bad for a good person."
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q120",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "pull the wool over someone's eyes",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "to protect someone."
+      },
+      {
+        "option": "B",
+        "text": "to keep oneself warm."
+      },
+      {
+        "option": "C",
+        "text": "deceive someone by telling lies."
+      },
+      {
+        "option": "D",
+        "text": "to pretend to be blind to the other person's bad behaviour."
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q121",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "at large",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "a very big opportunity."
+      },
+      {
+        "option": "B",
+        "text": "a criminal escaped or not yet captured."
+      },
+      {
+        "option": "C",
+        "text": "to have a big heart."
+      },
+      {
+        "option": "D",
+        "text": "a big appetite."
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q122",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "head over heels",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "to do things exactly opposite of what is expected."
+      },
+      {
+        "option": "B",
+        "text": "madly in love."
+      },
+      {
+        "option": "C",
+        "text": "to do stupid things."
+      },
+      {
+        "option": "D",
+        "text": "to unknowingly dive into an unpleasant situation."
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q123",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "In deep water",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To die"
+      },
+      {
+        "option": "B",
+        "text": "In great difficulty"
+      },
+      {
+        "option": "C",
+        "text": "To fail completely"
+      },
+      {
+        "option": "D",
+        "text": "To surrender"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q124",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "In the egg",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "In an untidy state"
+      },
+      {
+        "option": "B",
+        "text": "In a dilemma"
+      },
+      {
+        "option": "C",
+        "text": "In an early stage"
+      },
+      {
+        "option": "D",
+        "text": "In bodily form"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Easy"
+  },
+  {
+    "id": "Q125",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Cut in on",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Acknowledge"
+      },
+      {
+        "option": "B",
+        "text": "interrupt"
+      },
+      {
+        "option": "C",
+        "text": "Evade"
+      },
+      {
+        "option": "D",
+        "text": "produce"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q126",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Draw a blank",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Absent minded"
+      },
+      {
+        "option": "B",
+        "text": "To be unsuccessful"
+      },
+      {
+        "option": "C",
+        "text": "Come to an end"
+      },
+      {
+        "option": "D",
+        "text": "To fall a victim"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q127",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Give up ghost",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To feel superior"
+      },
+      {
+        "option": "B",
+        "text": "To overcome one's fear"
+      },
+      {
+        "option": "C",
+        "text": "To give encouragement"
+      },
+      {
+        "option": "D",
+        "text": "To die"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q128",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Faint hearted",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Calm"
+      },
+      {
+        "option": "B",
+        "text": "Timid"
+      },
+      {
+        "option": "C",
+        "text": "Lovable"
+      },
+      {
+        "option": "D",
+        "text": "Courageous"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q129",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "To lead astray",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To take back what you have said"
+      },
+      {
+        "option": "B",
+        "text": "To misguide"
+      },
+      {
+        "option": "C",
+        "text": "To achieve two results with one effort"
+      },
+      {
+        "option": "D",
+        "text": "To apologize humbly"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q130",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "To make a pile",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To keep at a distance"
+      },
+      {
+        "option": "B",
+        "text": "To make a lot of money"
+      },
+      {
+        "option": "C",
+        "text": "To aggravate the situation"
+      },
+      {
+        "option": "D",
+        "text": "To face the risk"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q131",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Back out of",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Decimate"
+      },
+      {
+        "option": "B",
+        "text": "Record"
+      },
+      {
+        "option": "C",
+        "text": "Withdraw"
+      },
+      {
+        "option": "D",
+        "text": "Pertain"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q132",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Throw over",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Enumerate"
+      },
+      {
+        "option": "B",
+        "text": "Invent"
+      },
+      {
+        "option": "C",
+        "text": "Reprimand"
+      },
+      {
+        "option": "D",
+        "text": "Reject"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q133",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Lion's mouth",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Strict rules"
+      },
+      {
+        "option": "B",
+        "text": "Harsh spoken"
+      },
+      {
+        "option": "C",
+        "text": "Brave"
+      },
+      {
+        "option": "D",
+        "text": "A dangerous situation"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q134",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "A stiff-necked person",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Honest and open"
+      },
+      {
+        "option": "B",
+        "text": "An obstinate person"
+      },
+      {
+        "option": "C",
+        "text": "A source of quarrel"
+      },
+      {
+        "option": "D",
+        "text": "Ordinary person"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q135",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Cross out",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "Interrupt"
+      },
+      {
+        "option": "B",
+        "text": "Summon up"
+      },
+      {
+        "option": "C",
+        "text": "To remove"
+      },
+      {
+        "option": "D",
+        "text": "Inflate"
+      }
+    ],
+    "correct_answer": "C",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q136",
+    "block": "VARC",
+    "chapter_subtopic": "IDIOMS AND PHRASES",
+    "question_type": "Idiom Meaning",
+    "question_text": "Make away with",
+    "data_paragraph": "",
+    "options": [
+      {
+        "option": "A",
+        "text": "To compensate"
+      },
+      {
+        "option": "B",
+        "text": "Eliminate"
+      },
+      {
+        "option": "C",
+        "text": "To find out"
+      },
+      {
+        "option": "D",
+        "text": "To understand"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Moderate"
+  },
+  {
+    "id": "Q240",
+    "block": "VARC",
+    "chapter_subtopic": "CRITICAL REASONING",
+    "question_type": "Statements & Conclusions",
+    "question_text": "Decide which of the conclusions logically follows.",
+    "data_paragraph": "Statement: Good voice is a natural gift but one has to keep practising to improve and excel well in the field of music.\nConclusions:\nI. Natural gifts need nurturing and care.\nII. Even though your voice is not good, one can keep practising.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "option": "C",
+        "text": "Either I or II follows"
+      },
+      {
+        "option": "D",
+        "text": "Neither I nor II follows"
+      },
+      {
+        "option": "E",
+        "text": "Both I and II follow"
+      }
+    ],
+    "correct_answer": "A",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q241",
+    "block": "VARC",
+    "chapter_subtopic": "CRITICAL REASONING",
+    "question_type": "Statements & Conclusions",
+    "question_text": "Decide which of the conclusions logically follows.",
+    "data_paragraph": "Statement: All the organised persons find time for rest. Sunita, in spite of her very busy schedule, finds time for rest.\nConclusions:\nI. Sunita is an organised person.\nII. Sunita is an industrious person.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "option": "C",
+        "text": "Either I or II follows"
+      },
+      {
+        "option": "D",
+        "text": "Neither I nor II follows"
+      },
+      {
+        "option": "E",
+        "text": "Both I and II follow"
+      }
+    ],
+    "correct_answer": "E",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q249",
+    "block": "VARC",
+    "chapter_subtopic": "CRITICAL REASONING",
+    "question_type": "Statements & Conclusions",
+    "question_text": "Decide which of the conclusions logically follows.",
+    "data_paragraph": "Statement: Double your money in five months – An advertisement.\nConclusions:\nI. The assurance is not genuine.\nII. People want their money to grow.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "option": "C",
+        "text": "Either I or II follows"
+      },
+      {
+        "option": "D",
+        "text": "Neither I nor II follows"
+      },
+      {
+        "option": "E",
+        "text": "Both I and II follow"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q250",
+    "block": "VARC",
+    "chapter_subtopic": "CRITICAL REASONING",
+    "question_type": "Statements & Conclusions",
+    "question_text": "Decide which of the conclusions logically follows.",
+    "data_paragraph": "Statement: Company X has a record of manufacturing cameras of quality and the latest design so that you do not spoil even a single shot irrespective of the weather conditions.\nConclusions:\nI. No other company except X is reputed in the camera industry.\nII. Anyone can take an acceptable shot with camera X.",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "option": "C",
+        "text": "Either I or II follows"
+      },
+      {
+        "option": "D",
+        "text": "Neither I nor II follows"
+      },
+      {
+        "option": "E",
+        "text": "Both I and II follow"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q301",
+    "block": "VARC",
+    "chapter_subtopic": "FACT INFERENCE JUDGEMENT",
+    "question_type": "Reading Comprehension",
+    "question_text": "Based on the statement, which conclusion necessarily follows? **I. Urban gardening is an effective solution to all systemic issues. II. Urban gardening's popularity has increased recently. III. There is a debate regarding the ultimate effectiveness of urban gardening in addressing fundamental problems.**",
+    "data_paragraph": "Urban gardening has gained traction in recent years... critics argue that urban gardening often does not address the systemic issues...",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only II follows"
+      },
+      {
+        "option": "C",
+        "text": "Only III follows"
+      },
+      {
+        "option": "D",
+        "text": "Both II and III follow"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q302",
+    "block": "VARC",
+    "chapter_subtopic": "FACT INFERENCE JUDGEMENT",
+    "question_type": "Reading Comprehension",
+    "question_text": "Based on the statement, which conclusion necessarily follows? **I. All current AI systems are bias-free. II. Fairness and inclusivity are foundational goals in AI development.**",
+    "data_paragraph": "A fundamental principle of artificial intelligence (AI) development is to ensure that Al systems are designed with fairness and inclusivity in mind...",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only II follows"
+      },
+      {
+        "option": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "option": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q303",
+    "block": "VARC",
+    "chapter_subtopic": "FACT INFERENCE JUDGEMENT",
+    "question_type": "Reading Comprehension",
+    "question_text": "Based on the statement, which conclusion necessarily follows? **I. The profound changes due to electricity were immediate. II. There is a division in opinion regarding the benefits of technological progress. III. The modern political movements mentioned are against technology.**",
+    "data_paragraph": "The discovery of electricity centuries ago led to profound changes... Some modern political movements propagate a narrative that portrays technological progress as inherently beneficial...",
+    "options": [
+      {
+        "option": "A",
+        "text": "Only I follows"
+      },
+      {
+        "option": "B",
+        "text": "Only II follows"
+      },
+      {
+        "option": "C",
+        "text": "Only III follows"
+      },
+      {
+        "option": "D",
+        "text": "Both I and III follow"
+      }
+    ],
+    "correct_answer": "B",
+    "difficulty_level": "Very Easy"
+  },
+  {
+    "id": "Q328",
+    "block": "VARC",
+    "chapter_subtopic": "FACT INFERENCE JUDGEMENT",
+    "question_type": "Logical Deduction",
+    "question_text": "Which of the following can be inferred?",
+    "data_paragraph": "The recent surge in demand for electric vehicles has led to increased lithium-ion battery production.",
+    "options": [
+      {
+        "option": "A",
+        "text": "The increase in lithium-ion battery production is solely driven by the demand for electric vehicles."
+      },
+      {
+        "option": "B",
+        "text": "Lithium-ion batteries are the only type of batteries used in electric vehicles."
+      },
+      {
+        "option": "C",
+        "text": "Increased production of lithium-ion batteries will lead to a decrease in their cost."
+      },
+      {
+        "option": "D",
+        "text": "None of the above."
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "Q389",
+    "block": "VARC",
+    "chapter_subtopic": "READING COMPREHENSION",
+    "question_type": "Reading Comprehension",
+    "question_text": "Selling a commodity at a price that is not more than that charged by competitors is",
+    "data_paragraph": "Most economists in the United States seem captivated by the spell of the free market... That each large firm will act with consideration of its own needs and thus avoid selling its products for more than its competitors charge is commonly recognised by advocates of free-market economic theories.",
+    "options": [
+      {
+        "option": "A",
+        "text": "rejected by the free market system"
+      },
+      {
+        "option": "B",
+        "text": "opposed by the advocates of the free market theories"
+      },
+      {
+        "option": "C",
+        "text": "considered suspicious by the free market theorists"
+      },
+      {
+        "option": "D",
+        "text": "**recognised** by the advocates of the free market theories"
+      }
+    ],
+    "correct_answer": "D",
+    "difficulty_level": "Difficult"
+  },
+  {
+    "id": "GEN_1615",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 7 + 20 in VARC?",
+    "options": {
+      "A": "27",
+      "B": "28",
+      "C": "26",
+      "D": "29"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1616",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 11 + 9 in VARC?",
+    "options": {
+      "A": "20",
+      "B": "21",
+      "C": "19",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1617",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 19 + 20 in VARC?",
+    "options": {
+      "A": "39",
+      "B": "40",
+      "C": "38",
+      "D": "41"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1618",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 16 + 18 in VARC?",
+    "options": {
+      "A": "34",
+      "B": "35",
+      "C": "33",
+      "D": "36"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1619",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 16 + 8 in VARC?",
+    "options": {
+      "A": "24",
+      "B": "25",
+      "C": "23",
+      "D": "26"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1620",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 14 + 4 in VARC?",
+    "options": {
+      "A": "18",
+      "B": "19",
+      "C": "17",
+      "D": "20"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1621",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 2 + 1 in VARC?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "2",
+      "D": "5"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1622",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 13 + 2 in VARC?",
+    "options": {
+      "A": "15",
+      "B": "16",
+      "C": "14",
+      "D": "17"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1623",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 19 + 8 in VARC?",
+    "options": {
+      "A": "27",
+      "B": "28",
+      "C": "26",
+      "D": "29"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1624",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "What is the value of 2 + 20 in VARC?",
+    "options": {
+      "A": "22",
+      "B": "23",
+      "C": "21",
+      "D": "24"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1748",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 12 × 13 - 24 in VARC:",
+    "options": {
+      "A": "132",
+      "B": "133",
+      "C": "131",
+      "D": "137"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1749",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 5 × 13 - 28 in VARC:",
+    "options": {
+      "A": "37",
+      "B": "38",
+      "C": "36",
+      "D": "42"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1750",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 15 × 10 - 38 in VARC:",
+    "options": {
+      "A": "112",
+      "B": "113",
+      "C": "111",
+      "D": "117"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1751",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 12 × 14 - 32 in VARC:",
+    "options": {
+      "A": "136",
+      "B": "137",
+      "C": "135",
+      "D": "141"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1752",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 6 × 10 - 38 in VARC:",
+    "options": {
+      "A": "22",
+      "B": "23",
+      "C": "21",
+      "D": "27"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1753",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 11 × 7 - 36 in VARC:",
+    "options": {
+      "A": "41",
+      "B": "42",
+      "C": "40",
+      "D": "46"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1754",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 7 × 5 - 17 in VARC:",
+    "options": {
+      "A": "18",
+      "B": "19",
+      "C": "17",
+      "D": "23"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1755",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 8 × 9 - 22 in VARC:",
+    "options": {
+      "A": "50",
+      "B": "51",
+      "C": "49",
+      "D": "55"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1756",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 10 × 13 - 50 in VARC:",
+    "options": {
+      "A": "80",
+      "B": "81",
+      "C": "79",
+      "D": "85"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1757",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 10 × 15 - 15 in VARC:",
+    "options": {
+      "A": "135",
+      "B": "136",
+      "C": "134",
+      "D": "140"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1758",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 10 × 8 - 20 in VARC:",
+    "options": {
+      "A": "60",
+      "B": "61",
+      "C": "59",
+      "D": "65"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1759",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 14 × 8 - 30 in VARC:",
+    "options": {
+      "A": "82",
+      "B": "83",
+      "C": "81",
+      "D": "87"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1760",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 10 × 11 - 28 in VARC:",
+    "options": {
+      "A": "82",
+      "B": "83",
+      "C": "81",
+      "D": "87"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1761",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 12 × 13 - 39 in VARC:",
+    "options": {
+      "A": "117",
+      "B": "118",
+      "C": "116",
+      "D": "122"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1762",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 12 × 6 - 16 in VARC:",
+    "options": {
+      "A": "56",
+      "B": "57",
+      "C": "55",
+      "D": "61"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1763",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "Calculate 8 × 11 - 19 in VARC:",
+    "options": {
+      "A": "69",
+      "B": "70",
+      "C": "68",
+      "D": "74"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1892",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 44 to 64 is 2:5, find the value of 44 when 64 = 176:",
+    "options": {
+      "A": "70",
+      "B": "72",
+      "C": "68",
+      "D": "80"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1893",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 49 to 75 is 1:4, find the value of 49 when 75 = 77:",
+    "options": {
+      "A": "19",
+      "B": "21",
+      "C": "17",
+      "D": "29"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1894",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 34 to 53 is 3:8, find the value of 34 when 53 = 151:",
+    "options": {
+      "A": "56",
+      "B": "58",
+      "C": "54",
+      "D": "66"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1895",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 23 to 23 is 2:8, find the value of 23 when 23 = 42:",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "8",
+      "D": "20"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1896",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 32 to 80 is 3:3, find the value of 32 when 80 = 74:",
+    "options": {
+      "A": "74",
+      "B": "76",
+      "C": "72",
+      "D": "84"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1897",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 21 to 52 is 5:7, find the value of 21 when 52 = 110:",
+    "options": {
+      "A": "78",
+      "B": "80",
+      "C": "76",
+      "D": "88"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1898",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 42 to 89 is 4:6, find the value of 42 when 89 = 164:",
+    "options": {
+      "A": "109",
+      "B": "111",
+      "C": "107",
+      "D": "119"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1899",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 38 to 46 is 5:5, find the value of 38 when 46 = 193:",
+    "options": {
+      "A": "193",
+      "B": "195",
+      "C": "191",
+      "D": "203"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1900",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 29 to 51 is 4:4, find the value of 29 when 51 = 124:",
+    "options": {
+      "A": "124",
+      "B": "126",
+      "C": "122",
+      "D": "134"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1901",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 38 to 44 is 2:7, find the value of 38 when 44 = 149:",
+    "options": {
+      "A": "42",
+      "B": "44",
+      "C": "40",
+      "D": "52"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1902",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 49 to 74 is 3:5, find the value of 49 when 74 = 82:",
+    "options": {
+      "A": "49",
+      "B": "51",
+      "C": "47",
+      "D": "59"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1903",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 17 to 36 is 5:7, find the value of 17 when 36 = 43:",
+    "options": {
+      "A": "30",
+      "B": "32",
+      "C": "28",
+      "D": "40"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1904",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 26 to 92 is 3:2, find the value of 26 when 92 = 92:",
+    "options": {
+      "A": "138",
+      "B": "140",
+      "C": "136",
+      "D": "148"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1905",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 42 to 71 is 1:7, find the value of 42 when 71 = 51:",
+    "options": {
+      "A": "7",
+      "B": "9",
+      "C": "5",
+      "D": "17"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1906",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 29 to 40 is 2:6, find the value of 29 when 40 = 40:",
+    "options": {
+      "A": "13",
+      "B": "15",
+      "C": "11",
+      "D": "23"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1907",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "If the ratio of 42 to 20 is 4:2, find the value of 42 when 20 = 83:",
+    "options": {
+      "A": "166",
+      "B": "168",
+      "C": "164",
+      "D": "176"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1985",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "In VARC, if f(x) = 2x² + -9x + 5, find f(2):",
+    "options": {
+      "A": "-5",
+      "B": "0",
+      "C": "-10",
+      "D": "5"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1986",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "In VARC, if f(x) = 2x² + -9x + 5, find f(2):",
+    "options": {
+      "A": "-5",
+      "B": "0",
+      "C": "-10",
+      "D": "5"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1987",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "In VARC, if f(x) = 4x² + 0x + -20, find f(2):",
+    "options": {
+      "A": "-4",
+      "B": "1",
+      "C": "-9",
+      "D": "6"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1988",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "In VARC, if f(x) = 2x² + -8x + 4, find f(1):",
+    "options": {
+      "A": "-2",
+      "B": "3",
+      "C": "-7",
+      "D": "8"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1989",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "In VARC, if f(x) = 2x² + -1x + -15, find f(1):",
+    "options": {
+      "A": "-14",
+      "B": "-9",
+      "C": "-19",
+      "D": "-4"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1990",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "In VARC, if f(x) = 4x² + -7x + 11, find f(1):",
+    "options": {
+      "A": "8",
+      "B": "13",
+      "C": "3",
+      "D": "18"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1991",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "In VARC, if f(x) = 2x² + -2x + 20, find f(5):",
+    "options": {
+      "A": "60",
+      "B": "65",
+      "C": "55",
+      "D": "70"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult VARC question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1992",
+    "block": "VARC",
+    "subtopic": "varc",
+    "text": "In VARC, if f(x) = 5x² + -8x + 6, find f(5):",
+    "options": {
+      "A": "91",
+      "B": "96",
+      "C": "86",
+      "D": "101"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult VARC question.",
+    "source": "generated",
+    "generated": true
+  }
+]

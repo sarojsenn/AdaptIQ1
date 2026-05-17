@@ -1,0 +1,990 @@
+[
+  {
+    "id": "GEN_1573",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 4 + 6 in Geometry and Mensuration?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "9",
+      "D": "12"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1574",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 5 + 9 in Geometry and Mensuration?",
+    "options": {
+      "A": "14",
+      "B": "15",
+      "C": "13",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1575",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 6 + 13 in Geometry and Mensuration?",
+    "options": {
+      "A": "19",
+      "B": "20",
+      "C": "18",
+      "D": "21"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1576",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 6 + 2 in Geometry and Mensuration?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7",
+      "D": "10"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1577",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 18 + 6 in Geometry and Mensuration?",
+    "options": {
+      "A": "24",
+      "B": "25",
+      "C": "23",
+      "D": "26"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1578",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 3 + 11 in Geometry and Mensuration?",
+    "options": {
+      "A": "14",
+      "B": "15",
+      "C": "13",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1579",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 19 + 19 in Geometry and Mensuration?",
+    "options": {
+      "A": "38",
+      "B": "39",
+      "C": "37",
+      "D": "40"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1580",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 14 + 3 in Geometry and Mensuration?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "19"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1581",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 1 + 19 in Geometry and Mensuration?",
+    "options": {
+      "A": "20",
+      "B": "21",
+      "C": "19",
+      "D": "22"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1582",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 20 + 12 in Geometry and Mensuration?",
+    "options": {
+      "A": "32",
+      "B": "33",
+      "C": "31",
+      "D": "34"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1583",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "What is the value of 8 + 10 in Geometry and Mensuration?",
+    "options": {
+      "A": "18",
+      "B": "19",
+      "C": "17",
+      "D": "20"
+    },
+    "answer": "A",
+    "difficulty": "VERY_EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a very easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1684",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 14 × 13 - 43 in Geometry and Mensuration:",
+    "options": {
+      "A": "139",
+      "B": "140",
+      "C": "138",
+      "D": "144"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1685",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 11 × 10 - 47 in Geometry and Mensuration:",
+    "options": {
+      "A": "63",
+      "B": "64",
+      "C": "62",
+      "D": "68"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1686",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 8 × 6 - 38 in Geometry and Mensuration:",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "9",
+      "D": "15"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1687",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 14 × 13 - 44 in Geometry and Mensuration:",
+    "options": {
+      "A": "138",
+      "B": "139",
+      "C": "137",
+      "D": "143"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1688",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 10 × 8 - 10 in Geometry and Mensuration:",
+    "options": {
+      "A": "70",
+      "B": "71",
+      "C": "69",
+      "D": "75"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1689",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 8 × 14 - 21 in Geometry and Mensuration:",
+    "options": {
+      "A": "91",
+      "B": "92",
+      "C": "90",
+      "D": "96"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1690",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 13 × 5 - 19 in Geometry and Mensuration:",
+    "options": {
+      "A": "46",
+      "B": "47",
+      "C": "45",
+      "D": "51"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1691",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 11 × 15 - 25 in Geometry and Mensuration:",
+    "options": {
+      "A": "140",
+      "B": "141",
+      "C": "139",
+      "D": "145"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1692",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 10 × 5 - 31 in Geometry and Mensuration:",
+    "options": {
+      "A": "19",
+      "B": "20",
+      "C": "18",
+      "D": "24"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1693",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 12 × 10 - 23 in Geometry and Mensuration:",
+    "options": {
+      "A": "97",
+      "B": "98",
+      "C": "96",
+      "D": "102"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1694",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 9 × 9 - 23 in Geometry and Mensuration:",
+    "options": {
+      "A": "58",
+      "B": "59",
+      "C": "57",
+      "D": "63"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1695",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 9 × 5 - 40 in Geometry and Mensuration:",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "4",
+      "D": "10"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1696",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 13 × 8 - 15 in Geometry and Mensuration:",
+    "options": {
+      "A": "89",
+      "B": "90",
+      "C": "88",
+      "D": "94"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1697",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 12 × 10 - 35 in Geometry and Mensuration:",
+    "options": {
+      "A": "85",
+      "B": "86",
+      "C": "84",
+      "D": "90"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1698",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 5 × 14 - 25 in Geometry and Mensuration:",
+    "options": {
+      "A": "45",
+      "B": "46",
+      "C": "44",
+      "D": "50"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1699",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "Calculate 11 × 11 - 39 in Geometry and Mensuration:",
+    "options": {
+      "A": "82",
+      "B": "83",
+      "C": "81",
+      "D": "87"
+    },
+    "answer": "A",
+    "difficulty": "EASY",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a easy Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1828",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 29 to 79 is 3:8, find the value of 29 when 79 = 175:",
+    "options": {
+      "A": "65",
+      "B": "67",
+      "C": "63",
+      "D": "75"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1829",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 26 to 96 is 5:2, find the value of 26 when 96 = 77:",
+    "options": {
+      "A": "192",
+      "B": "194",
+      "C": "190",
+      "D": "202"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1830",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 44 to 30 is 4:3, find the value of 44 when 30 = 170:",
+    "options": {
+      "A": "226",
+      "B": "228",
+      "C": "224",
+      "D": "236"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1831",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 18 to 67 is 4:8, find the value of 18 when 67 = 56:",
+    "options": {
+      "A": "28",
+      "B": "30",
+      "C": "26",
+      "D": "38"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1832",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 42 to 80 is 1:6, find the value of 42 when 80 = 130:",
+    "options": {
+      "A": "21",
+      "B": "23",
+      "C": "19",
+      "D": "31"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1833",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 40 to 47 is 5:2, find the value of 40 when 47 = 111:",
+    "options": {
+      "A": "277",
+      "B": "279",
+      "C": "275",
+      "D": "287"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1834",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 42 to 68 is 5:8, find the value of 42 when 68 = 140:",
+    "options": {
+      "A": "87",
+      "B": "89",
+      "C": "85",
+      "D": "97"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1835",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 30 to 26 is 1:2, find the value of 30 when 26 = 131:",
+    "options": {
+      "A": "65",
+      "B": "67",
+      "C": "63",
+      "D": "75"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1836",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 37 to 48 is 3:7, find the value of 37 when 48 = 138:",
+    "options": {
+      "A": "59",
+      "B": "61",
+      "C": "57",
+      "D": "69"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1837",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 10 to 23 is 4:8, find the value of 10 when 23 = 137:",
+    "options": {
+      "A": "68",
+      "B": "70",
+      "C": "66",
+      "D": "78"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1838",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 44 to 86 is 1:7, find the value of 44 when 86 = 45:",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "4",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1839",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 13 to 89 is 2:6, find the value of 13 when 89 = 84:",
+    "options": {
+      "A": "28",
+      "B": "30",
+      "C": "26",
+      "D": "38"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1840",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 23 to 95 is 1:2, find the value of 23 when 95 = 178:",
+    "options": {
+      "A": "89",
+      "B": "91",
+      "C": "87",
+      "D": "99"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1841",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 48 to 57 is 3:2, find the value of 48 when 57 = 108:",
+    "options": {
+      "A": "162",
+      "B": "164",
+      "C": "160",
+      "D": "172"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1842",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 50 to 54 is 3:7, find the value of 50 when 54 = 176:",
+    "options": {
+      "A": "75",
+      "B": "77",
+      "C": "73",
+      "D": "85"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1843",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "If the ratio of 47 to 94 is 5:6, find the value of 47 when 94 = 113:",
+    "options": {
+      "A": "94",
+      "B": "96",
+      "C": "92",
+      "D": "104"
+    },
+    "answer": "A",
+    "difficulty": "MODERATE",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a moderate Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1950",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 2x² + -8x + 0, find f(1):",
+    "options": {
+      "A": "-6",
+      "B": "-1",
+      "C": "-11",
+      "D": "4"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1951",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 1x² + 2x + -9, find f(3):",
+    "options": {
+      "A": "6",
+      "B": "11",
+      "C": "1",
+      "D": "16"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1952",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 5x² + 0x + 9, find f(1):",
+    "options": {
+      "A": "14",
+      "B": "19",
+      "C": "9",
+      "D": "24"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1953",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 4x² + -6x + -10, find f(5):",
+    "options": {
+      "A": "60",
+      "B": "65",
+      "C": "55",
+      "D": "70"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1954",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 3x² + -4x + -14, find f(3):",
+    "options": {
+      "A": "1",
+      "B": "6",
+      "C": "-4",
+      "D": "11"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1955",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 2x² + -3x + -4, find f(2):",
+    "options": {
+      "A": "-2",
+      "B": "3",
+      "C": "-7",
+      "D": "8"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1956",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 4x² + -6x + 16, find f(5):",
+    "options": {
+      "A": "86",
+      "B": "91",
+      "C": "81",
+      "D": "96"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1957",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 3x² + -4x + 16, find f(1):",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "10",
+      "D": "25"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  },
+  {
+    "id": "GEN_1958",
+    "block": "Geometry and Mensuration",
+    "subtopic": "geometry and mensuration",
+    "text": "In Geometry and Mensuration, if f(x) = 5x² + -2x + 14, find f(5):",
+    "options": {
+      "A": "129",
+      "B": "134",
+      "C": "124",
+      "D": "139"
+    },
+    "answer": "A",
+    "difficulty": "DIFFICULT",
+    "questionType": "MCQ",
+    "dataOrParagraph": null,
+    "explanation": "This is a difficult Geometry and Mensuration question.",
+    "source": "generated",
+    "generated": true
+  }
+]
